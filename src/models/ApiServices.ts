@@ -40,7 +40,7 @@ export class ApiServices implements IApiServices {
         this._userId = parseInt(_kongVars.get('kongregate_user_id') || '0');
         this._gameId = parseInt(_kongVars.get('kongregate_game_id') || '0');
         this._gameAuthToken = _kongVars.get('kongregate_game_auth_token');
-        this._isGuest = !!_kongVars.get('kongregate_username');
+        this._isGuest = !_kongVars.get('kongregate_username');
     }
 
     isExternal() {

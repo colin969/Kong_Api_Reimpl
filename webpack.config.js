@@ -20,4 +20,7 @@ module.exports = {
     library: 'kongregateAPI',
     libraryTarget: 'var'
   },
+  optimization: {
+    minimize: false
+  }
 };
