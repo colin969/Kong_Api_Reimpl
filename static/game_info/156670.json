@@ -1,0 +1,214 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 156670,
+  "statistics": [
+    {
+      "name": "High Score",
+      "id": 85583,
+      "description": "Highest score the player achieves on normal mode.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "High Survival Score",
+      "id": 85582,
+      "description": "Tracks the highest survival score the player has achieved.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Highest Survival Score",
+      "accomplishment_tasks": [
+        {
+          "id": 3062,
+          "name": "30,000 Points Scored in Survival Mode",
+          "quota": 30000,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Highest Rank",
+      "id": 85585,
+      "description": "Represents the highest rank the player has achieved - the highest rank is 6 and the lowest rank is 0.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Total Candy",
+      "id": 85581,
+      "description": "The total amount of candy the player has collected in his lifetime.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 3060,
+          "name": "500 Candy Collected",
+          "quota": 500,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Total Kills",
+      "id": 85580,
+      "description": "The total number of aliens the player has killed in his lifetime.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Won The Game",
+      "id": 85584,
+      "description": "This stat is really just for seeing if the player has beaten the game. This is stored as a shared object and submitted everytime the menu is loaded. \n\n0 = has not won yet\n1 = has won the game",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 3061,
+          "name": "Story Mode Completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2629,
+      "name": "Confection Collection",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2170,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3060,
+          "statistic_id": 85581,
+          "quota": 500,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2629",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2630,
+      "name": "Invasion of the Candy Snatchers",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2171,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3061,
+          "statistic_id": 85584,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2630",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2631,
+      "name": "Sweet Stuff",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2172,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3062,
+          "statistic_id": 85582,
+          "quota": 30000,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2631",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Rachid1984/they-took-our-candy/chat.js",
+  "holodeck_url": "/games/Rachid1984/they-took-our-candy/holodeck",
+  "accomplishments_bootstrap_url": "/games/Rachid1984/they-took-our-candy/chat_achievements",
+  "sticker_drop_url": "/games/Rachid1984/they-took-our-candy/sticker_drop",
+  "game_path": "/games/Rachid1984/they-took-our-candy",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 626,
+    "game_frame_width": 800,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=156670",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

@@ -1,0 +1,367 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 31946,
+  "statistics": [
+    {
+      "name": "dmgRankLvl1",
+      "id": 16668,
+      "description": "damage took rank level 1(1 = NONE, 2 = BRONZE, 3 = SILVER, 4 = GOLD)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "dmgRankLvl2",
+      "id": 16677,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "dmgRankLvl3",
+      "id": 16678,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "dmgRankLvl4",
+      "id": 16679,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "dmgRankLvl5",
+      "id": 16680,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "killRankLvl1",
+      "id": 16667,
+      "description": "kill % rank level 1\r\n(1 = NONE, 2 = BRONZE, 3 = SILVER, 4 = GOLD)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "killRankLvl2",
+      "id": 16673,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "killRankLvl3",
+      "id": 16674,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "killRankLvl4",
+      "id": 16675,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "killRankLvl5",
+      "id": 16676,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "lvlCompleted",
+      "id": 16681,
+      "description": "Level completed , 0 if none, 5 if last level completed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 791,
+          "name": "Level 1 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "survivalWave",
+      "id": 16665,
+      "description": "Number of wave in survival mode",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 793,
+          "name": "Survived 15 waves",
+          "quota": 15,
+          "granularity": 10
+        },
+        {
+          "id": 795,
+          "name": "Survived 20 waves",
+          "quota": 20,
+          "granularity": 10
+        }
+      ]
+    },
+    {
+      "name": "timeRankLvl1",
+      "id": 16666,
+      "description": "time rank for level 1\r\n(1 = NONE, 2 = BRONZE, 3 = SILVER, 4 = GOLD)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "timeRankLvl2",
+      "id": 16669,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "timeRankLvl3",
+      "id": 16670,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "timeRankLvl4",
+      "id": 16671,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "timeRankLvl5",
+      "id": 16672,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totalBronze",
+      "id": 16682,
+      "description": "total bronze Stars",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totalGold",
+      "id": 16684,
+      "description": "Total Gold",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 794,
+          "name": "15 gold medals",
+          "quota": 15,
+          "granularity": 5
+        }
+      ]
+    },
+    {
+      "name": "totalSilver",
+      "id": 16683,
+      "description": "Total Silver",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 792,
+          "name": "Flame thrower unlocked",
+          "quota": 3,
+          "granularity": 2
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 645,
+      "name": "Welcome to the Jungle",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 511,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 791,
+          "statistic_id": 16681,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-645",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 646,
+      "name": "Internet Argument",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 512,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 792,
+          "statistic_id": 16683,
+          "quota": 3,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-646",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 647,
+      "name": "Giving 'Em Hell",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 513,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 793,
+          "statistic_id": 16665,
+          "quota": 15,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-647",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 648,
+      "name": "Twenty-four Karats of Fury",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 514,
+      "level": "impossible",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 794,
+          "statistic_id": 16684,
+          "quota": 15,
+          "operator": "AND"
+        },
+        {
+          "id": 795,
+          "statistic_id": 16665,
+          "quota": 20,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-648",
+      "reward_points": 60,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/BerzerkStudio/mechanical-commando/chat.js",
+  "holodeck_url": "/games/BerzerkStudio/mechanical-commando/holodeck",
+  "accomplishments_bootstrap_url": "/games/BerzerkStudio/mechanical-commando/chat_achievements",
+  "sticker_drop_url": "/games/BerzerkStudio/mechanical-commando/sticker_drop",
+  "game_path": "/games/BerzerkStudio/mechanical-commando",
+  "html_dimensions": {
+    "game_width": 700,
+    "game_height": 550,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 550,
+    "flash_frame_width": 1003,
+    "flash_frame_height": 576,
+    "game_frame_width": 700,
+    "game_frame_height": 550,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=31946",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

@@ -1,0 +1,249 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 157748,
+  "statistics": [
+    {
+      "name": "At a blow!",
+      "id": 86191,
+      "description": "Kill both enemy boxes with the big stone on level 12",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Boss loss",
+      "id": 86193,
+      "description": "Kill the boss enemy on level 15 (Game complete)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Bronze cup",
+      "id": 86197,
+      "description": "Get 5 bronze medals",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Clever player",
+      "id": 86192,
+      "description": "Pass logic puzzle on the beginning of level 13",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Dead loop",
+      "id": 86190,
+      "description": "Pass the roller coaster dead loop on level 11",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Diamond cup",
+      "id": 86200,
+      "description": "Collect all achievements",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Gold cup",
+      "id": 86199,
+      "description": "Get 15 gold medals",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Gored to death!",
+      "id": 86194,
+      "description": "Die from an enemy box ram attack",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Hammer of justice",
+      "id": 86188,
+      "description": "Knock the enemy box off the edge with the hammer on level 8",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Highscores",
+      "id": 86183,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Hold on!",
+      "id": 86196,
+      "description": "Fall of an edge 5 times on a single level",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Laid out!",
+      "id": 86187,
+      "description": "Squash the enemy box with the cart on level 6",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Levels complete",
+      "id": 86184,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 3080,
+          "name": "15 Levels Completed",
+          "quota": 15,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Pitfall",
+      "id": 86186,
+      "description": "Kill enemy box in the pitfall on level 4",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Risky star",
+      "id": 86189,
+      "description": "Take star over the large gap on level 10",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Running jump star",
+      "id": 86185,
+      "description": "Take the star after the springboard on level 3",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Scuba ball",
+      "id": 86195,
+      "description": "Drown 5 times on a single level",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Silver cup",
+      "id": 86198,
+      "description": "Get 10 silver medals",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2647,
+      "name": "Don't Be a Square",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2185,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3080,
+          "statistic_id": 86184,
+          "quota": 15,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2647",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/maklaus/red-ball-4-vol-1/chat.js",
+  "holodeck_url": "/games/maklaus/red-ball-4-vol-1/holodeck",
+  "accomplishments_bootstrap_url": "/games/maklaus/red-ball-4-vol-1/chat_achievements",
+  "sticker_drop_url": "/games/maklaus/red-ball-4-vol-1/sticker_drop",
+  "game_path": "/games/maklaus/red-ball-4-vol-1",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 943,
+    "flash_frame_height": 553,
+    "game_frame_width": 640,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=157748",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

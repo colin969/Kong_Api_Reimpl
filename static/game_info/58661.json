@@ -1,0 +1,611 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 58661,
+  "statistics": [
+    {
+      "name": "FollowingTheCrowd",
+      "id": 32390,
+      "description": "Join either the Enforcers or Buccaneers Guild.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "RichMan",
+      "id": 32391,
+      "description": "Amass 10k in Gold",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "RicherMan",
+      "id": 32392,
+      "description": "Amass 100k in Gold",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Millionaire",
+      "id": 32393,
+      "description": "Amass 1m in Gold and find an ending",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "NoMercy",
+      "id": 32394,
+      "description": "Kill a mercenary party",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "NoDignity",
+      "id": 32395,
+      "description": "Kill an Enforcer party",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "NoCheating",
+      "id": 32396,
+      "description": "Kill a Buccaneer party",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HometownHero",
+      "id": 32397,
+      "description": "Take ownership of a city.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Colonies",
+      "id": 32398,
+      "description": "Take Hold of 5 cities",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ImperialPower",
+      "id": 32399,
+      "description": "Take power over 10 cities",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 1285,
+          "name": "10 cities conquered",
+          "quota": 99999999999,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Dictatorship",
+      "id": 32400,
+      "description": "Take power over all cities",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SparkleSparkle",
+      "id": 32401,
+      "description": "Buy a diamond",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FourFeet",
+      "id": 32402,
+      "description": "Buy a horse",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SailingAway",
+      "id": 32403,
+      "description": "Buy a Vanguard sailing ship",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ShadyDealings",
+      "id": 32404,
+      "description": "Buy off the black market",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GettingStarted",
+      "id": 32405,
+      "description": "Play for 10 days or more",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MonthLife",
+      "id": 32406,
+      "description": "Play for 30 days or more",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "CenturyofTime",
+      "id": 32407,
+      "description": "Play for 100 days or more",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Employer",
+      "id": 32408,
+      "description": "Take a worker under your wing",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BigBusiness",
+      "id": 32409,
+      "description": "Take on four employees",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 1284,
+          "name": "4 employees hired",
+          "quota": 9999999999,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "PrettyNiceGuy",
+      "id": 32410,
+      "description": "Raise your reputation to 25",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MrGoodyShoes",
+      "id": 32411,
+      "description": "Raise your reputation to 50",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TooKind",
+      "id": 32412,
+      "description": "Raise your reputation to 75",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Righteous",
+      "id": 32413,
+      "description": "Raise your reputation to 100",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Rude",
+      "id": 32414,
+      "description": "Lower your reputation to -25",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "NotWanted",
+      "id": 32415,
+      "description": "Lower your reputation to -50",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ToBeAvoided",
+      "id": 32416,
+      "description": "Lower your reputation to -75.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "CompletelyFeared",
+      "id": 32417,
+      "description": "Lower your reputation to -100",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "YouBeAPirate",
+      "id": 32418,
+      "description": "Reach Initiant level of the Buccaneers Guild",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GettingYourSeaLegs",
+      "id": 32419,
+      "description": "Reach Swabbie level of the Buccaneers Guild",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Plundering",
+      "id": 32420,
+      "description": "Reach Deckhand level of the Buccaneers Guild",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Punishing",
+      "id": 32421,
+      "description": "Reach Coxswain level of the Buccaneers Guild",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Pillaging",
+      "id": 32422,
+      "description": "Reach Pilot level of the Buccaneers Guild",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "RaiseTheSkullFlag",
+      "id": 32423,
+      "description": "Reach Quartermaster level of the Buccaneers Guild",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HoistTheSails",
+      "id": 32424,
+      "description": "Reach Gunner level of the Buccaneers Guild",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BuccaneerBoatswain",
+      "id": 32425,
+      "description": "Reach Boatswain level of the Buccaneers Guild",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FaceToSeadogs",
+      "id": 32426,
+      "description": "Reach Master level of the Buccaneers Guild",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TakeTheWheel",
+      "id": 32427,
+      "description": "Reach Captain level of the Buccaneers Guild",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "OwnTheArmada",
+      "id": 32428,
+      "description": "Reach Guildmaster level of the Buccaneers Guild",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FightClub",
+      "id": 32429,
+      "description": "Reach Initiate level of the Enforcers Guild",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "JoinTheFight",
+      "id": 32430,
+      "description": "Reach Police Constable level of the Enforcers Guild",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ShinyBadge",
+      "id": 32431,
+      "description": "Reach Sergeant level of the Enforcers Guild",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DeliverThePost",
+      "id": 32432,
+      "description": "Reach Courier level of the Enforcers Guild",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GoodEnforcing",
+      "id": 32433,
+      "description": "Reach Constable level of the Enforcers Guild",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Supervisory",
+      "id": 32434,
+      "description": "Reach Superintendent level of the Enforcers Guild",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "RisingEnforcer",
+      "id": 32435,
+      "description": "Reach Chief Superintendent level of the Enforcers Guild",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "RockTheEvildoers",
+      "id": 32436,
+      "description": "Reach Commander level of the Enforcers Guild",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "StrongarmEnforcer",
+      "id": 32437,
+      "description": "Reach Constable level of the Enforcers Guild",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "PirateDestroyer",
+      "id": 32438,
+      "description": "Reach Commissioner level of the Enforcers Guild",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Grandmaster",
+      "id": 32439,
+      "description": "Reach Guildmaster level of the Enforcers Guild",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "XP",
+      "id": 33560,
+      "description": "XP total in-game (access through the achievement page)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 1288,
+          "name": "30 achievement xp earned",
+          "quota": 30,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "QuestGet",
+      "id": 33561,
+      "description": "Beat the guild quest (either side)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 1286,
+          "name": "Guildmaster rank reached (enforcers or buccaneers)",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1081,
+      "name": "Big Business",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 851,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1284,
+          "statistic_id": 32409,
+          "quota": 9999999999,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1081",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1082,
+      "name": "Imperial Power",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 852,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1285,
+          "statistic_id": 32399,
+          "quota": 99999999999,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1082",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1083,
+      "name": "Guildmaster",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 853,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1286,
+          "statistic_id": 33561,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1083",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1080,
+      "name": "New Frontier",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 850,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1288,
+          "statistic_id": 33560,
+          "quota": 30,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1080",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/ArmorGames/frontier/chat.js",
+  "holodeck_url": "/games/ArmorGames/frontier/holodeck",
+  "accomplishments_bootstrap_url": "/games/ArmorGames/frontier/chat_achievements",
+  "sticker_drop_url": "/games/ArmorGames/frontier/sticker_drop",
+  "game_path": "/games/ArmorGames/frontier",
+  "html_dimensions": {
+    "game_width": 700,
+    "game_height": 500,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 13,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1003,
+    "flash_frame_height": 553,
+    "game_frame_width": 700,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=58661",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

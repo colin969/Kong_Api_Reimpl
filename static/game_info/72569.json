@@ -1,0 +1,1018 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 72569,
+  "statistics": [
+    {
+      "name": "100ColorChangeMEDAL",
+      "id": 39341,
+      "description": "Player earned the color blind medal",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "AllCrayonsMEDAL",
+      "id": 39339,
+      "description": "Player got all the crayons in the game",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "All Crayons MEDAL",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "AllPointsEarned",
+      "id": 39356,
+      "description": "All Points earned across multiple play throughs.  Score for each level added at the end of level.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Most Points Overall (Multiple Playthroughs)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "AllUpgradesMEDAL",
+      "id": 39344,
+      "description": "Player got all upgrades medal",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "beatenLevel",
+      "id": 39357,
+      "description": "Player beat a level, they can repeat previous levels to achieve this.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "bossKilled",
+      "id": 39362,
+      "description": "Number of times total boss kills.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "buzzerKilled",
+      "id": 39365,
+      "description": "Buzzers are the flying critters.  Total number killed.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Die25TimesMEDAL",
+      "id": 39338,
+      "description": "player earned the Can't keep a good man down medal by dieing 25 times.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "enemiesKilled",
+      "id": 39367,
+      "description": "Total baddies killed.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FaceBookMEDAL",
+      "id": 39349,
+      "description": "Player earned the facebook metal.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "fireballKills",
+      "id": 39361,
+      "description": "Number of enemies killed with fire.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FrozenFireMEDAL",
+      "id": 39353,
+      "description": "Player earned secret medal for burning an ice block.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "FrozenFire",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "goneInvisible",
+      "id": 39370,
+      "description": "Number of times player gone invisible",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "heroDeaths",
+      "id": 39359,
+      "description": "Number of times player dies.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HueOrbs5000MEDAL",
+      "id": 39345,
+      "description": "Player collected 5000 points medal.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "IceBlockKillMEDAL",
+      "id": 39354,
+      "description": "Player earned medal for killing a monster with an ice block.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "IceBlockKills",
+      "id": 39360,
+      "description": "Number of kills made with ice blocks",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Kill50EnemiesMEDAL",
+      "id": 39343,
+      "description": "Player earned the 50 kills medal.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "KillFinalBossNoDeathMEDAL",
+      "id": 39342,
+      "description": "Player earned the Jacksmacked Medal for killing the end boss without dieing.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "KillTheBossMEDAL",
+      "id": 39337,
+      "description": "Player earned the Like A Boss Medal",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Kill The Boss MEDAL",
+      "accomplishment_tasks": [
+        {
+          "id": 1790,
+          "name": "First boss killed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Level10Time",
+      "id": 39388,
+      "description": "Level 10 best time.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 10 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level10Time2",
+      "id": 39442,
+      "description": "level 10",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 10 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level11Time",
+      "id": 39389,
+      "description": "Level 11 best time.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 11 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level11Time2",
+      "id": 39443,
+      "description": "level 11",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 11 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level12Time",
+      "id": 39390,
+      "description": "Level 12 best time.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 12 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level12Time2",
+      "id": 39444,
+      "description": "level 12",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 12 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level13Time",
+      "id": 39391,
+      "description": "Level 13 best time.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 13 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level13Time2",
+      "id": 39445,
+      "description": "Level 13",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 13 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level14Time",
+      "id": 39392,
+      "description": "Level 14 best time.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 14 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level14Time2",
+      "id": 39446,
+      "description": "level 14",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 14 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level15Time",
+      "id": 39393,
+      "description": "Level 15 best time.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 15 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level15Time2",
+      "id": 39447,
+      "description": "level 15",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 15 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level15TimeTrialMEDAL",
+      "id": 39351,
+      "description": "Player beat level 15 in 1:30 or less",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level16Time",
+      "id": 39394,
+      "description": "Level 16 best time.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 16 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level16Time2",
+      "id": 39448,
+      "description": "Level 16",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 16 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level17Time",
+      "id": 39395,
+      "description": "Level 17 best time.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 17 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level17Time2",
+      "id": 39449,
+      "description": "level 17",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 17 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level18Time",
+      "id": 39396,
+      "description": "Level 18 best time.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 18 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level18Time2",
+      "id": 39450,
+      "description": "level 18",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 18 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level19Time",
+      "id": 39397,
+      "description": "Level 19 best time.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 19 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level19Time2",
+      "id": 39451,
+      "description": "level 19",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 19 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level1Time",
+      "id": 39379,
+      "description": "Level 1 best time.  THE ORIGINAL TIMES ARE REMOVED.  SECONDS NOT ACCURATE ENOUGH.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 1 Fastest Time (seconds)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level1Time2",
+      "id": 39433,
+      "description": "Level 1 time in Milliseconds",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 1 Fastest Time (Milliseconds)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level20Time",
+      "id": 39398,
+      "description": "Level 20 best time.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 20 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level20Time2",
+      "id": 39452,
+      "description": "level 20",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 20 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level21Time",
+      "id": 39399,
+      "description": "Level 21 best time.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 21 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level21Time2",
+      "id": 39453,
+      "description": "level 21",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 21 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level22Time",
+      "id": 39400,
+      "description": "Level 22 best time.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 22 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level22Time2",
+      "id": 39454,
+      "description": "level 22",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 22 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level23Time",
+      "id": 39401,
+      "description": "Level 23 best time.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 23 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level23Time2",
+      "id": 39455,
+      "description": "level 23",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 23 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level24Time",
+      "id": 39402,
+      "description": "Level 24 best time.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 24 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level24Time2",
+      "id": 39456,
+      "description": "Level 24",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 24 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level25Time",
+      "id": 39403,
+      "description": "Level 25 best time.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 25 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level25Time2",
+      "id": 39457,
+      "description": "level 25",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 25 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level25TimeTrialMEDAL",
+      "id": 39352,
+      "description": "Player beat level 25 in less than 2:00",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level26Time",
+      "id": 39404,
+      "description": "Level 26 best time.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 26 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level26Time2",
+      "id": 39458,
+      "description": "Level 26",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 26 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level27Time",
+      "id": 39405,
+      "description": "Level 27 best time.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 27 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level27Time2",
+      "id": 39459,
+      "description": "level 27",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 27 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level28Time",
+      "id": 39406,
+      "description": "Level 28 best time.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 28 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level28Time2",
+      "id": 39460,
+      "description": "Level 28",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 28 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level29Time",
+      "id": 39407,
+      "description": "Level 29 best time.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 29 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level29Time2",
+      "id": 39461,
+      "description": "level 29",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 29 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level2Time",
+      "id": 39380,
+      "description": "Level 2 best time.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 2 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level2Time2",
+      "id": 39434,
+      "description": "Level 2 time in Milliseconds",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 2 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level30Time",
+      "id": 39408,
+      "description": "Level 30 best time.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 30 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level30Time2",
+      "id": 39462,
+      "description": "level 30",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 30 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level3Time",
+      "id": 39381,
+      "description": "Level 3 best time.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 3 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level3Time2",
+      "id": 39435,
+      "description": "Level 3 time in Milliseconds",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 3 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level4Time",
+      "id": 39382,
+      "description": "Level 4 best time.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 4 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level4Time2",
+      "id": 39436,
+      "description": "Level 4",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 4 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level5Time",
+      "id": 39383,
+      "description": "Level 5 best time.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 5 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level5Time2",
+      "id": 39437,
+      "description": "level 5",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 5 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level6Time",
+      "id": 39384,
+      "description": "Level 6 best time.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 6 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level6Time2",
+      "id": 39438,
+      "description": "level 6",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 6 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level7Time",
+      "id": 39385,
+      "description": "Level 7 best time.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 7 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level7Time2",
+      "id": 39439,
+      "description": "level 7",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 7 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level8Time",
+      "id": 39386,
+      "description": "Level 8 best time.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 8 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level8Time2",
+      "id": 39440,
+      "description": "level 8",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 8 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level9Time",
+      "id": 39387,
+      "description": "Level 9 best time",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 9 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level9Time2",
+      "id": 39441,
+      "description": "level 9",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 9 Fastest Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level9TimeTrialMEDAL",
+      "id": 39350,
+      "description": "Player beat level 9 in 45 seconds or less medal.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "levelReached",
+      "id": 39358,
+      "description": "Maximum level reached.  MAX 30.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "level Reached",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "megastalkerKilled",
+      "id": 39364,
+      "description": "Mega stalkers are the ones that walk back and forth and throw goo at you.  How many killed total.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "PlayAnHourMEDAL",
+      "id": 39340,
+      "description": "Player played for an hour Medal.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "portalsDropped",
+      "id": 39369,
+      "description": "Number of portals dropped by player total",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "PrimaryObjectiveMEDAL",
+      "id": 39346,
+      "description": "Player beat the game medal.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Primary Objective MEDAL",
+      "accomplishment_tasks": [
+        {
+          "id": 1791,
+          "name": "Game completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "stalkerKilled",
+      "id": 39366,
+      "description": "Stalkers are the little guys who walk back and forth and do not throw anything.  Total number killed.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Steps1000MEDAL",
+      "id": 39347,
+      "description": "Player earned 1000 steps medal.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SuperHuemanMEDAL",
+      "id": 39348,
+      "description": "Player beat level 25 without dieing.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "timesFireball",
+      "id": 39372,
+      "description": "Times fireball shot total",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "timesHanging",
+      "id": 39375,
+      "description": "Number of times player grabbed a ledge",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "timesIceblock",
+      "id": 39371,
+      "description": "Ice blocks created total",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "timesJumped",
+      "id": 39377,
+      "description": "Total jumps in game by player.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "timesPhased",
+      "id": 39378,
+      "description": "Total number of times the player changed the color of their character.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "timesStepped",
+      "id": 39376,
+      "description": "Number of steps taken by player",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "timesSuperJumped",
+      "id": 39373,
+      "description": "Total number of superjumps by player",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "timesTeleport",
+      "id": 39368,
+      "description": "Number of times the player has teleported.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "timesWallSlide",
+      "id": 39374,
+      "description": "Number of times wall sliding",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totalScore",
+      "id": 39355,
+      "description": "Player's high score in ONE game... banked at the end of each level.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Highest Score in One Game",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "wallspitterKilled",
+      "id": 39363,
+      "description": "Number of Wall Crawlers killed total",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1520,
+      "name": "Like a Boss",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1233,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1790,
+          "statistic_id": 39337,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1520",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1521,
+      "name": "Paint by Numbers",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1234,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1791,
+          "statistic_id": 39346,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1521",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/JacksmackDotCom/primary/chat.js",
+  "holodeck_url": "/games/JacksmackDotCom/primary/holodeck",
+  "accomplishments_bootstrap_url": "/games/JacksmackDotCom/primary/chat_achievements",
+  "sticker_drop_url": "/games/JacksmackDotCom/primary/sticker_drop",
+  "game_path": "/games/JacksmackDotCom/primary",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 450,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 38,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 553,
+    "game_frame_width": 800,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=72569",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

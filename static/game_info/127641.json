@@ -1,0 +1,434 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 127641,
+  "statistics": [
+    {
+      "name": "AbyssOfDemonsCompleted",
+      "id": 76863,
+      "description": "Abyss of Demons Completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ArcherUnlocked",
+      "id": 76850,
+      "description": "Archer Unlocked",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "AssassinUnlocked",
+      "id": 76855,
+      "description": "Assassin Unlocked",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BestFame",
+      "id": 70304,
+      "description": "The best fame reached on any character",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Best Character Fame",
+      "accomplishment_tasks": [
+        {
+          "id": 2750,
+          "name": "400 Fame Earned",
+          "quota": 400,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "BestLevel",
+      "id": 70303,
+      "description": "Best level reached on any character",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Highest Level",
+      "accomplishment_tasks": [
+        {
+          "id": 2748,
+          "name": "Level 5 Reached",
+          "quota": 5,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "ClassesUnlocked",
+      "id": 70302,
+      "description": "Number of classes unlocked",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Classes Unlocked",
+      "accomplishment_tasks": [
+        {
+          "id": 2749,
+          "name": "5 Classes Unlocked",
+          "quota": 5,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "DungeonTypesComplete",
+      "id": 76868,
+      "description": "Dungeon Types Completed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Dungeon Types Completed",
+      "accomplishment_tasks": [
+        {
+          "id": 2757,
+          "name": "Complete Any 7 Unique Dungeons",
+          "quota": 7,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "GodKills",
+      "id": 76848,
+      "description": "God Kills",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HuntressUnlocked",
+      "id": 76857,
+      "description": "Huntress Unlocked",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "KnightUnlocked",
+      "id": 76853,
+      "description": "Knight Unlocked",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LevelUpAssists",
+      "id": 76846,
+      "description": "Level Up Assists",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MysticUnlocked",
+      "id": 76858,
+      "description": "Mystic Unlocked",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "NecromancerUnlocked",
+      "id": 76856,
+      "description": "Necromancer Unlocked",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "NumStars",
+      "id": 70305,
+      "description": "Number of Stars Achieved",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Number of Stars Achieved",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "OryxKills",
+      "id": 70306,
+      "description": "Most number of times landed the killing blow on Oryx with a single character",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Oryx Kills",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "PaladinUnlocked",
+      "id": 76854,
+      "description": "Paladin Unlocked",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "PirateCavesCompleted",
+      "id": 76861,
+      "description": "Pirate Caves Completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "PriestUnlocked",
+      "id": 76851,
+      "description": "Priest Unlocked",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Priest Unlocked",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "QuestsCompleted",
+      "id": 76847,
+      "description": "Quests Completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "RogueUnlocked",
+      "id": 76849,
+      "description": "Rogue Unlocked",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SnakePitsCompleted",
+      "id": 76864,
+      "description": "Snake Pits Completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SorcererUnlocked",
+      "id": 76860,
+      "description": "Sorcerer Unlocked",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SpiderDensCompleted",
+      "id": 76865,
+      "description": "Spider Dens Completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SpriteWorldsCompleted",
+      "id": 76866,
+      "description": "Sprite Worlds Completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TilesUncovered",
+      "id": 76845,
+      "description": "Tiles Uncovered",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TombsCompleted",
+      "id": 76867,
+      "description": "Tombs Completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TricksterUnlocked",
+      "id": 76859,
+      "description": "Trickster Unlocked",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "UndeadLairsCompleted",
+      "id": 76862,
+      "description": "Undead Lairs Completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "WarriorUnlocked",
+      "id": 76852,
+      "description": "Warrior Unlocked",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2346,
+      "name": "Seminary Crash Course",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1924,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2748,
+          "statistic_id": 70303,
+          "quota": 5,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2346",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2347,
+      "name": "Stay Classy",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1925,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2749,
+          "statistic_id": 70302,
+          "quota": 5,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2347",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2348,
+      "name": "Naked and Famous",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1926,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2750,
+          "statistic_id": 70304,
+          "quota": 400,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2348",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2349,
+      "name": "To Kill a God",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1927,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2757,
+          "statistic_id": 76868,
+          "quota": 7,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2349",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Wild_Shadow/realm-of-the-mad-god/chat.js",
+  "holodeck_url": "/games/Wild_Shadow/realm-of-the-mad-god/holodeck",
+  "accomplishments_bootstrap_url": "/games/Wild_Shadow/realm-of-the-mad-god/chat_achievements",
+  "sticker_drop_url": "/games/Wild_Shadow/realm-of-the-mad-god/sticker_drop",
+  "game_path": "/games/Wild_Shadow/realm-of-the-mad-god",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 626,
+    "game_frame_width": 800,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=127641",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": true,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": true,
+    "disable_instart": null,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": true,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": true,
+  "multiplayer_game": true,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

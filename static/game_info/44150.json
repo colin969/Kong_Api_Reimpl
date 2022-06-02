@@ -1,0 +1,785 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 44150,
+  "statistics": [
+    {
+      "name": "sandbox",
+      "id": 24628,
+      "description": "Highest score in Sandbox mode.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "sprint",
+      "id": 24896,
+      "description": "Sprint mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "sprint SA4",
+      "id": 29469,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "s-5",
+      "id": 41005,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 1450,
+          "name": "Scenario 5 completed",
+          "quota": 1,
+          "granularity": null
+        },
+        {
+          "id": 3638,
+          "name": "Scenario 5 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "s-1",
+      "id": 106425,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3634,
+          "name": "Scenario 1 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "s-2",
+      "id": 106426,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3635,
+          "name": "Scenario 2 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "s-3",
+      "id": 106427,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3636,
+          "name": "Scenario 3 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "s-4",
+      "id": 106428,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3637,
+          "name": "Scenario 4 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "s-6",
+      "id": 106429,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3639,
+          "name": "Scenario 6 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "s-7",
+      "id": 106430,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3640,
+          "name": "Scenario 7 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "s-8",
+      "id": 106431,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3641,
+          "name": "Scenario 8 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "s-9",
+      "id": 106432,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3642,
+          "name": "Scenario 9 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "s-10",
+      "id": 106433,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3643,
+          "name": "Scenario 10 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "s-11",
+      "id": 106434,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3644,
+          "name": "Scenario 11 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "s-12",
+      "id": 106435,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3645,
+          "name": "Scenario 12 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "s-13",
+      "id": 106436,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3646,
+          "name": "Scenario 13 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "s-14",
+      "id": 106437,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3647,
+          "name": "Scenario 14 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "s-15",
+      "id": 106438,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3648,
+          "name": "Scenario 15 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "s-16",
+      "id": 106439,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3649,
+          "name": "Scenario 16 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "s-17",
+      "id": 106440,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3650,
+          "name": "Scenario 17 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "s-18",
+      "id": 106441,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3651,
+          "name": "Scenario 18 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "s-19",
+      "id": 106442,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3652,
+          "name": "Scenario 19 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "s-20",
+      "id": 106443,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3653,
+          "name": "Scenario 20 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "s-21",
+      "id": 106444,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3654,
+          "name": "Scenario 21 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "s-22",
+      "id": 106445,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3655,
+          "name": "Scenario 22 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "s-23",
+      "id": 106446,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3656,
+          "name": "Scenario 23 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "s-24",
+      "id": 106447,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3657,
+          "name": "Scenario 24 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "HighScore",
+      "id": 24629,
+      "description": "HighScore",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "scenarios",
+      "id": 24720,
+      "description": "Total score for Scenarios",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-",
+      "id": 25116,
+      "description": "HighScore-",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "level",
+      "id": 29466,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "s-finished",
+      "id": 29476,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Scenarios completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Sprint SA4-0-score",
+      "id": 29477,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Sprint score",
+      "accomplishment_tasks": [
+        {
+          "id": 1153,
+          "name": "SA4 completed (under 20 minutes)",
+          "quota": 98800,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Sprint SA4-score",
+      "id": 29478,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Sprint S4-score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "sandbox-score",
+      "id": 29479,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "-2096896-score",
+      "id": 106184,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Sandbox score (new)",
+      "accomplishment_tasks": [
+        {
+          "id": 3633,
+          "name": "5,000 points scored (sandbox mode)",
+          "quota": 5000,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 957,
+      "name": "Spawning Grounds Massacre",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 753,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1153,
+          "statistic_id": 29477,
+          "quota": 98800,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-957",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 955,
+      "name": "\"I Know Kung Fu\"",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 750,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1450,
+          "statistic_id": 41005,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-955",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 956,
+      "name": "\"I Do What I Want!\"",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 751,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3633,
+          "statistic_id": 106184,
+          "quota": 5000,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-956",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 958,
+      "name": "Oh Snap!",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 752,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3634,
+          "statistic_id": 106425,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3635,
+          "statistic_id": 106426,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3636,
+          "statistic_id": 106427,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3637,
+          "statistic_id": 106428,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3638,
+          "statistic_id": 41005,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3639,
+          "statistic_id": 106429,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3640,
+          "statistic_id": 106430,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3641,
+          "statistic_id": 106431,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3642,
+          "statistic_id": 106432,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3643,
+          "statistic_id": 106433,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3644,
+          "statistic_id": 106434,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3645,
+          "statistic_id": 106435,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3646,
+          "statistic_id": 106436,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3647,
+          "statistic_id": 106437,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3648,
+          "statistic_id": 106438,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3649,
+          "statistic_id": 106439,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3650,
+          "statistic_id": 106440,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3651,
+          "statistic_id": 106441,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3652,
+          "statistic_id": 106442,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3653,
+          "statistic_id": 106443,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3654,
+          "statistic_id": 106444,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3655,
+          "statistic_id": 106445,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3656,
+          "statistic_id": 106446,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3657,
+          "statistic_id": 106447,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-958",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/CasualCollective/desktop-td-pro/chat.js",
+  "holodeck_url": "/games/CasualCollective/desktop-td-pro/holodeck",
+  "accomplishments_bootstrap_url": "/games/CasualCollective/desktop-td-pro/chat_achievements",
+  "sticker_drop_url": "/games/CasualCollective/desktop-td-pro/sticker_drop",
+  "game_path": "/games/CasualCollective/desktop-td-pro",
+  "html_dimensions": {
+    "game_width": 700,
+    "game_height": 525,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 1,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1003,
+    "flash_frame_height": 553,
+    "game_frame_width": 700,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=44150",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

@@ -1,129 +1,149 @@
-import { Message } from "./misc";
+import { MessageConnection, ParsedMessage } from './MessageConnection';
+import { Message } from './misc';
 
 export interface IApiServices {
-    isExternal: () => boolean;
-    isKongregate: () => boolean;
-    isConnected: () => boolean;
-    initializeEventListeners: () => void;
-    addEventListener: (event: string, listener: () => void) => void;
-    getUsername: () => string;
-    getUserID: () => number;
-    getUserId: () => number;
-    getGameID: () => number;
-    getGameId: () => number;
-    getGameAuthToken: () => string | null;
-    isGuest: () => boolean;
-    connect: () => void;
-    connectExternal: () => void;
-    sendMessage: (xmppMessage: unknown) => void;
-    privateMessage: (message: string | Message, unknown: unknown) => void;
-    resizeGame: (width: number, height: number) => void;
-    showInvitationBox: (box: unknown, unknown: unknown) => void;
-    showFeedPostBox: (message: string | Message, unknown: unknown) => void;
-    showSignInBox: ()  => void;
-    showRegistrationBox: () => void;
-    showShoutBox: (message: string | Message, unknown: unknown) => void;
+  isExternal: () => boolean;
+  isKongregate: () => boolean;
+  isConnected: () => boolean;
+  initializeEventListeners: () => void;
+  addEventListener: (event: string, listener: () => void) => void;
+  getUsername: () => string;
+  getUserID: () => number;
+  getUserId: () => number;
+  getGameID: () => number;
+  getGameId: () => number;
+  getGameAuthToken: () => string | null;
+  isGuest: () => boolean;
+  listen: () => void;
+  connect: () => void;
+  connectExternal: () => void;
+  sendMessage: (message: ParsedMessage) => void;
+  privateMessage: (message: string | Message, unknown: unknown) => void;
+  resizeGame: (width: number, height: number) => void;
+  showInvitationBox: (box: unknown, unknown: unknown) => void;
+  showFeedPostBox: (message: string | Message, unknown: unknown) => void;
+  showSignInBox: ()  => void;
+  showRegistrationBox: () => void;
+  showShoutBox: (message: string | Message, unknown: unknown) => void;
 }
 
 export class ApiServices implements IApiServices {
-    
-    private _isKong: boolean;
-    private _username: string;
-    private _userId: number;
-    private _gameId: number;
-    private _gameAuthToken: string | null;
-    private _isGuest: boolean;
 
-    constructor(private _kongVars: URLSearchParams) {
-        this._isKong = true;
-        this._username = _kongVars.get('kongregate_username') || 'Guest';
-        this._userId = parseInt(_kongVars.get('kongregate_user_id') || '0');
-        this._gameId = parseInt(_kongVars.get('kongregate_game_id') || '0');
-        this._gameAuthToken = _kongVars.get('kongregate_game_auth_token');
-        this._isGuest = !_kongVars.get('kongregate_username');
-    }
+  private _isKong: boolean;
+  private _username: string;
+  private _userId: number;
+  private _gameId: number;
+  private _gameAuthToken: string | null;
+  private _isGuest: boolean;
+  private _messageConnection: MessageConnection;
 
-    isExternal() {
-        return !this._isKong;
-    }
+  constructor(private _kongVars: URLSearchParams) {
+    this._isKong = true;
+    this._username = _kongVars.get('kongregate_username') || 'Guest';
+    this._userId = parseInt(_kongVars.get('kongregate_user_id') || '0');
+    this._gameId = parseInt(_kongVars.get('kongregate_game_id') || '0');
+    this._gameAuthToken = _kongVars.get('kongregate_game_auth_token');
+    this._isGuest = !_kongVars.get('kongregate_username');
+    this._messageConnection = new MessageConnection({
+      target_window: globalThis.window,
+      target_origin: '',
+      channel_id: '0',
+      retry_connection: true,
+      websocket_url: _kongVars.get('websocket_url') || ''
+    });
+    this._messageConnection.connect();
+  }
 
-    isKongregate() {
-        return this._isKong;
-    }
+  isExternal() {
+    return !this._isKong;
+  }
 
-    isConnected() {
-        return true;
-    }
+  isKongregate() {
+    return this._isKong;
+  }
 
-    initializeEventListeners() {
-        /** TODO */
-    }
+  isConnected() {
+    /** TODO */
+    return true;
+  }
 
-    addEventListener(event: string, listener: () => void) {
-        /** TODO */
-    }
+  initializeEventListeners() {
+    /** TODO */
+  }
 
-    getUsername() {
-        return this._username;
-    }
+  addEventListener(event: string, listener: () => void) {
+    /** TODO */
+  }
 
-    getUserID() {
-        return this._userId;
-    }
+  getUsername() {
+    return this._username;
+  }
 
-    getUserId() {
-        return this.getUserID();
-    }
+  getUserID() {
+    return this._userId;
+  }
 
-    getGameID() {
-        return this._gameId;
-    }
+  getUserId() {
+    return this.getUserID();
+  }
 
-    getGameId() {
-        return this.getGameID();
-    }
+  getGameID() {
+    return this._gameId;
+  }
 
-    getGameAuthToken() {
-        return this._gameAuthToken;
-    }
+  getGameId() {
+    return this.getGameID();
+  }
 
-    connect() { /** Does Nothing */ }
+  getGameAuthToken() {
+    return this._gameAuthToken;
+  }
 
-    connectExternal() { /** Deprecated */ }
+  listen() {
+    /** TODO */
+  }
 
-    sendMessage(xmppMessage: unknown) {
-        /** TODO */
-    }
+  connect() {
+    /** TODO */
+  }
 
-    privateMessage(message: string | Message, unknown: unknown) {
-        /** TODO */
-    }
+  connectExternal() {
+    console.warn('The Kongregate externally hosted API is not available');
+  }
 
-    resizeGame(width: number, height: number) {
-        /** TODO */
-    }
+  sendMessage(message: ParsedMessage) {
+    this._messageConnection && this._messageConnection.sendMessage(message.opcode, message.params);
+  }
 
-    showInvitationBox(box: unknown, unknown: unknown) {
-        /** TODO */
-    }
+  privateMessage(message: string | Message, unknown: unknown) {
+    /** TODO */
+  }
 
-    showFeedPostBox(message: string | Message, unknown: unknown) {
-        /** TODO */
-    }
+  resizeGame(width: number, height: number) {
+    /** TODO */
+  }
 
-    showSignInBox() {
-        /** TODO */
-    }
+  showInvitationBox(box: unknown, unknown: unknown) {
+    /** TODO */
+  }
 
-    showRegistrationBox() {
-        /** TODO */
-    }
+  showFeedPostBox(message: string | Message, unknown: unknown) {
+    /** TODO */
+  }
 
-    showShoutBox() {
-        /** TODO */
-    }
+  showSignInBox() {
+    /** TODO */
+  }
 
-    isGuest() {
-        return this._isGuest;
-    }
+  showRegistrationBox() {
+    /** TODO */
+  }
+
+  showShoutBox() {
+    /** TODO */
+  }
+
+  isGuest() {
+    return this._isGuest;
+  }
 }

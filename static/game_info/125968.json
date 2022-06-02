@@ -1,0 +1,368 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 125968,
+  "statistics": [
+    {
+      "name": "allFiveEndings",
+      "id": 69517,
+      "description": "Set to 1 if the player beat the game five times by finding all five endings. Could be all in one game or across multiple games.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "finalScore",
+      "id": 69498,
+      "description": "Final points tally shown in the game when you lose or win the game on any difficulty setting.  Includes many variables and a difficulty multiplier.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Final Score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "foodProduced",
+      "id": 69503,
+      "description": "Most food produced in a single game",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "happinessGained",
+      "id": 69502,
+      "description": "Most happiness gained in a single game not counting starting amount.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "leaderLivingDay",
+      "id": 69506,
+      "description": "The most days the starting leader has lived in a single game.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 2458,
+          "name": "Leader alive on Day 48",
+          "quota": 48,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "levelTenners",
+      "id": 69508,
+      "description": "The most survivors who have maxed out at least one skill to level 10, in a single game.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 2457,
+          "name": "Level 10 survivor",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "maxSquaresReclaimed",
+      "id": 69501,
+      "description": "The largest fort size ever achieved in a single game, including starting squares but not ones that are lost to zombies.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "numMissions",
+      "id": 69504,
+      "description": "Most missions of any kind finished in a single game.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "numSurvivors",
+      "id": 69499,
+      "description": "Number of survivors gained in any single game including your starting survivors and ones who have died.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "numTechs",
+      "id": 69505,
+      "description": "Most technologies researched in a single game",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "survivorsKilledCumulative",
+      "id": 69510,
+      "description": "Total number of survivors that have died in all the user's play time in all their games including reloading.  Increased every time a survivor dies.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "weaponsFound",
+      "id": 69507,
+      "description": "The most equippable baseball bats, pistols, crowbars, etc but not dogs in the fort's posession during a single game.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 2456,
+          "name": "Weapon found by scavenging",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "wonChallenging",
+      "id": 69514,
+      "description": "If set to 1, the user won the game at some point on Challenging difficulty.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "wonEasy",
+      "id": 69512,
+      "description": "If set to 1, the user won the game at some point on Easy difficulty.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "wonGame",
+      "id": 69511,
+      "description": "If set to 1, the user won the game at some point on some difficulty with some ending.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "wonHard",
+      "id": 69515,
+      "description": "If set to 1, the user won the game at some point on Hard difficulty.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 2459,
+          "name": "Game won (seriously hard or impossible difficulty)",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "wonImpossible",
+      "id": 69516,
+      "description": "If set to 1, the user won the game at some point on Impossible difficulty.",
+      "stat_type": "Replace",
+      "display_in_table": true,
+      "display_name": "Won Game on Impossible",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "wonTough",
+      "id": 69513,
+      "description": "If set to 1, the user won the game at some point on Tough difficulty.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "zombiesKilled",
+      "id": 69500,
+      "description": "Number of zombies killed in a single game",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "zombiesKilledCumulative",
+      "id": 69509,
+      "description": "The number of zombies killed in all the user's play time in all games, including reloading.  Increased every time zombies are killed.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Total Zombies Killed Ever",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2100,
+      "name": "Locked and Loaded",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1718,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2456,
+          "statistic_id": 69507,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2100",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2101,
+      "name": "Skilled Survivor",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1719,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2457,
+          "statistic_id": 69508,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2101",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 38,
+        "name": "Kr\u00e8me de la Kong",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2102,
+      "name": "48 Days Later",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1720,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2458,
+          "statistic_id": 69506,
+          "quota": 48,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2102",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 25,
+        "name": "Best of 2011",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2103,
+      "name": "Ultimate Rebuilder",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1721,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2459,
+          "statistic_id": 69515,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2103",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/sarahnorthway/rebuild-2/chat.js",
+  "holodeck_url": "/games/sarahnorthway/rebuild-2/holodeck",
+  "accomplishments_bootstrap_url": "/games/sarahnorthway/rebuild-2/chat_achievements",
+  "sticker_drop_url": "/games/sarahnorthway/rebuild-2/sticker_drop",
+  "game_path": "/games/sarahnorthway/rebuild-2",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 626,
+    "game_frame_width": 800,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=125968",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

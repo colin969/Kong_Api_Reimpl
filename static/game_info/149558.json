@@ -1,0 +1,213 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 149558,
+  "statistics": [
+    {
+      "name": "achievement earned",
+      "id": 82519,
+      "description": "total achivement earned by player",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 2973,
+          "name": "15 Achievements Earned",
+          "quota": 15,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "country number",
+      "id": 82517,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 2974,
+          "name": "5 Countries Completed",
+          "quota": 5,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "guard effectiveness",
+      "id": 82243,
+      "description": "record the number of thieves who were catch in one day\ntype     : max type",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "max popularity",
+      "id": 82244,
+      "description": "record the amount of popularity achieveded in a day",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "max profits",
+      "id": 82245,
+      "description": "record the amount of profits earned in a day",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "max special visitor",
+      "id": 82246,
+      "description": "record the number of celebrities who came in a day",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 2972,
+          "name": "3 Special Visitors Visited",
+          "quota": 3,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2555,
+      "name": "Let's Go to the Mall",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2107,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2972,
+          "statistic_id": 82246,
+          "quota": 3,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2555",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2556,
+      "name": "Mallrat",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2108,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2973,
+          "statistic_id": 82519,
+          "quota": 15,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2556",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2557,
+      "name": "Retail Giant",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2109,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2974,
+          "statistic_id": 82517,
+          "quota": 5,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2557",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/littlegiantworld/shop-empire-2/chat.js",
+  "holodeck_url": "/games/littlegiantworld/shop-empire-2/holodeck",
+  "accomplishments_bootstrap_url": "/games/littlegiantworld/shop-empire-2/chat_achievements",
+  "sticker_drop_url": "/games/littlegiantworld/shop-empire-2/sticker_drop",
+  "game_path": "/games/littlegiantworld/shop-empire-2",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 943,
+    "flash_frame_height": 553,
+    "game_frame_width": 640,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=149558",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

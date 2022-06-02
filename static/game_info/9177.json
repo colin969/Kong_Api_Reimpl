@@ -1,0 +1,250 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 9177,
+  "statistics": [
+    {
+      "name": "beardWin",
+      "id": 6560,
+      "description": "Defeat both of Tom Fulp's forms.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 438,
+          "name": "Tom defeated",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "breadEat",
+      "id": 6567,
+      "description": "Get hit by a falling loaf of bread!",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "form2Get",
+      "id": 6908,
+      "description": "Get to Tom's 2nd form. Surprise surprise!",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "highScore",
+      "id": 6561,
+      "description": "The highest number of Experience Points you have earned.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "juggler",
+      "id": 6569,
+      "description": "Combo hits until you reach at least 20 xp per hit!",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "maxLevel",
+      "id": 6564,
+      "description": "The highest level of Castle Crasher Knight you've attained.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 437,
+          "name": "Level 2 reached",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "watchCredits",
+      "id": 6568,
+      "description": "Watch the whole credit sequence.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "winNoLifeLost",
+      "id": 6566,
+      "description": "Win without losing a life!",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "winNoStone",
+      "id": 6565,
+      "description": "Beat the Beard without hitting a gravestone.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "winSpeed",
+      "id": 6570,
+      "description": "How fast you beat \"The Beard\".",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 439,
+          "name": "Speed completion",
+          "quota": 4000,
+          "granularity": 2000
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 338,
+      "name": "Wool Whacker",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 276,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 437,
+          "statistic_id": 6564,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-338",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 339,
+      "name": "Fulp Fiction",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 277,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 438,
+          "statistic_id": 6560,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-339",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 35,
+        "name": "Epic",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 340,
+      "name": "Speed Razor",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 278,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 439,
+          "statistic_id": 6570,
+          "quota": 4000,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-340",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/BoMToons/castle-crashing-the-beard/chat.js",
+  "holodeck_url": "/games/BoMToons/castle-crashing-the-beard/holodeck",
+  "accomplishments_bootstrap_url": "/games/BoMToons/castle-crashing-the-beard/chat_achievements",
+  "sticker_drop_url": "/games/BoMToons/castle-crashing-the-beard/sticker_drop",
+  "game_path": "/games/BoMToons/castle-crashing-the-beard",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 943,
+    "flash_frame_height": 553,
+    "game_frame_width": 640,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=9177",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

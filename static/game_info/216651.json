@@ -1,0 +1,244 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 216651,
+  "statistics": [
+    {
+      "name": "Endless",
+      "id": 108828,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Endless Drunk",
+      "id": 108829,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Endless Drunka",
+      "id": 108979,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Endless Drunk",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Endlessa",
+      "id": 108978,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Endless",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level 1",
+      "id": 108820,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level 1 Drunk",
+      "id": 108821,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level 1 Drunka",
+      "id": 108981,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 1 Drunk",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level 1a",
+      "id": 108980,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 1",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level 2",
+      "id": 108822,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level 2 Drunk",
+      "id": 108823,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level 2 Drunka",
+      "id": 108983,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 2 Drunk",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level 2a",
+      "id": 108982,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 2",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level 3 ",
+      "id": 108824,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level 3 Drunk",
+      "id": 108825,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level 3 Drunka",
+      "id": 108985,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 3 Drunk",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level 3a",
+      "id": 108984,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 3",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level 4 ",
+      "id": 108826,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level 4 Drunk",
+      "id": 108827,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level 4 Drunka",
+      "id": 108987,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 4 Drunk",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level 4a",
+      "id": 108986,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Level 4",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/targaciej/oo/chat.js",
+  "holodeck_url": "/games/targaciej/oo/holodeck",
+  "accomplishments_bootstrap_url": "/games/targaciej/oo/chat_achievements",
+  "sticker_drop_url": "/games/targaciej/oo/sticker_drop",
+  "game_path": "/games/targaciej/oo",
+  "html_dimensions": {
+    "game_width": 850,
+    "game_height": 530,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 530,
+    "flash_frame_width": 1153,
+    "flash_frame_height": 556,
+    "game_frame_width": 850,
+    "game_frame_height": 530,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=216651",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

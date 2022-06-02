@@ -1,0 +1,478 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 175470,
+  "statistics": [
+    {
+      "name": "GameCompleted",
+      "id": 93629,
+      "description": "Game Completed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LevelsCompleted",
+      "id": 93627,
+      "description": "Levels Completed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 3333,
+          "name": "10 Levels Completed",
+          "quota": 10,
+          "granularity": null
+        },
+        {
+          "id": 3334,
+          "name": "40 Levels Completed",
+          "quota": 40,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Level_01",
+      "id": 93643,
+      "description": "Level_01",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_02",
+      "id": 93644,
+      "description": "Level_02",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_03",
+      "id": 93645,
+      "description": "Level_03",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_04",
+      "id": 93646,
+      "description": "Level_04",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_05",
+      "id": 93652,
+      "description": "Level_05",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_06",
+      "id": 93647,
+      "description": "Level_06",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_07",
+      "id": 93648,
+      "description": "Level_07",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_08",
+      "id": 93649,
+      "description": "Level_08",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_09",
+      "id": 93650,
+      "description": "Level_09",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_10",
+      "id": 93651,
+      "description": "Level_10",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_11",
+      "id": 93653,
+      "description": "Level_11",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_12",
+      "id": 93654,
+      "description": "Level_12",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_13",
+      "id": 93655,
+      "description": "Level_14",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_14",
+      "id": 93656,
+      "description": "Level_14",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_15",
+      "id": 93657,
+      "description": "Level_15",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_16",
+      "id": 93658,
+      "description": "Level_16",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_17",
+      "id": 93659,
+      "description": "Level_17",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_18",
+      "id": 93660,
+      "description": "Level_18",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_19",
+      "id": 93661,
+      "description": "Level_19",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_20",
+      "id": 93662,
+      "description": "Level_20",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_21",
+      "id": 93663,
+      "description": "Level_21",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_22",
+      "id": 93664,
+      "description": "Level_22",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_23",
+      "id": 93665,
+      "description": "Level_23",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_24",
+      "id": 93666,
+      "description": "Level_24",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_25",
+      "id": 93667,
+      "description": "Level_25",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_26",
+      "id": 93668,
+      "description": "Level_26",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_27",
+      "id": 93669,
+      "description": "Level_27",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_28",
+      "id": 93670,
+      "description": "Level_28",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_29",
+      "id": 93671,
+      "description": "Level_29",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_30",
+      "id": 93672,
+      "description": "Level_30",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_31",
+      "id": 93673,
+      "description": "Level_31",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_32",
+      "id": 93674,
+      "description": "Level_32",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_33",
+      "id": 93675,
+      "description": "Level_33",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_34",
+      "id": 93676,
+      "description": "Level_34",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_35",
+      "id": 93677,
+      "description": "Level_35",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_36",
+      "id": 93678,
+      "description": "Level_36",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_37",
+      "id": 93679,
+      "description": "Level_37",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_38",
+      "id": 93680,
+      "description": "Level_38",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_39",
+      "id": 93681,
+      "description": "Level_39",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level_40",
+      "id": 93682,
+      "description": "Level_40",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Scores",
+      "id": 93628,
+      "description": "Total Scores",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2871,
+      "name": "Yolk's On You",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2369,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3333,
+          "statistic_id": 93627,
+          "quota": 10,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2871",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2872,
+      "name": "To Make an Omelette",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2370,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3334,
+          "statistic_id": 93627,
+          "quota": 40,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2872",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/AntonK/disaster-will-strike-2/chat.js",
+  "holodeck_url": "/games/AntonK/disaster-will-strike-2/holodeck",
+  "accomplishments_bootstrap_url": "/games/AntonK/disaster-will-strike-2/chat_achievements",
+  "sticker_drop_url": "/games/AntonK/disaster-will-strike-2/sticker_drop",
+  "game_path": "/games/AntonK/disaster-will-strike-2",
+  "html_dimensions": {
+    "game_width": 690,
+    "game_height": 460,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 33,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 993,
+    "flash_frame_height": 553,
+    "game_frame_width": 690,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=175470",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

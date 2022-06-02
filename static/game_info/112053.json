@@ -1,0 +1,261 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 112053,
+  "statistics": [
+    {
+      "name": "Agility",
+      "id": 60413,
+      "description": "Agility Mini Game top Score",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Agility Mini game",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Health",
+      "id": 60414,
+      "description": "Health Mini Game top Score",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Health Mini Game",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "League 2 Win",
+      "id": 60419,
+      "description": "Won League 2",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Won League 2",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "League 3 Win",
+      "id": 60420,
+      "description": "Won league 3",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Won league 3",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "League 4 Wiin",
+      "id": 60421,
+      "description": "Won league 4",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Won league 4",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medals",
+      "id": 60411,
+      "description": "Number of medals won",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 2158,
+          "name": "15 Medals Earned",
+          "quota": 15,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Premier League Win",
+      "id": 60418,
+      "description": "Won the premier league",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 2159,
+          "name": "Premier League Won",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Races Won",
+      "id": 60412,
+      "description": "Number of races won",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 2157,
+          "name": "One Race Won",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Reactions",
+      "id": 60417,
+      "description": "Reactions Mini Game top Score",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Reactions Mini game",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Speed",
+      "id": 60416,
+      "description": "Speed Mini Game top Score",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Speed Mini Game",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Stamina",
+      "id": 60415,
+      "description": "Stamina Mini Game top Score",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Stamina Mini Game",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1829,
+      "name": "Don't Need No Badgers",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1481,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2157,
+          "statistic_id": 60412,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1829",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1830,
+      "name": "Medal Hoarder",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1482,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2158,
+          "statistic_id": 60411,
+          "quota": 15,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1830",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1831,
+      "name": "Premier Professional",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1483,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2159,
+          "statistic_id": 60418,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1831",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/robotJAM/animal-raceway/chat.js",
+  "holodeck_url": "/games/robotJAM/animal-raceway/holodeck",
+  "accomplishments_bootstrap_url": "/games/robotJAM/animal-raceway/chat_achievements",
+  "sticker_drop_url": "/games/robotJAM/animal-raceway/sticker_drop",
+  "game_path": "/games/robotJAM/animal-raceway",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 530,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 530,
+    "flash_frame_width": 943,
+    "flash_frame_height": 556,
+    "game_frame_width": 640,
+    "game_frame_height": 530,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=112053",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

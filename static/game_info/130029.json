@@ -1,0 +1,270 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 130029,
+  "statistics": [
+    {
+      "name": "Beat Game",
+      "id": 71650,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Game Completed",
+      "accomplishment_tasks": [
+        {
+          "id": 2542,
+          "name": "Boss Defeated",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "High Scores",
+      "id": 71437,
+      "description": "Highest scores.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Highest Jump Combo",
+      "id": 71763,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 2541,
+          "name": "Jump Combo of 6",
+          "quota": 6,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Highest Oncoming Bonus",
+      "id": 71762,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 2539,
+          "name": "On-Coming Bonus of 750",
+          "quota": 750,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "No. Deaths",
+      "id": 71765,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "No. Finish Lines Reached",
+      "id": 71761,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 2540,
+          "name": "Finish Line Reached",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Total Distance Traveled",
+      "id": 71764,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Distance Traveled (Km)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Total Oncoming Distance",
+      "id": 71766,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Oncoming Distance (Km)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "XP",
+      "id": 71767,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2168,
+      "name": "Head-On Precision",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1773,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2539,
+          "statistic_id": 71762,
+          "quota": 750,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2168",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2169,
+      "name": "The Fast and the Curious",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1774,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2540,
+          "statistic_id": 71761,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2169",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2170,
+      "name": "Leap Frog Champion",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1775,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2541,
+          "statistic_id": 71763,
+          "quota": 6,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2170",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2171,
+      "name": "Close Encounters of the Fast Kind",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1776,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2542,
+          "statistic_id": 71650,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2171",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Vasco_F/freeway-fury-2/chat.js",
+  "holodeck_url": "/games/Vasco_F/freeway-fury-2/holodeck",
+  "accomplishments_bootstrap_url": "/games/Vasco_F/freeway-fury-2/chat_achievements",
+  "sticker_drop_url": "/games/Vasco_F/freeway-fury-2/sticker_drop",
+  "game_path": "/games/Vasco_F/freeway-fury-2",
+  "html_dimensions": {
+    "game_width": 450,
+    "game_height": 565,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 85,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 565,
+    "flash_frame_width": 923,
+    "flash_frame_height": 591,
+    "game_frame_width": 620,
+    "game_frame_height": 565,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=130029",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": true,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

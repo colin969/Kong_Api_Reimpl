@@ -1,0 +1,281 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 121218,
+  "statistics": [
+    {
+      "name": "highscore",
+      "id": 66874,
+      "description": "Best score in total.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "High Score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "highscore_braintraining",
+      "id": 66875,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Brain Training High Score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "highscore_catflapper",
+      "id": 66876,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Cat Flapper High Score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "highscore_fishibishi",
+      "id": 66877,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Fishi Bishi High Score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "highscore_lavapalava",
+      "id": 66879,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Lava Palava High Score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "highscore_pizzaroids",
+      "id": 66878,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Pizzaroids High Score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "number_of_races",
+      "id": 66880,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Number Of Races",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "pizza_slice_unlocked",
+      "id": 67048,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "pizza slices unlocked",
+      "accomplishment_tasks": [
+        {
+          "id": 2332,
+          "name": "First Pizza Slice Unlocked",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "total_race_time",
+      "id": 66882,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Race Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "total_riders_unlocked",
+      "id": 67047,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "total riders unlocked",
+      "accomplishment_tasks": [
+        {
+          "id": 2331,
+          "name": "5 Riders Unlocked",
+          "quota": 5,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "total_stunts",
+      "id": 66881,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Stunts Performed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "total_unlocks",
+      "id": 66883,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Unlocks",
+      "accomplishment_tasks": [
+        {
+          "id": 2333,
+          "name": "90 Unlocks Unlocked",
+          "quota": 90,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "unlock_devilburger",
+      "id": 67046,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1986,
+      "name": "Easy Rider",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1612,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2331,
+          "statistic_id": 67047,
+          "quota": 5,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1986",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1987,
+      "name": "Cartographic Crust",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1613,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2332,
+          "statistic_id": 67048,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1987",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1988,
+      "name": "To the Victor Go the Spoils",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1614,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2333,
+          "statistic_id": 66883,
+          "quota": 90,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1988",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/turboNuke/cyclomaniacs-2/chat.js",
+  "holodeck_url": "/games/turboNuke/cyclomaniacs-2/holodeck",
+  "accomplishments_bootstrap_url": "/games/turboNuke/cyclomaniacs-2/chat_achievements",
+  "sticker_drop_url": "/games/turboNuke/cyclomaniacs-2/sticker_drop",
+  "game_path": "/games/turboNuke/cyclomaniacs-2",
+  "html_dimensions": {
+    "game_width": 750,
+    "game_height": 500,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 13,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1053,
+    "flash_frame_height": 553,
+    "game_frame_width": 750,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=121218",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": true,
+    "disable_instart": false,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

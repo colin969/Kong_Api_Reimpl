@@ -1,0 +1,163 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 115876,
+  "statistics": [
+    {
+      "name": "bodyWorldComplete",
+      "id": 62807,
+      "description": "levels completed in body world 0-6",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "body levels Complete",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "collectableChallengesComplete",
+      "id": 62813,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "collectable Challenges Complete",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "collectables",
+      "id": 62812,
+      "description": "total number of collectables found",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Collectables",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "deathCardsHardWon",
+      "id": 62811,
+      "description": "",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "deathCardsWon",
+      "id": 62810,
+      "description": "",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Death Cards Won",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "levelsComplete",
+      "id": 62806,
+      "description": "the total number of levels completed by the player, 0-19",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "levels Complete",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "mindWorldComplete",
+      "id": 62808,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "mind levels Complete",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "score",
+      "id": 62815,
+      "description": "players total game score",
+      "stat_type": "Replace",
+      "display_in_table": true,
+      "display_name": "Score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "spiritWorldComplete",
+      "id": 62809,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "spirit levels Complete",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "timeChallengesComplete",
+      "id": 62814,
+      "description": "0-19",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "time Challenges Complete",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/ChannelFour/the-end/chat.js",
+  "holodeck_url": "/games/ChannelFour/the-end/holodeck",
+  "accomplishments_bootstrap_url": "/games/ChannelFour/the-end/chat_achievements",
+  "sticker_drop_url": "/games/ChannelFour/the-end/sticker_drop",
+  "game_path": "/games/ChannelFour/the-end",
+  "html_dimensions": {
+    "game_width": 730,
+    "game_height": 493,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 17,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1033,
+    "flash_frame_height": 553,
+    "game_frame_width": 730,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=115876",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

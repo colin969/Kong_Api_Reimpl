@@ -1,0 +1,273 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 48409,
+  "statistics": [
+    {
+      "name": "Accuracy 1",
+      "id": 27156,
+      "description": "Accuracy achievement earned.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Accuracy",
+      "accomplishment_tasks": [
+        {
+          "id": 1218,
+          "name": "90% accuracy achieved",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "allAchievementsEarned 1",
+      "id": 26707,
+      "description": "False = 0\nTrue = 1\n\nNo outside links have to be clicked. To get all achievements.\n\nFrom comments: Most players take about half an hour to complete this.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "All Achievements",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "creditsEarned 1",
+      "id": 26708,
+      "description": "You don't have to keep your credits, you can spend them.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "creditsEarned",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "fullUpgrade 1",
+      "id": 31410,
+      "description": "Submits when you fully upgraded everything.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "fullUpgrade",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "gamesWon 1",
+      "id": 26709,
+      "description": "Total games won.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "gamesWon",
+      "accomplishment_tasks": [
+        {
+          "id": 1217,
+          "name": "Game won",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "HighScore-Extreme Mode",
+      "id": 26684,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Extreme Mode",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Insane Mode",
+      "id": 26685,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Insane Mode",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Normal Easy Mode",
+      "id": 26679,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Normal Easy Mode",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Normal Hard Mode",
+      "id": 26682,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Normal Hard Mode",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Normal Medium Mode",
+      "id": 26681,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Normal Medium Mode",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "numAchievementsEarned 1",
+      "id": 31409,
+      "description": "The number of achievements that a player earned.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Achievements",
+      "accomplishment_tasks": [
+        {
+          "id": 1219,
+          "name": "12 achievements earned",
+          "quota": 12,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Pwonger 1",
+      "id": 27155,
+      "description": "Pwonger achievement earned.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Pwonger",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1020,
+      "name": "Pwong Strong",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 805,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1217,
+          "statistic_id": 26709,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1020",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1021,
+      "name": "Master Paddler",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 806,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1218,
+          "statistic_id": 27156,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1021",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1022,
+      "name": "Table Menace",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 807,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1219,
+          "statistic_id": 31409,
+          "quota": 12,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1022",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/JGames/pwong-2/chat.js",
+  "holodeck_url": "/games/JGames/pwong-2/holodeck",
+  "accomplishments_bootstrap_url": "/games/JGames/pwong-2/chat_achievements",
+  "sticker_drop_url": "/games/JGames/pwong-2/sticker_drop",
+  "game_path": "/games/JGames/pwong-2",
+  "html_dimensions": {
+    "game_width": 550,
+    "game_height": 400,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 35,
+    "game_top": 63,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 923,
+    "flash_frame_height": 553,
+    "game_frame_width": 620,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=48409",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": false,
+    "disable_instart": false,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

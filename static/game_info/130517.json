@@ -1,0 +1,245 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 130517,
+  "statistics": [
+    {
+      "name": "ArmorUnlocked",
+      "id": 71696,
+      "description": "The highest quantity of armors discovered by player (Max 10)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 2554,
+          "name": "Level 3 armor",
+          "quota": 3,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Day",
+      "id": 71693,
+      "description": "Longest day the player can reach",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 2556,
+          "name": "Day 10 reached",
+          "quota": 10,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "DragonKilled",
+      "id": 71697,
+      "description": "Returns how many dragons player has slain",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Dragonslayer",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GameProgress",
+      "id": 71698,
+      "description": "Player's progress in the game, shown in percent (0~100%). SEE ACHIEVEMENT SCREEN TO UPDATE.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HasKilledDragon",
+      "id": 71703,
+      "description": "Check whether player has killed a dragon or not. Returns \"1\" if they have",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 2557,
+          "name": "Dragon killed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Level",
+      "id": 71694,
+      "description": "The highest knight level player reached",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Highest Knight Level",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Score",
+      "id": 71692,
+      "description": "The Score player gain at the end of the game",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Score Leaderboard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "WeaponUnlocked",
+      "id": 71695,
+      "description": "The quantity of weapons discovered by player (Max 10)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 2555,
+          "name": "Level 3 weapon",
+          "quota": 3,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2183,
+      "name": "Gearing Up",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1787,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2554,
+          "statistic_id": 71696,
+          "quota": 3,
+          "operator": "AND"
+        },
+        {
+          "id": 2555,
+          "statistic_id": 71695,
+          "quota": 3,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2183",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2184,
+      "name": "Run Fast, Die Old",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1788,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2556,
+          "statistic_id": 71693,
+          "quota": 10,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2184",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2185,
+      "name": "Dragon Age Endings",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1789,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2557,
+          "statistic_id": 71703,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2185",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Mintsphere/trigger-knight/chat.js",
+  "holodeck_url": "/games/Mintsphere/trigger-knight/holodeck",
+  "accomplishments_bootstrap_url": "/games/Mintsphere/trigger-knight/chat_achievements",
+  "sticker_drop_url": "/games/Mintsphere/trigger-knight/sticker_drop",
+  "game_path": "/games/Mintsphere/trigger-knight",
+  "html_dimensions": {
+    "game_width": 480,
+    "game_height": 320,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 70,
+    "game_top": 103,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 923,
+    "flash_frame_height": 553,
+    "game_frame_width": 620,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=130517",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

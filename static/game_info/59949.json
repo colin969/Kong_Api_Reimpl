@@ -1,0 +1,219 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 59949,
+  "statistics": [
+    {
+      "name": "BugsKilled",
+      "id": 33053,
+      "description": "How many bugs you have killed.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Bugs Killed",
+      "accomplishment_tasks": [
+        {
+          "id": 1275,
+          "name": "50 spiders killed",
+          "quota": 50,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "LettersFound",
+      "id": 33055,
+      "description": "How many letters you've found.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Letters Found",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LevelBeaten",
+      "id": 33056,
+      "description": "The highest level you've beaten.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Level Beaten",
+      "accomplishment_tasks": [
+        {
+          "id": 1277,
+          "name": "Level 40 completed",
+          "quota": 40,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "WordDamage",
+      "id": 33057,
+      "description": "The most damage one of your words has done.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Max Word Damage",
+      "accomplishment_tasks": [
+        {
+          "id": 1276,
+          "name": "100 damage (single word)",
+          "quota": 100,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "WordsPerMinute",
+      "id": 33058,
+      "description": "Your highest words-per-minute in a level.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Words per Minute",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "WordsTyped",
+      "id": 33054,
+      "description": "How many words you have typed.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Words Typed",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1072,
+      "name": "Words Will Never Hurt Me",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 843,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1275,
+          "statistic_id": 33053,
+          "quota": 50,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1072",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1073,
+      "name": "Sesquipedalian",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 844,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1276,
+          "statistic_id": 33057,
+          "quota": 100,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1073",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1074,
+      "name": "Professor Dillingham and the Diabolical Box",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 845,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1277,
+          "statistic_id": 33056,
+          "quota": 40,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1074",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/gabob/clockwords-prelude/chat.js",
+  "holodeck_url": "/games/gabob/clockwords-prelude/holodeck",
+  "accomplishments_bootstrap_url": "/games/gabob/clockwords-prelude/chat_achievements",
+  "sticker_drop_url": "/games/gabob/clockwords-prelude/sticker_drop",
+  "game_path": "/games/gabob/clockwords-prelude",
+  "html_dimensions": {
+    "game_width": 700,
+    "game_height": 525,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 1,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1003,
+    "flash_frame_height": 553,
+    "game_frame_width": 700,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=59949",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

@@ -1,0 +1,411 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 190066,
+  "statistics": [
+    {
+      "name": "Bestiary",
+      "id": 99117,
+      "description": "Complete the Bestiary",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Dragon's Roar",
+      "accomplishment_tasks": [
+        {
+          "id": 3507,
+          "name": "32 monsters in bestiary",
+          "quota": 32,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Chapter I",
+      "id": 99101,
+      "description": "Completed Chapter I",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Chapter II",
+      "id": 99102,
+      "description": "Completed Chapter II",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Chapter III",
+      "id": 99103,
+      "description": "Completed Chapter III",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Chapter IV",
+      "id": 99104,
+      "description": "Completed Chapter IV",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Chapter V",
+      "id": 99105,
+      "description": "Completed Chapter V",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3508,
+          "name": "Chapter 5 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Defense",
+      "id": 99120,
+      "description": "Completed the Monster Defense quests",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Doom Bringer",
+      "id": 99109,
+      "description": "Clear out Doom Lair",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "First!",
+      "id": 99127,
+      "description": "Number of battles won.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3506,
+          "name": "10 battles won",
+          "quota": 10,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Fishing",
+      "id": 99121,
+      "description": "Fished all rare fishes",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Generic Quest",
+      "id": 99126,
+      "description": "Completed the Secret Quest",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Giant Killer",
+      "id": 99108,
+      "description": "Clear out Giant Land",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Guardian Crystal",
+      "id": 99111,
+      "description": "Completed Guardian tree",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Hackpicker",
+      "id": 99125,
+      "description": "Hackpicked locked chests",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Healer Crystal",
+      "id": 99115,
+      "description": "Completed Healer tree",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Mage Crystal",
+      "id": 99113,
+      "description": "Completed Mage tree",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Mercenary Defense",
+      "id": 99123,
+      "description": "Finished all Mercenary Defense Quests",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Scavenger",
+      "id": 99106,
+      "description": "Clear out the Sunken Ruins",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Slayers Crystal",
+      "id": 99110,
+      "description": "Completed Slayer tree",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Slime Tamer",
+      "id": 99124,
+      "description": "Pet slime level",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Snowboard Extreme!",
+      "id": 99122,
+      "description": "Get Gold on Snowboard Extreme! Track 3",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Thief Crystal",
+      "id": 99112,
+      "description": "Completed Thief tree",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Trickster Crystal",
+      "id": 99114,
+      "description": "Completed Trickster tree",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Wanted",
+      "id": 99118,
+      "description": "Completed the Wanted Quests",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Dragon's Breath",
+      "accomplishment_tasks": [
+        {
+          "id": 3509,
+          "name": "15 \"wanted\" quests completed",
+          "quota": 15,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Wanted X",
+      "id": 99119,
+      "description": "Completed the Wanted X Quests",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Dragon's Rage",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Warden",
+      "id": 99107,
+      "description": "Clear out Lao Prison",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3030,
+      "name": "D for Death",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2481,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3506,
+          "statistic_id": 99127,
+          "quota": 10,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3030",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3031,
+      "name": "Critter Keeper",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2482,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3507,
+          "statistic_id": 99117,
+          "quota": 32,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3031",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 34,
+        "name": "Best of 2013",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3032,
+      "name": "Doggone Dargons",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2483,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3508,
+          "statistic_id": 99105,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3032",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3033,
+      "name": "Merciless Mercenary",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2484,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3509,
+          "statistic_id": 99118,
+          "quota": 15,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3033",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/lan14n/crystal-story-ii/chat.js",
+  "holodeck_url": "/games/lan14n/crystal-story-ii/holodeck",
+  "accomplishments_bootstrap_url": "/games/lan14n/crystal-story-ii/chat_achievements",
+  "sticker_drop_url": "/games/lan14n/crystal-story-ii/sticker_drop",
+  "game_path": "/games/lan14n/crystal-story-ii",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 450,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 38,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 553,
+    "game_frame_width": 800,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=190066",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": true,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": false,
+    "disable_instart": false,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

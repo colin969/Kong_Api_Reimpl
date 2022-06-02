@@ -1,0 +1,473 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 37419,
+  "statistics": [
+    {
+      "name": "HighScore",
+      "id": 19712,
+      "description": "HighScore",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-l1",
+      "id": 19966,
+      "description": "HighScore-l1",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-l10",
+      "id": 19729,
+      "description": "HighScore-l10",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Survival - No Hope",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-l101",
+      "id": 19715,
+      "description": "HighScore-l101",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-l102",
+      "id": 19716,
+      "description": "HighScore-l102",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-l103",
+      "id": 19720,
+      "description": "HighScore-l103",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-l104",
+      "id": 19722,
+      "description": "HighScore-l104",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-l105",
+      "id": 19723,
+      "description": "HighScore-l105",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-l106",
+      "id": 19726,
+      "description": "HighScore-l106",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-l107",
+      "id": 19727,
+      "description": "HighScore-l107",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-l108",
+      "id": 19728,
+      "description": "HighScore-l108",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-l109",
+      "id": 19738,
+      "description": "HighScore-l109",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-l2",
+      "id": 19971,
+      "description": "HighScore-l2",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-l3",
+      "id": 19721,
+      "description": "HighScore-l3",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Mining - Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-l4",
+      "id": 19739,
+      "description": "HighScore-l4",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Mining - Normal",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-l5",
+      "id": 19740,
+      "description": "HighScore-l5",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Mining - Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-l6",
+      "id": 19839,
+      "description": "HighScore-l6",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Mining - Madness",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-l8",
+      "id": 19713,
+      "description": "HighScore-l8",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Survival - Be gentle with me",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-l9",
+      "id": 19714,
+      "description": "HighScore-l9",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Survival - Bring it on",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "l-109",
+      "id": 126151,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Level 9 completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "l-109-score",
+      "id": 126117,
+      "description": "Mission 9 score",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Mission 9 score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "l-3",
+      "id": 126116,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Easy mining mode completed",
+      "accomplishment_tasks": [
+        {
+          "id": 4068,
+          "name": "Easy mining mode completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "l-3-score",
+      "id": 126115,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Easy mode mining high score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "mc1",
+      "id": 20000,
+      "description": "Completed mission 1 in X seconds",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "mc2",
+      "id": 20001,
+      "description": "Completed mission 2 in X seconds",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "mc3",
+      "id": 20002,
+      "description": "Completed mission 3 in X seconds",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "mc4",
+      "id": 20003,
+      "description": "Completed mission 4 in X seconds",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "mc5",
+      "id": 20004,
+      "description": "Completed mission 5 in X seconds",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "mc6",
+      "id": 20005,
+      "description": "Completed mission 6 in X seconds",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "mc7",
+      "id": 20006,
+      "description": "Completed mission 7 in X seconds",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "mc8",
+      "id": 20007,
+      "description": "Completed mission 8 in X seconds",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "mc9",
+      "id": 20008,
+      "description": "Completed mission 9 in X seconds",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 4071,
+          "name": "Mission 9 completed",
+          "quota": 1200,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "s1",
+      "id": 20011,
+      "description": "Survived for X seconds on Survivor 'Be gentle with me'",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "s2",
+      "id": 20012,
+      "description": "Survived for X seconds on Survivor 'Bring it on'",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Seconds survived in \"Bring it On\" survival mode",
+      "accomplishment_tasks": [
+        {
+          "id": 4069,
+          "name": "15 minutes (900 seconds) survived in \"bring it on\"",
+          "quota": 900,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "s3",
+      "id": 20013,
+      "description": "Survived for X seconds on Survivor 'No Hope'",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "t1",
+      "id": 20009,
+      "description": "Completed tutorial 1",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "t2",
+      "id": 20010,
+      "description": "Completed tutorial 2",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3455,
+      "name": "\"Like Taking Minerals from a Baby\"",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2860,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4068,
+          "statistic_id": 126116,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3455",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3456,
+      "name": "Fifteen-Minute Firestorm",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2861,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4069,
+          "statistic_id": 20012,
+          "quota": 900,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3456",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3457,
+      "name": "Nick-o'-Timing Mining",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2862,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4071,
+          "statistic_id": 20008,
+          "quota": 1200,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3457",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/CasualCollective/the-space-game/chat.js",
+  "holodeck_url": "/games/CasualCollective/the-space-game/holodeck",
+  "accomplishments_bootstrap_url": "/games/CasualCollective/the-space-game/chat_achievements",
+  "sticker_drop_url": "/games/CasualCollective/the-space-game/sticker_drop",
+  "game_path": "/games/CasualCollective/the-space-game",
+  "html_dimensions": {
+    "game_width": 700,
+    "game_height": 525,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 1,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1003,
+    "flash_frame_height": 553,
+    "game_frame_width": 700,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=37419",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": true,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

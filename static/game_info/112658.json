@@ -1,0 +1,251 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 112658,
+  "statistics": [
+    {
+      "name": "allgold",
+      "id": 60929,
+      "description": "You completed the game with all gold medals.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "All Gold Medals",
+      "accomplishment_tasks": [
+        {
+          "id": 2163,
+          "name": "All Medals Earned",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "completed",
+      "id": 60928,
+      "description": "You completed the game!",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Game Completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore",
+      "id": 60839,
+      "description": "Top Scores",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "High Scores",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "levelscompleted",
+      "id": 60982,
+      "description": "The number of levels completed in the game, when this gets to 30 you should also get the completed achievement",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Levels Completed",
+      "accomplishment_tasks": [
+        {
+          "id": 2167,
+          "name": "15 Levels Completed",
+          "quota": 15,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "maxtroops",
+      "id": 60930,
+      "description": "You maxed out your troop count (15 units troops owned all at once, filling every slot)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ownallunittypes",
+      "id": 60931,
+      "description": "You have at least one unit of each type in your army!  There are 12 available and you have to own all 12 at the same time to achieve this one.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totalhp",
+      "id": 60984,
+      "description": "The total HP of your army.  HP increases when you add stars to your men, some units have higher hp than others.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totalkills",
+      "id": 60981,
+      "description": "The total number of baddies killed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Kills",
+      "accomplishment_tasks": [
+        {
+          "id": 2162,
+          "name": "30 Baddies Killed",
+          "quota": 30,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "totalstars",
+      "id": 60980,
+      "description": "The total number of stars collected while playing!",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Stars",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totalxp",
+      "id": 60983,
+      "description": "The total xp of your army (xp goes up when you add stars to your men)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1834,
+      "name": "Baddie Beatdown",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1486,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2162,
+          "statistic_id": 60981,
+          "quota": 30,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1834",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1836,
+      "name": "Three Medal Resort",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1488,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2163,
+          "statistic_id": 60929,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1836",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1835,
+      "name": "Bunker Buster",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1487,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2167,
+          "statistic_id": 60982,
+          "quota": 15,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1835",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/thepodge/city-siege-2/chat.js",
+  "holodeck_url": "/games/thepodge/city-siege-2/holodeck",
+  "accomplishments_bootstrap_url": "/games/thepodge/city-siege-2/chat_achievements",
+  "sticker_drop_url": "/games/thepodge/city-siege-2/sticker_drop",
+  "game_path": "/games/thepodge/city-siege-2",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 943,
+    "flash_frame_height": 553,
+    "game_frame_width": 640,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=112658",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

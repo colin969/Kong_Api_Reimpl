@@ -1,0 +1,433 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 144419,
+  "statistics": [
+    {
+      "name": "ach_Advisor",
+      "id": 79527,
+      "description": "Gain a level with any character",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 2854,
+          "name": "Level gained",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "ach_Atheist",
+      "id": 79513,
+      "description": "complete a campaign without using healing shrines",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ach_Cartographer",
+      "id": 79508,
+      "description": "completely explore a floor of the dungeon",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ach_Commander",
+      "id": 79529,
+      "description": "Reach level ten with ten different characters",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ach_CompleteActI",
+      "id": 79518,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ach_CompleteActII",
+      "id": 79519,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ach_CompleteActIII",
+      "id": 79520,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ach_CompleteActV",
+      "id": 79521,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 2857,
+          "name": "Act V completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "ach_DynamicDuo",
+      "id": 79516,
+      "description": "complete a campaign with a party of two",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ach_Exterminator",
+      "id": 79507,
+      "description": "kill all enemies on one floor",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ach_ExtremeCampaigner",
+      "id": 79512,
+      "description": "complete a campaign on extreme difficulty",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ach_FlawlessVictory",
+      "id": 79530,
+      "description": "Win a battle against 3 or more enemies, without taking damage",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ach_Guerilla",
+      "id": 79523,
+      "description": "Play Act IV and pass wave 30 (above Beginner difficulty)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ach_HardcoreCampaigner",
+      "id": 79510,
+      "description": "complete a campaign with the 'hardcore' penalty",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ach_Hoarder",
+      "id": 79525,
+      "description": "Unlock all inventory bags",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ach_Mentor",
+      "id": 79528,
+      "description": "Reach level ten with any character",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ach_MightyBlow",
+      "id": 80195,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 2855,
+          "name": "Mighty Blow",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "ach_Pilgrim",
+      "id": 79509,
+      "description": "Find and use a special shrine",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ach_RetailMogul",
+      "id": 79526,
+      "description": "Take all store categories to the maximum level",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ach_Spendthrift",
+      "id": 79524,
+      "description": "Amass 20,000 gold at once",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ach_Survivor",
+      "id": 79522,
+      "description": "unlock and play Act IV, and pass wave 10",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ach_Teetotaller",
+      "id": 79514,
+      "description": "complete a campaign without using consumables",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ach_TerribleTrio",
+      "id": 79515,
+      "description": "complete a campaign with a party of three",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ach_TwoForOne",
+      "id": 80196,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 2856,
+          "name": "Two for One",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "ach_VeteranCampaigner",
+      "id": 79511,
+      "description": "complete a campaign on veteran difficulty",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ach_Victor",
+      "id": 79506,
+      "description": "Win a battle",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ach_Wholesaler",
+      "id": 79517,
+      "description": "Sell 75+ items at once using the Sell Bag Contents button",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "total_renown",
+      "id": 79505,
+      "description": "The total amount of renown points earned through completing achievements",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Renown",
+      "accomplishment_tasks": [
+        {
+          "id": 2858,
+          "name": "600 total renown",
+          "quota": 600,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2447,
+      "name": "Advisor",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2012,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2854,
+          "statistic_id": 79527,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2447",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2448,
+      "name": "Deathmaker",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2013,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2855,
+          "statistic_id": 80195,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 2856,
+          "statistic_id": 80196,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2448",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2449,
+      "name": "Campaign Completionist",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2014,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2857,
+          "statistic_id": 79521,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2449",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2450,
+      "name": "Renowned Dungeoneer",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2015,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2858,
+          "statistic_id": 79505,
+          "quota": 600,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2450",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/garin/monsters-den-chronicles/chat.js",
+  "holodeck_url": "/games/garin/monsters-den-chronicles/holodeck",
+  "accomplishments_bootstrap_url": "/games/garin/monsters-den-chronicles/chat_achievements",
+  "sticker_drop_url": "/games/garin/monsters-den-chronicles/sticker_drop",
+  "game_path": "/games/garin/monsters-den-chronicles",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 943,
+    "flash_frame_height": 553,
+    "game_frame_width": 640,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=144419",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": true,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": true,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

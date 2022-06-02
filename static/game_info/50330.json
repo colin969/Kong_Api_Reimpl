@@ -1,0 +1,370 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 50330,
+  "statistics": [
+    {
+      "name": "2x1",
+      "id": 27627,
+      "description": "Terminate 2 enemies with 1 grenade.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "2 Grunts 1 Stone",
+      "accomplishment_tasks": [
+        {
+          "id": 1110,
+          "name": "1 shot, 2 kills",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "beat",
+      "id": 27628,
+      "description": "Hit an enemy with grenades 7 times.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Beat 'em Up",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "deadred",
+      "id": 27630,
+      "description": "Terminate an enraged enemy.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "dif_elite",
+      "id": 27610,
+      "description": "Beat the game on Elite difficulty.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "FragMaster Elite",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "dif_hard",
+      "id": 27609,
+      "description": "Beat the game on Hard difficulty.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "FragMaster - Advanced",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "dif_normal",
+      "id": 27608,
+      "description": "Beat the game on Normal difficulty.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "beat_normal",
+      "accomplishment_tasks": [
+        {
+          "id": 1112,
+          "name": "Level 30 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "enemies_enraged",
+      "id": 27620,
+      "description": "Total amount of enemies that have been enraged.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Enemies Enraged",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "enemies_hit",
+      "id": 27618,
+      "description": "Total amount of times an enemy has been hit with a grenade.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Enemies Hit",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "enemies_killed",
+      "id": 27617,
+      "description": "Total amount of enemies terminated.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Enemies Terminated",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "enemies_out",
+      "id": 27619,
+      "description": "Total amount of times an enemy has been thrown out of bounds.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Enemies Out of Bounds",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "grenades_canceled",
+      "id": 27616,
+      "description": "Total amount of grenades canceled.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Grenades Canceled",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "grenades_thrown",
+      "id": 27615,
+      "description": "Total amount of grenades thrown.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Grenades Thrown",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "kill_1",
+      "id": 27624,
+      "description": "Terminate 15 enemies.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Grenadier 1",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "kill_2",
+      "id": 27625,
+      "description": "Terminate 30 enemies.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Grenadier 2",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "kill_3",
+      "id": 27626,
+      "description": "Terminate 60 enemies.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Grenadier 3",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "out",
+      "id": 27631,
+      "description": "Terminate and enemy by dropping him out of bounds.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 1111,
+          "name": "Knocked out of bounds",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "red",
+      "id": 27629,
+      "description": "Enrage an enemy!",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Red Ross",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "reds_terminated",
+      "id": 27621,
+      "description": "Total amount of enemies that have been terminated after being enraged.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Enraged Terminated",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "retries",
+      "id": 27622,
+      "description": "Total amount of times a level has been retried.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Total Retries",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "score_elite",
+      "id": 27613,
+      "description": "Top score achieved on Elite difficulty.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Score - Elite",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "score_hard",
+      "id": 27612,
+      "description": "Top score achieved on Hard difficulty.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Score - Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "score_normal",
+      "id": 27611,
+      "description": "Top score achieved on Normal difficulty.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Score - Normal",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "total_score",
+      "id": 27614,
+      "description": "Top score achieved across all difficulties.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Score",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 916,
+      "name": "2 Grunts, 1 Stone",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 721,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1110,
+          "statistic_id": 27627,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-916",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 917,
+      "name": "Down and Out",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 722,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1111,
+          "statistic_id": 27631,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-917",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 918,
+      "name": "Fragmaster",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 723,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1112,
+          "statistic_id": 27608,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-918",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Harito/fragger/chat.js",
+  "holodeck_url": "/games/Harito/fragger/holodeck",
+  "accomplishments_bootstrap_url": "/games/Harito/fragger/chat_achievements",
+  "sticker_drop_url": "/games/Harito/fragger/sticker_drop",
+  "game_path": "/games/Harito/fragger",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 626,
+    "game_frame_width": 800,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=50330",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

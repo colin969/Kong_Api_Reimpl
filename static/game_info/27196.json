@@ -1,0 +1,283 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 27196,
+  "statistics": [
+    {
+      "name": "height10",
+      "id": 13292,
+      "description": "Player reached a height of 10",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "height100",
+      "id": 13296,
+      "description": "Player reached a height of 100",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "height1000",
+      "id": 13700,
+      "description": "Player reached a height of 1000",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "height250",
+      "id": 13293,
+      "description": "Player reached a height of 250",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "height25",
+      "accomplishment_tasks": [
+        {
+          "id": 719,
+          "name": "250 reached",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "height500",
+      "id": 13294,
+      "description": "Player reached a height of 500",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "height50",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "height750",
+      "id": 13295,
+      "description": "Player reached a height of 750",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "height75",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore",
+      "id": 13300,
+      "description": "HighScore",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 721,
+          "name": "Tower height of 600",
+          "quota": 600,
+          "granularity": 300
+        }
+      ]
+    },
+    {
+      "name": "towerof33",
+      "id": 13297,
+      "description": "Player built a tower of 33 bricks without dropping even one",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 720,
+          "name": "33-block tower created",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "towerof66",
+      "id": 13298,
+      "description": "Player built a tower of 66 bricks without dropping even one",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "towerof99",
+      "id": 13299,
+      "description": "Player built a tower of 99 bricks without dropping even one",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 722,
+          "name": "99-block tower built",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 584,
+      "name": "Toddler Tower",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 470,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 719,
+          "statistic_id": 13293,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-584",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 585,
+      "name": "Conservative Constructionist",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 471,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 720,
+          "statistic_id": 13297,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-585",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 10,
+        "name": "Physics Pack",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 586,
+      "name": "Reach for Dubai",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 472,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 721,
+          "statistic_id": 13300,
+          "quota": 600,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-586",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 587,
+      "name": "99 Problems",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 473,
+      "level": "impossible",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 722,
+          "statistic_id": 13299,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-587",
+      "reward_points": 60,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/WeirdBeardGames/99-bricks/chat.js",
+  "holodeck_url": "/games/WeirdBeardGames/99-bricks/holodeck",
+  "accomplishments_bootstrap_url": "/games/WeirdBeardGames/99-bricks/chat_achievements",
+  "sticker_drop_url": "/games/WeirdBeardGames/99-bricks/sticker_drop",
+  "game_path": "/games/WeirdBeardGames/99-bricks",
+  "html_dimensions": {
+    "game_width": 400,
+    "game_height": 500,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 110,
+    "game_top": 13,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 923,
+    "flash_frame_height": 553,
+    "game_frame_width": 620,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=27196",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

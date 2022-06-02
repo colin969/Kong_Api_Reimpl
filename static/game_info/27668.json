@@ -1,0 +1,205 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 27668,
+  "statistics": [
+    {
+      "name": "BEST_ENEMY_KILL",
+      "id": 13676,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Kills",
+      "accomplishment_tasks": [
+        {
+          "id": 788,
+          "name": "500 enemies killed",
+          "quota": 500,
+          "granularity": 250
+        }
+      ]
+    },
+    {
+      "name": "BEST_EXP_EARN",
+      "id": 13679,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "enemy kill",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BEST_MANA_EARN",
+      "id": 13680,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "enemy kill",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BEST_TURRETS_BUILT",
+      "id": 13678,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "enemy kill",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BEST_UNITS_BUILT",
+      "id": 13677,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "enemy kill",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GAME_COMPLETED",
+      "id": 13681,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Days completed",
+      "accomplishment_tasks": [
+        {
+          "id": 789,
+          "name": "Day 8 survived",
+          "quota": 8,
+          "granularity": 4
+        }
+      ]
+    },
+    {
+      "name": "HighScore",
+      "id": 21555,
+      "description": "HighScore",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScoreEasy",
+      "id": 21556,
+      "description": "HighScoreEasy",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 641,
+      "name": "You're Grounded!",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 509,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 788,
+          "statistic_id": 13676,
+          "quota": 500,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-641",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 642,
+      "name": "Zealous Palace Defender",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 510,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 789,
+          "statistic_id": 13681,
+          "quota": 8,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-642",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/rudy_sudarto/kingdom-of-the-wind/chat.js",
+  "holodeck_url": "/games/rudy_sudarto/kingdom-of-the-wind/holodeck",
+  "accomplishments_bootstrap_url": "/games/rudy_sudarto/kingdom-of-the-wind/chat_achievements",
+  "sticker_drop_url": "/games/rudy_sudarto/kingdom-of-the-wind/sticker_drop",
+  "game_path": "/games/rudy_sudarto/kingdom-of-the-wind",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 525,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 1,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 943,
+    "flash_frame_height": 553,
+    "game_frame_width": 640,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=27668",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": true,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

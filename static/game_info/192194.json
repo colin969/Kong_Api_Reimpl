@@ -1,0 +1,457 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 192194,
+  "statistics": [
+    {
+      "name": "AchievementsEarned",
+      "id": 131149,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Achievements Earned",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "AngelSoloDistance",
+      "id": 107146,
+      "description": "The best distance you've reached using only the Angel.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Solo distance - Angel",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BunnySoloDistance",
+      "id": 107149,
+      "description": "The best distance you've reached using only the Bunny.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Solo distance - Bunny",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ChildSoloDistance",
+      "id": 107150,
+      "description": "The best distance you've reached using only the Child.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Solo distance - Child",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DuplicatorSoloDistance",
+      "id": 107148,
+      "description": "The best distance you've reached using only the Duplicator.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Solo distance - Duplicator",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ExploreLevelsBeaten",
+      "id": 106142,
+      "description": "The number of levels you've completed in Explore mode.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Explore levels beaten",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ExplorePercentDone",
+      "id": 99768,
+      "description": "The percentage of all Explore mode levels that you've beaten.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GentlemanSoloDistance",
+      "id": 108589,
+      "description": "The best distance you've reached using only the Gentleman.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Solo distance - Gentleman",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "InfiniteDistance",
+      "id": 99772,
+      "description": "The farthest you've made it in Infinite mode.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Farthest distance",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Initialized",
+      "id": 106185,
+      "description": "Submitted once the game loads.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LizardSoloDistance",
+      "id": 107147,
+      "description": "The best distance you've reached using only the Lizard.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Solo distance - Lizard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Milestone1",
+      "id": 99776,
+      "description": "Finished the first milestone and unlocked the skater.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Milestone2",
+      "id": 99783,
+      "description": "Finished the second milestone (not yet implemented).",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MilestoneCount",
+      "id": 99786,
+      "description": "The number of milestones finished.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Never mind",
+      "id": 124139,
+      "description": "Maybe I'll use this statistic for something else later. It was briefly live, so it might have a few Infinite mode scores already.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "NoTilesDislodged12",
+      "id": 105089,
+      "description": "Beat level 13 in Explore mode without dislodging any tiles.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "NoTilesDislodged17",
+      "id": 105090,
+      "description": "Beat level 18 in Explore mode without dislodging any tiles.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "NoTilesDislodged18",
+      "id": 105091,
+      "description": "Beat level 19 in Explore mode without dislodging any tiles.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "NoTilesDislodged20",
+      "id": 105092,
+      "description": "Beat level 21 in Explore mode without dislodging any tiles.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "NoTilesDislodged22",
+      "id": 105093,
+      "description": "Beat level 25 in Explore mode without dislodging any tiles.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "NoTilesDislodged23",
+      "id": 105094,
+      "description": "Beat level 24 in Explore mode without dislodging any tiles.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "NoTilesDislodged37",
+      "id": 105095,
+      "description": "Beat level 40 in Explore mode without dislodging any tiles.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "NoTilesDislodged46",
+      "id": 105096,
+      "description": "Beat level 49 in Explore mode without dislodging any tiles.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "NoTilesDislodged53",
+      "id": 105097,
+      "description": "Beat level 31 in Explore mode without dislodging any tiles.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "NoTilesDislodged78",
+      "id": 105098,
+      "description": "Beat level 59 in Explore mode without dislodging any tiles.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "NoTilesDislodged80",
+      "id": 105099,
+      "description": "Beat level 58 in Explore mode without dislodging any tiles.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "PastafarianSoloDistance",
+      "id": 108588,
+      "description": "The best distance you've reached using only the Pastafarian.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Solo distance - Pastafarian",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "PowerCellsPerRun",
+      "id": 105104,
+      "description": "The number of power cells you collected in one run, ignoring the number that you spend on respawns.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Power cells per run",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "RunnerSoloDistance",
+      "id": 107143,
+      "description": "The best distance you've reached using only the Runner.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Solo distance - Runner",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SkaterSoloDistance",
+      "id": 107144,
+      "description": "The best distance you've reached using only the Skater.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Solo distance - Skater",
+      "accomplishment_tasks": [
+        {
+          "id": 3786,
+          "name": "100m (infinite mode with skater)",
+          "quota": 100,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "StoryComplete",
+      "id": 99791,
+      "description": "You finished the story! Now go check if there are any optional levels left to do.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Story Complete",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "StudentSoloDistance",
+      "id": 107145,
+      "description": "The best distance you've reached using only the Student.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Solo distance - Student",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TilesDislodged",
+      "id": 99794,
+      "description": "The number of tiles that have broken off and fallen into space thanks to your reckless rampage.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Tiles Dislodged",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ToBeDeleted",
+      "id": 99761,
+      "description": "No longer in use. If an admin happens to see this, please delete it.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Removed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Unused",
+      "id": 125298,
+      "description": "Not yet used...",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "WinterLevelsBeaten",
+      "id": 105105,
+      "description": "The number of levels you've completed in Winter Games mode.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Winter Levels Beaten",
+      "accomplishment_tasks": [
+        {
+          "id": 3787,
+          "name": "20 winter levels beaten",
+          "quota": 20,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3228,
+      "name": "Skaters Gonna Skate",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2663,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3786,
+          "statistic_id": 107144,
+          "quota": 100,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3228",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 37,
+        "name": "Best of 2014",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3229,
+      "name": "Galactic Gold Medalist",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2664,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3787,
+          "statistic_id": 105105,
+          "quota": 20,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3229",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 41,
+        "name": "10th Anniversary",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/player_03/run-3/chat.js",
+  "holodeck_url": "/games/player_03/run-3/holodeck",
+  "accomplishments_bootstrap_url": "/games/player_03/run-3/chat_achievements",
+  "sticker_drop_url": "/games/player_03/run-3/sticker_drop",
+  "game_path": "/games/player_03/run-3",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 626,
+    "game_frame_width": 800,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=192194",
+  "shared_content_type_permalinks": [
+    "level",
+    "level-set"
+  ],
+  "shared_content_type_names": [
+    "level",
+    "level set"
+  ],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": true,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": true,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

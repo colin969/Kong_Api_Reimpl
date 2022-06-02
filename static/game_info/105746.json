@@ -1,0 +1,180 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 105746,
+  "statistics": [
+    {
+      "name": "AwardChallenge",
+      "id": 57085,
+      "description": "Get at least 3 stars on all challenge levels",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "3+ Stars on All Challenge Levels",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "AwardHardcore",
+      "id": 57084,
+      "description": "Beat all hardcore levels",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Beat Hardcore Levels",
+      "accomplishment_tasks": [
+        {
+          "id": 2009,
+          "name": "Hardcore Levels Cleared",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "AwardRegular",
+      "id": 57083,
+      "description": "Beat all regular levels",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Beat all Regular Levels",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ChallengeStars",
+      "id": 57086,
+      "description": "The total number of start earned in Challenge Mode",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Challenge Stars",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "RegularSolved",
+      "id": 57354,
+      "description": "The total amount of regular puzzles solved.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Regular Puzzles Solved",
+      "accomplishment_tasks": [
+        {
+          "id": 2008,
+          "name": "Three Levels Cleared",
+          "quota": 3,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1702,
+      "name": "Twist and Pull",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1368,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2008,
+          "statistic_id": 57354,
+          "quota": 3,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1702",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1703,
+      "name": "Interlocked and Loaded",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1369,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2009,
+          "statistic_id": 57084,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1703",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/nikital/interlocked/chat.js",
+  "holodeck_url": "/games/nikital/interlocked/holodeck",
+  "accomplishments_bootstrap_url": "/games/nikital/interlocked/chat_achievements",
+  "sticker_drop_url": "/games/nikital/interlocked/sticker_drop",
+  "game_path": "/games/nikital/interlocked",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 943,
+    "flash_frame_height": 553,
+    "game_frame_width": 640,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=105746",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

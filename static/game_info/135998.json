@@ -1,0 +1,362 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 135998,
+  "statistics": [
+    {
+      "name": "Aliens killed",
+      "id": 74420,
+      "description": "The number of aliens killed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 2668,
+          "name": "20 Aliens Killed",
+          "quota": 20,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Challenge I",
+      "id": 74421,
+      "description": "Challenge I obtained (Get a gold medal on mission 5 with 0 skill points invested)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 2674,
+          "name": "Challenge I Completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Challenge II",
+      "id": 74422,
+      "description": "Challenge II obtained (get a gold medal on mission 7 with only 2 skill points invested or less)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 2675,
+          "name": "Challenge II Completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Challenge III",
+      "id": 74423,
+      "description": "Challenge III obtained (get a gold medal on mission 10 with only 10 skill points invested or less)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 2676,
+          "name": "Challenge III Completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Challenge IV",
+      "id": 74424,
+      "description": "Challenge IV obtained (get a diamond medal on mission 4 with only 20 skill points invested or less)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 2677,
+          "name": "Challenge IV Completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Challenge V",
+      "id": 74425,
+      "description": "Challenge V obtained (get a diamond medal on mission 8 with only 25 skill points invested or less)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 2678,
+          "name": "Challenge V Completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Challenge VI",
+      "id": 74426,
+      "description": "Challenge VI obtained (get a diamond medal on mission 12 with only 30 skill points invested or less)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 2679,
+          "name": "Challenge VI Completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Diamond medals",
+      "id": 74419,
+      "description": "How many diamond medals the player has (12 max, diamond medal can only be obtained on hard mode, hard mode is unlocked after finishing mission 12)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 2673,
+          "name": "12 Diamond Medals Earned",
+          "quota": 12,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Game complete",
+      "id": 74416,
+      "description": "When the player finishes mission 12",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 2670,
+          "name": "Game Completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Gold medals",
+      "id": 74418,
+      "description": "How many gold medals the player has (12 max)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 2669,
+          "name": "5 Gold Medals Earned",
+          "quota": 5,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Xp",
+      "id": 74417,
+      "description": "How much xp the player has",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Experience points",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2286,
+      "name": "Feeding the Fodder",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1873,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2668,
+          "statistic_id": 74420,
+          "quota": 20,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2286",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2287,
+      "name": "Mission Maestro",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1874,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2669,
+          "statistic_id": 74418,
+          "quota": 5,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2287",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2288,
+      "name": "Thwarted Tentacles",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1875,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2670,
+          "statistic_id": 74416,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2288",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2291,
+      "name": "Alien X-Communication",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1877,
+      "level": "impossible",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2673,
+          "statistic_id": 74419,
+          "quota": 12,
+          "operator": "AND"
+        },
+        {
+          "id": 2674,
+          "statistic_id": 74421,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 2675,
+          "statistic_id": 74422,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 2676,
+          "statistic_id": 74423,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 2677,
+          "statistic_id": 74424,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 2678,
+          "statistic_id": 74425,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 2679,
+          "statistic_id": 74426,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2291",
+      "reward_points": 60,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/StormAlligator/mission-in-space-the-lost-colony/chat.js",
+  "holodeck_url": "/games/StormAlligator/mission-in-space-the-lost-colony/holodeck",
+  "accomplishments_bootstrap_url": "/games/StormAlligator/mission-in-space-the-lost-colony/chat_achievements",
+  "sticker_drop_url": "/games/StormAlligator/mission-in-space-the-lost-colony/sticker_drop",
+  "game_path": "/games/StormAlligator/mission-in-space-the-lost-colony",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 626,
+    "game_frame_width": 800,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=135998",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

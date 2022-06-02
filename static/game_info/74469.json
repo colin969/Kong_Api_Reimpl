@@ -1,0 +1,271 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 74469,
+  "statistics": [
+    {
+      "name": "Entitykilled",
+      "id": 40562,
+      "description": "Sends the number 1 if user successfully defeats Entity.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Defeat Entity",
+      "accomplishment_tasks": [
+        {
+          "id": 1449,
+          "name": "Entity defeated",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Genukilled",
+      "id": 40561,
+      "description": "Sends the number 1 if user successfully defeats Genu.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Defeat Genu",
+      "accomplishment_tasks": [
+        {
+          "id": 1444,
+          "name": "Genu defeated",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Gold",
+      "id": 40559,
+      "description": "Current amount of Gold",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Current Gold",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Kills",
+      "id": 40557,
+      "description": "Number of enemies killed.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Number of Kills",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level",
+      "id": 40558,
+      "description": "Highest level reached",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Highest Level Completed",
+      "accomplishment_tasks": [
+        {
+          "id": 1442,
+          "name": "Level 3 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Leveldamage",
+      "id": 40560,
+      "description": "Most damage done in one level. ",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Maximum Damage",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Missions",
+      "id": 40739,
+      "description": "Missions Completed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Missions Completed",
+      "accomplishment_tasks": [
+        {
+          "id": 1443,
+          "name": "5 missions completed (from mission center)",
+          "quota": 5,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Score",
+      "id": 40556,
+      "description": "Highscore",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "High Score",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1206,
+      "name": "Hostage Crisis Resolution",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 962,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1442,
+          "statistic_id": 40558,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1206",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1207,
+      "name": "Just Following Orders",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 963,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1443,
+          "statistic_id": 40739,
+          "quota": 5,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1207",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1208,
+      "name": "\"And STAY Down This Time!\"",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 964,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1444,
+          "statistic_id": 40561,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1208",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1213,
+      "name": "Entity Elimination",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 969,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1449,
+          "statistic_id": 40562,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1213",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/kidgamez/enigmata-2-genus-revenge/chat.js",
+  "holodeck_url": "/games/kidgamez/enigmata-2-genus-revenge/holodeck",
+  "accomplishments_bootstrap_url": "/games/kidgamez/enigmata-2-genus-revenge/chat_achievements",
+  "sticker_drop_url": "/games/kidgamez/enigmata-2-genus-revenge/sticker_drop",
+  "game_path": "/games/kidgamez/enigmata-2-genus-revenge",
+  "html_dimensions": {
+    "game_width": 700,
+    "game_height": 500,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 13,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1003,
+    "flash_frame_height": 553,
+    "game_frame_width": 700,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=74469",
+  "shared_content_type_permalinks": [
+    "savegame"
+  ],
+  "shared_content_type_names": [
+    "savegame"
+  ],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

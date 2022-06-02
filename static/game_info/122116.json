@@ -1,0 +1,441 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 122116,
+  "statistics": [
+    {
+      "name": "Least paths Level 1",
+      "id": 67091,
+      "description": "The amount of paths you used in level #1",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 10",
+      "id": 67103,
+      "description": "The amount of paths you used in level #10",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 11",
+      "id": 67104,
+      "description": "The amount of paths you used in level #11",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 12",
+      "id": 67105,
+      "description": "The amount of paths you used in level #12",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 13",
+      "id": 67106,
+      "description": "The amount of paths you used in level #13",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 14",
+      "id": 67107,
+      "description": "The amount of paths you used in level #14",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 15",
+      "id": 67108,
+      "description": "The amount of paths you used in level #15",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 16",
+      "id": 67109,
+      "description": "The amount of paths you used in level #16",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 17",
+      "id": 67110,
+      "description": "The amount of paths you used in level #17",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 18",
+      "id": 67111,
+      "description": "The amount of paths you used in level #18",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 19",
+      "id": 67112,
+      "description": "The amount of paths you used in level #19",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 2",
+      "id": 67092,
+      "description": "The amount of paths you used in level #2",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 20",
+      "id": 67113,
+      "description": "The amount of paths you used in level #20",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 21",
+      "id": 67114,
+      "description": "The amount of paths you used in level #21",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 22",
+      "id": 67115,
+      "description": "The amount of paths you used in level #22",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 23",
+      "id": 67116,
+      "description": "The amount of paths you used in level #23",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 24",
+      "id": 67117,
+      "description": "The amount of paths you used in level #24",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 25",
+      "id": 67118,
+      "description": "The amount of paths you used in level #25",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 26",
+      "id": 67119,
+      "description": "The amount of paths you used in level #26",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 27",
+      "id": 67120,
+      "description": "The amount of paths you used in level #27",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 28",
+      "id": 67121,
+      "description": "The amount of paths you used in level #28",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 29",
+      "id": 67122,
+      "description": "The amount of paths you used in level #29",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 3",
+      "id": 67093,
+      "description": "The amount of paths you used in level #3",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 30",
+      "id": 67123,
+      "description": "The amount of paths you used in level #30",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 31",
+      "id": 67124,
+      "description": "The amount of paths you used in level #31",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 32",
+      "id": 67125,
+      "description": "The amount of paths you used in level #32",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 33",
+      "id": 67126,
+      "description": "The amount of paths you used in level #33",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 34",
+      "id": 67127,
+      "description": "The amount of paths you used in level #34",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 35",
+      "id": 67128,
+      "description": "The amount of paths you used in level #35",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 36",
+      "id": 67129,
+      "description": "The amount of paths you used in level #36",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 37",
+      "id": 67130,
+      "description": "The amount of paths you used in level #37",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 38",
+      "id": 67131,
+      "description": "The amount of paths you used in level #38",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 39",
+      "id": 67132,
+      "description": "The amount of paths you used in level #39",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 4",
+      "id": 67095,
+      "description": "The amount of paths you used in level #4",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 40",
+      "id": 67133,
+      "description": "The amount of paths you used in level #40",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 5",
+      "id": 67097,
+      "description": "The amount of paths you used in level #5",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 6",
+      "id": 67099,
+      "description": "The amount of paths you used in level #6",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 7",
+      "id": 67100,
+      "description": "The amount of paths you used in level #7",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 8",
+      "id": 67101,
+      "description": "The amount of paths you used in level #8",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Least paths Level 9",
+      "id": 67102,
+      "description": "The amount of paths you used in level #9",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Levels completed",
+      "id": 66867,
+      "description": "How many levels did you manage to complete",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 2364,
+          "name": "Rainbow Connection",
+          "quota": 40,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Time spent",
+      "id": 66864,
+      "description": "How much of life did you waste playing this game",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2017,
+      "name": "Rainbow Connection",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1641,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2364,
+          "statistic_id": 66867,
+          "quota": 40,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2017",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/skellus/linx-hard-set/chat.js",
+  "holodeck_url": "/games/skellus/linx-hard-set/holodeck",
+  "accomplishments_bootstrap_url": "/games/skellus/linx-hard-set/chat_achievements",
+  "sticker_drop_url": "/games/skellus/linx-hard-set/sticker_drop",
+  "game_path": "/games/skellus/linx-hard-set",
+  "html_dimensions": {
+    "game_width": 512,
+    "game_height": 488,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 54,
+    "game_top": 19,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 923,
+    "flash_frame_height": 553,
+    "game_frame_width": 620,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=122116",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

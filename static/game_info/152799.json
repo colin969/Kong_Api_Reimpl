@@ -1,0 +1,150 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 152799,
+  "statistics": [
+    {
+      "name": "HighScore",
+      "id": 83436,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "High Scores",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "kingdeaths",
+      "id": 83440,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "King Deaths",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "levelscompleted",
+      "id": 83437,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Levels Completed",
+      "accomplishment_tasks": [
+        {
+          "id": 2982,
+          "name": "33 Levels Completed",
+          "quota": 33,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "totaldibbledeaths",
+      "id": 83439,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Dibble Deaths",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totaldibblessaved",
+      "id": 83438,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Dibbles Saved",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2565,
+      "name": "Dominion Over Dibbles",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2115,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2982,
+          "statistic_id": 83437,
+          "quota": 33,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2565",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/thepodge/dibbles-pro-pack/chat.js",
+  "holodeck_url": "/games/thepodge/dibbles-pro-pack/holodeck",
+  "accomplishments_bootstrap_url": "/games/thepodge/dibbles-pro-pack/chat_achievements",
+  "sticker_drop_url": "/games/thepodge/dibbles-pro-pack/sticker_drop",
+  "game_path": "/games/thepodge/dibbles-pro-pack",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 400,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 63,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 943,
+    "flash_frame_height": 553,
+    "game_frame_width": 640,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=152799",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

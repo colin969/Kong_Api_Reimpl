@@ -1,0 +1,484 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 45492,
+  "statistics": [
+    {
+      "name": "Boss",
+      "id": 30522,
+      "description": "How many bosses have you killed?",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BunnyCharmFan",
+      "id": 30515,
+      "description": "Are you a \"real\" fan of BunnyCharm? Proove it!",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Biggest Fan",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Challenge Mode",
+      "id": 31213,
+      "description": "Beat the game in challenge mode. If 1: You did.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Conquerer_Challenge",
+      "id": 31115,
+      "description": "Flags captured in challenge mode.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Conquerer_Easy",
+      "id": 31109,
+      "description": "Flags captured in easy mode.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Conquerer_Hard",
+      "id": 31112,
+      "description": "Flags captured in hard mode.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Conquerer_Normal",
+      "id": 31110,
+      "description": "Flags captured in normal mode.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Damage",
+      "id": 30514,
+      "description": "Are you an ass kicker? Make as much damage as possible!",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Destroyer",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EasyMode",
+      "id": 31210,
+      "description": "Beat the game in easy mode. If 1: You did.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Flag_Challenge",
+      "id": 31217,
+      "description": "Flag points captured in a single game in challenge mode.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Flag_Easy",
+      "id": 31214,
+      "description": "Flag points captured in a single game in easy mode.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Flag_Hard",
+      "id": 31216,
+      "description": "Flag points captured in a single game in easy mode.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Flag_Normal",
+      "id": 31215,
+      "description": "Flag points captured in a single game in normal mode.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 1192,
+          "name": "15 flags raised (normal mode)",
+          "quota": 15,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "HardMode",
+      "id": 31212,
+      "description": "Beat the game in hard mode. If 1: You did.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "IndexSoldiers",
+      "id": 30520,
+      "description": "How many index soldiers have you killed?",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Kamikaze",
+      "id": 30519,
+      "description": "How many kamikaze have you killed?",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Kill_Challenge",
+      "id": 31125,
+      "description": "Enemies killed in challenge mode.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Kill_Easy",
+      "id": 31120,
+      "description": "Enemies killed in easy mode.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Kill_Hard",
+      "id": 31123,
+      "description": "Enemies killed in hard mode.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Kill_Normal",
+      "id": 31122,
+      "description": "Enemies killed in normal mode.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Kill_Single",
+      "id": 31209,
+      "description": "Kills made in a single game.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 1191,
+          "name": "50 kills (single game)",
+          "quota": 50,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "MaxScoreEver",
+      "id": 30530,
+      "description": "What's your highest score?",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "King of the Hill",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxWave_Challenge",
+      "id": 31134,
+      "description": "Max wave reached in challenge mode.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 1193,
+          "name": "Survived until wave 30 (challenge map)",
+          "quota": 30,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "MaxWave_Easy",
+      "id": 31129,
+      "description": "Max wave reached in easy mode.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxWave_Hard",
+      "id": 31132,
+      "description": "Max wave reached in hard mode.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxWave_Normal",
+      "id": 31131,
+      "description": "Max wave reached in normal mode.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "NormalMode",
+      "id": 31211,
+      "description": "Beat the game in normal mode. If 1: You did.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "PlayerRunner",
+      "id": 30525,
+      "description": "How fast can you run? Ammount of points spent on speed.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "PlayerTrigger",
+      "id": 30526,
+      "description": "How fast can you shoot? Points spent updating rate of fire.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Runners",
+      "id": 30521,
+      "description": "How many runners have you killed?",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Rusher",
+      "id": 30524,
+      "description": "You can't wait? How many times have you used the \"next wave\" button?",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Score_Challenge",
+      "id": 31105,
+      "description": "Score obtained in Challenge mode.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Scores on Challenge",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Score_Easy",
+      "id": 31098,
+      "description": "Score obtained in easy mode.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Easy Leaderboard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Score_Hard",
+      "id": 31103,
+      "description": "Score obtained in hard mode.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Scores on Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Score_Normal",
+      "id": 31101,
+      "description": "Score obtained in normal mode.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Scores on Normal",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Seargent",
+      "id": 30517,
+      "description": "How many seargents have you killed?",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Shooters",
+      "id": 30518,
+      "description": "How many shooters have you killed?",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ThumbSoldier",
+      "id": 30516,
+      "description": "How many thumbs soldiers have you killed?",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "UltimateDamage",
+      "id": 30527,
+      "description": "How much damage can you make with a single shot? Points spent on damage upgrades.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 994,
+      "name": "\"I Declare a Thumb War\"",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 784,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1191,
+          "statistic_id": 31209,
+          "quota": 50,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-994",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 995,
+      "name": "Bunny Country",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 785,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1192,
+          "statistic_id": 31215,
+          "quota": 15,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-995",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 996,
+      "name": "Charming to the Last",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 786,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1193,
+          "statistic_id": 31134,
+          "quota": 30,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-996",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/CuaticGames/bunny-charm/chat.js",
+  "holodeck_url": "/games/CuaticGames/bunny-charm/holodeck",
+  "accomplishments_bootstrap_url": "/games/CuaticGames/bunny-charm/chat_achievements",
+  "sticker_drop_url": "/games/CuaticGames/bunny-charm/sticker_drop",
+  "game_path": "/games/CuaticGames/bunny-charm",
+  "html_dimensions": {
+    "game_width": 550,
+    "game_height": 400,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 35,
+    "game_top": 63,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 923,
+    "flash_frame_height": 553,
+    "game_frame_width": 620,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=45492",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

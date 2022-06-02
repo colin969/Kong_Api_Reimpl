@@ -1,0 +1,178 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 4350,
+  "statistics": [
+    {
+      "name": "Disconnects",
+      "id": 6914,
+      "description": "",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Draws",
+      "id": 4896,
+      "description": "Number of games drawn/tied",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Forfeits",
+      "id": 6913,
+      "description": "",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore",
+      "id": 21481,
+      "description": "HighScore",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Interceptions",
+      "id": 16476,
+      "description": "Interceptions",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Kong Bot Shreddings",
+      "id": 8932,
+      "description": "Number of victories against the formidable KB",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Losses",
+      "id": 4895,
+      "description": "Number of games lost",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Rank Points",
+      "id": 7933,
+      "description": "Number of rank points",
+      "stat_type": "Replace",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ranked Losses",
+      "id": 16478,
+      "description": "Ranked Losses",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ranked Wins",
+      "id": 16477,
+      "description": "Ranked Wins",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ShortGames",
+      "id": 6892,
+      "description": "Number of games under 3 minutes",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Total Cards",
+      "id": 41162,
+      "description": "Total number of cards owned",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Wins",
+      "id": 4894,
+      "description": "Number of games won",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Kongregate/kongai/chat.js",
+  "holodeck_url": "/games/Kongregate/kongai/holodeck",
+  "accomplishments_bootstrap_url": "/games/Kongregate/kongai/chat_achievements",
+  "sticker_drop_url": "/games/Kongregate/kongai/sticker_drop",
+  "game_path": "/games/Kongregate/kongai",
+  "html_dimensions": {
+    "game_width": 700,
+    "game_height": 620,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 620,
+    "flash_frame_width": 1003,
+    "flash_frame_height": 646,
+    "game_frame_width": 700,
+    "game_frame_height": 620,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=4350",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": true,
+    "no_file_size_limit": true,
+    "chat_api": true,
+    "premium_game": false,
+    "served_from_internal": true,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": null,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": false,
+    "disable_instart": false,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

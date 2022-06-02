@@ -1,0 +1,196 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 12850,
+  "statistics": [
+    {
+      "name": "BallsLeftOver",
+      "id": 62288,
+      "description": "Number of balls left after completing all worlds, including bonus world",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BonusWorldComplete",
+      "id": 62287,
+      "description": "Completed bonus world",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GameComplete",
+      "id": 7994,
+      "description": "Completed first 5 worlds",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 484,
+          "name": "Game completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "HighScore",
+      "id": 7996,
+      "description": "HighScore",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 482,
+          "name": "10,000 points scored",
+          "quota": 10000,
+          "granularity": 5000
+        },
+        {
+          "id": 483,
+          "name": "50,000 points scored",
+          "quota": 50000,
+          "granularity": 25000
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 373,
+      "name": "Officer Bounce",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 306,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 482,
+          "statistic_id": 7996,
+          "quota": 10000,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-373",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 374,
+      "name": "Professor Bounce",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 307,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 483,
+          "statistic_id": 7996,
+          "quota": 50000,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-374",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 375,
+      "name": "Baron Bounce",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 308,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 484,
+          "statistic_id": 7994,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-375",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/pixelate/mr-bounce/chat.js",
+  "holodeck_url": "/games/pixelate/mr-bounce/holodeck",
+  "accomplishments_bootstrap_url": "/games/pixelate/mr-bounce/chat_achievements",
+  "sticker_drop_url": "/games/pixelate/mr-bounce/sticker_drop",
+  "game_path": "/games/pixelate/mr-bounce",
+  "html_dimensions": {
+    "game_width": 480,
+    "game_height": 540,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 70,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 540,
+    "flash_frame_width": 923,
+    "flash_frame_height": 566,
+    "game_frame_width": 620,
+    "game_frame_height": 540,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=12850",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": false,
+    "disable_instart": false,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

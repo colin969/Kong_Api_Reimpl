@@ -1,0 +1,161 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 266327,
+  "statistics": [
+    {
+      "name": "CompanyValue",
+      "id": 126654,
+      "description": "The highest value you've had for a company.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Highest Company Value",
+      "accomplishment_tasks": [
+        {
+          "id": 4148,
+          "name": "Reach $100,000 in company value",
+          "quota": 100000,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "HeroLevel",
+      "id": 126655,
+      "description": "The highest level you've gotten a hero.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Highest Hero Level",
+      "accomplishment_tasks": [
+        {
+          "id": 4147,
+          "name": "Get a hero to level 6",
+          "quota": 6,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "initialized",
+      "id": 127240,
+      "description": "initialized",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3524,
+      "name": "Entry-Level Experience",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2922,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4147,
+          "statistic_id": 126655,
+          "quota": 6,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3524",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3525,
+      "name": "Remarkable Market Cap",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2923,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4148,
+          "statistic_id": 126654,
+          "quota": 100000,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3525",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/galvanicgames/questmore/chat.js",
+  "holodeck_url": "/games/galvanicgames/questmore/holodeck",
+  "accomplishments_bootstrap_url": "/games/galvanicgames/questmore/chat_achievements",
+  "sticker_drop_url": "/games/galvanicgames/questmore/sticker_drop",
+  "game_path": "/games/galvanicgames/questmore",
+  "html_dimensions": {
+    "game_width": 1050,
+    "game_height": 650,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 650,
+    "flash_frame_width": 1353,
+    "flash_frame_height": 676,
+    "game_frame_width": 1050,
+    "game_frame_height": 650,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=266327",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": true,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": true
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

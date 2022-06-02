@@ -1,0 +1,335 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 93499,
+  "statistics": [
+    {
+      "name": "A1",
+      "id": 48599,
+      "description": "Achieve \"Colonel\" rank at 5 levels or more.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 1706,
+          "name": "Colonel rank on 5 maps",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "A10",
+      "id": 48608,
+      "description": "Have 30 or more enemies chasing you at the same time.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "A11",
+      "id": 48609,
+      "description": "Win a garden map with 5% or less health.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "A12",
+      "id": 48610,
+      "description": "Win a kitchen map with 5% or less health.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "A2",
+      "id": 48600,
+      "description": "Achieve \"General\" rank at 5 levels or more.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "A3",
+      "id": 48601,
+      "description": "Complete all 8 \"Study\" maps.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "A4",
+      "id": 48602,
+      "description": "Complete all 5 \"Garden\" maps.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 1705,
+          "name": "Garden levels completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "A5",
+      "id": 48603,
+      "description": "Complete all 4 \"Kitchen\" maps.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "A6",
+      "id": 48604,
+      "description": "Recover the flag just before the enemy gets to their base.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "A7",
+      "id": 48605,
+      "description": "Kill 5 or more enemies using only one dynamite.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "A8",
+      "id": 48606,
+      "description": "Kill 5 or more enemies at the same time using your knife.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "A9",
+      "id": 48607,
+      "description": "Install 30 or more barricades in a single map.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "asddas",
+      "id": 48611,
+      "description": "How much of the game have you completed?",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Game Progress",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level",
+      "id": 48730,
+      "description": "How high can you climb? There's no cap limit... so you tell me. ;)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Player's Level",
+      "accomplishment_tasks": [
+        {
+          "id": 1703,
+          "name": "Level 3 reached",
+          "quota": 3,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Progress",
+      "id": 48732,
+      "description": "Player's progress.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Progress percent",
+      "accomplishment_tasks": [
+        {
+          "id": 1707,
+          "name": "70% progress reached",
+          "quota": 70,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Progressasd",
+      "id": 48731,
+      "description": "How much of the game have you completed?",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Game Progress",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Total_Achievements",
+      "id": 48729,
+      "description": "Max number of achievements completed.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1436,
+      "name": "Bunny Boot Camp",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1158,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1703,
+          "statistic_id": 48730,
+          "quota": 3,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1436",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1438,
+      "name": "Operation Market Garden",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1159,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1705,
+          "statistic_id": 48602,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1438",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1439,
+      "name": "Colonel Hurtz",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1160,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1706,
+          "statistic_id": 48599,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1439",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1440,
+      "name": "C's Get Degrees",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1161,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1707,
+          "statistic_id": 48732,
+          "quota": 70,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1440",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/CuaticGames/bunny-flags/chat.js",
+  "holodeck_url": "/games/CuaticGames/bunny-flags/holodeck",
+  "accomplishments_bootstrap_url": "/games/CuaticGames/bunny-flags/chat_achievements",
+  "sticker_drop_url": "/games/CuaticGames/bunny-flags/sticker_drop",
+  "game_path": "/games/CuaticGames/bunny-flags",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 626,
+    "game_frame_width": 800,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=93499",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

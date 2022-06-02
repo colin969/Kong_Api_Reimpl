@@ -1,0 +1,304 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 17205,
+  "statistics": [
+    {
+      "name": "Darwin",
+      "id": 9306,
+      "description": "Collect over 50 evolution points during one game on realistic mode.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 543,
+          "name": "50 evolution points earned (realistic)",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Humanity Exterminated on Realistic",
+      "id": 9298,
+      "description": "Kill all of mankind on realistic mode.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Humanity Exterminated on Relaxed",
+      "id": 9299,
+      "description": "Kill all of mankind on relaxed mode.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 545,
+          "name": "Humanity exterminated (relaxed)",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Immunity",
+      "id": 9307,
+      "description": "Become immune to vaccines on realistic mode.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Infect 1/3 of World",
+      "id": 9302,
+      "description": "Infect 1/3 of the world on realistic mode.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Infect 2/3 of World",
+      "id": 9303,
+      "description": "Infect 2/3 of the world on realistic mode.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 544,
+          "name": "A pessimist would say the glass is 1/2 empty. An optimist would say the earth is 2/3 infected with a deadly virus.",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Infect 3/3 of World",
+      "id": 9304,
+      "description": "Infect 3/3 of the world on realistic mode.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Loitering",
+      "id": 9305,
+      "description": "Spend over 150 in-game days during one game trying to exterminate mankind.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Number of Infected on Realistic",
+      "id": 9308,
+      "description": "Number of people infected on realistic mode.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Number of Infected on Relaxed",
+      "id": 9309,
+      "description": "Number of people infected on relaxed mode.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Number of Killed on Realistic",
+      "id": 9310,
+      "description": "Number of people killed on realistic mode.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Number of Killed on Relaxed",
+      "id": 9311,
+      "description": "Number of people killed on relaxed mode.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Pandemic",
+      "id": 9300,
+      "description": "Kill all of mankind on realistic mode with in 100 days.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 546,
+          "name": "Humans destroyed in <100 days (realistic)",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 424,
+      "name": "Darwin Award",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 348,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 543,
+          "statistic_id": 9306,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-424",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 425,
+      "name": "Apocalyptic Optimist",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 349,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 544,
+          "statistic_id": 9303,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-425",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 5,
+        "name": "Best of 2008",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 426,
+      "name": "Ultimate Relaxation",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 350,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 545,
+          "statistic_id": 9299,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-426",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 427,
+      "name": "President Madagascar Assassin",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 351,
+      "level": "impossible",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 546,
+          "statistic_id": 9300,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-427",
+      "reward_points": 60,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/DarkRealmStudios/pandemic-2/chat.js",
+  "holodeck_url": "/games/DarkRealmStudios/pandemic-2/holodeck",
+  "accomplishments_bootstrap_url": "/games/DarkRealmStudios/pandemic-2/chat_achievements",
+  "sticker_drop_url": "/games/DarkRealmStudios/pandemic-2/sticker_drop",
+  "game_path": "/games/DarkRealmStudios/pandemic-2",
+  "html_dimensions": {
+    "game_width": 700,
+    "game_height": 500,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 13,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1003,
+    "flash_frame_height": 553,
+    "game_frame_width": 700,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=17205",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

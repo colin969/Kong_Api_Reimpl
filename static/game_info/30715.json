@@ -1,0 +1,122 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 30715,
+  "statistics": [
+    {
+      "name": "HighScore",
+      "id": 15952,
+      "description": "HighScore",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "mis-clicks:",
+      "id": 15953,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "mis-clicks",
+      "accomplishment_tasks": [
+        {
+          "id": 858,
+          "name": "Game completed (0 misclicks)",
+          "quota": 0,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 694,
+      "name": "Subconscious Precision",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 543,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 858,
+          "statistic_id": 15953,
+          "quota": 0,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-694",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/DifferenceGames/dreams/chat.js",
+  "holodeck_url": "/games/DifferenceGames/dreams/holodeck",
+  "accomplishments_bootstrap_url": "/games/DifferenceGames/dreams/chat_achievements",
+  "sticker_drop_url": "/games/DifferenceGames/dreams/sticker_drop",
+  "game_path": "/games/DifferenceGames/dreams",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 550,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 550,
+    "flash_frame_width": 943,
+    "flash_frame_height": 576,
+    "game_frame_width": 640,
+    "game_frame_height": 550,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=30715",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": true,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

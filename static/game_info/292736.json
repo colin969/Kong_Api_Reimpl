@@ -1,0 +1,306 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 292736,
+  "statistics": [
+    {
+      "name": "AllDataGetEnding",
+      "id": 133134,
+      "description": "Gathered all data Crystal needed.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Finished the the final test and had a nice dinner",
+      "accomplishment_tasks": [
+        {
+          "id": 4341,
+          "name": "All bugs/dialogue found",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "BwokAchievement",
+      "id": 133123,
+      "description": "Looks like a chicken, Acts like a chicken.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "KFC confirmed?",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ChickenEnding",
+      "id": 133133,
+      "description": "Act like a chicken.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ChloeSimulationEnding",
+      "id": 133616,
+      "description": "Let Chloe generate an image of herself. It will also show a picture of Aisleen waiting at a bus station.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "CodeNewbieAchievement",
+      "id": 133119,
+      "description": "Find the first bug.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "CoudBeBetterEnding",
+      "id": 133130,
+      "description": "It's just a regular ending.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Finish the run three times or more",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "CrystalEnding",
+      "id": 133136,
+      "description": "Found the tape of Crystal monologue.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Found the tape of Crystal monologue",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EndingFindNumber",
+      "id": 133115,
+      "description": "Indicates How many Endings in the game did player found.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Ending Found",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EndingHunterAchievement",
+      "id": 133127,
+      "description": "Find eight or more endings.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FirstRunEnding",
+      "id": 133128,
+      "description": "Ended your first run.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GladToHaveYouHereAchievement",
+      "id": 133118,
+      "description": "Finish the first run.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GlitchFindNumber",
+      "id": 133116,
+      "description": "Indicates how many glitches Crystal asked the player to find been found.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Glitch Found",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GuruDone",
+      "id": 133188,
+      "description": "Find the Chicken Guru and finished the conversation with him.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Find the Chicken Guru.",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "IsThisBrokenAchievement",
+      "id": 133125,
+      "description": "Find any bad endings.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ListenerAchievement",
+      "id": 133121,
+      "description": "Finish all five stories in any same location.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MindAndBeautyAchievement",
+      "id": 133124,
+      "description": "Log in as Crystal after the system is fixed.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "QuietEnding",
+      "id": 133132,
+      "description": "Kept silent five times in a row.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ReadTheCreditEnding",
+      "id": 133135,
+      "description": "Found the designer.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Found the designer.",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ScoldEnding",
+      "id": 133131,
+      "description": "Used foul language and offended Aisleen successfully.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SecondRunEnding",
+      "id": 133129,
+      "description": "Ended your second run.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TheUltimateEnding",
+      "id": 133137,
+      "description": "Found the ultimate Chicken Guru himself.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Found the ultimate truth",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ThoseMemoriesAchievement",
+      "id": 133122,
+      "description": "Finish all storylines of five locations.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TopTierDebuggerAchievement",
+      "id": 133120,
+      "description": "Find all bugs.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "VisitorAchievement",
+      "id": 133126,
+      "description": "Visit our facebook page.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3677,
+      "name": "Trip Down Memory Lane",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 3065,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4341,
+          "statistic_id": 133134,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3677",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/cheng3939/the-town-with-only-you-and-me/chat.js",
+  "holodeck_url": "/games/cheng3939/the-town-with-only-you-and-me/holodeck",
+  "accomplishments_bootstrap_url": "/games/cheng3939/the-town-with-only-you-and-me/chat_achievements",
+  "sticker_drop_url": "/games/cheng3939/the-town-with-only-you-and-me/sticker_drop",
+  "game_path": "/games/cheng3939/the-town-with-only-you-and-me",
+  "html_dimensions": {
+    "game_width": 980,
+    "game_height": 620,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 620,
+    "flash_frame_width": 1283,
+    "flash_frame_height": 646,
+    "game_frame_width": 980,
+    "game_frame_height": 620,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=292736",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

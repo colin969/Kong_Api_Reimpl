@@ -1,0 +1,216 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 229803,
+  "statistics": [
+    {
+      "name": "allgold",
+      "id": 112904,
+      "description": "Get a gold medal on every level",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "All Gold",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "completed",
+      "id": 112903,
+      "description": "Completed the game",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Complete Game",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore",
+      "id": 113059,
+      "description": "High Scores",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "High Scores",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "levelscompleted",
+      "id": 112902,
+      "description": "Total levels completed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Levels Completed",
+      "accomplishment_tasks": [
+        {
+          "id": 3853,
+          "name": "Level 30 completed",
+          "quota": 30,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "maxtroops",
+      "id": 112899,
+      "description": "Max out your troop count",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Max Troops",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totalhp",
+      "id": 112906,
+      "description": "Total HP for all troops",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total HP",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totalkills",
+      "id": 112901,
+      "description": "Total number of kills",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Total Kills",
+      "accomplishment_tasks": [
+        {
+          "id": 3852,
+          "name": "100 kills",
+          "quota": 100,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "totalstars",
+      "id": 112900,
+      "description": "Total number of stars collected",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Stars",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totalxp",
+      "id": 112905,
+      "description": "Total XP for all troops",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total XP",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3277,
+      "name": "Baddie Blasting",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2712,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3852,
+          "statistic_id": 112901,
+          "quota": 100,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3277",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3278,
+      "name": "Hell in the Hideout",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2713,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3853,
+          "statistic_id": 112902,
+          "quota": 30,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3278",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/thepodge/city-siege-3-fubar-level-pack/chat.js",
+  "holodeck_url": "/games/thepodge/city-siege-3-fubar-level-pack/holodeck",
+  "accomplishments_bootstrap_url": "/games/thepodge/city-siege-3-fubar-level-pack/chat_achievements",
+  "sticker_drop_url": "/games/thepodge/city-siege-3-fubar-level-pack/sticker_drop",
+  "game_path": "/games/thepodge/city-siege-3-fubar-level-pack",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 943,
+    "flash_frame_height": 553,
+    "game_frame_width": 640,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=229803",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

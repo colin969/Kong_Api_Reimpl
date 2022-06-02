@@ -1,0 +1,210 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 130594,
+  "statistics": [
+    {
+      "name": "carBought",
+      "id": 72094,
+      "description": "Best car bought: 0 - hatchback, 1 - pickup, 2 - truck",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Best car bought",
+      "accomplishment_tasks": [
+        {
+          "id": 2566,
+          "name": "Pickup Truck Bought",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "challengeDistance0",
+      "id": 71742,
+      "description": "Hatchback challenge distance",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Hatchback challenge distance",
+      "accomplishment_tasks": [
+        {
+          "id": 2568,
+          "name": "1,000 Feet in Hatchback Challenge",
+          "quota": 1000,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "challengeDistance1",
+      "id": 71743,
+      "description": "Pickup challenge distance",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Pickup challenge distance",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "challengeDistance2",
+      "id": 71744,
+      "description": "Truck challenge distance",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Truck challenge distance",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "storyComplete",
+      "id": 72091,
+      "description": "The number of days, used to complete story mode",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Days to Complete Story",
+      "accomplishment_tasks": [
+        {
+          "id": 2569,
+          "name": "Story Mode Completed",
+          "quota": 9223372036854775807,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2193,
+      "name": "Keep On Truckin'",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1795,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2566,
+          "statistic_id": 72094,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2193",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2195,
+      "name": "Hatchback Hijinks",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1797,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2568,
+          "statistic_id": 71742,
+          "quota": 1000,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2195",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2194,
+      "name": "Get to da Choppa!",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1796,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2569,
+          "statistic_id": 72091,
+          "quota": 9223372036854775807,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2194",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/ToffeeGames/earn-to-die/chat.js",
+  "holodeck_url": "/games/ToffeeGames/earn-to-die/holodeck",
+  "accomplishments_bootstrap_url": "/games/ToffeeGames/earn-to-die/chat_achievements",
+  "sticker_drop_url": "/games/ToffeeGames/earn-to-die/sticker_drop",
+  "game_path": "/games/ToffeeGames/earn-to-die",
+  "html_dimensions": {
+    "game_width": 700,
+    "game_height": 500,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 13,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1003,
+    "flash_frame_height": 553,
+    "game_frame_width": 700,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=130594",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

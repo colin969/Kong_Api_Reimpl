@@ -1,142 +1,191 @@
-import { plainToClass } from 'class-transformer';
+import { OpcodeEvent } from './enum';
+import { PostMessage } from './PostMessage';
 
 type MessageListener = (opcode: string, params: any) => void;
 
-class ParsedMessage {
-    public origin?: unknown;
-    public originalEvent?: unknown;
-    public data?: unknown;
+export const MESSAGE_EVENT = 'kongregate:api:message';
 
-    constructor(
-        public opcode: string,
-        public params: any
-    ) {
-
-    }
+export class ParsedMessage {
+  public origin?: unknown;
+  public originalEvent?: unknown;
+  public data?: unknown;
+  constructor(
+    public opcode: OpcodeEvent,
+    public params: any
+  ) {}
 }
 
 export interface IMessageConnection {
-    isSupported(): boolean;
-    connected(): boolean;
-    isClient(): boolean;
-    supportsObjects(): boolean;
-    logPrefix(): string;
-    addMessageListener(cb: MessageListener): void;
-    listen(): void;
+  isSupported(): boolean;
+  connected(): boolean;
+  isClient(): boolean;
+  supportsObjects(): boolean;
+  logPrefix(): string;
+  addMessageListener(cb: MessageListener): void;
+  listen(): Promise<void>;
 
-    connect(): void;
-    retryConnection(): void;
+  connect(): Promise<void>;
+  retryConnection(): void;
 
-    onMessageReceived(message: ParsedMessage): void;
-    parseMessage(message: any): ParsedMessage;
-    processMessage(message: ParsedMessage): void;
-    sendMessage(opcode: string, params: string[]): void;
+  onMessageReceived(message: ParsedMessage): void;
+  parseMessage(message: any): ParsedMessage | null;
+  processMessage(message: ParsedMessage, c: unknown): void;
+  sendMessage(opcode: OpcodeEvent, params: string[], onError?: () => void): void;
+
+  onClientConnected: (b: unknown, c: unknown) => void;
+  onConnectedToServer: () => void;
+  acceptClientConnection: (a: unknown) => void;
+  removeMissingWindows: (a: unknown) => void;
 }
 
 export type MessageConnectionConf = {
-    target_window: any;
-    target_origin: string | undefined;
-    channel_id: string;
-    retry_connection: boolean;
-    websocket_url?: string;
+  target_window: any;
+  target_origin?: string;
+  channel_id: string;
+  retry_connection?: boolean;
+  websocket_url?: string;
 }
 
-export class MessageConnection implements IMessageConnection{
-    
-    private _ws: WebSocket | undefined;
-    private _wsUrl: string;
-    private _isClient: boolean;
-    private _listeners: MessageListener[];
-    
-    constructor(conf: MessageConnectionConf) {
-        this._isClient = typeof conf.target_origin === 'string';
-        this._listeners = [];
-        this._wsUrl = conf.websocket_url || '';
-    }
+export class MessageConnection implements IMessageConnection {
 
-    addMessageListener(cb: MessageListener) {
-        this._listeners.push(cb);
-    }
+  private _ws: WebSocket | undefined;
+  private _wsUrl: string;
+  private _isClient: boolean;
+  private _listeners: MessageListener[];
 
-    isSupported() {
-        /** TODO */
-        return true;
-    }
+  constructor(conf: MessageConnectionConf) {
+    this._isClient = typeof conf.target_origin === 'string';
+    this._listeners = [];
+    this._wsUrl = conf.websocket_url || '';
+  }
 
-    listen() {
-        /** TODO */
-        if (!this._ws) {
-            // Set up WebSocket connection
-            if (this._wsUrl) {
-                console.debug(`Connecting to ${this._wsUrl}`);
-                this._ws = new WebSocket(this._wsUrl);
-                this._ws.onopen = () => {
-                    console.debug('WebSocket Established with Kong Server');
-                };
-                this._ws.onclose = () => {
-                    console.debug('WebSocket disconnected!');
-                    this._ws = undefined;
-                };
-                this._ws.onerror = () => {
-                    console.debug('WebSocket Error!');
-                    this._ws = undefined;
-                };
-                this._ws.onmessage = this.parseMessage;
-            } else {
-                console.debug('Cannot connect to WebSocket when websocket_url was not given in params!');
-            }
-        }
-    }
+  addMessageListener(cb: MessageListener) {
+    this._listeners.push(cb);
+  }
 
-    connected() {
-        /** TODO */
-        return true;
-    }
+  isSupported() {
+    /** TODO */
+    return true;
+  }
 
-    connect() {
-        /** TODO */
-    }
+  async listen() {
+    /** TODO */
+    if (!this._ws) {
+      // Set up WebSocket connection
+      if (this._wsUrl) {
+        console.debug(`Connecting to ${this._wsUrl}`);
+        return new Promise<void>((resolve, reject) => {
+          this._ws = new WebSocket(this._wsUrl);
+          this._ws.onopen = () => {
+            console.debug('WebSocket Established with Kong Server');
+            resolve();
+          };
+          this._ws.onclose = () => {
+            console.debug('WebSocket disconnected!');
+            this._ws = undefined;
+          };
+          this._ws.onerror = () => {
+            console.debug('WebSocket Error!');
+            this._ws = undefined;
+            reject();
+          };
+          this._ws.onmessage = this.parseMessage;
 
-    retryConnection() {
-        /** TODO */
+        });
+      } else {
+        console.debug('Cannot connect to WebSocket when websocket_url was not given in params!');
+      }
     }
+  }
 
-    isClient() {
-        return this._isClient;
-    }
+  connected() {
+    /** TODO */
+    return this._ws ? this._ws.readyState === WebSocket.OPEN : false;
+  }
 
-    supportsObjects() {
-        /** TODO */
-        return true;
+  async connect() {
+    if (!this.connected()) {
+      await this.listen();
+      this.sendMessage(OpcodeEvent.CONNECT, [], () => this.retryConnection());
+      this.sendMessage(OpcodeEvent.CUSTOM_SETUP, {
+        gameId: '17',
+        userId: 'Guest'
+      });
     }
+  }
 
-    logPrefix() {
-        return "[Game:JS]";
-    }
+  retryConnection() {
+    setTimeout(() => {
+      this.connect();
+    }, 5000);
+  }
 
-    onMessageReceived(message: ParsedMessage) {
-        /** TODO */
-    }
+  isClient() {
+    return this._isClient;
+  }
 
-    parseMessage(message: MessageEvent<any>) {
-        /** TODO */
-        console.debug(`Parsing Message: \n${message}`);
-        const msg = plainToClass(ParsedMessage, message.data);
-        return msg[0];
-    }
+  supportsObjects() {
+    /** TODO */
+    return true;
+  }
 
-    processMessage(message: ParsedMessage) {
-        /** TODO */
-    }
+  logPrefix() {
+    return '[Game:JS]';
+  }
 
-    sendMessage(opcode: string, params: string[]) {
-        /** TODO */
-        if (this._ws) {
-            console.debug(`Sending Message: \nOPCODE: ${opcode}\nPARAMS: ${params}`);
-            const message = new ParsedMessage(opcode, params);
-            this._ws.send(JSON.stringify(message));
-        } else {
-            console.warn('Cannot send messages when the websocket is not connected!');
-        }
+  onMessageReceived(message: ParsedMessage) {
+    /** TODO */
+  }
+
+  parseMessage(message: any) {
+    /** TODO */
+    console.debug(`Parsing Message: \n${message}`);
+    try {
+      const msg = PostMessage.parseMessage(message);
+      if (msg && msg['opcode']) {
+        return {
+          opcode: msg['opcode'],
+          params: msg['params']
+        };
+      }
+    } catch (err) {
+      console.warn(`${this.logPrefix()} - Error parsing message ${message} - ERR: ${err}`);
     }
+    return null;
+  }
+
+  processMessage(message: ParsedMessage, c: unknown) {
+    /** TODO */
+  }
+
+  sendMessage(opcode: OpcodeEvent, params: string[] | object, onError?: () => void) {
+    /** TODO */
+    if (this._ws) {
+      try {
+        console.debug(`Sending Message: \nOPCODE: ${opcode}\nPARAMS: ${params}`);
+        const message = {opcode, params};
+        this._ws.send(JSON.stringify(message));
+      } catch (err) {
+        console.error('Failed to send event - ' + err);
+      }
+    } else {
+      console.warn('Cannot send messages when the websocket is not connected!');
+    }
+  }
+
+  onClientConnected(b: unknown, c: unknown) {
+    /** Stub */
+  }
+
+  onConnectedToServer() {
+    /** Stub */
+  }
+
+  acceptClientConnection(a: unknown) {
+    /** TODO */
+  }
+
+  removeMissingWindows(a: unknown) {
+    /** TODO */
+  }
 }

@@ -1,0 +1,779 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 32108,
+  "statistics": [
+    {
+      "name": "campaignOrSandbox",
+      "id": 16830,
+      "description": "Is the player in Campaign mode or Sandbox Mode? 1 for Campaign, 0 for Sandbox.\n\nReported whenever the player starts a given game mode.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "display_name": "CampaignOrSandbox",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "campaign_zombiesNeutralized",
+      "id": 16775,
+      "description": "A running statistic of every zombie you've ever neutralized, ever, when playing this game, in ANY difficulty mode.\n\n(In campaign mode).",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "ZombieKills Campaign",
+      "accomplishment_tasks": [
+        {
+          "id": 846,
+          "name": "100 zombies killed",
+          "quota": 100,
+          "granularity": 50
+        }
+      ]
+    },
+    {
+      "name": "challenge_1_score",
+      "id": 18217,
+      "description": "Go to sandbox mode, select challenge #1, and play it. \n\nHi score.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Challenge #1 Score",
+      "accomplishment_tasks": [
+        {
+          "id": 859,
+          "name": "Challenge 1 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "challenge_2_score",
+      "id": 18218,
+      "description": "Go to sandbox mode, select challenge #3, and play it.\n\nHi Score",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Challenge #2 Score",
+      "accomplishment_tasks": [
+        {
+          "id": 860,
+          "name": "Challenge 2 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "challenge_3_score",
+      "id": 18219,
+      "description": "Go to sandbox mode, select challenge #3, and play it.\n\nHi Score",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Challenge #3 Score",
+      "accomplishment_tasks": [
+        {
+          "id": 861,
+          "name": "Challenge 3 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "challenge_4_score",
+      "id": 18220,
+      "description": "Go to sandbox mode, select challenge #4, and play it.\n\nHi Score",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Challenge #4 Score",
+      "accomplishment_tasks": [
+        {
+          "id": 862,
+          "name": "Challenge 4 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "challenge_5_score",
+      "id": 18221,
+      "description": "Go to sandbox mode, select challenge #5, and play it.\n\nHi Score",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Challenge #5 Score",
+      "accomplishment_tasks": [
+        {
+          "id": 863,
+          "name": "Challenge 5 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "challenge_zombiesNeutralized",
+      "id": 18410,
+      "description": "A running statistic of every zombie you've ever neutralized, ever, when playing this game.\n\n(In challenges mode, from the sandbox menu).",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "ZombieKills Challenge",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "defenseEfficiency_Hard",
+      "id": 18178,
+      "description": "The best defense efficiency you've ever achieved in any level on campaign mode, on the super hard difficulty setting.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "defenseEfficiency_Normal",
+      "id": 18179,
+      "description": "The best defense efficiency you've ever achieved in any level on campaign mode, on the super normal difficulty setting.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "difficultyMode",
+      "id": 18081,
+      "description": "The difficulty mode the player is playing in.\n\n0 = Super Easy\n1 = Super Normal\n2 = Super Hard",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "fuelSourcesUsed",
+      "id": 16773,
+      "description": "The number of different fuel sources you've used. Not just researched, but actually USED.\n\n(In campaign mode).",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "gameCompleted",
+      "id": 16827,
+      "description": "Have you beaten the game (campaign mode)? 1 for yes, 0 for no. ANY difficulty mode.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Beat the Game!",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "gameCompleted_Hard",
+      "id": 18180,
+      "description": "Have you completed the campaign in super hard mode? 0 for no, 1 for yes.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "gameCompleted_Normal",
+      "id": 18181,
+      "description": "Have you beaten the campaign in Super Normal mode? 0 for no, 1 for yes.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Super Easy",
+      "id": 18412,
+      "description": "HighScore-Super Easy",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Super Hard",
+      "id": 18411,
+      "description": "HighScore-Super Hard",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Super Normal",
+      "id": 18268,
+      "description": "HighScore-Super Normal",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "konamiCode",
+      "id": 18184,
+      "description": "Enter the Konami Code on the main screen to immediately access the theme song and credits.\n\n0 by default,\n1 once you achieve this.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "levelBeaten_01",
+      "id": 16778,
+      "description": "Have you beaten level 1 in the campaign? 0 for no, 1 for yes.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 847,
+          "name": "Level 1 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "levelBeaten_02",
+      "id": 16779,
+      "description": "Have you beaten level 2 in the campaign? 0 for no, 1 for yes.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 848,
+          "name": "Level 2 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "levelBeaten_03",
+      "id": 16780,
+      "description": "Have you beaten level 3 in the campaign? 0 for no, 1 for yes.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 849,
+          "name": "Level 3 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "levelBeaten_04",
+      "id": 16781,
+      "description": "Have you beaten level 4 in the campaign? 0 for no, 1 for yes.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 850,
+          "name": "Level 4 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "levelBeaten_05",
+      "id": 16782,
+      "description": "Have you beaten level 5 in the campaign? 0 for no, 1 for yes.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 851,
+          "name": "Level 5 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "levelBeaten_06",
+      "id": 16783,
+      "description": "Have you beaten level 6 in the campaign? 0 for no, 1 for yes.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 852,
+          "name": "Level 6 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "levelBeaten_07",
+      "id": 16784,
+      "description": "Have you beaten level 7 in the campaign? 0 for no, 1 for yes.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 853,
+          "name": "Level 7 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "levelBeaten_08",
+      "id": 16785,
+      "description": "Have you beaten level 8 in the campaign? 0 for no, 1 for yes.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 854,
+          "name": "Level 8 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "levelBeaten_09",
+      "id": 16786,
+      "description": "Have you beaten level 9 in the campaign? 0 for no, 1 for yes.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 855,
+          "name": "Level 9 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "levelCasualties_05_Hard",
+      "id": 18187,
+      "description": "Number of buildings destroyed on level 5, in campaign mode, on super hard difficulty.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "levelCasualties_06_Hard",
+      "id": 18188,
+      "description": "Number of buildings destroyed on level 6, in campaign mode, on super hard difficulty.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "levelCasualties_06_Normal",
+      "id": 16792,
+      "description": "Number of buildings destroyed in level 6 in the campaign. (In super normal mode)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "levelCasualties_06",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "levelCasualties_07_Hard",
+      "id": 18189,
+      "description": "Number of buildings destroyed on level 7, in campaign mode, on super hard difficulty.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "levelCasualties_07_Normal",
+      "id": 16787,
+      "description": "Number of buildings destroyed in level 7 in the campaign. (In super normal mode)",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "levelCasualties_07",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "levelCasualties_09_Hard",
+      "id": 18190,
+      "description": "Number of buildings destroyed on level 9, in campaign mode, on super hard difficulty.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "levelCasualties_09_Normal",
+      "id": 16788,
+      "description": "Number of buildings destroyed in level 9 in the campaign. (In super normal mode)",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "levelCasualties_09",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "levelDefenseEfficiency_05_Hard",
+      "id": 18186,
+      "description": "Defense Efficiency achieved on level 5, in super hard mode.\n\nEfficiency is calculated as a percentage, which measures the ratio of how many zombies you've killed in a level divided by how many resources it took you to kill them.\n\n(Given as a percentage)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "levelDefenseEfficiency_06_Hard",
+      "id": 18185,
+      "description": "Defense Efficiency achieved on level 6, in super hard mode.\n\nEfficiency is calculated as a percentage, which measures the ratio of how many zombies you've killed in a level divided by how many resources it took you to kill them.\n\n(Given as a percentage)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "levelDefenseEfficiency_06_Normal",
+      "id": 16911,
+      "description": "The defense efficiency you've achieved on level 6. (in super normal mode)\n\nEfficiency is calculated as a percentage, which measures the ratio of how many zombies you've killed in a level divided by how many resources it took you to kill them.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "levelDefenseEfficiency_06",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "levelDefenseEfficiency_07_Hard",
+      "id": 18182,
+      "description": "Defense Efficiency achieved on level 7, in super hard mode.\n\nEfficiency is calculated as a percentage, which measures the ratio of how many zombies you've killed in a level divided by how many resources it took you to kill them.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "levelDefenseEfficiency_07_Normal",
+      "id": 16804,
+      "description": "Defense Efficiency achieved on level 7, in super normal mode.\n\nEfficiency is calculated as a percentage, which measures the ratio of how many zombies you've killed in a level divided by how many resources it took you to kill them.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "levelDefenseEfficiency_07",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "levelDefenseEfficiency_09_Hard",
+      "id": 18183,
+      "description": "Defense Efficiency achieved on level 9, in super hard mode.\n\nEfficiency is calculated as a percentage, which measures the ratio of how many zombies you've killed in a level divided by how many resources it took you to kill them.\n\n(Given as a percentage)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "levelDefenseEfficiency_09_Normal",
+      "id": 16805,
+      "description": "The defense efficiency you've achieved on level 9, in super Normal mode.\n\nEfficiency is calculated as a percentage, which measures the ratio of how many zombies you've killed in a level divided by how many resources it took you to kill them.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "levelDefenseEfficiency_08",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "levelTime_08_Hard",
+      "id": 18198,
+      "description": "The amount of seconds taken to complete level 8 (on super hard difficulty mode)",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "levelTime_08_Normal",
+      "id": 16797,
+      "description": "Amount of time (in seconds) it takes the player to complete level 8. (In super normal mode)",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "levelTime_08",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "powerSourcesUsed",
+      "id": 16774,
+      "description": "The number of different KINDS of power sources (including Recycling Centers at upgrade level 2 or higher) you've used.\n\n(In campaign mode).",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "recyclingUpgrade_Level_Normal",
+      "id": 16828,
+      "description": "The level you have upgraded your recycling to in campaign mode. (In super Normal mode) Starts at 0, goes to 3.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "recyclingUpgrade_Level",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "sandboxPlayed_1",
+      "id": 16831,
+      "description": "Played sandbox level 1. 0 for no, 1 for yes.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "sandboxPlayed_2",
+      "id": 16832,
+      "description": "Played sandbox level 2. 0 for no, 1 for yes.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "sandboxPlayed_3",
+      "id": 16833,
+      "description": "Played sandbox level 3. 0 for no, 1 for yes.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "sandboxPlayed_4",
+      "id": 16834,
+      "description": "Played sandbox level 4. 0 for no, 1 for yes.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "sandboxPlayed_5",
+      "id": 16835,
+      "description": "Played sandbox level 5. 0 for no, 1 for yes.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "sandboxPlayed_6",
+      "id": 16836,
+      "description": "Played sandbox level 6. 0 for no, 1 for yes.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "sandboxPlayed_7",
+      "id": 16837,
+      "description": "Played sandbox level 7. 0 for no, 1 for yes.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "sandboxPlayed_8",
+      "id": 16838,
+      "description": "Played sandbox level 8. 0 for no, 1 for yes.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "upgradesAchieved",
+      "id": 16771,
+      "description": "The number of upgrades the player has achieved through research, including building and fuel upgrades, in campaign mode.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Upgrades Achieved (campaign)",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 690,
+      "name": "Zombie Energy Drink",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 541,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 846,
+          "statistic_id": 16775,
+          "quota": 100,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-690",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 691,
+      "name": "It's a Trap!",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 542,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 847,
+          "statistic_id": 16778,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 848,
+          "statistic_id": 16779,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 849,
+          "statistic_id": 16780,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 850,
+          "statistic_id": 16781,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 851,
+          "statistic_id": 16782,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 852,
+          "statistic_id": 16783,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 853,
+          "statistic_id": 16784,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 854,
+          "statistic_id": 16785,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 855,
+          "statistic_id": 16786,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-691",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 695,
+      "name": "Meeting Tomorrow's Challenges",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 544,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 859,
+          "statistic_id": 18217,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 860,
+          "statistic_id": 18218,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 861,
+          "statistic_id": 18219,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 862,
+          "statistic_id": 18220,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 863,
+          "statistic_id": 18221,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-695",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/larsiusprime/super-energy-apocalypse-recycled/chat.js",
+  "holodeck_url": "/games/larsiusprime/super-energy-apocalypse-recycled/holodeck",
+  "accomplishments_bootstrap_url": "/games/larsiusprime/super-energy-apocalypse-recycled/chat_achievements",
+  "sticker_drop_url": "/games/larsiusprime/super-energy-apocalypse-recycled/sticker_drop",
+  "game_path": "/games/larsiusprime/super-energy-apocalypse-recycled",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 626,
+    "game_frame_width": 800,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=32108",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

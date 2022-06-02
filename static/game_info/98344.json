@@ -1,0 +1,325 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 98344,
+  "statistics": [
+    {
+      "name": "BeamCutterKills",
+      "id": 51704,
+      "description": "Aliens killed with the Beam Cutter",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "BeamCutter Kills",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "CompletedDay",
+      "id": 51722,
+      "description": "Finished a level on any difficulty\n\n0 - not completed\n1 - completed day 1\n2 - completed day 2\n3 - completed day 3\n4 - completed day 4\n5 - completed day 5",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Days Completed",
+      "accomplishment_tasks": [
+        {
+          "id": 1839,
+          "name": "Day 5 Survived",
+          "quota": 5,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "CompletedDay4_SupportOnly",
+      "id": 51317,
+      "description": "Completed day 4 using ONLY support powers. Player cannot construct any weapon. This must be done on Hard mode. (Hint: use hotkeys to combine support powers)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Completed Day 4 with Support Only",
+      "accomplishment_tasks": [
+        {
+          "id": 1836,
+          "name": "Day 4 completed without gunners",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "CompletedGame",
+      "id": 51316,
+      "description": "0 - Not completed\n1 - completed all 5 days on Easy\n2 - completed all 5 days on Normal\n3 - completed all 5 days on Hard",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Game Completed with Difficulty",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FlamethrowerKills",
+      "id": 51702,
+      "description": "Aliens killed with the Flamethrower",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Flamethrower Kills",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FlaregunKills",
+      "id": 51701,
+      "description": "Aliens killed with the Flaregun",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Flaregun Kills",
+      "accomplishment_tasks": [
+        {
+          "id": 1834,
+          "name": "20 Kills with Flaregunners",
+          "quota": 20,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "GoldStarsEarned",
+      "id": 51646,
+      "description": "Number of Gold stars earned. You earn gold stars by beating the game on Hard. You can earn a maximum of 3 gold stars per day, for a max total of 15 stars.\n\n3 stars - don't lose more than 2 defenders, undamaged life support\n2 stars - don't lose more than 9",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Gold stars earned",
+      "accomplishment_tasks": [
+        {
+          "id": 1837,
+          "name": "12 Gold Stars Earned",
+          "quota": 12,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Imploder Kills",
+      "id": 51703,
+      "description": "Aliens killed with the Imploder",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "ImploderKills",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "NailgunKills",
+      "id": 51700,
+      "description": "Aliens killed with the Nailgun",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Nailgun Kills",
+      "accomplishment_tasks": [
+        {
+          "id": 1833,
+          "name": "50 Kills with Nailgunners",
+          "quota": 50,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "usedSpecial_BeamSurge",
+      "id": 51708,
+      "description": "Number of the the Beam Surge was used",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Beam Surge Used",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "usedSpecial_Repulsor",
+      "id": 51705,
+      "description": "Number of times the Repulsor was used",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Repulsor Used",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "usedSpecial_Sentinel",
+      "id": 51707,
+      "description": "Number of times the Sentinel was used",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Sentinel Used",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "usedSpecial_Sentry",
+      "id": 51706,
+      "description": "Number of times the Sentry was used",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Sentry Used",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1560,
+      "name": "More Ways to Skin a Runner",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1270,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1833,
+          "statistic_id": 51700,
+          "quota": 50,
+          "operator": "AND"
+        },
+        {
+          "id": 1834,
+          "statistic_id": 51701,
+          "quota": 20,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1560",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1562,
+      "name": "Tools of the Trade",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1272,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1836,
+          "statistic_id": 51317,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1562",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1563,
+      "name": "Starman Waiting",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1273,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1837,
+          "statistic_id": 51646,
+          "quota": 12,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1563",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1561,
+      "name": "Desert Defender",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1271,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1839,
+          "statistic_id": 51722,
+          "quota": 5,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1561",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/nicotuason/desert-moon/chat.js",
+  "holodeck_url": "/games/nicotuason/desert-moon/holodeck",
+  "accomplishments_bootstrap_url": "/games/nicotuason/desert-moon/chat_achievements",
+  "sticker_drop_url": "/games/nicotuason/desert-moon/sticker_drop",
+  "game_path": "/games/nicotuason/desert-moon",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 500,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 13,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 553,
+    "game_frame_width": 800,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=98344",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

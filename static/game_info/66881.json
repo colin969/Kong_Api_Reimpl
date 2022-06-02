@@ -1,0 +1,2621 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 66881,
+  "statistics": [
+    {
+      "name": "% Anti-Idle Rewards",
+      "id": 57057,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": true,
+      "display_name": "% Anti-Idle Rewards (Lv. 1000+)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement Score",
+      "id": 60512,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievements",
+      "id": 60510,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ants Sprayed",
+      "id": 60513,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ascension Points",
+      "id": 119748,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Auto Version",
+      "id": 86905,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Awesome",
+      "id": 87854,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 3182,
+          "name": "Battle Arena Purchased",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "cxvbxcvbxcvbxcvb",
+      "id": 92716,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "[Battle Arena] Raid: Defend Mission",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EXP",
+      "id": 60498,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EXP Last 7 Days",
+      "id": 60500,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "EXP (7 consecutive days)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EXP Yesterday",
+      "id": 60499,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "EXP (1 day)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Experiment Leaderboard",
+      "id": 80641,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "IGNORE THIS!!!!1!!!ONE!!",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Inventory Module Slots",
+      "id": 114456,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level",
+      "id": 60496,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Main Quests",
+      "id": 60509,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Main Quests A-Rank",
+      "id": 82921,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Main Quests B-Rank",
+      "id": 82920,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Main Quests C-Rank",
+      "id": 82919,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Main Quests S-Rank",
+      "id": 82922,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Max Level",
+      "id": 60497,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Newbie Quests",
+      "id": 60508,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "nope",
+      "id": 36877,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "(test stat)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Pet EXP",
+      "id": 66155,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Quests",
+      "id": 60507,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Random Quests",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Quests (1 day)",
+      "id": 72129,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Random Quests (1 day)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Refund Code",
+      "id": 93782,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "REST Upgrades",
+      "id": 114455,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Rewards Claimed",
+      "id": 60985,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Rewards Claimed (Anti-Idle)",
+      "id": 60986,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Rewards Claimed (Idle)",
+      "id": 60987,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Secret Achievements",
+      "id": 60511,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Speedrun: Ascend",
+      "id": 60503,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "[Archive] Speedrun: Ascend",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Speedrun: Ascend (Hard)",
+      "id": 71750,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Speedrun: Ascend (Hard) [Minutes]",
+      "id": 79650,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Minutes Taken to Ascend (Hard)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Speedrun: Ascend (Impossible)",
+      "id": 71751,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Speedrun: Ascend (Impossible) [Minutes]",
+      "id": 79651,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Minutes Taken to Ascend (Impossible)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Speedrun: Ascend [Minutes]",
+      "id": 79649,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Minutes Taken to Ascend",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Speedrun: Lv. 9001",
+      "id": 60502,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Speedrun: Lv. 9001 [Minutes]",
+      "id": 79652,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Minutes Taken to Reach Lv. 9001",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Times Ascended",
+      "id": 60988,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Times Ascended (Hard)",
+      "id": 71752,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Times Ascended (Impossible)",
+      "id": 71753,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Total Days Played",
+      "id": 60501,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Unspent Blue Coins",
+      "id": 60506,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Unspent Coins",
+      "id": 60504,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Unspent Green Coins",
+      "id": 60505,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Unspent White Coins",
+      "id": 114454,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "useless stat",
+      "id": 82935,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "[Arcade] Triangle Count",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Useless Stat #1",
+      "id": 36867,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Refund Code",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Useless Stat #10",
+      "id": 37708,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Rewards Without Idle Mode",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Useless Stat #11",
+      "id": 37831,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Cents Donated To Haiti",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Useless Stat #12",
+      "id": 38597,
+      "description": "This is just a test stat!",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "display_name": "(Research) FPS on High Quality",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Useless Stat #13",
+      "id": 40464,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Arcade: Mind Sweeper",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Useless Stat #13.5",
+      "id": 41075,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Bestiary Level",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Useless Stat #14",
+      "id": 42269,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "NOT_A_HIGHSCORE_S1",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Useless Stat #15",
+      "id": 42270,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "NOT_A_HIGHSCORE_S2",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Useless Stat #16",
+      "id": 42271,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "NOT_A_HIGHSCORE_S3",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Useless Stat #17",
+      "id": 42272,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "NOT_A_HIGHSCORE_S4",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Useless Stat #18",
+      "id": 39598,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "display_name": "I Like Updates",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Useless Stat #2",
+      "id": 36869,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Enemies Killed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Useless Stat #3",
+      "id": 36870,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Attack Power",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Useless Stat #4",
+      "id": 36872,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "(Test)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Useless Stat #5",
+      "id": 36875,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Items Purchased",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Useless Stat #6",
+      "id": 36876,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Rare Items Purchased",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Useless Stat #8",
+      "id": 36921,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Useless Stat #9",
+      "id": 36936,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "display_name": "(Cheating Test Stat)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Version Playing",
+      "id": 37911,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Arcade] Balance 3",
+      "id": 70103,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Arcade] Math Master",
+      "id": 60538,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Arcade] MindSweeper",
+      "id": 60540,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Arcade] MMR 1",
+      "id": 60541,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Arcade] MMR 2",
+      "id": 60542,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Arcade] MMR 3",
+      "id": 60543,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Arcade] MMR 4",
+      "id": 60544,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Arcade] Pong",
+      "id": 60536,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Arcade] Triangle Count",
+      "id": 82915,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Arcade] Ultimate Avoidance",
+      "id": 60537,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Arcade] Unranked Upgrades",
+      "id": 112333,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Arcade] Whack-a-greg",
+      "id": 60539,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Achievements",
+      "id": 36878,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "[Archive] Achievements Earned",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Adventure Reputation",
+      "id": 48335,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Adventure Reputation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Avoid",
+      "id": 36873,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Arcade: Avoidance",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Best Race Time",
+      "id": 37759,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Best Race Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Bestiary",
+      "id": 48315,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Bestiary Level",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Bet Winnings",
+      "id": 37761,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Bet Winnings",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Button",
+      "id": 36871,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Button Presses",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Coins",
+      "id": 36866,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Saved Coins",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Correct Bets",
+      "id": 37760,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Correct Bets",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Enemies Killed",
+      "id": 38959,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Enemies Killed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Enemies Killed (Red)",
+      "id": 38961,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Enemies Killed (Red)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Enemies Killed (White)",
+      "id": 38960,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Enemies Killed (White)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] EXP",
+      "id": 36865,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "[Archive] Experience",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] EXP Yesterday",
+      "id": 49992,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "EXP in 1 day",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Fastest Race",
+      "id": 60549,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "[Stadium] Fastest Race",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] FCG Average EXP",
+      "id": 43398,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "display_name": "FCG: Average EXP / Match",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] FCG EXP",
+      "id": 43395,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "FCG: EXP",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] FCG Level",
+      "id": 43394,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "FCG: Level",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] FCG Win Streak",
+      "id": 43397,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "FCG: Win Streak",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] FCG Wins",
+      "id": 43396,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "FCG: Wins",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Illegal Coins",
+      "id": 46781,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Illegal Coins",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Level",
+      "id": 36864,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Lolmarket Profit",
+      "id": 42007,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Lolmarket Profit",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Math",
+      "id": 36874,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Arcade: Math",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Max Combo (Arena)",
+      "id": 38962,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Max Combo (Arena)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Max Damage Dealt",
+      "id": 48316,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Max Damage Dealt",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] MindSweeper",
+      "id": 40514,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Arcade: MindSweeper",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Missions Completed",
+      "id": 42518,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Missions Completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] MMR",
+      "id": 48825,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Arcade: MMR (Song #1)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] MMR 2",
+      "id": 50725,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Arcade: MMR (Song #2)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] MMR 3",
+      "id": 50726,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] MMR 4",
+      "id": 50727,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] MMR Confirm",
+      "id": 50728,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "MMR Confirm",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] MMR Confirm 2",
+      "id": 50729,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "MMR Confirm 2",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Money Printer Level",
+      "id": 37030,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Money Printer Level",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Mystery Points",
+      "id": 37532,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Mystery Points",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Pixels",
+      "id": 49345,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Battle Arena Pixels",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Pong Score",
+      "id": 37029,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Arcade: Pong",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Pyramid Highscore",
+      "id": 45029,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Pyramid Highscore",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Quests Completed",
+      "id": 37631,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Quests Completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Raid: Tower of DOOOOOOM",
+      "id": 63881,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "[Battle Arena] Raid: Tower of DOOOOOOM",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Rewards Claimed",
+      "id": 39577,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Rewards Claimed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Rewards Without Idle",
+      "id": 39578,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Rewards Without Idle Mode",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Secret Achievements",
+      "id": 36879,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Skills Learned",
+      "id": 48317,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Arena Skills Learned",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Stadium Difficulty Unlocked",
+      "id": 37758,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Stadium Difficulty Unlocked",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Time Pieces Donated",
+      "id": 57423,
+      "description": "",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Tree Income",
+      "id": 38768,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Tree Income",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Trees",
+      "id": 36868,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Trees Harvested",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Archive] Whack-a-Greg",
+      "id": 48318,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Arcade: Whack-a-Greg",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Awesome Adventures] Reputation",
+      "id": 60557,
+      "description": "Positive and negative are both okay.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Awesome Adventures] Reputation (-)",
+      "id": 112335,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Awesome Adventures] Titled Zone",
+      "id": 82206,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Awesome Adventures] Town",
+      "id": 82204,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Awesome Adventures] Untitled Zone",
+      "id": 82205,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[BA Raid] Dark Pyramid",
+      "id": 112320,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[BA Raid] Defend Mission",
+      "id": 112321,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[BA Raid] Endless Dungeon",
+      "id": 112326,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[BA Raid] Prehistoric Mission",
+      "id": 112322,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[BA Raid] Secret Dungeon",
+      "id": 112325,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[BA Raid] Special Training Zone",
+      "id": 112330,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[BA Raid] Special Training Zone (new)",
+      "id": 112441,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "[BA Raid] Special Training Zone",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[BA Raid] Spooky Crypt",
+      "id": 112328,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[BA Raid] The Corruption",
+      "id": 140014,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[BA Raid] THE MEGABOSS's Revenge",
+      "id": 112327,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[BA Raid] The Special Arena",
+      "id": 112323,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[BA Raid] Tower of DOOOOOOM",
+      "id": 112324,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[BA Raid] Triangle Hideout",
+      "id": 112329,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] +10 Upgraded Allies",
+      "id": 112315,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Arena Rank",
+      "id": 60517,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Battle Points",
+      "id": 94401,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Bestiary Level",
+      "id": 60558,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Collection Points",
+      "id": 123015,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Combo",
+      "id": 60526,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Crafting Material Used",
+      "id": 60529,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Defend Mission",
+      "id": 60520,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Excessive EXP (x100M)",
+      "id": 94402,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Invisible Allies Mastered",
+      "id": 71755,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Invisible Allies Tamed",
+      "id": 71754,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Kills",
+      "id": 60522,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Kills (Boss)",
+      "id": 60525,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Kills (Non-Weak)",
+      "id": 60523,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Kills (Strong)",
+      "id": 60524,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Loot Drops",
+      "id": 60527,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Max Damage Dealt",
+      "id": 60530,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Mission Kommander",
+      "id": 60519,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Missions",
+      "id": 60518,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Prehistoric Mission",
+      "id": 60521,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Raid: Defend Mission",
+      "id": 82916,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Raid: Defend Mission [New]",
+      "id": 92722,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "[Battle Arena] Raid: Defend Mission",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Raid: MEGABOSS",
+      "id": 60561,
+      "description": "Time taken to conquer The Special Arena in milliseconds.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Raid: Prehistoric Mission",
+      "id": 82917,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Raid: Pyramid",
+      "id": 60560,
+      "description": "Most damage dealt in Epic Pyramid Battle.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Raid: Secret Dungeon",
+      "id": 74084,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Raid: Spooky Crypt",
+      "id": 88146,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Raid: THE MEGABOSS's Revenge",
+      "id": 77912,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "[Battle Arena] Raid: MB's Revenge",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Raid: THE MEGABOSS's Revenge (OLD)",
+      "id": 76545,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "[Battle Arena] Raid: MB's Revenge",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Raid: Tower of DOOOOOOM",
+      "id": 63888,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Rebirth",
+      "id": 94400,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Robacon Rank",
+      "id": 80489,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Rune of Encounter",
+      "id": 133200,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Rune of Experience",
+      "id": 133201,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Rune of Greed",
+      "id": 133202,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Rune of Health",
+      "id": 133197,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Rune of Mana",
+      "id": 133198,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Rune of Rage",
+      "id": 133199,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Skill Books",
+      "id": 82203,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Total Rune Level",
+      "id": 133196,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] ULTRA ALLIES",
+      "id": 112316,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Unique ULTRA-1 Kills",
+      "id": 112317,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Unique ULTRA-1 Kills [New]",
+      "id": 112338,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "[Battle Arena] Unique ULTRA-1 Kills",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Unique ULTRA-2 Kills",
+      "id": 112318,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Unique ULTRA-2 Kills [New]",
+      "id": 112339,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "[Battle Arena] Unique ULTRA-2 Kills",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Unique ULTRA-3 Kills",
+      "id": 112319,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Unique ULTRA-3 Kills [New]",
+      "id": 112340,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "[Battle Arena] Unique ULTRA-3 Kills",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Battle Arena] Unspent Pixels",
+      "id": 60528,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Button Machine] Additional Multiplier",
+      "id": 112331,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Button Machine] Button Presses",
+      "id": 60531,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Button Machine] Grandpas",
+      "id": 112332,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Button Machine] Max Hit Combo",
+      "id": 60533,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Button Machine] Perfect Clicks",
+      "id": 60532,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Career] Career: Adventurer",
+      "id": 60575,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Career] Career: Arcade Player",
+      "id": 60571,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Career] Career: Button Basher",
+      "id": 60570,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Career] Career: Card Player",
+      "id": 60573,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Career] Career: Fighter",
+      "id": 60568,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Career] Career: Fisherman",
+      "id": 70095,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "[Career] Career: Fisher",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Career] Career: Gardener",
+      "id": 60567,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Career] Career: Gem Trader",
+      "id": 60574,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Career] Career: Idler",
+      "id": 60566,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Career] Career: Item Maker",
+      "id": 60569,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Career] Career: Pet Trainer",
+      "id": 66156,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Career] Career: Racer",
+      "id": 60572,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Career] Total Career Level",
+      "id": 60576,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Challenge] Challenge #1 Time",
+      "id": 95021,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Challenge] Challenge #10 Time",
+      "id": 96493,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Challenge] Challenge #11 Time",
+      "id": 96494,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Challenge] Challenge #12 Time",
+      "id": 96495,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Challenge] Challenge #13 Time",
+      "id": 96496,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Challenge] Challenge #14 Time",
+      "id": 96497,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Challenge] Challenge #15 Time",
+      "id": 96498,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Challenge] Challenge #16 Time",
+      "id": 96499,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Challenge] Challenge #17 Time",
+      "id": 96500,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Challenge] Challenge #18 Time",
+      "id": 96501,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Challenge] Challenge #19 Time",
+      "id": 96502,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Challenge] Challenge #2 Time",
+      "id": 96484,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Challenge] Challenge #20 Time",
+      "id": 96503,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Challenge] Challenge #3 Time",
+      "id": 96485,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Challenge] Challenge #4 Time",
+      "id": 96486,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Challenge] Challenge #5 Time",
+      "id": 96487,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Challenge] Challenge #6 Time",
+      "id": 96488,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Challenge] Challenge #7 Time",
+      "id": 96490,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Challenge] Challenge #8 Time",
+      "id": 96491,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Challenge] Challenge #9 Time",
+      "id": 96492,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Cyborg] Cyborg Level",
+      "id": 112314,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Event] Technical Battleground #1",
+      "id": 123016,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Event] Technical Battleground #2",
+      "id": 123017,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Event] Technical Battleground #3",
+      "id": 126599,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Fishing] Catches",
+      "id": 70100,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Fishing] Mastery",
+      "id": 70097,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Fishing] Perfect Catches",
+      "id": 70101,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Fishing] Perfect Streak",
+      "id": 70102,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Fishing] Rods Unlocked",
+      "id": 80110,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Fishing] Score",
+      "id": 70098,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Fishing] Score (1 day)",
+      "id": 70099,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Fishing] Skill",
+      "id": 70096,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Garden] Garden EXP",
+      "id": 60516,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Garden] Tree Harvests",
+      "id": 60514,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Garden] Tree Income",
+      "id": 60515,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Kong] Kongpanions",
+      "id": 112352,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Kong] Shiny Kongpanions",
+      "id": 112353,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[LolMarket] LolMarket Profit",
+      "id": 60556,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Money Printer] Battery Charges",
+      "id": 60535,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Money Printer] Illegal Coins",
+      "id": 60534,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Speedrun] Minutes to Lv. 1000",
+      "id": 83096,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Speedrun] Minutes to Lv. 1000 (Old)",
+      "id": 82924,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "[Speedrun] Minutes to Lv. 1000",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Speedrun] Minutes to Lv. 2000",
+      "id": 83097,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Speedrun] Minutes to Lv. 2000 (Old)",
+      "id": 82925,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "[Speedrun] Minutes to Lv. 2000",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Speedrun] Minutes to Lv. 3000",
+      "id": 83432,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Speedrun] Minutes to Lv. 3000 (Old)",
+      "id": 82926,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "[Speedrun] Minutes to Lv. 3000",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Speedrun] Minutes to Lv. 4000",
+      "id": 83899,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Speedrun] Minutes to Lv. 4000 (Old)",
+      "id": 82927,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "[Speedrun] Minutes to Lv. 4000",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Speedrun] Minutes to Lv. 5000",
+      "id": 84339,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Speedrun] Minutes to Lv. 5000 (Old)",
+      "id": 82928,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "[Speedrun] Minutes to Lv. 5000",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Speedrun] Minutes to Lv. 6000",
+      "id": 84340,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Speedrun] Minutes to Lv. 6000 (Old)",
+      "id": 82929,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "[Speedrun] Minutes to Lv. 6000",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Speedrun] Minutes to Lv. 7000",
+      "id": 84874,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Speedrun] Minutes to Lv. 7000 (Old)",
+      "id": 82930,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "[Speedrun] Minutes to Lv. 7000",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Speedrun] Minutes to Lv. 8000",
+      "id": 84875,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Speedrun] Minutes to Lv. 8000 (Old)",
+      "id": 82931,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "[Speedrun] Minutes to Lv. 8000",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Speedrun] Minutes to Lv. 9000",
+      "id": 84876,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Speedrun] Minutes to Lv. 9000 (Old)",
+      "id": 82932,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "[Speedrun] Minutes to Lv. 9000",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Speedrun] Minutes to Lv. 9001",
+      "id": 84877,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Speedrun] Minutes to Lv. 9001 (Old)",
+      "id": 82933,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "[Speedrun] Minutes to Lv. 9001",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Speedrun] Speedrun Time",
+      "id": 96504,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Speedrun] Speedruns Completed",
+      "id": 82923,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Stadium] Death Match PWNts",
+      "id": 60548,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Stadium] Death Match Wins",
+      "id": 60547,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Stadium] Fastest Race",
+      "id": 60990,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Stadium] Hats Unlocked",
+      "id": 112334,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Stadium] Item Fight (Impossible)",
+      "id": 60546,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Stadium] Simple Race (Impossible)",
+      "id": 60545,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Stadium] Unspent Stadium Tokens",
+      "id": 60550,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[TukkunFCG] FCG Cash",
+      "id": 60553,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[TukkunFCG] FCG EXP",
+      "id": 60552,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[TukkunFCG] FCG Level",
+      "id": 60551,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[TukkunFCG] FCG Win Streak",
+      "id": 60555,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[TukkunFCG] FCG Win Streak (Lv10)",
+      "id": 80155,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[TukkunFCG] FCG Win Streak (Lv6)",
+      "id": 80152,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[TukkunFCG] FCG Win Streak (Lv7)",
+      "id": 80153,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[TukkunFCG] FCG Win Streak (Lv8 New)",
+      "id": 80316,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "[TukkunFCG] FCG Win Streak (Lv8)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[TukkunFCG] FCG Win Streak (Lv8)",
+      "id": 80154,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[TukkunFCG] FCG Wins",
+      "id": 60554,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[TukkunFCG] FCG Wins (Lv10)",
+      "id": 80151,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[TukkunFCG] FCG Wins (Lv8)",
+      "id": 80150,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[TukkunFCG] Legendary Monsters Killed",
+      "id": 80156,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Typing] WPM",
+      "id": 79653,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Useless] Most Recent Quest",
+      "id": 37632,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Most Recent Quest",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Useless] Survey 1",
+      "id": 39588,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Version Up Survey: Blue",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Useless] Survey 2",
+      "id": 39589,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Version Up Survey: Green",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Useless] Survey 3",
+      "id": 39590,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Version Up Survey: Yellow",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Useless] Survey 4",
+      "id": 39591,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Refund Code",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "[Useless] XXXXXX",
+      "id": 96483,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2740,
+      "name": "Idle Hands",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2260,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3182,
+          "statistic_id": 87854,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2740",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Tukkun/anti-idle-the-game/chat.js",
+  "holodeck_url": "/games/Tukkun/anti-idle-the-game/holodeck",
+  "accomplishments_bootstrap_url": "/games/Tukkun/anti-idle-the-game/chat_achievements",
+  "sticker_drop_url": "/games/Tukkun/anti-idle-the-game/sticker_drop",
+  "game_path": "/games/Tukkun/anti-idle-the-game",
+  "html_dimensions": {
+    "game_width": 650,
+    "game_height": 650,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 650,
+    "flash_frame_width": 953,
+    "flash_frame_height": 676,
+    "game_frame_width": 650,
+    "game_frame_height": 650,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=66881",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": true,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": true,
+    "disable_instart": false,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": true,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

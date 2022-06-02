@@ -1,0 +1,470 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 55550,
+  "statistics": [
+    {
+      "name": "Ep1Easy",
+      "id": 30936,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ep1Hard",
+      "id": 30939,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ep1Intense",
+      "id": 30940,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ep1Frantic",
+      "id": 30941,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ep2Easy",
+      "id": 30942,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ep2Medium",
+      "id": 30943,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ep2Hard",
+      "id": 30945,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ep2Intense",
+      "id": 30946,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ep2Frantic",
+      "id": 30947,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ep3Easy",
+      "id": 30948,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ep3Medium",
+      "id": 30949,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ep3Hard",
+      "id": 30950,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ep3Intense",
+      "id": 30951,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ep3Frantic",
+      "id": 30953,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BossesEasy",
+      "id": 30954,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BossesMedium",
+      "id": 30955,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BossesHard",
+      "id": 30956,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BossesIntense",
+      "id": 30957,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BossesFrantic",
+      "id": 30959,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Survival",
+      "id": 30960,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 1272,
+          "name": "10,000,000 score (survival)",
+          "quota": 10000000,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": " Endurance",
+      "id": 30961,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighMultiplier",
+      "id": 30962,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ep1Max",
+      "id": 30964,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 1256,
+          "name": "Episode 1 completed",
+          "quota": 2,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "ep2Max",
+      "id": 30965,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 1257,
+          "name": "Episode 2 completed",
+          "quota": 2,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "ep3Max",
+      "id": 30966,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 1258,
+          "name": "Episode 3 completed",
+          "quota": 2,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "ep1HitMax",
+      "id": 30967,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ep2HitMax",
+      "id": 30968,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ep3HitMax",
+      "id": 30969,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ep1Medium",
+      "id": 31294,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalKills",
+      "id": 31767,
+      "description": "",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 1255,
+          "name": "500 kills",
+          "quota": 500,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "featsUnlocked",
+      "id": 31840,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Feats unlocked",
+      "accomplishment_tasks": [
+        {
+          "id": 1259,
+          "name": "14 feats unlocked",
+          "quota": 14,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1055,
+      "name": "Clearing the Way",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 828,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1255,
+          "statistic_id": 31767,
+          "quota": 500,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1055",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1056,
+      "name": "Trilogy of Destruction",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 829,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1256,
+          "statistic_id": 30964,
+          "quota": 2,
+          "operator": "AND"
+        },
+        {
+          "id": 1257,
+          "statistic_id": 30965,
+          "quota": 2,
+          "operator": "AND"
+        },
+        {
+          "id": 1258,
+          "statistic_id": 30966,
+          "quota": 2,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1056",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1057,
+      "name": "Feat Franatic",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 830,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1259,
+          "statistic_id": 31840,
+          "quota": 14,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1057",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1069,
+      "name": "Kamikaze",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 840,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1272,
+          "statistic_id": 30960,
+          "quota": 10000000,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1069",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/polymerrabbit/frantic-2/chat.js",
+  "holodeck_url": "/games/polymerrabbit/frantic-2/holodeck",
+  "accomplishments_bootstrap_url": "/games/polymerrabbit/frantic-2/chat_achievements",
+  "sticker_drop_url": "/games/polymerrabbit/frantic-2/sticker_drop",
+  "game_path": "/games/polymerrabbit/frantic-2",
+  "html_dimensions": {
+    "game_width": 500,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 60,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 923,
+    "flash_frame_height": 626,
+    "game_frame_width": 620,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=55550",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

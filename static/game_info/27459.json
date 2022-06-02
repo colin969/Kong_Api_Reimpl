@@ -1,0 +1,481 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 27459,
+  "statistics": [
+    {
+      "name": "ChampionFallen_Ara_Easy",
+      "id": 14524,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "ChampionFallen_Ara",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ChampionFallen_Ara_Normal",
+      "id": 13474,
+      "description": "0 or 1, 1 means that player killed the most powerful Champion of [South Desert] which lives in the capital of this country.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "ChampionFallen_Ara",
+      "accomplishment_tasks": [
+        {
+          "id": 735,
+          "name": "South Desert leader defeated",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "ChampionFallen_Ger_Easy",
+      "id": 14520,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "ChampionFallen_Ger",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ChampionFallen_Ger_Normal",
+      "id": 13470,
+      "description": "0 or 1, 1 means that player killed the most powerful Champion of [Order of Holy Cross] which lives in the capital of this country.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "ChampionFallen_Ger",
+      "accomplishment_tasks": [
+        {
+          "id": 736,
+          "name": "Order of the Holy Cross leader defeated",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "ChampionFallen_Jap_Easy",
+      "id": 14522,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "ChampionFallen_Jap",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ChampionFallen_Jap_Normal",
+      "id": 13472,
+      "description": "0 or 1, 1 means that player killed the most powerful Champion of [East Empire] which lives in the capital of this country.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "ChampionFallen_Jap",
+      "accomplishment_tasks": [
+        {
+          "id": 737,
+          "name": "East Empire leader defeated",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "ChampionFallen_Mon_Easy",
+      "id": 14523,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "ChampionFallen_Mon",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ChampionFallen_Mon_Normal",
+      "id": 13473,
+      "description": "0 or 1, 1 means that player killed the most powerful Champion of [Black Horde] which lives in the capital of this country.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "ChampionFallen_Mon",
+      "accomplishment_tasks": [
+        {
+          "id": 738,
+          "name": "Black Horde leader defeated",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "ChampionFallen_Rus_Easy",
+      "id": 14521,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "ChampionFallen_Rus",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ChampionFallen_Rus_Normal",
+      "id": 13471,
+      "description": "0 or 1, 1 means that player killed the most powerful Champion of [Forest Lands] which lives in the capital of this country.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "ChampionFallen_Rus",
+      "accomplishment_tasks": [
+        {
+          "id": 739,
+          "name": "Forest Lands leader defeated",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "ChampionFallen_Viz_Easy",
+      "id": 14519,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "ChampionFallen_Viz",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ChampionFallen_Viz_Normal",
+      "id": 13469,
+      "description": "0 or 1, 1 means that player killed the most powerful Champion of [Great Trade Republic] which lives in the capital of this country. All 6 of ChampionFallen statistics may be used for a hard badge like \"Slain all Great Champions\"",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Defeated Champion of Great Trade Republic",
+      "accomplishment_tasks": [
+        {
+          "id": 740,
+          "name": "Great Trade Republic leader defeated",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "HighScore",
+      "id": 19207,
+      "description": "HighScore",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxDamageInflicted_Easy",
+      "id": 14517,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Max Damage Inflicted - Easy mode",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxDamageInflicted_Normal",
+      "id": 13447,
+      "description": "Max amount of damage inflicted by player's hero to an enemy. The number may be rather high up to 10-20k, but the max damage possible is probably 83872",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Max damage inflicted - Normal mode",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxDamageReceived_Easy",
+      "id": 14518,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Max Damage Received - Easy mode",
+      "accomplishment_tasks": [
+        {
+          "id": 733,
+          "name": "100 damage received",
+          "quota": 100,
+          "granularity": 50
+        }
+      ]
+    },
+    {
+      "name": "MaxDamageReceived_Normal",
+      "id": 13450,
+      "description": "Max amount of damage received by player's hero which DIDN'T kill him. For example, hero has 2500 HP and 100 defense someone hits him for 2550 damage 2500-(2550-100) = 50, so hero is still alive and 2550 sent to statistics. If damage would be 2600 or highe",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Max Damage Received - Normal mode",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxGold_Easy",
+      "id": 14513,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Max Gold - Easy mode",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxGold_Normal",
+      "id": 13443,
+      "description": "Shows max amount of gold player had at a time. For example if player had 2000 gp, bought an armor for 1000 and then completed a quest for 4000, MaxGold is 5000, but if he'd complete a quest before buying something his max could be 6000.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Max Gold - Normal mode",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxHP_Easy",
+      "id": 14514,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Max HP - Easy mode",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxHP_Normal",
+      "id": 13444,
+      "description": "Max amount of hit point hero ever had. The highest possible value is ~3144.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Max HP - Normal mode",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxLevel_Easy",
+      "id": 14512,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Max Level - Easy mode",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxLevel_Normal",
+      "id": 13442,
+      "description": "Shows hero level reached by player, the max is 50. It's almost impossible to complete the game without reaching lv 50.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Max Level - Normal mode",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxRefineRate_Easy",
+      "id": 14516,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Max RefineRate - Easy mode",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxRefineRate_Normal",
+      "id": 13446,
+      "description": "Max level of weapon refining at the forge. Chance of ugrading a weapon to +10 (maximum possible) bonus if rather low: 2%, so it can be used for medium badge.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Max weapon upgrade level - Normal mode",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "OccultRuneFound",
+      "id": 13452,
+      "description": "Occult Rune is a very rare item. Its dropchance is 0.1%. When a battle is won game sends amount of occult runes obtained (if there're any). Of course, this amount is 1 almost always, but it's possible to get 2 or more runes after one battle, but the chanc",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Amount of Occult Runes found",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TownsControlled_Easy",
+      "id": 14515,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Towns Controlled - Easy mode",
+      "accomplishment_tasks": [
+        {
+          "id": 734,
+          "name": "5 towns controlled",
+          "quota": 5,
+          "granularity": 3
+        }
+      ]
+    },
+    {
+      "name": "TownsControlled_Normal",
+      "id": 13445,
+      "description": "Amount of towns player captured. There're 48 cities on the map. So, the game is completed when TownsControlled==48",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Towns captured - Normal mode",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 598,
+      "name": "\"Only a Flesh Wound\"",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 480,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 733,
+          "statistic_id": 14518,
+          "quota": 100,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-598",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 599,
+      "name": "Friendly Neighborhood Barbecue",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 481,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 734,
+          "statistic_id": 14515,
+          "quota": 5,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-599",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 600,
+      "name": "\"There Can Be Only One\"",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 482,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 735,
+          "statistic_id": 13474,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 736,
+          "statistic_id": 13470,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 737,
+          "statistic_id": 13472,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 738,
+          "statistic_id": 13473,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 739,
+          "statistic_id": 13471,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 740,
+          "statistic_id": 13469,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-600",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Vitaly/feudalism-ii/chat.js",
+  "holodeck_url": "/games/Vitaly/feudalism-ii/holodeck",
+  "accomplishments_bootstrap_url": "/games/Vitaly/feudalism-ii/chat_achievements",
+  "sticker_drop_url": "/games/Vitaly/feudalism-ii/sticker_drop",
+  "game_path": "/games/Vitaly/feudalism-ii",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 626,
+    "game_frame_width": 800,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=27459",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

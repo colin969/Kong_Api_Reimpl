@@ -1,0 +1,202 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 293641,
+  "statistics": [
+    {
+      "name": "Start",
+      "id": 133247,
+      "description": "Nombre de fois que le jeu est d\u00e9marr\u00e9",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Finish",
+      "id": 133248,
+      "description": "Le nombre de fois que le jeu a \u00e9t\u00e9 termin\u00e9",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 4320,
+          "name": "Game completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "flyCatched",
+      "id": 133292,
+      "description": "When a fly is catched",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "How many flies did you catch?",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "melody",
+      "id": 133293,
+      "description": "You played a melody (16 notes)",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Melody",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "satie",
+      "id": 133294,
+      "description": "You played a melody of 50 notes",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Erik Satie",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "litz",
+      "id": 133295,
+      "description": "you played a long melody of 100 notes",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Franz Liszt",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "chopin",
+      "id": 133296,
+      "description": "you played a melody of 150 notes! wow! you love music isn't it?",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Fr\u00e9d\u00e9ric Chopin",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "bach",
+      "id": 133297,
+      "description": "You played a melody of 200 notes! you love this little toy, aren't you! Hey! You should consider doing music for real!",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Johann Sebastian Bach",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "littleHunter",
+      "id": 133298,
+      "description": "Get rid of those annoying flies! 5 killed! Not bad little hunter",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Little hunter",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "hellOfASwater",
+      "id": 133299,
+      "description": "Oh gosh, those flies have met a master! \n10 killed, you're a hell of a swatter",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Hell of a swatter",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "devastator",
+      "id": 133300,
+      "description": "kill, kill, kill! That hand hurts! 20 killed! You're a devastator!",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Devastator",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3657,
+      "name": "Children Unchained",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 3045,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4320,
+          "statistic_id": 133248,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3657",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/joquatrevingtdix/krystine-and-the-children-in-chains/chat.js",
+  "holodeck_url": "/games/joquatrevingtdix/krystine-and-the-children-in-chains/holodeck",
+  "accomplishments_bootstrap_url": "/games/joquatrevingtdix/krystine-and-the-children-in-chains/chat_achievements",
+  "sticker_drop_url": "/games/joquatrevingtdix/krystine-and-the-children-in-chains/sticker_drop",
+  "game_path": "/games/joquatrevingtdix/krystine-and-the-children-in-chains",
+  "html_dimensions": {
+    "game_width": 1024,
+    "game_height": 576,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 576,
+    "flash_frame_width": 1327,
+    "flash_frame_height": 602,
+    "game_frame_width": 1024,
+    "game_frame_height": 576,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=293641",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": true,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

@@ -1,0 +1,444 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 56614,
+  "statistics": [
+    {
+      "name": "AllTime",
+      "id": 31585,
+      "description": "Total time playing the game (minutes) [note: this includes leaving game running, not just playing]",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Most Time Played (minutes)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Banana",
+      "id": 31570,
+      "description": "Total bananas you hit",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BestHits",
+      "id": 31565,
+      "description": "Most things hit in one launch",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 1201,
+          "name": "5 hits (single launch)",
+          "quota": 5,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "BigBird",
+      "id": 31572,
+      "description": "Total big birds you hit",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BigBomb",
+      "id": 31568,
+      "description": "Total big bombs you hit",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Bullets",
+      "id": 31560,
+      "description": "Total bullets fired",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Cannon",
+      "id": 31558,
+      "description": "Type of cannon player has (1=old, 2=normal, 3=super, 4=gold, 5=tank)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Chainsaw",
+      "id": 31574,
+      "description": "Total chainsaw men you hit",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Distance",
+      "id": 31555,
+      "description": "Best single launch distance",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Best Distance",
+      "accomplishment_tasks": [
+        {
+          "id": 1203,
+          "name": "3,000,000 feet (single launch)",
+          "quota": 3000000,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Duglet",
+      "id": 31571,
+      "description": "Total angry ground creatures you hit",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Flame",
+      "id": 31579,
+      "description": "Total flame guys you hit",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FloatBomb",
+      "id": 31567,
+      "description": "Total floating bombs you hit",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Goomba",
+      "id": 31569,
+      "description": "Total goombas you hit",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Jeep",
+      "id": 31575,
+      "description": "Total jeeps you hit",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "JetPack",
+      "id": 31559,
+      "description": "Jet pack player has (0=none, 1=rockpack, 2=jetpack, 3=missile)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LandBomb",
+      "id": 31566,
+      "description": "Total land bombs hit",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Launches",
+      "id": 31557,
+      "description": "Total launches",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Total Launches",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Mace",
+      "id": 31573,
+      "description": "Total mace spikes you hit",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medals",
+      "id": 31583,
+      "description": "Total in-game medals awarded",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 1202,
+          "name": "25 medals earned",
+          "quota": 25,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Money",
+      "id": 31582,
+      "description": "Total cash you earned",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Most Money",
+      "accomplishment_tasks": [
+        {
+          "id": 1200,
+          "name": "$1,000 earned (single launch)",
+          "quota": 1000,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Nukes",
+      "id": 31563,
+      "description": "Nukes used",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SmallBird",
+      "id": 31578,
+      "description": "Total small birds you hit",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Spikes",
+      "id": 31576,
+      "description": "Total ground spikes you hit",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Sunny",
+      "id": 31580,
+      "description": "Total suns you hit",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalDistance",
+      "id": 31556,
+      "description": "Total distance for all launches",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Total Distance",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalHits",
+      "id": 31564,
+      "description": "Total number of things you hit",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Total Things Hit",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalTime",
+      "id": 31589,
+      "description": "Total time playing (seconds) [note: time only between launch and landing]",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Total Flight Time (seconds)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "UFO",
+      "id": 31581,
+      "description": "Total UFOs you hit",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "WallSpikes",
+      "id": 31577,
+      "description": "Total wall spikes you hit",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1003,
+      "name": "Fun and Profit",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 790,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1200,
+          "statistic_id": 31582,
+          "quota": 1000,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1003",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 1,
+        "name": "Beginner",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1004,
+      "name": "Help From My Little Friends",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 791,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1201,
+          "statistic_id": 31565,
+          "quota": 5,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1004",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1005,
+      "name": "Medal Meddler",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 792,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1202,
+          "statistic_id": 31583,
+          "quota": 25,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1005",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 6,
+        "name": "Best of 2009",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1006,
+      "name": "\"I Like Turtles\"",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 793,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1203,
+          "statistic_id": 31555,
+          "quota": 3000000,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1006",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Foreverkul/toss-the-turtle/chat.js",
+  "holodeck_url": "/games/Foreverkul/toss-the-turtle/holodeck",
+  "accomplishments_bootstrap_url": "/games/Foreverkul/toss-the-turtle/chat_achievements",
+  "sticker_drop_url": "/games/Foreverkul/toss-the-turtle/sticker_drop",
+  "game_path": "/games/Foreverkul/toss-the-turtle",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 500,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 13,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 553,
+    "game_frame_width": 800,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=56614",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": true,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": null,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

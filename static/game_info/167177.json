@@ -1,0 +1,627 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 167177,
+  "statistics": [
+    {
+      "name": "achievement1",
+      "id": 90293,
+      "description": "Complete all of the missions",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "display_name": "Complete all of the missions",
+      "accomplishment_tasks": [
+        {
+          "id": 3233,
+          "name": "All missions completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "achievement10",
+      "id": 90302,
+      "description": "Complete a level without crashing",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "display_name": "Complete a level without crashing",
+      "accomplishment_tasks": [
+        {
+          "id": 3231,
+          "name": "Race complete with no crash",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "achievement11",
+      "id": 90303,
+      "description": "Buy a shiny new paint job for one of the cars",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "display_name": "Buy a shiny new paint job for one of the cars",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "achievement12",
+      "id": 90304,
+      "description": "Do a back flip using Routemaster",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "display_name": "Do a back flip using Routemaster",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "achievement2",
+      "id": 90294,
+      "description": "Get first place in every race",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "display_name": "Get first place in every race",
+      "accomplishment_tasks": [
+        {
+          "id": 3234,
+          "name": "All first-placed finishes",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "achievement3",
+      "id": 90295,
+      "description": "Collect all of the gold coins on every level",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "display_name": "Collect all of the gold coins on every level",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "achievement4",
+      "id": 90296,
+      "description": "Upgrade car stats to maximum",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "display_name": "Upgrade car stats to maximum",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "achievement5",
+      "id": 90297,
+      "description": "Unlock and purchase every car",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "display_name": "Unlock and purchase every car",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "achievement6",
+      "id": 90298,
+      "description": "Get first place on level 17 using Mr Whiffy",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "display_name": "Get first place on level 17 using Mr Whiffy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "achievement7",
+      "id": 90299,
+      "description": "Get a first place on any level",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "display_name": "Get a first place on any level",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "achievement8",
+      "id": 90300,
+      "description": "Get first place on level 4 using Routemaster",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "display_name": "Get first place on level 4 using Routemaster",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "achievement9",
+      "id": 90301,
+      "description": "Knock over 50 traffic cones",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "display_name": "Knock over 50 traffic cones",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "achievementsCompleted",
+      "id": 90483,
+      "description": "Number of achievements completed",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GameCompleted",
+      "id": 90191,
+      "description": "Game Complete - All levels and Achievements have been completed.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Game Completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "level10besttime",
+      "id": 90206,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "level 10 fastest time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "level11besttime",
+      "id": 90207,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "level 11 fastest time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "level12besttime",
+      "id": 90208,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "level 12 fastest time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "level13besttime",
+      "id": 90209,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "level 13 fastest time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "level14besttime",
+      "id": 90210,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "level 14 fastest time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "level15besttime",
+      "id": 90211,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "level 15 fastest time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "level16besttime",
+      "id": 90212,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "level 16 fastest time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "level17besttime",
+      "id": 90213,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "level 17 fastest time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "level18besttime",
+      "id": 90214,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "level 18 fastest time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "level1besttime",
+      "id": 90197,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "level 1 fastest time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "level2besttime",
+      "id": 90198,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "level 2 fastest time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "level3besttime",
+      "id": 90199,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "level 3 fastest time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "level4besttime",
+      "id": 90200,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "level 4 fastest time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "level5besttime",
+      "id": 90201,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "level 5 fastest time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "level6besttime",
+      "id": 90202,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "level 6 fastest time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "level7besttime",
+      "id": 90203,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "level 7 fastest time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "level8besttime",
+      "id": 90204,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "level 8 fastest time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "level9besttime",
+      "id": 90205,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "level 9 fastest time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "levelsCompleted",
+      "id": 90292,
+      "description": "Number of levels completed",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "display_name": "Number of levels completed",
+      "accomplishment_tasks": [
+        {
+          "id": 3232,
+          "name": "18 levels completed",
+          "quota": 18,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "totalTime",
+      "id": 90291,
+      "description": "Total time for all levels",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Total time for all levels",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "z1",
+      "id": 90173,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "z10",
+      "id": 90182,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "z11",
+      "id": 90183,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "z12",
+      "id": 90184,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "z13",
+      "id": 90185,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "z14",
+      "id": 90186,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "z15",
+      "id": 90187,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "z16",
+      "id": 90188,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "z17",
+      "id": 90189,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "z18",
+      "id": 90190,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "z2",
+      "id": 90174,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "z3",
+      "id": 90175,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "z4",
+      "id": 90176,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "z5",
+      "id": 90177,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "z6",
+      "id": 90178,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "z7",
+      "id": 90179,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "z8",
+      "id": 90180,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "z9",
+      "id": 90181,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2784,
+      "name": "Smooth Criminal",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2296,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3231,
+          "statistic_id": 90302,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2784",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2785,
+      "name": "Legendary Driver",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2297,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3232,
+          "statistic_id": 90292,
+          "quota": 18,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2785",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2786,
+      "name": "Deeds 'n' Speed",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2298,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3233,
+          "statistic_id": 90293,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3234,
+          "statistic_id": 90294,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2786",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/PaulGene/renegade-racing/chat.js",
+  "holodeck_url": "/games/PaulGene/renegade-racing/holodeck",
+  "accomplishments_bootstrap_url": "/games/PaulGene/renegade-racing/chat_achievements",
+  "sticker_drop_url": "/games/PaulGene/renegade-racing/sticker_drop",
+  "game_path": "/games/PaulGene/renegade-racing",
+  "html_dimensions": {
+    "game_width": 700,
+    "game_height": 400,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 63,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1003,
+    "flash_frame_height": 553,
+    "game_frame_width": 700,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=167177",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

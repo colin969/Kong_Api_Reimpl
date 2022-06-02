@@ -1,0 +1,399 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 125281,
+  "statistics": [
+    {
+      "name": "Armory",
+      "id": 68830,
+      "description": "Number of times an equipment has been upgraded",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Items upgraded",
+      "accomplishment_tasks": [
+        {
+          "id": 2410,
+          "name": "5 Items Upgraded in the Armory",
+          "quota": 5,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Bestiary",
+      "id": 68818,
+      "description": "Number of monsters met and logged in the Bestiary",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Explore",
+      "id": 68815,
+      "description": "Number of floors explored",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FeedPet",
+      "id": 68832,
+      "description": "Number of times Slime Pet is Fed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Gold",
+      "id": 68831,
+      "description": "Number of gold accumulated.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "KingSlime",
+      "id": 68817,
+      "description": "Defeated Kingslime",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level",
+      "id": 68814,
+      "description": "Highest character level achieved.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MainBoss1",
+      "id": 68820,
+      "description": "Beat Rock",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Beat Rock",
+      "accomplishment_tasks": [
+        {
+          "id": 2411,
+          "name": "Rock Defeated",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "MainBoss2",
+      "id": 68821,
+      "description": "Beat Bop",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MainBoss3",
+      "id": 68822,
+      "description": "Beat Rock twice",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MainBoss4",
+      "id": 68823,
+      "description": "Beat Bop twice",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MainBoss5",
+      "id": 68824,
+      "description": "Defeat Dargon",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Main Story Complete",
+      "accomplishment_tasks": [
+        {
+          "id": 2413,
+          "name": "Game Completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Nyan",
+      "id": 68838,
+      "description": "Number of times the secret hidden button is pressed.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Rare",
+      "id": 68833,
+      "description": "Number of times a rare monster is killed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SideQuest1",
+      "id": 68826,
+      "description": "Complete the MISSING quest line",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SideQuest2",
+      "id": 68827,
+      "description": "Complete the STOLEN quest line",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TreeFighter",
+      "id": 68834,
+      "description": "Highest amount of AP spent on the Fighter Tree",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TreeHealer",
+      "id": 68837,
+      "description": "Highest amount of AP spent on the Healer Tree",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TreeMage",
+      "id": 68836,
+      "description": "Highest amount of AP spent on the Mage Tree",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TreeRogue",
+      "id": 68835,
+      "description": "Highest amount of AP spent on the Rogue Tree",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "UltimateSlayersDargon",
+      "id": 68825,
+      "description": "Defeat Ultimate Dargon",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "WantedBosses",
+      "id": 68819,
+      "description": "Number of wanted bosses killed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Wanted Bosses",
+      "accomplishment_tasks": [
+        {
+          "id": 2412,
+          "name": "5 Wanted Bosses Defeated",
+          "quota": 5,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Warp",
+      "id": 68816,
+      "description": "Number of warps discovered",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ZombieDefenseExpert",
+      "id": 68829,
+      "description": "Beat Zombie Defense on Expert",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ZombieDefenseHard",
+      "id": 68828,
+      "description": "Beat Zombie Defense on Hard",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2059,
+      "name": "The Sword Makes the Man",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1679,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2410,
+          "statistic_id": 68830,
+          "quota": 5,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2059",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2060,
+      "name": "Fist Beats Rock",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1680,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2411,
+          "statistic_id": 68820,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2060",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2061,
+      "name": "Land of Great Bounty",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1681,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2412,
+          "statistic_id": 68819,
+          "quota": 5,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2061",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2062,
+      "name": "A Hiro Is Born",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1682,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2413,
+          "statistic_id": 68824,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2062",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/lan14n/crystal-story/chat.js",
+  "holodeck_url": "/games/lan14n/crystal-story/holodeck",
+  "accomplishments_bootstrap_url": "/games/lan14n/crystal-story/chat_achievements",
+  "sticker_drop_url": "/games/lan14n/crystal-story/sticker_drop",
+  "game_path": "/games/lan14n/crystal-story",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 943,
+    "flash_frame_height": 553,
+    "game_frame_width": 640,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=125281",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

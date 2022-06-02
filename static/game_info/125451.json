@@ -1,0 +1,361 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 125451,
+  "statistics": [
+    {
+      "name": "beatGame",
+      "id": 68950,
+      "description": "Did they beat the game (max 1)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Beat Game",
+      "accomplishment_tasks": [
+        {
+          "id": 2431,
+          "name": "Game Completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "enemiesLaunched",
+      "id": 68939,
+      "description": "Enemies juggled and launched into space (awards at 20,50,100)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Enemies Launched",
+      "accomplishment_tasks": [
+        {
+          "id": 2429,
+          "name": "5 Enemies Launched",
+          "quota": 5,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "killsWithMinecarts",
+      "id": 68945,
+      "description": "Enemies killed with Mine Carts (in-game award at 20)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Kills with Mine Carts",
+      "accomplishment_tasks": [
+        {
+          "id": 2430,
+          "name": "5 Enemies Killed with Minecarts",
+          "quota": 5,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "killsWithRockets",
+      "id": 68943,
+      "description": "Enemies killed with rideable Barrel Rockets (in-game award at 30)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Kills with Barrel Rockets",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "levelsCompleted",
+      "id": 68949,
+      "description": "Levels Completed (max 12)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Levels Completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "predatorBadge",
+      "id": 68938,
+      "description": "Killed 10 Piranhas with Crocodiles in Whiplash Rapids (max 1)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Predator Badge",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "statsAtTwo",
+      "id": 68937,
+      "description": "All Stats are Level 2 or higher (max 1)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Stat Spreader Badge",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totalBadgesEarned",
+      "id": 68948,
+      "description": "In-game Badges Earned (max 60)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Badges Earned",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totalChallengesCompleted",
+      "id": 68947,
+      "description": "Challenges Completed (max 60)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Challenges Completed",
+      "accomplishment_tasks": [
+        {
+          "id": 2432,
+          "name": "40 Challenges Completed",
+          "quota": 40,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "totalScore",
+      "id": 68953,
+      "description": "Total Score (any, around 100,000 - 200,000 is normal)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totalTreasuresEarned",
+      "id": 68946,
+      "description": "Total Treasures (max 60)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Treasures Found",
+      "accomplishment_tasks": [
+        {
+          "id": 2433,
+          "name": "40 Hidden Treasures Found",
+          "quota": 40,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "totalUpgradesMaxed",
+      "id": 68952,
+      "description": "Total Stats that are at max level (max 9 stats)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Stats Maxed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totalUpgradesPurchased",
+      "id": 68951,
+      "description": "Total Stat Upgrades purchased (max 45)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Stat Upgrades Purchased",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "wallsWithRockets",
+      "id": 68944,
+      "description": "Breakable walls destroyed with Barrel Rockets (in-game awards at 100 and 250)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Walls Broken with Rockets",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "weaponsMastered",
+      "id": 68940,
+      "description": "Weapons Mastered (max 75)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Weapons Mastered",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "weaponsPurchased",
+      "id": 68942,
+      "description": "Weapons purchased from the Arsenal menu at Starting Weapons (max 74, in-game awards at 1 and 10)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Weapons Purchased",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "weaponsUsed",
+      "id": 68941,
+      "description": "Weapons used to kill enemies in-game (max 76, in-game awards at 10 and 76)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Weapons Used",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2077,
+      "name": "Going Up?",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1697,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2429,
+          "statistic_id": 68939,
+          "quota": 5,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2077",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2078,
+      "name": "Derailed",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1698,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2430,
+          "statistic_id": 68945,
+          "quota": 5,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2078",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2079,
+      "name": "Once Upon a Time in the West",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1699,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2431,
+          "statistic_id": 68950,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2079",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2080,
+      "name": "Cacti Am Legend",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1700,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2432,
+          "statistic_id": 68947,
+          "quota": 40,
+          "operator": "AND"
+        },
+        {
+          "id": 2433,
+          "statistic_id": 68946,
+          "quota": 40,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2080",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/FliplineStudios/cactus-mccoy-2/chat.js",
+  "holodeck_url": "/games/FliplineStudios/cactus-mccoy-2/holodeck",
+  "accomplishments_bootstrap_url": "/games/FliplineStudios/cactus-mccoy-2/chat_achievements",
+  "sticker_drop_url": "/games/FliplineStudios/cactus-mccoy-2/sticker_drop",
+  "game_path": "/games/FliplineStudios/cactus-mccoy-2",
+  "html_dimensions": {
+    "game_width": 608,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 6,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 923,
+    "flash_frame_height": 553,
+    "game_frame_width": 620,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=125451",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

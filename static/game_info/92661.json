@@ -1,0 +1,282 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 92661,
+  "statistics": [
+    {
+      "name": "ChaptersCompleted",
+      "id": 48279,
+      "description": "Number of chapters completed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Chapters Completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GameComplete",
+      "id": 48693,
+      "description": "Game completed (Chapter 20)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Game Completed",
+      "accomplishment_tasks": [
+        {
+          "id": 1702,
+          "name": "Game completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "GoldCollected",
+      "id": 48700,
+      "description": "Amount of Gold collected",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Gold Collection",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GoldEarnedOneGame",
+      "id": 48728,
+      "description": "Gold earned in a single game",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Gold Earned (Single Game)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HatsUnlocked",
+      "id": 48717,
+      "description": "Number of Hats unlocked",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Hats Unlocked",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MultiplayerWon",
+      "id": 48699,
+      "description": "Player won a multiplayer match",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Multiplayer Matches Won",
+      "accomplishment_tasks": [
+        {
+          "id": 1700,
+          "name": "Player army defeated",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "RankAchieved",
+      "id": 48718,
+      "description": "Challenge rank achieved after the game is completed. Winning battles raises the rank by 1 (and makes everything harder!). Losing a battle drops the rank by 4!",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Rank Achieved (After Game Completion)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Upgrade_divine",
+      "id": 48698,
+      "description": "Player upgraded a unit to Divine",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Unit upgraded to Divine",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Upgrade_elite",
+      "id": 48696,
+      "description": "Player upgraded a unit to Elite",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Unit Upgraded to Elite",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Upgrade_imperial",
+      "id": 48694,
+      "description": "Player upgraded a unit to Imperial",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Unit Upgraded to Imperial",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Upgrade_legendary",
+      "id": 48697,
+      "description": "Player upgraded a unit to Legendary",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Unit Upgraded to Legendary",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Upgrade_veteran",
+      "id": 48695,
+      "description": "Player upgraded a unit to Veteran",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Unit Upgraded to Veteran",
+      "accomplishment_tasks": [
+        {
+          "id": 1701,
+          "name": "Veteran rank achieved",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1433,
+      "name": "Player Slayer",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1155,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1700,
+          "statistic_id": 48699,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1433",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1434,
+      "name": "Veteran Veterinarian",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1156,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1701,
+          "statistic_id": 48695,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1434",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 13,
+        "name": "Best of 2010",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1435,
+      "name": "Song of the Slayer",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1157,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1702,
+          "statistic_id": 48693,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1435",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/nerdook/monster-slayers/chat.js",
+  "holodeck_url": "/games/nerdook/monster-slayers/holodeck",
+  "accomplishments_bootstrap_url": "/games/nerdook/monster-slayers/chat_achievements",
+  "sticker_drop_url": "/games/nerdook/monster-slayers/sticker_drop",
+  "game_path": "/games/nerdook/monster-slayers",
+  "html_dimensions": {
+    "game_width": 550,
+    "game_height": 500,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 35,
+    "game_top": 13,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 923,
+    "flash_frame_height": 553,
+    "game_frame_width": 620,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=92661",
+  "shared_content_type_permalinks": [
+    "slayers"
+  ],
+  "shared_content_type_names": [
+    "slayers"
+  ],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

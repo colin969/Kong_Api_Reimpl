@@ -1,0 +1,619 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 93666,
+  "statistics": [
+    {
+      "name": "BeatGame",
+      "id": 49126,
+      "description": "Game completed:\n\n1 = World 8 complete.\n2 = World 10 complete.\n3 = World 10 complete on Advanced Mode.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3175,
+          "name": "Game Completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Coins",
+      "id": 49086,
+      "description": "Coins collected throughout the game (the sum of coins collected in each world, including advanced mode)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Coins Collected",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Deaths",
+      "id": 49087,
+      "description": "Sum of all death counts from each world, including advanced mode.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medals",
+      "id": 49085,
+      "description": "Number of medals earned by a player.\n\nBronze medals are worth 1 point.\nSilver medals are worth 2 points.\nGold medals are worth 3 points.\nPlatinum (Devbest) medals are worth 4 points.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Medals Collected",
+      "accomplishment_tasks": [
+        {
+          "id": 3176,
+          "name": "50 Medals Earned",
+          "quota": 50,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Switches",
+      "id": 49088,
+      "description": "Sum of all switch counts from each world, including advanced mode.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalDeaths",
+      "id": 49152,
+      "description": "Total accumulated deaths throughout the game, resets when a new game is started.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Highest Death Rates",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Trophies",
+      "id": 49084,
+      "description": "Number of trophies earned by a player.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 3179,
+          "name": "9 Trophies Earned",
+          "quota": 9,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "World10Switch",
+      "id": 49137,
+      "description": "Best switch score on World 10.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 10 Switches",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World10SwitchAdv",
+      "id": 49147,
+      "description": "Best switch score on World 10 (Advanced Mode).",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 10 Advanced Switches",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World10Time",
+      "id": 49073,
+      "description": "Best time on World 10.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 10 Times",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World10TimeAdv",
+      "id": 49083,
+      "description": "Best time on World 10 (Advanced Mode).",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 10 Advanced Times",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World1Switch",
+      "id": 49128,
+      "description": "Best switch score on World 1.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 1 Switches",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World1SwitchAdv",
+      "id": 49138,
+      "description": "Best switch score on World 1 (Advanced Mode).",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 1 Advanced Switches",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World1Time",
+      "id": 49064,
+      "description": "Best time on World 1.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 1 Times",
+      "accomplishment_tasks": [
+        {
+          "id": 3174,
+          "name": "World 1 Completed",
+          "quota": 9223372036854775807,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "World1TimeAdv",
+      "id": 49074,
+      "description": "Best time on World 1 (Advanced Mode).",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 1 Advanced Times",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World2Switch",
+      "id": 49129,
+      "description": "Best switch score on World 2.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 2 Switches",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World2SwitchAdv",
+      "id": 49139,
+      "description": "Best switch score on World 2 (Advanced Mode).",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 2 Advanced Switches",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World2Time",
+      "id": 49065,
+      "description": "Best time on World 2.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 2 Times",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World2TimeAdv",
+      "id": 49075,
+      "description": "Best time on World 2 (Advanced Mode).",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 2 Advanced Times",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World3Switch",
+      "id": 49130,
+      "description": "Best switch score on World 3.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 3 Switches",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World3SwitchAdv",
+      "id": 49140,
+      "description": "Best switch score on World 3 (Advanced Mode).",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 3 Advanced Switches",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World3Time",
+      "id": 49066,
+      "description": "Best time on World 3.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 3 Times",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World3TimeAdv",
+      "id": 49076,
+      "description": "Best time on World 3 (Advanced Mode).",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 3 Advanced Times",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World4Switch",
+      "id": 49131,
+      "description": "Best switch score on World 4.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 4 Switches",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World4SwitchAdv",
+      "id": 49141,
+      "description": "Best switch score on World 4 (Advanced Mode).",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 4 Advanced Switches",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World4Time",
+      "id": 49067,
+      "description": "Best time on World 4.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 4 Times",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World4TimeAdv",
+      "id": 49077,
+      "description": "Best time on World 4 (Advanced Mode).",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 4 Advanced Times",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World5Switch",
+      "id": 49132,
+      "description": "Best switch score on World 5.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 5 Switches",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World5SwitchAdv",
+      "id": 49142,
+      "description": "Best switch score on World 5 (Advanced Mode).",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 5 Advanced Switches",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World5Time",
+      "id": 49068,
+      "description": "Best time on World 5.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 5 Times",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World5TimeAdv",
+      "id": 49078,
+      "description": "Best time on World 5 (Advanced Mode).",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 5 Advanced Times",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World6Switch",
+      "id": 49133,
+      "description": "Best switch score on World 6.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 6 Switches",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World6SwitchAdv",
+      "id": 49143,
+      "description": "Best switch score on World 6 (Advanced Mode).",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 6 Advanced Switches",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World6Time",
+      "id": 49069,
+      "description": "Best time on World 6.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 6 Times",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World6TimeAdv",
+      "id": 49079,
+      "description": "Best time on World 6 (Advanced Mode).",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 6 Advanced Times",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World7Switch",
+      "id": 49134,
+      "description": "Best switch score on World 7.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 7 Switches",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World7SwitchAdv",
+      "id": 49144,
+      "description": "Best switch score on World 7 (Advanced Mode).",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 7 Advanced Switches",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World7Time",
+      "id": 49070,
+      "description": "Best time on World 7.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 7 Times",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World7TimeAdv",
+      "id": 49080,
+      "description": "Best time on World 7 (Advanced Mode).",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 7 Advanced Times",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World8Switch",
+      "id": 49135,
+      "description": "Best switch score on World 8.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 8 Switches",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World8SwitchAdv",
+      "id": 49145,
+      "description": "Best switch score on World 8 (Advanced Mode).",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 8 Advanced Switches",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World8Time",
+      "id": 49071,
+      "description": "Best time on World 8.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 8 Times",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World8TimeAdv",
+      "id": 49081,
+      "description": "Best time on World 8 (Advanced Mode).",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 8 Advanced Times",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World9Switch",
+      "id": 49136,
+      "description": "Best switch score on World 9.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 9 Switches",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World9SwitchAdv",
+      "id": 49146,
+      "description": "Best switch score on World 9 (Advanced Mode).",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 9 Advanced Switches",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World9Time",
+      "id": 49072,
+      "description": "Best time on World 9.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 9 Times",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "World9TimeAdv",
+      "id": 49082,
+      "description": "Best time on World 9 (Advanced Mode).",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "World 9 Advanced Times",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "WorldsBeatenNoDeaths",
+      "id": 49127,
+      "description": "Amount of worlds completed without dying. World's completed without dying in normal and in advanced mode are counted twice (So if all worlds are completed without dying, this should amount to 20)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Worlds Beaten No Deaths",
+      "accomplishment_tasks": [
+        {
+          "id": 3180,
+          "name": "6 Worlds Beaten Without Deaths",
+          "quota": 6,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2737,
+      "name": "Forest for the Trees",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2257,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3174,
+          "statistic_id": 49064,
+          "quota": 9223372036854775807,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2737",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2738,
+      "name": "Golden Opportunity",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2258,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3175,
+          "statistic_id": 49126,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2738",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2739,
+      "name": "Llama Lampooning",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2259,
+      "level": "impossible",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3176,
+          "statistic_id": 49085,
+          "quota": 50,
+          "operator": "AND"
+        },
+        {
+          "id": 3179,
+          "statistic_id": 49084,
+          "quota": 9,
+          "operator": "AND"
+        },
+        {
+          "id": 3180,
+          "statistic_id": 49127,
+          "quota": 6,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2739",
+      "reward_points": 60,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Jindo/vertigo-gravity-llama/chat.js",
+  "holodeck_url": "/games/Jindo/vertigo-gravity-llama/holodeck",
+  "accomplishments_bootstrap_url": "/games/Jindo/vertigo-gravity-llama/chat_achievements",
+  "sticker_drop_url": "/games/Jindo/vertigo-gravity-llama/sticker_drop",
+  "game_path": "/games/Jindo/vertigo-gravity-llama",
+  "html_dimensions": {
+    "game_width": 650,
+    "game_height": 400,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 63,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 953,
+    "flash_frame_height": 553,
+    "game_frame_width": 650,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=93666",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

@@ -1,0 +1,278 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 141871,
+  "statistics": [
+    {
+      "name": "--",
+      "id": 78361,
+      "description": "344",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Hokum B",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "acc1",
+      "id": 78366,
+      "description": "Reach 80% accuracy on the day 4.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Sharpshooter",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "acc2",
+      "id": 78367,
+      "description": "Reach 80% accuracy on the day 7.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Sniper",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "armor1",
+      "id": 78368,
+      "description": "Complete the day 5 with 100% armor.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Thick armor",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "armor2",
+      "id": 78369,
+      "description": "Complete the day 11 with 100% armor.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Unstoppable",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "boss1",
+      "id": 78370,
+      "description": "Destroy helicopter boss on the day 10.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Hokum B",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "boss2",
+      "id": 78371,
+      "description": "Destroy laser tank boss on the day 15.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Burner 1K35",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "emp",
+      "id": 78372,
+      "description": "Prevent actuation of all EMP tanks on the day 9.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "No Pulse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "human1",
+      "id": 78376,
+      "description": "Kill 15 soldiers in 5 seconds.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Annihilation",
+      "accomplishment_tasks": [
+        {
+          "id": 2804,
+          "name": "15 Soldiers Killed in 5 Seconds",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "human2",
+      "id": 78362,
+      "description": "Kill 35 soldiers in 5 seconds.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Grim Reaper",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "time1",
+      "id": 78364,
+      "description": "Complete the day 3 less than 1 minute.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Quick Clean-up",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "time2",
+      "id": 78365,
+      "description": "Complete the day 14 less than 2:15.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "truck",
+      "id": 78363,
+      "description": "Destroy all kamikaze trucks on the day 8.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Good Reaction",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "upgArmor",
+      "id": 78374,
+      "description": "Upgrade armor strength to the maximum.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Immortal",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "upgDamage",
+      "id": 78373,
+      "description": "Upgrade ray damage to the maximum.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Devastator",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "victory",
+      "id": 78375,
+      "description": "Complete the day 15 less than 1:30.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Great Victory",
+      "accomplishment_tasks": [
+        {
+          "id": 2805,
+          "name": "Level 15 Cleared in 1:30 or Less",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2399,
+      "name": "Splash Damage",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1971,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2804,
+          "statistic_id": 78376,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2399",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2400,
+      "name": "Getting Tanked",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1972,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2805,
+          "statistic_id": 78375,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2400",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/OlegAntipov/tripod-attack/chat.js",
+  "holodeck_url": "/games/OlegAntipov/tripod-attack/holodeck",
+  "accomplishments_bootstrap_url": "/games/OlegAntipov/tripod-attack/chat_achievements",
+  "sticker_drop_url": "/games/OlegAntipov/tripod-attack/sticker_drop",
+  "game_path": "/games/OlegAntipov/tripod-attack",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 420,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 53,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 553,
+    "game_frame_width": 800,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=141871",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

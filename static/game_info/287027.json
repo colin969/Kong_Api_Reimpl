@@ -1,0 +1,444 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 287027,
+  "statistics": [
+    {
+      "name": "AzorChampion",
+      "id": 131331,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Azor Champions",
+      "accomplishment_tasks": [
+        {
+          "id": 4231,
+          "name": "Azor champion",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "BattlesWon",
+      "id": 131611,
+      "description": "Number of battles that player won",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Battles Won",
+      "accomplishment_tasks": [
+        {
+          "id": 4229,
+          "name": "10 battles won",
+          "quota": 10,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "GameCompleted",
+      "id": 131325,
+      "description": "1 meas that player successfully completed the game.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Game Completed",
+      "accomplishment_tasks": [
+        {
+          "id": 4237,
+          "name": "Game completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "GedoChampion",
+      "id": 131329,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Gedo Champions",
+      "accomplishment_tasks": [
+        {
+          "id": 4232,
+          "name": "Gedo champion",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "HardModeGameCompleted",
+      "id": 131326,
+      "description": "1 means that player successfully completed game on the max level difficulty",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Hard Mode",
+      "accomplishment_tasks": [
+        {
+          "id": 4238,
+          "name": "\"Hardcore\" mode completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "HeroMaxLevel",
+      "id": 131328,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Max Heroes Level",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "initialized",
+      "id": 131338,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Initialized",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "NitChampion",
+      "id": 131330,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Nit Champions",
+      "accomplishment_tasks": [
+        {
+          "id": 4233,
+          "name": "Nit champion",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "QuestsCompleted",
+      "id": 131612,
+      "description": "Number of quests that player completed",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Quests Completed",
+      "accomplishment_tasks": [
+        {
+          "id": 4230,
+          "name": "1 quest completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "TavrosChampion",
+      "id": 131333,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Tavros Champions",
+      "accomplishment_tasks": [
+        {
+          "id": 4234,
+          "name": "Tavros champion",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "ToDelete1",
+      "id": 131319,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "GedoChampion",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ToDetele2",
+      "id": 131320,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "NitChampion",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ToDetele3",
+      "id": 131321,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "AzorChampion",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ToDetele4",
+      "id": 131322,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "VazzarChampion",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ToDetele5",
+      "id": 131323,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "TavrosChampion",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ToDetele6",
+      "id": 131324,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "ZoonChampion",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "VazzarChampion",
+      "id": 131332,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Vazzar Champions",
+      "accomplishment_tasks": [
+        {
+          "id": 4235,
+          "name": "Hazzar champion",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "VictoryPoints",
+      "id": 131327,
+      "description": "Glory points that player get after finishing the game",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Glory Points",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ZoonChampion",
+      "id": 131334,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Zoon Champions",
+      "accomplishment_tasks": [
+        {
+          "id": 4236,
+          "name": "Zoon champion",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3592,
+      "name": "\"We're Going on an Adventure!\"",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2983,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4229,
+          "statistic_id": 131611,
+          "quota": 10,
+          "operator": "AND"
+        },
+        {
+          "id": 4230,
+          "statistic_id": 131612,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3592",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3593,
+      "name": "Path of Devotion",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2984,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4231,
+          "statistic_id": 131331,
+          "quota": 1,
+          "operator": "OR"
+        },
+        {
+          "id": 4232,
+          "statistic_id": 131329,
+          "quota": 1,
+          "operator": "OR"
+        },
+        {
+          "id": 4233,
+          "statistic_id": 131330,
+          "quota": 1,
+          "operator": "OR"
+        },
+        {
+          "id": 4234,
+          "statistic_id": 131333,
+          "quota": 1,
+          "operator": "OR"
+        },
+        {
+          "id": 4235,
+          "statistic_id": 131332,
+          "quota": 1,
+          "operator": "OR"
+        },
+        {
+          "id": 4236,
+          "statistic_id": 131334,
+          "quota": 1,
+          "operator": "OR"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3593",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3594,
+      "name": "Vorag Vanquisher",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2985,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4237,
+          "statistic_id": 131325,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3594",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3595,
+      "name": "Dangerous Lands",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2986,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4238,
+          "statistic_id": 131326,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3595",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/drakonian_lord/wondrous-lands/chat.js",
+  "holodeck_url": "/games/drakonian_lord/wondrous-lands/holodeck",
+  "accomplishments_bootstrap_url": "/games/drakonian_lord/wondrous-lands/chat_achievements",
+  "sticker_drop_url": "/games/drakonian_lord/wondrous-lands/sticker_drop",
+  "game_path": "/games/drakonian_lord/wondrous-lands",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 550,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 550,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 576,
+    "game_frame_width": 800,
+    "game_frame_height": 550,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=287027",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": true,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

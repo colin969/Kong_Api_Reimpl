@@ -1,0 +1,348 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 157749,
+  "statistics": [
+    {
+      "name": "AlchemyRecipes",
+      "id": 86152,
+      "description": "Number of Alchemy Recipes Discovered",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ArtifactsLooted",
+      "id": 86147,
+      "description": "Number of Artifacts found",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Artifacts Recovered",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "CampaignComplete",
+      "id": 86151,
+      "description": "Has Finished the main campaign? (1= True 0=false)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Game Complete",
+      "accomplishment_tasks": [
+        {
+          "id": 3096,
+          "name": "Campaign Completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "ChestsOpened",
+      "id": 86159,
+      "description": "Number of Chests Opened",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Chests Looted",
+      "accomplishment_tasks": [
+        {
+          "id": 3094,
+          "name": "25 Chests Opened",
+          "quota": 25,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Disenchants",
+      "id": 86155,
+      "description": "Number of items Disenchanted",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Items Disenchanted",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DungeonsCleansed",
+      "id": 86148,
+      "description": "Number of Dungeons Finished",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Dungeons Cleared",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EnemiesKilled",
+      "id": 86143,
+      "description": "Total Enemies Killed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Enemies Killed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FloorsPlaced",
+      "id": 86158,
+      "description": "Number of floor tiles purchased for home",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Floors Purchased",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FoodMunched",
+      "id": 86146,
+      "description": "Number of food items eaten in dungeons",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FurnitureSwiped",
+      "id": 86156,
+      "description": "number of Dungeon furniture items stolen",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Furniture Stolen",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxedSkills",
+      "id": 86160,
+      "description": "Number of skills at maximum level",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Maxed Skills",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxHealth",
+      "id": 86140,
+      "description": "Player's Maximum Health",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Health",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxMana",
+      "id": 86141,
+      "description": "Player's Maximum Mana",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Mana",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SmithingRecipes",
+      "id": 86153,
+      "description": "Number of Smithing Recipes Discovered",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SpellsCast",
+      "id": 86150,
+      "description": "Number of Spells Cast",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TacticalKills",
+      "id": 86144,
+      "description": "Enemies Killed during Tactical battles",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Tactical Battle Kills",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TacticalWins",
+      "id": 86149,
+      "description": "Number of Tactical Battles Won",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Tactical Victories",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TailoringRecipes",
+      "id": 86154,
+      "description": "Number of Tailor Recipes Discovered",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalFame",
+      "id": 86142,
+      "description": "Player's Total Fame Points",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Fame",
+      "accomplishment_tasks": [
+        {
+          "id": 3095,
+          "name": "1,500 Fame Earned",
+          "quota": 1500,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "WallsSwiped",
+      "id": 86157,
+      "description": "number of Walls stolen",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Walls Stolen",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Wealth",
+      "id": 86145,
+      "description": "Highest Wealth",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2661,
+      "name": "Dungeon Pits to Chesty",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2198,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3094,
+          "statistic_id": 86159,
+          "quota": 25,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2661",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2662,
+      "name": "Fame Game",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2199,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3095,
+          "statistic_id": 86142,
+          "quota": 1500,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2662",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2663,
+      "name": "Our Retired Explorer",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2200,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3096,
+          "statistic_id": 86151,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2663",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/undefined/arkandian-explorer/chat.js",
+  "holodeck_url": "/games/undefined/arkandian-explorer/holodeck",
+  "accomplishments_bootstrap_url": "/games/undefined/arkandian-explorer/chat_achievements",
+  "sticker_drop_url": "/games/undefined/arkandian-explorer/sticker_drop",
+  "game_path": "/games/undefined/arkandian-explorer",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 943,
+    "flash_frame_height": 553,
+    "game_frame_width": 640,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=157749",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

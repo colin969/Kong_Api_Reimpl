@@ -1,0 +1,305 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 122465,
+  "statistics": [
+    {
+      "name": "BatFight",
+      "id": 67360,
+      "description": "Highest score in the Bat Fight",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Bat Fight",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BearFight",
+      "id": 67361,
+      "description": "Highest score in the Bear Fight",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Bear Fight",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EnemiesDefeated",
+      "id": 67355,
+      "description": "Number of enemies defeated with any character. If this equals 9, then the player has beaten the game.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Enemies Defeated",
+      "accomplishment_tasks": [
+        {
+          "id": 2376,
+          "name": "First Five Enemies Defeated",
+          "quota": 5,
+          "granularity": null
+        },
+        {
+          "id": 2377,
+          "name": "Game Completed",
+          "quota": 9,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "EnemiesDefeatedWithCat",
+      "id": 67357,
+      "description": "Number of enemies defeated while playing as the cat character, \"Pixel\"",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EnemiesDefeatedWithDog",
+      "id": 67356,
+      "description": "Number of enemies defeated while playing as the dog character, \"Ryu\"",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EnemiesDefeatedWithRabbit",
+      "id": 67358,
+      "description": "Number of enemies defeated while playing as the rabbit character, \"Bit\"",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FinalScore",
+      "id": 67368,
+      "description": "Total of your highest scores from each battle",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Final Score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GemsSmashed",
+      "id": 67353,
+      "description": "Total number of Gems smashed while playing",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Gems Smashed",
+      "accomplishment_tasks": [
+        {
+          "id": 2375,
+          "name": "100 Gems Crashed",
+          "quota": 100,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "MooseFight",
+      "id": 67364,
+      "description": "Highest score in the Moose Fight",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Moose Fight",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "RhinoFight",
+      "id": 67365,
+      "description": "Highest score in the Rhino Fight",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Rhino Fight",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "RubiesCollected",
+      "id": 67354,
+      "description": "Number of rubies collected from smashing gems (Not from winning battles!)",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Rubies Collected",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SharkFight",
+      "id": 67363,
+      "description": "Highest score in the Shark Fight",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Shark Fight",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SlimeFight",
+      "id": 67366,
+      "description": "Highest score in the Slime Fight",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Slime Fight",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SnakeFight",
+      "id": 67359,
+      "description": "Highest score in the Snake Fight",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Snake Fight",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SpiderFight",
+      "id": 67362,
+      "description": "Highest score in the Spider Fight",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Spider Fight",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SquidFight",
+      "id": 67367,
+      "description": "Highest score in the Final boss fight",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Final Boss Fight",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2027,
+      "name": "Crash Course",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1651,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2375,
+          "statistic_id": 67353,
+          "quota": 100,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2027",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2028,
+      "name": "Shark: Weak",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1652,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2376,
+          "statistic_id": 67355,
+          "quota": 5,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2028",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2029,
+      "name": "Calamari Calamity",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1653,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2377,
+          "statistic_id": 67355,
+          "quota": 9,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2029",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Mochigames/biogems/chat.js",
+  "holodeck_url": "/games/Mochigames/biogems/holodeck",
+  "accomplishments_bootstrap_url": "/games/Mochigames/biogems/chat_achievements",
+  "sticker_drop_url": "/games/Mochigames/biogems/sticker_drop",
+  "game_path": "/games/Mochigames/biogems",
+  "html_dimensions": {
+    "game_width": 750,
+    "game_height": 500,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 13,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1053,
+    "flash_frame_height": 553,
+    "game_frame_width": 750,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=122465",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": false,
+    "disable_instart": false,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

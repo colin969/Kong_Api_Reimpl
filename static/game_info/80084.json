@@ -1,0 +1,293 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 80084,
+  "statistics": [
+    {
+      "name": "blocko",
+      "id": 42969,
+      "description": "Set to 1 if you beat the second boss, Blocko",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Blocko defeated",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "claws",
+      "id": 42967,
+      "description": "Set to 1 if you found all 10 Kitty Claws",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Level 10 claws",
+      "accomplishment_tasks": [
+        {
+          "id": 1527,
+          "name": "Level 10 claws",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "complete",
+      "id": 42966,
+      "description": "Set to 1 when you finish the game",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Game completed",
+      "accomplishment_tasks": [
+        {
+          "id": 1526,
+          "name": "Game completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "deaths",
+      "id": 42963,
+      "description": "Total deaths overall",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "friendly",
+      "id": 42972,
+      "description": "Set to 1 if you completed the game without killing more than 40 guys",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Game completed (<41 kills)",
+      "accomplishment_tasks": [
+        {
+          "id": 1528,
+          "name": "9th key collected (<41 kills)",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "hoverzorg",
+      "id": 42968,
+      "description": "Set to 1 if you beat the first boss, Hoverzorg",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Hoverzorg defeated",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "kills",
+      "id": 42964,
+      "description": "Total kills overall",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Kills",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "rebound",
+      "id": 42970,
+      "description": "Set to 1 if you've earned the Rebound award",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Rebound",
+      "accomplishment_tasks": [
+        {
+          "id": 1525,
+          "name": "Kitty caught",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "sekrit",
+      "id": 42973,
+      "description": "Set to 1 if you found the Sekrit Item Of Wonder",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Sekrit found",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "stalac",
+      "id": 42971,
+      "description": "Set to 1 if you've dropped a Stalac on somebody other than Blocko",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Stalac kill",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "time",
+      "id": 42965,
+      "description": "Time to finish game",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Puppy Collection Time",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1279,
+      "name": "Rebound",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1025,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1525,
+          "statistic_id": 42970,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1279",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1280,
+      "name": "Robot Got Puppy!",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1026,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1526,
+          "statistic_id": 42966,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1280",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1281,
+      "name": "Cat Scratch Fever",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1027,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1527,
+          "statistic_id": 42967,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1281",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1282,
+      "name": "The Friendly Robot",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1028,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1528,
+          "statistic_id": 42972,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1282",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Hamumu/robot-wants-puppy/chat.js",
+  "holodeck_url": "/games/Hamumu/robot-wants-puppy/holodeck",
+  "accomplishments_bootstrap_url": "/games/Hamumu/robot-wants-puppy/chat_achievements",
+  "sticker_drop_url": "/games/Hamumu/robot-wants-puppy/sticker_drop",
+  "game_path": "/games/Hamumu/robot-wants-puppy",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 943,
+    "flash_frame_height": 553,
+    "game_frame_width": 640,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=80084",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

@@ -1,0 +1,163 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 281993,
+  "statistics": [
+    {
+      "name": "GameCompletion",
+      "id": 131114,
+      "description": "Complete the game",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 4204,
+          "name": "Game completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Score",
+      "id": 129662,
+      "description": "High Score",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 4205,
+          "name": "Score submitted",
+          "quota": 0,
+          "granularity": null
+        },
+        {
+          "id": 4206,
+          "name": "900 score",
+          "quota": 900,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3569,
+      "name": "Dragon's Lair Purveyor",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2960,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4204,
+          "statistic_id": 131114,
+          "quota": 1,
+          "operator": "OR"
+        },
+        {
+          "id": 4205,
+          "statistic_id": 129662,
+          "quota": 0,
+          "operator": "OR"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3569",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3570,
+      "name": "Duking It Out",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2961,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4206,
+          "statistic_id": 129662,
+          "quota": 900,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3570",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Mentor31/castle-woodwarf/chat.js",
+  "holodeck_url": "/games/Mentor31/castle-woodwarf/holodeck",
+  "accomplishments_bootstrap_url": "/games/Mentor31/castle-woodwarf/chat_achievements",
+  "sticker_drop_url": "/games/Mentor31/castle-woodwarf/sticker_drop",
+  "game_path": "/games/Mentor31/castle-woodwarf",
+  "html_dimensions": {
+    "game_width": 960,
+    "game_height": 640,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 640,
+    "flash_frame_width": 1263,
+    "flash_frame_height": 666,
+    "game_frame_width": 960,
+    "game_frame_height": 640,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=281993",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

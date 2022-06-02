@@ -1,0 +1,289 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 129435,
+  "statistics": [
+    {
+      "name": "FocusEnergy",
+      "id": 71159,
+      "description": "The highest maximum amount of Focus power the player has ever received.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Focus Energy",
+      "accomplishment_tasks": [
+        {
+          "id": 2533,
+          "name": "Focus Energy Upgraded to 200",
+          "quota": 200,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "NormalRoomsCompleted",
+      "id": 71160,
+      "description": "Number of rooms completed in the Normal level pack.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "OriginalRoomsCompleted",
+      "id": 71161,
+      "description": "Number of rooms completed in the Original level pack.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "InsaneRoomsCompleted",
+      "id": 71162,
+      "description": "The number of rooms completed in the Insane level pack.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "NormalCompleted",
+      "id": 71163,
+      "description": "If the Normal level pack is finished, this will be 1.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Normal Completed",
+      "accomplishment_tasks": [
+        {
+          "id": 2534,
+          "name": "Normal Completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "OriginalCompleted",
+      "id": 71164,
+      "description": "If the Original level pack is finished, this will be 1.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Original Completed",
+      "accomplishment_tasks": [
+        {
+          "id": 2535,
+          "name": "Original Completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "InsaneCompleted",
+      "id": 71165,
+      "description": "If the Insane level pack is finished, this will be 1.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Insane Completed",
+      "accomplishment_tasks": [
+        {
+          "id": 2536,
+          "name": "Insane Completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "NormalDeaths",
+      "id": 71166,
+      "description": "How many times the player has died attempting to complete the Normal level pack.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "OriginalDeaths",
+      "id": 71167,
+      "description": "How many times the player has died attempting to complete the Original level pack.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "InsaneDeaths",
+      "id": 71168,
+      "description": "How many times the player has died attempting to complete the Insane level pack.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "NormalTime",
+      "id": 71169,
+      "description": "The best time to complete the Normal level pack.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Normal: Best time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "OriginalTime",
+      "id": 71170,
+      "description": "The best time to complete the Original level pack.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Original: Best time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "InsaneTime",
+      "id": 71171,
+      "description": "The best time to complete the Insane level pack.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Insane: Best time",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2163,
+      "name": "Hocus Pocus",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1768,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2533,
+          "statistic_id": 71159,
+          "quota": 200,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2163",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2164,
+      "name": "Rocket-Powered Jungle Gym",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1769,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2534,
+          "statistic_id": 71163,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2164",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2165,
+      "name": "You've Got the Touch",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1770,
+      "level": "impossible",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2535,
+          "statistic_id": 71164,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 2536,
+          "statistic_id": 71165,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2165",
+      "reward_points": 60,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/UnknownJoe796/focus/chat.js",
+  "holodeck_url": "/games/UnknownJoe796/focus/holodeck",
+  "accomplishments_bootstrap_url": "/games/UnknownJoe796/focus/chat_achievements",
+  "sticker_drop_url": "/games/UnknownJoe796/focus/sticker_drop",
+  "game_path": "/games/UnknownJoe796/focus",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 626,
+    "game_frame_width": 800,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=129435",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": false,
+    "disable_instart": false,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

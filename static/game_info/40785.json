@@ -1,0 +1,273 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 40785,
+  "statistics": [
+    {
+      "name": "Games Complete",
+      "id": 22104,
+      "description": "Number of games actually completed",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Easy-colour",
+      "id": 22110,
+      "description": "HighScore-Easy-colour",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Easy-mono",
+      "id": 22107,
+      "description": "HighScore-Easy-mono",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Hard-colour",
+      "id": 22117,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Hard-mono",
+      "id": 22112,
+      "description": "HighScore-Hard-mono",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Highest Level",
+      "id": 22105,
+      "description": "HighScore-Highest Level",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 2703,
+          "name": "Level 6 Completed",
+          "quota": 6,
+          "granularity": null
+        },
+        {
+          "id": 2704,
+          "name": "Level 20 Completed",
+          "quota": 20,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "HighScore-Impossible-colour",
+      "id": 22118,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 2705,
+          "name": "Quick Play Impossible Colour-mode Completed",
+          "quota": 9223372036854775807,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "HighScore-Impossible-mono",
+      "id": 22119,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 2706,
+          "name": "Quick Play Impossible Mono-mode Completed",
+          "quota": 9223372036854775807,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "HighScore-Intro-colour",
+      "id": 22109,
+      "description": "HighScore-Intro-colour",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Intro-mono",
+      "id": 22106,
+      "description": "HighScore-Intro-mono",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Medium-colour",
+      "id": 22111,
+      "description": "HighScore-Medium-colour",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Medium-mono",
+      "id": 22108,
+      "description": "HighScore-Medium-mono",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2313,
+      "name": "Multicolor Mix Master",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1895,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2703,
+          "statistic_id": 22105,
+          "quota": 6,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2313",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2314,
+      "name": "That's a Wrap",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1896,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2704,
+          "statistic_id": 22105,
+          "quota": 20,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2314",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2315,
+      "name": "The Quick and the Shifted",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1897,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2705,
+          "statistic_id": 22118,
+          "quota": 9223372036854775807,
+          "operator": "AND"
+        },
+        {
+          "id": 2706,
+          "statistic_id": 22119,
+          "quota": 9223372036854775807,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2315",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/mrsneeze/colourshift/chat.js",
+  "holodeck_url": "/games/mrsneeze/colourshift/holodeck",
+  "accomplishments_bootstrap_url": "/games/mrsneeze/colourshift/chat_achievements",
+  "sticker_drop_url": "/games/mrsneeze/colourshift/sticker_drop",
+  "game_path": "/games/mrsneeze/colourshift",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 943,
+    "flash_frame_height": 553,
+    "game_frame_width": 640,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=40785",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

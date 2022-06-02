@@ -1,0 +1,184 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 283352,
+  "statistics": [
+    {
+      "name": "Ascensions",
+      "id": 131678,
+      "description": "Total ascensions performed.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BattlesWon",
+      "id": 131679,
+      "description": "Total battles won.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BossesKilled",
+      "id": 131676,
+      "description": "Total bosses killed.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "initialized",
+      "id": 131664,
+      "description": "Submitted each time the game loads successfully. ",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxLevelReached",
+      "id": 131677,
+      "description": "Maximum level reached.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Max Level Reached",
+      "accomplishment_tasks": [
+        {
+          "id": 4300,
+          "name": "Level 51 reached",
+          "quota": 51,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "MonstersKilled",
+      "id": 131675,
+      "description": "Total monsters killed.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 4299,
+          "name": "100 monsters defeated",
+          "quota": 100,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3638,
+      "name": "Monster Crusher",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 3026,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4299,
+          "statistic_id": 131675,
+          "quota": 100,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3638",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3639,
+      "name": "\"To Haelezael and Back\"",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 3027,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4300,
+          "statistic_id": 131677,
+          "quota": 51,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3639",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/towardsmars/dungeon-crusher-soul-hunters/chat.js",
+  "holodeck_url": "/games/towardsmars/dungeon-crusher-soul-hunters/holodeck",
+  "accomplishments_bootstrap_url": "/games/towardsmars/dungeon-crusher-soul-hunters/chat_achievements",
+  "sticker_drop_url": "/games/towardsmars/dungeon-crusher-soul-hunters/sticker_drop",
+  "game_path": "/games/towardsmars/dungeon-crusher-soul-hunters",
+  "html_dimensions": {
+    "game_width": 1000,
+    "game_height": 650,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 650,
+    "flash_frame_width": 1303,
+    "flash_frame_height": 676,
+    "game_frame_width": 1000,
+    "game_frame_height": 650,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=283352",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": true,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": true,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

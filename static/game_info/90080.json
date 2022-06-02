@@ -1,0 +1,186 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 90080,
+  "statistics": [
+    {
+      "name": "chronox",
+      "id": 47197,
+      "description": "Set to 1 if they collected all 50 Chronox Shards.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "combo",
+      "id": 47202,
+      "description": "Set to 1 if they've killed 5 enemies without touching the ground in between.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "complete",
+      "id": 47194,
+      "description": "Set to 1 if they finish the game.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 1692,
+          "name": "Fishy got!",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "explosions",
+      "id": 47200,
+      "description": "Set to 1 if they blew up every explodable object.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "friendly",
+      "id": 47196,
+      "description": "Set to 1 if they beat the last boss without having killed more than 15 enemies.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "maxpower",
+      "id": 47198,
+      "description": "Set to 1 if they achieved maximum firepower.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "minimal",
+      "id": 47195,
+      "description": "Set to 1 if they've completed the game with the minimum firepower possible.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "refract",
+      "id": 47201,
+      "description": "Set to 1 if they've killed an alien with a refracted shot.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "time",
+      "id": 47193,
+      "description": "How long you took to get Fishy.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Fishy Collection Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "xenocide",
+      "id": 47199,
+      "description": "Set to 1 if they've killed every enemy that can be killed.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1425,
+      "name": "A Fish Called Wanted",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1148,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1692,
+          "statistic_id": 47194,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1425",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Hamumu/robot-wants-fishy/chat.js",
+  "holodeck_url": "/games/Hamumu/robot-wants-fishy/holodeck",
+  "accomplishments_bootstrap_url": "/games/Hamumu/robot-wants-fishy/chat_achievements",
+  "sticker_drop_url": "/games/Hamumu/robot-wants-fishy/sticker_drop",
+  "game_path": "/games/Hamumu/robot-wants-fishy",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 943,
+    "flash_frame_height": 553,
+    "game_frame_width": 640,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=90080",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": true,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

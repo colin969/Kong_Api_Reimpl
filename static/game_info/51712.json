@@ -1,0 +1,257 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 51712,
+  "statistics": [
+    {
+      "name": "completedC",
+      "id": 28343,
+      "description": "Number of missions completed on Crazy or greater difficulty.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Completed Crazy",
+      "accomplishment_tasks": [
+        {
+          "id": 1135,
+          "name": "21 missions completed (crazy)",
+          "quota": 21,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "completedE",
+      "id": 28340,
+      "description": "Number of missions completed on Easy or greater difficulty.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Completed Easy",
+      "accomplishment_tasks": [
+        {
+          "id": 1131,
+          "name": "3 missions completed",
+          "quota": 3,
+          "granularity": null
+        },
+        {
+          "id": 1133,
+          "name": "All 21 missions completed (any difficulty)",
+          "quota": 21,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "completedH",
+      "id": 28342,
+      "description": "Number of missions completed on Hard or greater difficulty.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Completed Hard",
+      "accomplishment_tasks": [
+        {
+          "id": 1134,
+          "name": "10 missions completed (hard)",
+          "quota": 10,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "completedN",
+      "id": 28341,
+      "description": "Number of missions completed on Normal or greater difficulty.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Completed Normal",
+      "accomplishment_tasks": [
+        {
+          "id": 1132,
+          "name": "10 missions completed (normal)",
+          "quota": 10,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "score",
+      "id": 28344,
+      "description": "The players total score",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Score",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 936,
+      "name": "\"One Small Step for Man\"",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 734,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1131,
+          "statistic_id": 28340,
+          "quota": 3,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-936",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 937,
+      "name": "\"Resistance Wasn't So Futile\"",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 735,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1132,
+          "statistic_id": 28341,
+          "quota": 10,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-937",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 6,
+        "name": "Best of 2009",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 938,
+      "name": "Miner's Guide to the Galaxy",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 736,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1133,
+          "statistic_id": 28340,
+          "quota": 21,
+          "operator": "AND"
+        },
+        {
+          "id": 1134,
+          "statistic_id": 28342,
+          "quota": 10,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-938",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 939,
+      "name": "\"No One Could Hear You Scream\"",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 737,
+      "level": "impossible",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1135,
+          "statistic_id": 28343,
+          "quota": 21,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-939",
+      "reward_points": 60,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/CasualCollective/the-space-game-missions/chat.js",
+  "holodeck_url": "/games/CasualCollective/the-space-game-missions/holodeck",
+  "accomplishments_bootstrap_url": "/games/CasualCollective/the-space-game-missions/chat_achievements",
+  "sticker_drop_url": "/games/CasualCollective/the-space-game-missions/sticker_drop",
+  "game_path": "/games/CasualCollective/the-space-game-missions",
+  "html_dimensions": {
+    "game_width": 700,
+    "game_height": 525,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 1,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1003,
+    "flash_frame_height": 553,
+    "game_frame_width": 700,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=51712",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": false,
+    "disable_instart": false,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

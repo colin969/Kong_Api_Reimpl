@@ -1,0 +1,434 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 24820,
+  "statistics": [
+    {
+      "name": "HighestLevelComplete",
+      "id": 12667,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 695,
+          "name": "Level 20 completed",
+          "quota": 20,
+          "granularity": 10
+        }
+      ]
+    },
+    {
+      "name": "HighestLevelComplete_easy",
+      "id": 12664,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighestLevelComplete_easy_1",
+      "id": 12455,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighestLevelComplete_easy_2",
+      "id": 12456,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighestLevelComplete_easy_3",
+      "id": 12458,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighestLevelComplete_easy_4",
+      "id": 12459,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighestLevelComplete_hard",
+      "id": 12666,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighestLevelComplete_hard_1",
+      "id": 12464,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighestLevelComplete_hard_2",
+      "id": 12465,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighestLevelComplete_hard_3",
+      "id": 12466,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighestLevelComplete_hard_4",
+      "id": 12467,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighestLevelComplete_medium",
+      "id": 12665,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighestLevelComplete_medium_1",
+      "id": 12460,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "HighestLevelComplete_med_1",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighestLevelComplete_medium_2",
+      "id": 12461,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "HighestLevelComplete_med_2",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighestLevelComplete_medium_3",
+      "id": 12462,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "HighestLevelComplete_med_3",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighestLevelComplete_medium_4",
+      "id": 12463,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "HighestLevelComplete_med_4",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LivesLeft50",
+      "id": 12663,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 696,
+          "name": "One map completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "LivesLeft50_easy",
+      "id": 12660,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LivesLeft50_hard",
+      "id": 12662,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 697,
+          "name": "50 lives remaining after map completion (hard)",
+          "quota": 50,
+          "granularity": 25
+        }
+      ]
+    },
+    {
+      "name": "LivesLeft50_medium",
+      "id": 12661,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LivesLeftLevel50_easy_1",
+      "id": 12468,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LivesLeftLevel50_easy_2",
+      "id": 12469,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LivesLeftLevel50_easy_3",
+      "id": 12470,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LivesLeftLevel50_easy_4",
+      "id": 12471,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LivesLeftLevel50_hard_1",
+      "id": 12476,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LivesLeftLevel50_hard_2",
+      "id": 12477,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LivesLeftLevel50_hard_3",
+      "id": 12478,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LivesLeftLevel50_hard_4",
+      "id": 12479,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LivesLeftLevel50_medium_1",
+      "id": 12472,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "LivesLeftLevel50_med_1",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LivesLeftLevel50_medium_2",
+      "id": 12473,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "LivesLeftLevel50_med_2",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LivesLeftLevel50_medium_3",
+      "id": 12474,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "LivesLeftLevel50_med_3",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LivesLeftLevel50_medium_4",
+      "id": 12475,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "LivesLeftLevel50_med_4",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 562,
+      "name": "Pin Flingin'",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 453,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 695,
+          "statistic_id": 12667,
+          "quota": 20,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-562",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 563,
+      "name": "Going Bananas",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 454,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 696,
+          "statistic_id": 12663,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-563",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 5,
+        "name": "Best of 2008",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 564,
+      "name": "99 Dead Balloons",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 455,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 697,
+          "statistic_id": 12662,
+          "quota": 50,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-564",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Ninjakiwi/bloons-tower-defense-3/chat.js",
+  "holodeck_url": "/games/Ninjakiwi/bloons-tower-defense-3/holodeck",
+  "accomplishments_bootstrap_url": "/games/Ninjakiwi/bloons-tower-defense-3/chat_achievements",
+  "sticker_drop_url": "/games/Ninjakiwi/bloons-tower-defense-3/sticker_drop",
+  "game_path": "/games/Ninjakiwi/bloons-tower-defense-3",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 943,
+    "flash_frame_height": 553,
+    "game_frame_width": 640,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=24820",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

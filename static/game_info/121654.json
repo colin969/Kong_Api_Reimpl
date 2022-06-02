@@ -1,0 +1,318 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 121654,
+  "statistics": [
+    {
+      "name": "AchievementsGained",
+      "id": 66927,
+      "description": "Achievements Gained",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Achievements Gained",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BushesCollected",
+      "id": 66576,
+      "description": "Bushes Collected",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Bushes Collected",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ChestsOpened",
+      "id": 66571,
+      "description": "Chests Opened",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Chests Opened",
+      "accomplishment_tasks": [
+        {
+          "id": 2336,
+          "name": "5 Chests Opened",
+          "quota": 5,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "CoinsCollected",
+      "id": 66572,
+      "description": "Coins Collected",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Coins Collected",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "CratesDestroyed",
+      "id": 66570,
+      "description": "Crates Destroyed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Crates Destroyed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EnemiesKilled",
+      "id": 66569,
+      "description": "Enemies Killed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Enemies Killed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GameCompleted",
+      "id": 66581,
+      "description": "Game Completed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Game Completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GrannyLevel",
+      "id": 66573,
+      "description": "Granny Level",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Granny Level",
+      "accomplishment_tasks": [
+        {
+          "id": 2337,
+          "name": "Granny Level 20 Reached",
+          "quota": 20,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "HighscoreCasual",
+      "id": 66582,
+      "description": "Highscore Casual Unlimited",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Highscore Casual Unlimited",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighscoreHardcore",
+      "id": 66583,
+      "description": "Highscore Hardcore Unlimited",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Highscore Hardcore Unlimited",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighscoreSuperhero",
+      "id": 66584,
+      "description": "Highscore Superhero Unlimited",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Highscore Superhero Unlimited",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LevelsFinished",
+      "id": 66574,
+      "description": "Levels Finished",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Levels Finished",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MetersRan",
+      "id": 66578,
+      "description": "Meters Ran",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Meters Ran",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "StarsGained",
+      "id": 66579,
+      "description": "Stars Gained",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Stars Gained",
+      "accomplishment_tasks": [
+        {
+          "id": 2338,
+          "name": "84 Stars Gained",
+          "quota": 84,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "StructuresBuilt",
+      "id": 66575,
+      "description": "Structures Built",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Structures Built",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SurvivalWaveReached",
+      "id": 66580,
+      "description": "Unlimited Wave Reached",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Unlimited Wave Reached",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "UpgradesPurchased",
+      "id": 66577,
+      "description": "Upgrades Purchased",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Upgrades Purchased",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1991,
+      "name": "Retirement Plan",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1617,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2336,
+          "statistic_id": 66571,
+          "quota": 5,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1991",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1992,
+      "name": "Senior Citizen",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1618,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2337,
+          "statistic_id": 66573,
+          "quota": 20,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1992",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1993,
+      "name": "Snow Problem",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1619,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2338,
+          "statistic_id": 66579,
+          "quota": 84,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1993",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/SilenGames/granny-strikes-back/chat.js",
+  "holodeck_url": "/games/SilenGames/granny-strikes-back/holodeck",
+  "accomplishments_bootstrap_url": "/games/SilenGames/granny-strikes-back/chat_achievements",
+  "sticker_drop_url": "/games/SilenGames/granny-strikes-back/sticker_drop",
+  "game_path": "/games/SilenGames/granny-strikes-back",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 943,
+    "flash_frame_height": 553,
+    "game_frame_width": 640,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=121654",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

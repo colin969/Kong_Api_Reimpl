@@ -1,0 +1,350 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 117898,
+  "statistics": [
+    {
+      "name": "PiggymonFound",
+      "id": 64439,
+      "description": " Number of Piggymon Cards Found",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Piggymon Found",
+      "accomplishment_tasks": [
+        {
+          "id": 2268,
+          "name": "15 Piggymon cards collected",
+          "quota": 15,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "MissionsCompleted",
+      "id": 64440,
+      "description": "Number of Missions Completed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Missions Completed",
+      "accomplishment_tasks": [
+        {
+          "id": 2269,
+          "name": "16 missions completed",
+          "quota": 16,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "SideMissionsCompleted",
+      "id": 64441,
+      "description": "Number of Side Missions Completed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Side Missions Completed",
+      "accomplishment_tasks": [
+        {
+          "id": 2270,
+          "name": "10 side missions completed",
+          "quota": 10,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "LessonsCompleted",
+      "id": 64442,
+      "description": "Number of Lessons Completed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalPlayTime(Mins)",
+      "id": 64443,
+      "description": "Total Play Time in Minutes",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalDistanceTravelled(Metres)",
+      "id": 64444,
+      "description": "Total Distance Travelled in Metres",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "PeopleMet",
+      "id": 64445,
+      "description": "Number of People Met",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "People Met",
+      "accomplishment_tasks": [
+        {
+          "id": 2267,
+          "name": "30 people met",
+          "quota": 30,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "RoomsDiscovered",
+      "id": 64446,
+      "description": "Number of Rooms Discovered",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BooksRead",
+      "id": 64447,
+      "description": "Number of Books Read",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Loads",
+      "id": 64448,
+      "description": "Number of Game Loads",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Saves",
+      "id": 64449,
+      "description": "Number of Game Saves",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ProfilesRead",
+      "id": 64450,
+      "description": "Number of Profiles Read",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ComputerUsageTime(Secs)",
+      "id": 64451,
+      "description": "Computer Usage Time in Seconds",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LightsTurnedOff",
+      "id": 64452,
+      "description": "Number of Lights Turned Off",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ToiletVisits",
+      "id": 64453,
+      "description": "Number of Toilet Visits",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TVUsageTime(Secs)",
+      "id": 64454,
+      "description": "TV Usage Time in Seconds",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HammyBackflips",
+      "id": 64455,
+      "description": "Number of Hammy Backflips",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FastestRCRaceTime(Secs)",
+      "id": 64456,
+      "description": "Fastest RC Race Time in Seconds",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MealsConsumed",
+      "id": 64457,
+      "description": "Number of Meals Consumed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DrinksConsumed",
+      "id": 64458,
+      "description": "Number of Drinks Consumed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TimesVomited",
+      "id": 64459,
+      "description": "Number of Times You've Vomited",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1929,
+      "name": "Hello Stranger",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1571,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2267,
+          "statistic_id": 64445,
+          "quota": 30,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1929",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1930,
+      "name": "Gotta Catch Some of 'Em",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1572,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2268,
+          "statistic_id": 64439,
+          "quota": 15,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1930",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1931,
+      "name": "My First Hangover",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1573,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2269,
+          "statistic_id": 64440,
+          "quota": 16,
+          "operator": "AND"
+        },
+        {
+          "id": 2270,
+          "statistic_id": 64441,
+          "quota": 10,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1931",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/GPStudios/wasted-youth-part-1/chat.js",
+  "holodeck_url": "/games/GPStudios/wasted-youth-part-1/holodeck",
+  "accomplishments_bootstrap_url": "/games/GPStudios/wasted-youth-part-1/chat_achievements",
+  "sticker_drop_url": "/games/GPStudios/wasted-youth-part-1/sticker_drop",
+  "game_path": "/games/GPStudios/wasted-youth-part-1",
+  "html_dimensions": {
+    "game_width": 600,
+    "game_height": 440,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 10,
+    "game_top": 43,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 923,
+    "flash_frame_height": 553,
+    "game_frame_width": 620,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=117898",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

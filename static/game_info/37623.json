@@ -1,0 +1,200 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 37623,
+  "statistics": [
+    {
+      "name": "CrabCoral",
+      "id": 31079,
+      "description": "Surviving the coral",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Crab Coral",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "CrocodileFeast",
+      "id": 31086,
+      "description": "Surviving the crocodile",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "CrocodileFeast 1",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ElectricPortcullis",
+      "id": 31082,
+      "description": "Surviving the electric portcullis",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Electric Sarrasin",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FirstBlood",
+      "id": 31085,
+      "description": "Surviving Rambo",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "First Blood",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GameCompleteEasy",
+      "id": 31089,
+      "description": "Completed on easy mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "GameCompletedEasy 1",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GameCompleteHard",
+      "id": 31087,
+      "description": "Completed on hard mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "GameCompletedHard 1",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GameCompleteMedium",
+      "id": 31088,
+      "description": "Completed on medium mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "GameCompletedMedium 1",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GameHighscores",
+      "id": 31090,
+      "description": "Highscores",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Ultimate Crab Battle Highscores",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LazerEye",
+      "id": 31080,
+      "description": "Surviving the lazer eye",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Lazer Eye",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MoraineOfDoom",
+      "id": 31081,
+      "description": "Surviving the moraine",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Moraine Of Doom",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "OctopusSoldiers",
+      "id": 31083,
+      "description": "Surviving the octopuses",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Octopus Soldiers",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "PearlOfDeath",
+      "id": 31084,
+      "description": "Surviving the oyster pearl",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Pearl Of Death",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SwordfishAttack",
+      "id": 31077,
+      "description": "Surviving the first wave",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Swordfish",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SymphonyOfCrab",
+      "id": 31078,
+      "description": "Surviving the grammophone",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Symphony Of Crab",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/wiesi/ultimate-crab-battle/chat.js",
+  "holodeck_url": "/games/wiesi/ultimate-crab-battle/holodeck",
+  "accomplishments_bootstrap_url": "/games/wiesi/ultimate-crab-battle/chat_achievements",
+  "sticker_drop_url": "/games/wiesi/ultimate-crab-battle/sticker_drop",
+  "game_path": "/games/wiesi/ultimate-crab-battle",
+  "html_dimensions": {
+    "game_width": 720,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1023,
+    "flash_frame_height": 553,
+    "game_frame_width": 720,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=37623",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

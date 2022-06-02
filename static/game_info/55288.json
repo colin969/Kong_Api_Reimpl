@@ -1,0 +1,291 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 55288,
+  "statistics": [
+    {
+      "name": "STAT_CHICKENS_KILLED",
+      "id": 30758,
+      "description": "Number of chickens killed by the player throughout the game",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Chickens Killed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "STAT_DUNGEONS_COMPLETED",
+      "id": 53882,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Dungeons Completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "STAT_ENDLESS_STAGE",
+      "id": 30757,
+      "description": "Highest endless mode stage reached by the player",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Highest Endless Mode Stage",
+      "accomplishment_tasks": [
+        {
+          "id": 1960,
+          "name": "Level 50 in the Endless Dungeon Reached",
+          "quota": 50,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "STAT_GAME_COMPLETED",
+      "id": 53883,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Game Completed",
+      "accomplishment_tasks": [
+        {
+          "id": 1959,
+          "name": "Game Completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "STAT_HITS_TAKEN_THIS_DUNGEON",
+      "id": 30753,
+      "description": "Number of hits the player has taken this dungeon",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Hits Taken",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "STAT_HITS_TAKEN_THIS_GAME",
+      "id": 30752,
+      "description": "Number of hits the player has taken this game",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Hits Taken This Game",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "STAT_KILLS_THIS_DUNGEON",
+      "id": 30755,
+      "description": "Number of enemies killed by player this dungeon",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Enemy kills this dungeon",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "STAT_KILLS_THIS_GAME",
+      "id": 30754,
+      "description": "Number of enemies killed by player this game",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Enemy Kills",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "STAT_KILLS_THIS_LEVEL",
+      "id": 30756,
+      "description": "Number of enemies killed by the player on this level of the current dungeon",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Enemies Killed This Level",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "STAT_MOVES_THIS_DUNGEON",
+      "id": 30751,
+      "description": "Moves made by the player in this dungeon",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Moves This Dungeon",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "STAT_PLAYER_GOLD",
+      "id": 30749,
+      "description": "Amount of gold collected by player",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Gold",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "STAT_PLAYER_LEVEL",
+      "id": 30748,
+      "description": "Player's xp level",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "XP Level",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "STAT_PLAYER_XP",
+      "id": 30747,
+      "description": "Player's xp value",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Xp",
+      "accomplishment_tasks": [
+        {
+          "id": 1958,
+          "name": "1,000 Experience Earned",
+          "quota": 1000,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "STAT_TOTAL_MOVES",
+      "id": 30750,
+      "description": "Total number of moves made by player",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Moves",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1658,
+      "name": "Can't Help Falling",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1336,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1958,
+          "statistic_id": 30747,
+          "quota": 1000,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1658",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1659,
+      "name": "Vortex Vanquisher",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1337,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1959,
+          "statistic_id": 53883,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1659",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1660,
+      "name": "Funfair Fanatic",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1338,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1960,
+          "statistic_id": 30757,
+          "quota": 50,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1660",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Megadev/knightfall-2/chat.js",
+  "holodeck_url": "/games/Megadev/knightfall-2/holodeck",
+  "accomplishments_bootstrap_url": "/games/Megadev/knightfall-2/chat_achievements",
+  "sticker_drop_url": "/games/Megadev/knightfall-2/sticker_drop",
+  "game_path": "/games/Megadev/knightfall-2",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 943,
+    "flash_frame_height": 553,
+    "game_frame_width": 640,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=55288",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

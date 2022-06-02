@@ -1,0 +1,287 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 4500,
+  "statistics": [
+    {
+      "name": "AttemptsToComplete",
+      "id": 3123,
+      "description": "Number of attempts to complete normal mode (min = 20)",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Challenge1",
+      "id": 3108,
+      "description": "Challenge 1 complete",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Challenge10",
+      "id": 3117,
+      "description": "Challenge 10 complete",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Challenge11",
+      "id": 3118,
+      "description": "Challenge 11 complete",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Challenge12",
+      "id": 3119,
+      "description": "Challenge 12 complete",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Challenge2",
+      "id": 3109,
+      "description": "Challenge 2 complete",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Challenge3",
+      "id": 3110,
+      "description": "Challenge 3 complete",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Challenge4",
+      "id": 3111,
+      "description": "Challenge 4 complete",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Challenge5",
+      "id": 3112,
+      "description": "Challenge 5 complete",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Challenge6",
+      "id": 3113,
+      "description": "Challenge 6 complete",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Challenge7",
+      "id": 3114,
+      "description": "Challenge 7 complete",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Challenge8",
+      "id": 3115,
+      "description": "Challenge 8 complete",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Challenge9",
+      "id": 3116,
+      "description": "Challenge 9 complete",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GameComplete",
+      "id": 3122,
+      "description": "Game completed in normal mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore",
+      "id": 10176,
+      "description": "HighScore",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Cirvival",
+      "id": 3121,
+      "description": "HighScore-Cirvival",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 578,
+          "name": "2,000 points scored (Cirvival)",
+          "quota": 2000,
+          "granularity": 1000
+        }
+      ]
+    },
+    {
+      "name": "HighScore-Normal",
+      "id": 3120,
+      "description": "HighScore-Normal",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LevelCompleted",
+      "id": 3107,
+      "description": "Highest level completed in Normal mode",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxOrbsInCirplosion",
+      "id": 3124,
+      "description": "Maximum number of orbs destroyed in a single cirplosion",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 577,
+          "name": "10 orbs destroyed in a single explosion",
+          "quota": 10,
+          "granularity": 5
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 454,
+      "name": "Dot Destroyer",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 369,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 577,
+          "statistic_id": 3124,
+          "quota": 10,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-454",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 455,
+      "name": "Circular Savant",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 370,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 578,
+          "statistic_id": 3121,
+          "quota": 2000,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-455",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/squidsquid/cirplosion/chat.js",
+  "holodeck_url": "/games/squidsquid/cirplosion/holodeck",
+  "accomplishments_bootstrap_url": "/games/squidsquid/cirplosion/chat_achievements",
+  "sticker_drop_url": "/games/squidsquid/cirplosion/sticker_drop",
+  "game_path": "/games/squidsquid/cirplosion",
+  "html_dimensions": {
+    "game_width": 500,
+    "game_height": 500,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 60,
+    "game_top": 13,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 923,
+    "flash_frame_height": 553,
+    "game_frame_width": 620,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=4500",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

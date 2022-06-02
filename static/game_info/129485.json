@@ -1,0 +1,256 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 129485,
+  "statistics": [
+    {
+      "name": "1magnus",
+      "id": 71429,
+      "description": "Best Score defeating Magnus SteelBlade",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Level 1: Magnus Steelblade",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "1magnusBadge",
+      "id": 74267,
+      "description": "Win your first battle, defeat Magnus Steelblade.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "2alexanderBadge",
+      "id": 74268,
+      "description": "Defeat Alexander Red Devil and watch the epilogue.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "2peter",
+      "id": 71430,
+      "description": "Best Score defeating Peter Elf Green",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Level 2: Peter Elf Green",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "3darkblood",
+      "id": 71431,
+      "description": "Best Score defeating Dark Blood III",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Level 3: Dark Blood III",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "3threeNewChallengersDefeatedBadge",
+      "id": 74269,
+      "description": "Defeat the three new Challengers left by JOKER.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "4rickyGoldBadge",
+      "id": 74270,
+      "description": "Survive 15 min. against Ricky Gold.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "4rose",
+      "id": 71432,
+      "description": "Best Score defeating Rose Magma Heart",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Level 4: Rose Magma Heart",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "5anakyn",
+      "id": 71433,
+      "description": "Best Score defeating Anakyn Rock",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Level 5: Anakyn Rock",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "6shark",
+      "id": 71434,
+      "description": "Best Score defeating Shark Waterfalls Stuart",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Level 6: Shark Waterfalls Stuart",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "7louis",
+      "id": 71435,
+      "description": "Best Score defeating Louis Looney Joker",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Level 7: Louis Looney Joker",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "8alexander",
+      "id": 71436,
+      "description": "Best Score defeating Alexander Red Devil",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Level 8: Alexander Red Devil",
+      "accomplishment_tasks": [
+        {
+          "id": 2823,
+          "name": "Alexander defeated",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "EnemyKills",
+      "id": 79253,
+      "description": "",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Enemy Kills",
+      "accomplishment_tasks": [
+        {
+          "id": 2822,
+          "name": "100 enemies killed",
+          "quota": 100,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "TEST",
+      "id": 71188,
+      "description": "test",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2417,
+      "name": "Meat Grinder",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1987,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2822,
+          "statistic_id": 79253,
+          "quota": 100,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2417",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2418,
+      "name": "Small Victory",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1988,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2823,
+          "statistic_id": 71436,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2418",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Trutruka/nano-kingdoms/chat.js",
+  "holodeck_url": "/games/Trutruka/nano-kingdoms/holodeck",
+  "accomplishments_bootstrap_url": "/games/Trutruka/nano-kingdoms/chat_achievements",
+  "sticker_drop_url": "/games/Trutruka/nano-kingdoms/sticker_drop",
+  "game_path": "/games/Trutruka/nano-kingdoms",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 553,
+    "game_frame_width": 800,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=129485",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

@@ -1,0 +1,393 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 179258,
+  "statistics": [
+    {
+      "name": "Achievement Rank",
+      "id": 95273,
+      "description": "The Challenge Rank you've achieved in-game by completing achievements.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 3701,
+          "name": "Rank 25 Reached",
+          "quota": 25,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Act 1 Cleared Difficulty",
+      "id": 95269,
+      "description": "0 = not cleared Act 1\n1 = cleared on Normal\n2 = cleared on Hard\n3 = cleared on Suicide",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3700,
+          "name": "Act 1 Cleared (Any Difficulty)",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Act 1 Furthest Area",
+      "id": 106048,
+      "description": "Furthest area reached on Act 1 on any difficulty.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Act 2 Cleared Difficulty",
+      "id": 95270,
+      "description": "0 = not cleared Act 2\n1 = cleared on Normal\n2 = cleared on Hard\n3 = cleared on Suicide",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Act 2 Furthest Area",
+      "id": 106049,
+      "description": "Furthest area reached on Act 2 on any difficulty.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Act 3 Cleared Difficulty",
+      "id": 95271,
+      "description": "0 = not cleared Act 3\n1 = cleared on Normal\n2 = cleared on Hard\n3 = cleared on Suicide",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Act 3 Furthest Area",
+      "id": 106050,
+      "description": "Furthest area reached on Act 3 on any difficulty.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "All Acts Cleared Difficulty",
+      "id": 95272,
+      "description": "0 = not cleared all acts\n1 = cleared all acts on Normal or higher\n2 = cleared all acts on Hard or higher\n3 = cleared all acts on Suicide",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Fastest Clear - Act 1",
+      "id": 95265,
+      "description": "Beat Act 1 in the fewest moves possible (as shown on the in-game clock).",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Fastest Clear - Act 2",
+      "id": 95266,
+      "description": "Beat Act 2 in the fewest moves possible (as shown on the in-game clock).",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Fastest Clear - Act 3",
+      "id": 95267,
+      "description": "Beat Act 3 in the fewest moves possible (as shown on the in-game clock).",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "High Score",
+      "id": 107194,
+      "description": "Best score in any of Acts 1 to 3.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "High Score - All Acts",
+      "accomplishment_tasks": [
+        {
+          "id": 3702,
+          "name": "120,000 Points Scored in a Single Run",
+          "quota": 120000,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "High Score - Act 1",
+      "id": 95262,
+      "description": "Your best score so far on Act 1.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "High Score - Act 2",
+      "id": 95263,
+      "description": "Your best score so far on Act 2.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "High Score - Act 3",
+      "id": 95264,
+      "description": "Your best score so far on Act 3.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "High Score - The Tower",
+      "id": 114246,
+      "description": "Best score in The Tower.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Highest Tower Floor",
+      "id": 116270,
+      "description": "The furthest floor reached in The Tower.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Highest XP Level",
+      "id": 95268,
+      "description": "The highest experience level you've reached.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "The Long Run",
+      "id": 106056,
+      "description": "\"The Long Run\" achievement from Rank 45. \"Clear acts 1 to 3, in order, with one class, without dying, on Suicide difficulty.\"\n\nI've set it to upload the maximum streak rather than the current streak, so it'll stay at 2 even when the streak resets. Current",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Total Achievements",
+      "id": 106054,
+      "description": "Number of achievements cleared by user. Ignores the rank system. (See also: Achievement Rank)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Total Deaths",
+      "id": 106052,
+      "description": "Number of times the player's died.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Total Gold Collected",
+      "id": 106053,
+      "description": "Accumulated gold collected across all runs.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Total Kills",
+      "id": 106051,
+      "description": "Number of enemies killed.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 3699,
+          "name": "100 Enemies Killed",
+          "quota": 100,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Total Playtime",
+      "id": 106055,
+      "description": "Time played in seconds. Reflects in-game timer in Achievements screen.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3159,
+      "name": "Dungeon Sweeper",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2595,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3699,
+          "statistic_id": 106051,
+          "quota": 100,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3159",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 37,
+        "name": "Best of 2014",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3160,
+      "name": "Asterion Assassin",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2596,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3700,
+          "statistic_id": 95269,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3160",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3161,
+      "name": "Permadeath Survivor",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2597,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3701,
+          "statistic_id": 95273,
+          "quota": 25,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3161",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3162,
+      "name": "Roguestrike",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2598,
+      "level": "impossible",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3702,
+          "statistic_id": 107194,
+          "quota": 120000,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3162",
+      "reward_points": 60,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/randomnine/cardinal-quest-2/chat.js",
+  "holodeck_url": "/games/randomnine/cardinal-quest-2/holodeck",
+  "accomplishments_bootstrap_url": "/games/randomnine/cardinal-quest-2/chat_achievements",
+  "sticker_drop_url": "/games/randomnine/cardinal-quest-2/sticker_drop",
+  "game_path": "/games/randomnine/cardinal-quest-2",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 943,
+    "flash_frame_height": 553,
+    "game_frame_width": 640,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=179258",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": true,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": true,
+    "disable_instart": false,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": true,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": true,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

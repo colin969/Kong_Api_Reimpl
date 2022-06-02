@@ -1,0 +1,469 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 235199,
+  "statistics": [
+    {
+      "name": "completeChallenge",
+      "id": 114786,
+      "description": "quest completed: challenge won",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "completeFirst",
+      "id": 114784,
+      "description": "quest completed: complete 1st level",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "completeFullGame",
+      "id": 114770,
+      "description": "Quest completed: Completed main campaign",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "completeHalf",
+      "id": 114785,
+      "description": "quest completed: half game passed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "completeHard",
+      "id": 114787,
+      "description": "quest completed: hard wave won",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "credits",
+      "id": 114793,
+      "description": "quest completed: visited credits",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "dealDamage",
+      "id": 114778,
+      "description": "Quest completed: deal 50k dmg",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FreezeTargets",
+      "id": 114775,
+      "description": "quest completed: Freeze 400 targets",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "get98",
+      "id": 114796,
+      "description": "quest completed: gain all stars",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "kill100",
+      "id": 114780,
+      "description": "quest completed: kill 100 enemies",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "kill1000",
+      "id": 114781,
+      "description": "quest completed: kill 1000 enemies",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "kill10000",
+      "id": 114783,
+      "description": "quest completed: kill 10000 enemies",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "kill5000",
+      "id": 114782,
+      "description": "quest completed: kill 5000 enemies",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "killFlashStrike",
+      "id": 114789,
+      "description": "quest completed: kill enemies using flash strike",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "killKnights",
+      "id": 114771,
+      "description": "Quest completed: black knights killed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "killMantraps",
+      "id": 114790,
+      "description": "quest completed: kill enemies using mantraps",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "killMeteor",
+      "id": 114794,
+      "description": "quest completed: killed using meteor strike",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "killMines",
+      "id": 114791,
+      "description": "quest completed: kill enemies using mines",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "killOgres",
+      "id": 114774,
+      "description": "Quest completed: killed ogres",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "killOneShot",
+      "id": 114777,
+      "description": "Quest completed: kill 12 targets with 1 shot",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "killSkeletons",
+      "id": 114776,
+      "description": "Quest completed:  kill skeletons",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "killVampires",
+      "id": 114772,
+      "description": "Quest completed: Vampires killed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "killWarriors",
+      "id": 114788,
+      "description": "quest completed: kill enemies using warriors",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "killWitches",
+      "id": 114773,
+      "description": "Quest completed:  killed witches",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "poisonEnemies",
+      "id": 114779,
+      "description": "quest completed: poison a number of enemies",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "strikeHeadshots",
+      "id": 114792,
+      "description": "quest completed: strike headshots",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totalChallengesCompleted",
+      "id": 115307,
+      "description": "Total number of challenges completed by player (max 12)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Challenges Completed",
+      "accomplishment_tasks": [
+        {
+          "id": 3865,
+          "name": "12 challenges completed",
+          "quota": 12,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "totalEnemiesKilled",
+      "id": 114768,
+      "description": "Number of enemies killed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Enemies killed",
+      "accomplishment_tasks": [
+        {
+          "id": 3862,
+          "name": "1,000 enemies killed",
+          "quota": 1000,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "totalHardLevelsCompleted",
+      "id": 115308,
+      "description": "Total number of Hard Waves completed by player (max 12)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Hard Levels Completed",
+      "accomplishment_tasks": [
+        {
+          "id": 3866,
+          "name": "12 hard levels completed",
+          "quota": 12,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "totalLevelsPassed",
+      "id": 114767,
+      "description": "Number of levels passed (12 max)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Levels Passed",
+      "accomplishment_tasks": [
+        {
+          "id": 3864,
+          "name": "12 levels completed",
+          "quota": 12,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "totalStarsGained",
+      "id": 114769,
+      "description": "Number of stars gained",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Stars gained",
+      "accomplishment_tasks": [
+        {
+          "id": 3863,
+          "name": "30 stars earned",
+          "quota": 30,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "unlockTab",
+      "id": 114795,
+      "description": "quest completed: unlocked all techs in a single tab",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3287,
+      "name": "Killing Field Groundskeeper",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2721,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3862,
+          "statistic_id": 114768,
+          "quota": 1000,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3287",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3288,
+      "name": "Star Warrior",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2722,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3863,
+          "statistic_id": 114769,
+          "quota": 30,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3288",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3289,
+      "name": "End of the Royal Road",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2723,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3864,
+          "statistic_id": 114767,
+          "quota": 12,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3289",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3290,
+      "name": "Distinguished Tactician",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2724,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3865,
+          "statistic_id": 115307,
+          "quota": 12,
+          "operator": "AND"
+        },
+        {
+          "id": 3866,
+          "statistic_id": 115308,
+          "quota": 12,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3290",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/platon_skedow/royal-squad/chat.js",
+  "holodeck_url": "/games/platon_skedow/royal-squad/holodeck",
+  "accomplishments_bootstrap_url": "/games/platon_skedow/royal-squad/chat_achievements",
+  "sticker_drop_url": "/games/platon_skedow/royal-squad/sticker_drop",
+  "game_path": "/games/platon_skedow/royal-squad",
+  "html_dimensions": {
+    "game_width": 700,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 1003,
+    "flash_frame_height": 626,
+    "game_frame_width": 700,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=235199",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": true,
+    "shared_links": null,
+    "disallow_cinematic": true,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

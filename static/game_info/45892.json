@@ -1,0 +1,289 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 45892,
+  "statistics": [
+    {
+      "name": "lost",
+      "id": 30098,
+      "description": "The total number of games lost (can be used together with \"lost\" to obtain a ratio)",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "lvl1",
+      "id": 30100,
+      "description": "Total number of level 1 elementals defeated (high numbers can be reached easily)",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Level 1 elementals defeated",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "lvl2",
+      "id": 30101,
+      "description": "Total number of level 2 elementals defeated (high numbers can be reached easily)",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Level 2 elementals defeated",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "lvl3",
+      "id": 30102,
+      "description": "Total number of level 3 elementals defeated (high numbers can be reached easily)",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Level 3 elementals defeated",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "lvl5",
+      "id": 37055,
+      "description": "Number of level5 games won",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Level 5 elementals defeated",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "lvl6",
+      "id": 30112,
+      "description": "Total number of Fake Gods defeated. Fake Gods are considered \"bosses\" in game. New players will take a while (a few days on the average) to kill their first Fake God. Experiences players beat them 25% of the times on average.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Fake gods defeated",
+      "accomplishment_tasks": [
+        {
+          "id": 1409,
+          "name": "Fake god defeated",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "pvp",
+      "id": 30109,
+      "description": "Total number of pvp games won",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "PvP victories",
+      "accomplishment_tasks": [
+        {
+          "id": 1408,
+          "name": "10 pvp wins",
+          "quota": 10,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "quest",
+      "id": 30113,
+      "description": "1:No quests completed (new player)\n2:level0 defeated\n3:player learned how to modify deck\n4:player learned how to buy/sell cards\n5:level1 defeated\n6:level2 defeated\n7:reached score 100\n8:reached score 500",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Quest progress",
+      "accomplishment_tasks": [
+        {
+          "id": 1407,
+          "name": "7 quests completed",
+          "quota": 8,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "score",
+      "id": 30096,
+      "description": "The score increases if the player wins a game, decreases if a game is lost. It can be a negative number. Players receive a rare card when they reach score 500.",
+      "stat_type": "Replace",
+      "display_in_table": true,
+      "display_name": "Score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "won",
+      "id": 30097,
+      "description": "The total number of games won",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Games won",
+      "accomplishment_tasks": [
+        {
+          "id": 1406,
+          "name": "Level 0 opponent defeated",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1169,
+      "name": "Level Zero Hero",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 927,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1406,
+          "statistic_id": 30097,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1169",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1170,
+      "name": "Only the Beginning",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 928,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1407,
+          "statistic_id": 30113,
+          "quota": 8,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1170",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 6,
+        "name": "Best of 2009",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1171,
+      "name": "Deck Wrecking",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 929,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1408,
+          "statistic_id": 30109,
+          "quota": 10,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1171",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1172,
+      "name": "Flying Spaghetti Master",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 930,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1409,
+          "statistic_id": 30112,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1172",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/zanzarino/elements/chat.js",
+  "holodeck_url": "/games/zanzarino/elements/holodeck",
+  "accomplishments_bootstrap_url": "/games/zanzarino/elements/chat_achievements",
+  "sticker_drop_url": "/games/zanzarino/elements/sticker_drop",
+  "game_path": "/games/zanzarino/elements",
+  "html_dimensions": {
+    "game_width": 910,
+    "game_height": 530,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 530,
+    "flash_frame_width": 1213,
+    "flash_frame_height": 556,
+    "game_frame_width": 910,
+    "game_frame_height": 530,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=45892",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": true,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": null,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": false,
+    "disable_instart": false,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

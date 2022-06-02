@@ -1,0 +1,280 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 264222,
+  "statistics": [
+    {
+      "name": "gameLaunched",
+      "id": 129612,
+      "description": "Ping ping ping! Increasing the counter when the game is launched.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "maxAchievements",
+      "id": 129639,
+      "description": "Number of Achievements unlocked in Main campaign. Max=45",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Achievements Unlocked",
+      "accomplishment_tasks": [
+        {
+          "id": 4209,
+          "name": "25 achievements unlocked",
+          "quota": 25,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "maxChallenges",
+      "id": 129637,
+      "description": "Number of Challenges won in main campaign. Max=17",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Challenges Won",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "maxHard",
+      "id": 129638,
+      "description": "Number of Hard Waves won in main campaign. Max=17",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Hard Waves Won",
+      "accomplishment_tasks": [
+        {
+          "id": 4211,
+          "name": "17 missions completed (hard)",
+          "quota": 17,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "maxNormal",
+      "id": 129636,
+      "description": "Number of Normal levels passed in general campaign. Max=17.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Normal Levels Completed",
+      "accomplishment_tasks": [
+        {
+          "id": 4210,
+          "name": "17 levels completed (normal)",
+          "quota": 17,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "totalDamage",
+      "id": 129634,
+      "description": "Amount of damage dealt",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Damage Dealt",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totalKilled",
+      "id": 129631,
+      "description": "Amount of enemies killed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Bots killed",
+      "accomplishment_tasks": [
+        {
+          "id": 4208,
+          "name": "1,000 bots killed",
+          "quota": 1000,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "totalMoney",
+      "id": 129635,
+      "description": "Amount of credits  earned",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Credits Earned",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totalVictories",
+      "id": 129632,
+      "description": "Amount of battles won (repeated victories also count)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Victories",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3572,
+      "name": "Scrap Heap of Trouble",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2963,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4208,
+          "statistic_id": 129631,
+          "quota": 1000,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3572",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3573,
+      "name": "Celestial Service",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2964,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4209,
+          "statistic_id": 129639,
+          "quota": 25,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3573",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 43,
+        "name": "Best of 2017",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3574,
+      "name": "Full Tour",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2965,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4210,
+          "statistic_id": 129636,
+          "quota": 17,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3574",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3575,
+      "name": "Supernal Squad",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2966,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4211,
+          "statistic_id": 129638,
+          "quota": 17,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3575",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/platon_skedow/stellar-squad/chat.js",
+  "holodeck_url": "/games/platon_skedow/stellar-squad/holodeck",
+  "accomplishments_bootstrap_url": "/games/platon_skedow/stellar-squad/chat_achievements",
+  "sticker_drop_url": "/games/platon_skedow/stellar-squad/sticker_drop",
+  "game_path": "/games/platon_skedow/stellar-squad",
+  "html_dimensions": {
+    "game_width": 700,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 1003,
+    "flash_frame_height": 626,
+    "game_frame_width": 700,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=264222",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": true,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": false,
+    "disable_instart": false,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": true,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

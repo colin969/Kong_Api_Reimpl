@@ -1,0 +1,235 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 312081,
+  "statistics": [
+    {
+      "name": "COMPLETE_06",
+      "id": 139306,
+      "description": "Complete 6 puzzles",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "COMPLETE_12 ",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "COMPLETE_12",
+      "id": 139307,
+      "description": "Complete 12 puzzles",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "COMPLETE_18",
+      "id": 139308,
+      "description": "Complete 18 puzzles",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "COMPLETE_24",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "COMPLETE_24",
+      "id": 139309,
+      "description": "Complete 24 puzzles",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "COMPLETE_28",
+      "id": 139310,
+      "description": "Complete 28 puzzles",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "COMPLETE_X",
+      "id": 139311,
+      "description": "Complete puzzle X",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 4800,
+          "name": "Solve Level X",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "LEVELS",
+      "id": 139357,
+      "description": "Solved puzzles",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Solved puzzles",
+      "accomplishment_tasks": [
+        {
+          "id": 4799,
+          "name": "Solve all 28 puzzles",
+          "quota": 28,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "STARS",
+      "id": 139358,
+      "description": "Earned stars",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Earned stars",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "STARS_24",
+      "id": 139312,
+      "description": "Get 24 stars",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "STARS_36",
+      "id": 139313,
+      "description": "Get 36 stars",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "STARS_48",
+      "id": 139314,
+      "description": "Get 48 stars\n",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "STARS_56",
+      "id": 139315,
+      "description": "Get all 56 stars",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 4021,
+      "name": "The Sum of All Squares",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 3191,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4799,
+          "statistic_id": 139357,
+          "quota": 28,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-4021",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 4022,
+      "name": "It Doesn't Add Up!",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 3192,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4800,
+          "statistic_id": 139311,
+          "quota": 1,
+          "operator": "OR"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-4022",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/ejbarreto/puzlogic-plus/chat.js",
+  "holodeck_url": "/games/ejbarreto/puzlogic-plus/holodeck",
+  "accomplishments_bootstrap_url": "/games/ejbarreto/puzlogic-plus/chat_achievements",
+  "sticker_drop_url": "/games/ejbarreto/puzlogic-plus/sticker_drop",
+  "game_path": "/games/ejbarreto/puzlogic-plus",
+  "html_dimensions": {
+    "game_width": 960,
+    "game_height": 540,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 540,
+    "flash_frame_width": 1263,
+    "flash_frame_height": 566,
+    "game_frame_width": 960,
+    "game_frame_height": 540,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=312081",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

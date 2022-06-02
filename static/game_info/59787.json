@@ -1,0 +1,254 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 59787,
+  "statistics": [
+    {
+      "name": "HeroOfSOTER",
+      "id": 32948,
+      "description": "Complete campaign mode on any difficulty setting.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Hero of SOTER",
+      "accomplishment_tasks": [
+        {
+          "id": 1268,
+          "name": "10 levels completed (any difficulty)",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Jackal",
+      "id": 32953,
+      "description": "Destroy a Cormorant using only your primary weapon, in Survival Mode or HARD Campaign Mode.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 1270,
+          "name": "Jackal achievement earned",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "LegendOfSOTER",
+      "id": 32949,
+      "description": "Complete campaign mode on the hard difficulty setting.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Legend of SOTER",
+      "accomplishment_tasks": [
+        {
+          "id": 1271,
+          "name": "10 levels completed (hard difficulty)",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Miser",
+      "id": 32952,
+      "description": "Accumulate 500 or more unspent resources, in any game mode.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "The Miser",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Score",
+      "id": 32945,
+      "description": "Survival mode highscore.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Survivalism",
+      "id": 32950,
+      "description": "Stay alive for 8 minutes in Survival Mode.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Unscathed",
+      "id": 32951,
+      "description": "Earn your first 1000 points in Survival Mode without losing your shield.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 1269,
+          "name": "1,000 survival points earned without losing shield",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1065,
+      "name": "Hero of SOTER",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 836,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1268,
+          "statistic_id": 32948,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1065",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1066,
+      "name": "Unscathed",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 837,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1269,
+          "statistic_id": 32951,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1066",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1067,
+      "name": "Jackal",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 838,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1270,
+          "statistic_id": 32953,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1067",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1068,
+      "name": "Legend of SOTER",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 839,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1271,
+          "statistic_id": 32949,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1068",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/DigYourOwnGrave/vector-conflict-the-siege/chat.js",
+  "holodeck_url": "/games/DigYourOwnGrave/vector-conflict-the-siege/holodeck",
+  "accomplishments_bootstrap_url": "/games/DigYourOwnGrave/vector-conflict-the-siege/chat_achievements",
+  "sticker_drop_url": "/games/DigYourOwnGrave/vector-conflict-the-siege/sticker_drop",
+  "game_path": "/games/DigYourOwnGrave/vector-conflict-the-siege",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 450,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 38,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 553,
+    "game_frame_width": 800,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=59787",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

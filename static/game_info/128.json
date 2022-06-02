@@ -1,0 +1,401 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 128,
+  "statistics": [
+    {
+      "name": "BossesKilled",
+      "id": 36775,
+      "description": "Total bosses killed.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Bosses Killed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BossKnockDowns",
+      "id": 36789,
+      "description": "Total boss knockdowns. A boss-knockdown is when the boss falls down but is not killed. A single boss can be knocked down multiple times.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Boss Knockdowns",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "CriticalHits",
+      "id": 36779,
+      "description": "Total critical hits which are achieved by hitting enemies in weakspots such as the head.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Critical Hits",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "CultistsKilled",
+      "id": 36781,
+      "description": "Total cultists (enemy healers) killed.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Cultists Killed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Defeats",
+      "id": 36777,
+      "description": "Total defeats.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DragonScoutsKilled",
+      "id": 36783,
+      "description": "Total dragon scouts killed.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Dragon Scouts Killed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EnemyCastlesDestroyed",
+      "id": 36782,
+      "description": "Total enemy castles destroyed.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Enemy Castles Destroyed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FlagsCaptured_v2",
+      "id": 36846,
+      "description": "Total enemy flags captured.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Flags Captured",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FurthestCriticalShot",
+      "id": 36897,
+      "description": "Furthest distance from an enemy unit that a hero hits with a critical shot.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Furthest Critical Shot",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GoldEarned",
+      "id": 36785,
+      "description": "Total gold earned.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Gold Earned",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GoldSpent_v2",
+      "id": 36812,
+      "description": "Total gold spent.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Gold Spent",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GreatestAccuracy",
+      "id": 36895,
+      "description": "Greatest accuracy achieved after victory.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Greatest Accuracy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GreatestDamageDelt",
+      "id": 36898,
+      "description": "Greatest damage inflicted by the hero on an enemy from a single impact or explosion.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Greatest Damage Delt",
+      "accomplishment_tasks": [
+        {
+          "id": 1403,
+          "name": "600 damage dealt (single shot)",
+          "quota": 600,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "HorsemenKilled",
+      "id": 36780,
+      "description": "Total horsemen killed.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Horsemen Killed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Kills",
+      "id": 36774,
+      "description": "Total enemies killed.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 1402,
+          "name": "100 kills",
+          "quota": 100,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "LongestTraveledShot",
+      "id": 36896,
+      "description": "Longest flight duration of a hero's shot before hitting an enemy soldier (milliseconds).",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Longest Traveled Shot",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "PlayThroughs",
+      "id": 36790,
+      "description": "Total amount of times a player beats the game.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Play Throughs",
+      "accomplishment_tasks": [
+        {
+          "id": 1404,
+          "name": "Game completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "TrebuchetsDestroyed",
+      "id": 36784,
+      "description": "Total trebuchets destroyed.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Trebuchets Destroyed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TroopsSummoned",
+      "id": 36788,
+      "description": "Total allied troops summoned.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Troops Summoned",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "UpgradesPurchased",
+      "id": 36792,
+      "description": "Total upgrades purchased.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Upgrades Purchased",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "VictoriesByAnnihilation",
+      "id": 36845,
+      "description": "Victories by Annihilation. This occurs when all enemy units in the round are killed but the enemy flag is not captured.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Victories by Annihilation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Victories_v2",
+      "id": 36847,
+      "description": "Total victories (occurs by capturing the enemy flag or annihilating all enemy units).",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Victories",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "XPEarned",
+      "id": 36787,
+      "description": "Total XP earned.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "XP Earned",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "_deprecated_FlagsCaptured",
+      "id": 36778,
+      "description": "BUGGED: Was counting all victories (even annihilations). Original intentio: Total enemy flags captured.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Flags Captured",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "_deprecated_GoldSpent",
+      "id": 36786,
+      "description": "BUGGED (negative value reported). Total gold spent.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Gold Spent",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "_deprecated_Victories",
+      "id": 36776,
+      "description": "Deprecating this var for v2. Total victories achieved.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1165,
+      "name": "Death From Above",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 923,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1402,
+          "statistic_id": 36774,
+          "quota": 100,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1165",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1166,
+      "name": "Shot Through the Heart",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 924,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1403,
+          "statistic_id": 36898,
+          "quota": 600,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1166",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 4,
+        "name": "Best of 2007",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1167,
+      "name": "Bowmaster Master",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 925,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1404,
+          "statistic_id": 36790,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1167",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/lostvector/bowmaster-prelude/chat.js",
+  "holodeck_url": "/games/lostvector/bowmaster-prelude/holodeck",
+  "accomplishments_bootstrap_url": "/games/lostvector/bowmaster-prelude/chat_achievements",
+  "sticker_drop_url": "/games/lostvector/bowmaster-prelude/sticker_drop",
+  "game_path": "/games/lostvector/bowmaster-prelude",
+  "html_dimensions": {
+    "game_width": 1050,
+    "game_height": 525,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 1,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1353,
+    "flash_frame_height": 553,
+    "game_frame_width": 1050,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=128",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

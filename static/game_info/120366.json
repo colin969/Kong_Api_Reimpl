@@ -1,0 +1,138 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 120366,
+  "statistics": [
+    {
+      "name": "achievements",
+      "id": 65770,
+      "description": "Number of achievements given",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Achievements",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "crushedAllCastles",
+      "id": 65768,
+      "description": "Crushed all castles in the game",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Crushed All Castles",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "gotGoldOnAllCastles",
+      "id": 65769,
+      "description": "Gotten gold on all castles in the game",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "All Gold",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "hasBeatGame",
+      "id": 65765,
+      "description": "Beaten game",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "hasBeatUndead",
+      "id": 65766,
+      "description": "Beat undead mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "provincesUnlocked",
+      "id": 65764,
+      "description": "Areas on the map unlocked.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Provinces Unlocked",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "undeadDay",
+      "id": 65767,
+      "description": "Max day reached in undead mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/ArmorGames/crush-the-castle-2-pp/chat.js",
+  "holodeck_url": "/games/ArmorGames/crush-the-castle-2-pp/holodeck",
+  "accomplishments_bootstrap_url": "/games/ArmorGames/crush-the-castle-2-pp/chat_achievements",
+  "sticker_drop_url": "/games/ArmorGames/crush-the-castle-2-pp/sticker_drop",
+  "game_path": "/games/ArmorGames/crush-the-castle-2-pp",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 550,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 550,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 576,
+    "game_frame_width": 800,
+    "game_frame_height": 550,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=120366",
+  "shared_content_type_permalinks": [
+    "castle"
+  ],
+  "shared_content_type_names": [
+    "castle"
+  ],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": false,
+    "disable_instart": false,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

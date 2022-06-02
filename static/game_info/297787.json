@@ -1,0 +1,243 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 297787,
+  "statistics": [
+    {
+      "name": "wonminingVillage",
+      "id": 134744,
+      "description": "Whether the player won in the slightly more difficult way",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "wonminingVillageExtended",
+      "id": 135134,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "wonpotionLabExtended",
+      "id": 135136,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "wonstandingstones",
+      "id": 134743,
+      "description": "Whether the player won in the easy, magical way.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "wonstandingstonesExtended",
+      "id": 135135,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "wonTilesUncovered",
+      "id": 134745,
+      "description": "How many tiles the player had left at the end",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Areas not covered by darkness (Standard Mode)",
+      "accomplishment_tasks": [
+        {
+          "id": 4396,
+          "name": "Standard mode completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "wonTilesUncoveredminingVillage",
+      "id": 134747,
+      "description": "How many tiles were never covered by darkness during a tech win.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Areas not covered by darkness (Tech Win; Standard)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "wonTilesUncoveredstandingstones",
+      "id": 134746,
+      "description": "How many tiles left (magic win)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Areas not covered by darkness (Magic Win; Standard)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "wonTimeToWinExtended",
+      "id": 135137,
+      "description": "How long the player takes to win in Extended (seconds)",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Seconds to Win (Extended Mode)",
+      "accomplishment_tasks": [
+        {
+          "id": 4397,
+          "name": "Extended mode completed",
+          "quota": 99999999,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "wonTimeToWinminingVillageExtended",
+      "id": 135139,
+      "description": "How long it took to win with the mining village win (extended)",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Seconds to Win (Tech; Extended Mode)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "wonTimeToWinpotionLabExtended",
+      "id": 135140,
+      "description": "Time to win with the potion lab in extended mode",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Seconds to Win (Potion Lab; Extended Mode)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "wonTimeToWinstandingstonesExtended",
+      "id": 135138,
+      "description": "How long it took to win (standing stones win; extended)",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Seconds to Win (Magic; Extended Mode)",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3722,
+      "name": "Attacking the Darkness",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 3089,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4396,
+          "statistic_id": 134745,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3722",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3723,
+      "name": "Light in Extension",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 3090,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4397,
+          "statistic_id": 135137,
+          "quota": 99999999,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3723",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 45,
+        "name": "Best of 2018",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/flori9/stop-the-darkness/chat.js",
+  "holodeck_url": "/games/flori9/stop-the-darkness/holodeck",
+  "accomplishments_bootstrap_url": "/games/flori9/stop-the-darkness/chat_achievements",
+  "sticker_drop_url": "/games/flori9/stop-the-darkness/sticker_drop",
+  "game_path": "/games/flori9/stop-the-darkness",
+  "html_dimensions": {
+    "game_width": 964,
+    "game_height": 653,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 653,
+    "flash_frame_width": 1267,
+    "flash_frame_height": 679,
+    "game_frame_width": 964,
+    "game_frame_height": 653,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=297787",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

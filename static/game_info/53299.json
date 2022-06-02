@@ -1,0 +1,240 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 53299,
+  "statistics": [
+    {
+      "name": "AcedLevels",
+      "id": 29905,
+      "description": "Number of levels aced.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Levels Aced",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BonusLevelUnlocked",
+      "id": 29909,
+      "description": "Bonus levels unlocked",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Bonus levels unlocked",
+      "accomplishment_tasks": [
+        {
+          "id": 1172,
+          "name": "2 bonus levels unlocked",
+          "quota": 2,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "FlawlessAces",
+      "id": 30406,
+      "description": "Got 60 aces from both the regular levels and the bonus levels.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Flawless Game",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GameWon",
+      "id": 29907,
+      "description": "All 50 original levels completed.",
+      "stat_type": "Replace",
+      "display_in_table": true,
+      "display_name": "Game Complete",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LevelCompleted",
+      "id": 29910,
+      "description": "Levels Completed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Levels Completed",
+      "accomplishment_tasks": [
+        {
+          "id": 1173,
+          "name": "50 levels completed",
+          "quota": 50,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "PerfectAces",
+      "id": 29906,
+      "description": "Ace all 50 regular levels.",
+      "stat_type": "Replace",
+      "display_in_table": true,
+      "display_name": "Perfect Game",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalTime",
+      "id": 30153,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "WonExternal",
+      "id": 30405,
+      "description": "Won a game loaded from the Level Sharing API",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Won a Player Level",
+      "accomplishment_tasks": [
+        {
+          "id": 1171,
+          "name": "Player-created level completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 974,
+      "name": "Power to the People",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 767,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1171,
+          "statistic_id": 30405,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-974",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 975,
+      "name": "Gated Community",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 768,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1172,
+          "statistic_id": 29909,
+          "quota": 2,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-975",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 976,
+      "name": "Set This World Ablaze",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 769,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1173,
+          "statistic_id": 29910,
+          "quota": 50,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-976",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/damijin/pyro-ii/chat.js",
+  "holodeck_url": "/games/damijin/pyro-ii/holodeck",
+  "accomplishments_bootstrap_url": "/games/damijin/pyro-ii/chat_achievements",
+  "sticker_drop_url": "/games/damijin/pyro-ii/sticker_drop",
+  "game_path": "/games/damijin/pyro-ii",
+  "html_dimensions": {
+    "game_width": 550,
+    "game_height": 500,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 35,
+    "game_top": 13,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 923,
+    "flash_frame_height": 553,
+    "game_frame_width": 620,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=53299",
+  "shared_content_type_permalinks": [
+    "level"
+  ],
+  "shared_content_type_names": [
+    "level"
+  ],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

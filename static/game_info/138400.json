@@ -1,0 +1,145 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 138400,
+  "statistics": [
+    {
+      "name": "Alone Time",
+      "id": 76089,
+      "description": "The longest length of time you read the letter without stopping or being interrupted, in seconds.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Cat Scare",
+      "id": 76390,
+      "description": "How many times you found the kitty!",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Humiliations",
+      "id": 76091,
+      "description": "How many times you got caught reading the love letter and were humiliated in front of your peers!",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Kisses",
+      "id": 76090,
+      "description": "How many times you got kissed by your secret admirer!",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 2726,
+          "name": "Game Completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Read Speed",
+      "id": 76088,
+      "description": "The time you took to finish reading the entire letter, in seconds.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2332,
+      "name": "Teenage Guide to Popularity",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1911,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2726,
+          "statistic_id": 76090,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2332",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/axcho/the-love-letter/chat.js",
+  "holodeck_url": "/games/axcho/the-love-letter/holodeck",
+  "accomplishments_bootstrap_url": "/games/axcho/the-love-letter/chat_achievements",
+  "sticker_drop_url": "/games/axcho/the-love-letter/sticker_drop",
+  "game_path": "/games/axcho/the-love-letter",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 943,
+    "flash_frame_height": 553,
+    "game_frame_width": 640,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=138400",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

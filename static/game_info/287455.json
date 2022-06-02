@@ -1,0 +1,267 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 287455,
+  "statistics": [
+    {
+      "name": "achievements",
+      "id": 131432,
+      "description": "How many achievements you have gained in game.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Achievements",
+      "accomplishment_tasks": [
+        {
+          "id": 4226,
+          "name": "15 achievements earned",
+          "quota": 15,
+          "granularity": null
+        },
+        {
+          "id": 4444,
+          "name": "15 achievements earned",
+          "quota": 15,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "coins",
+      "id": 131429,
+      "description": "The total coins you have collected (you need the market to get coins).",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Coins",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "dragon",
+      "id": 131431,
+      "description": "How far you are to hatching a dragon. 1 = alchemy lab, 2 = wyrm pen, 3 = hatched dragon.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 4228,
+          "name": "Dragons hatched",
+          "quota": 3,
+          "granularity": null
+        },
+        {
+          "id": 4446,
+          "name": "Dragons hatched",
+          "quota": 3,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "level",
+      "id": 131428,
+      "description": "The highest player level you have reached.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Level",
+      "accomplishment_tasks": [
+        {
+          "id": 4225,
+          "name": "Level 5 reached",
+          "quota": 5,
+          "granularity": null
+        },
+        {
+          "id": 4443,
+          "name": "Level 5 reached",
+          "quota": 5,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "winGame",
+      "id": 131430,
+      "description": "1 if you have beat the game.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 4227,
+          "name": "Game completed",
+          "quota": 1,
+          "granularity": null
+        },
+        {
+          "id": 4445,
+          "name": "Game completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3588,
+      "name": "Newfound Power",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2979,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4225,
+          "statistic_id": 131428,
+          "quota": 5,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3588",
+      "reward_points": 5,
+      "reward_klient_xp": 0,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3589,
+      "name": "Renowned Survivor",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2980,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4226,
+          "statistic_id": 131432,
+          "quota": 15,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3589",
+      "reward_points": 15,
+      "reward_klient_xp": 0,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3590,
+      "name": "Sailing Outbound",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2981,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4227,
+          "statistic_id": 131430,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3590",
+      "reward_points": 15,
+      "reward_klient_xp": 0,
+      "accomplishment_group": {
+        "id": 43,
+        "name": "Best of 2017",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3591,
+      "name": "Dragon Pound",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2982,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4228,
+          "statistic_id": 131431,
+          "quota": 3,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3591",
+      "reward_points": 15,
+      "reward_klient_xp": 0,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/terra0nova/aground/chat.js",
+  "holodeck_url": "/games/terra0nova/aground/holodeck",
+  "accomplishments_bootstrap_url": "/games/terra0nova/aground/chat_achievements",
+  "sticker_drop_url": "/games/terra0nova/aground/sticker_drop",
+  "game_path": "/games/terra0nova/aground",
+  "html_dimensions": {
+    "game_width": 1024,
+    "game_height": 576,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 576,
+    "flash_frame_width": 1327,
+    "flash_frame_height": 602,
+    "game_frame_width": 1024,
+    "game_frame_height": 576,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=287455",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

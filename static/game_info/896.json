@@ -1,0 +1,234 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 896,
+  "statistics": [
+    {
+      "name": "Keyboard mode - Total Time",
+      "id": 982,
+      "description": "The total of all of your pesonal best times for keyboard mode.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level A - Keyboard",
+      "id": 985,
+      "description": "Best time for Level A on keyboard mode",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level A - Mouse",
+      "id": 993,
+      "description": "Best time for Level A on mouse mode",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level B - Keyboard",
+      "id": 986,
+      "description": "Best time for Level B on keyboard mode",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level B - Mouse",
+      "id": 994,
+      "description": "Best time for Level B on mouse mode",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level C - Keyboard",
+      "id": 987,
+      "description": "Best time for Level C on keyboard mode",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level C - Mouse",
+      "id": 995,
+      "description": "Best time for Level C on mouse mode",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level D - Keyboard",
+      "id": 988,
+      "description": "Best time for Level D on keyboard mode",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level D - Mouse",
+      "id": 996,
+      "description": "Best time for Level D on mouse mode",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level E - Keyboard",
+      "id": 989,
+      "description": "Best time for Level E on keyboard mode",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level E - Mouse",
+      "id": 997,
+      "description": "Best time for Level E on mouse mode",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level F - Keyboard",
+      "id": 990,
+      "description": "Best time for Level F on keyboard mode",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level F - Mouse",
+      "id": 998,
+      "description": "Best time for Level F on mouse mode",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level G - Keyboard",
+      "id": 991,
+      "description": "Best time for Level G on keyboard mode",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level G - Mouse",
+      "id": 999,
+      "description": "Best time for Level G on mouse mode",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level H - Keyboard",
+      "id": 992,
+      "description": "Best time for Level H on keyboard mode",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level H - Mouse",
+      "id": 1000,
+      "description": "Best time for Level H on mouse mode",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Mouse mode - Total Time",
+      "id": 981,
+      "description": "The total of all of your pesonal best times for mouse mode.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Total Level Completes",
+      "id": 984,
+      "description": "Your total amount of level completes",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Total Time Played",
+      "id": 983,
+      "description": "The total amount of your life you have wasted playing this game! (measured in minuites)",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/ArcadePanic/line-game/chat.js",
+  "holodeck_url": "/games/ArcadePanic/line-game/holodeck",
+  "accomplishments_bootstrap_url": "/games/ArcadePanic/line-game/chat_achievements",
+  "sticker_drop_url": "/games/ArcadePanic/line-game/sticker_drop",
+  "game_path": "/games/ArcadePanic/line-game",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 626,
+    "game_frame_width": 800,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=896",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

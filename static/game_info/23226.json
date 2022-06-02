@@ -1,0 +1,217 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 23226,
+  "statistics": [
+    {
+      "name": "BestChain",
+      "id": 11327,
+      "description": "Highest combo chain the player has gotten",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "CoralsGrown",
+      "id": 11326,
+      "description": "Total Number of Corals the player has grown (added at end of each level)",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GameWon",
+      "id": 11323,
+      "description": "the player has won the game",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 645,
+          "name": "Reef saved",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "HighScore",
+      "id": 11369,
+      "description": "HighScore",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "PlanktonEaten",
+      "id": 11325,
+      "description": "Number of Plankton the player fed to polyps (added at end of level)",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TimeToWin1",
+      "id": 11315,
+      "description": "Best time on level 1 (in seconds)",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TimeToWin2",
+      "id": 11316,
+      "description": "Best time on level 2",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TimeToWin3",
+      "id": 11317,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TimeToWin4",
+      "id": 11318,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TimeToWin5",
+      "id": 11319,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TimeToWin6",
+      "id": 11320,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TimeToWin7",
+      "id": 11321,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TimeToWinGame",
+      "id": 11324,
+      "description": "Total time the player was playing",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalScore",
+      "id": 11322,
+      "description": "Highest score a player has gotten (submitted at end of each level)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 515,
+      "name": "Reefer Management",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 416,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 645,
+          "statistic_id": 11323,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-515",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Trickysheep/kaleidoscope-reef/chat.js",
+  "holodeck_url": "/games/Trickysheep/kaleidoscope-reef/holodeck",
+  "accomplishments_bootstrap_url": "/games/Trickysheep/kaleidoscope-reef/chat_achievements",
+  "sticker_drop_url": "/games/Trickysheep/kaleidoscope-reef/sticker_drop",
+  "game_path": "/games/Trickysheep/kaleidoscope-reef",
+  "html_dimensions": {
+    "game_width": 700,
+    "game_height": 520,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 3,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1003,
+    "flash_frame_height": 553,
+    "game_frame_width": 700,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=23226",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

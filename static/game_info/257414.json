@@ -1,0 +1,531 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 257414,
+  "statistics": [
+    {
+      "name": "allmedalsearned",
+      "id": 122459,
+      "description": "\"Completionist\", >= 1 if earned every medal",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "bestalititude",
+      "id": 122443,
+      "description": "Best altitude ever reached",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Best Altitude",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "bestcash",
+      "id": 122444,
+      "description": "Best cash ever owned at one point",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Most Cash",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "bestflighttime",
+      "id": 122445,
+      "description": "Longest single flight",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Longest flight time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "besthorizontaldistance",
+      "id": 122447,
+      "description": "Greatest distance traveled left or right",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Best Horizontal Distance",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "bestspeed",
+      "id": 122446,
+      "description": "Highest speed ever reached",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Best flight speed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "classicmodechallenge",
+      "id": 122454,
+      "description": ">=1 if player has completed Classic Mode under 20 days",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "classicmodecomplete",
+      "id": 122458,
+      "description": ">=1 if classic mode beaten",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "foureastereggsfound",
+      "id": 122460,
+      "description": ">=1 if player found all 4 secrets videos",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "medalFlightTime",
+      "id": 125451,
+      "description": "Status of the Flight Time(best flight duration) medal, from 0 to 4 (none, bronze, silver, gold and black respectively)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "medalGottaGoFast",
+      "id": 125450,
+      "description": "Status of the Gotta Go Fast(best speed) medal, from 0 to 4 (none, bronze, silver, gold and black respectively)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 4053,
+          "name": "Gotta Go Fast (platinum)",
+          "quota": 4,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "medalKeepinItSimple",
+      "id": 125453,
+      "description": "Status of the Keeping' it simple(altitude with out body and stages) medal, from 0 to 4 (none, bronze, silver, gold and black respectively)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 4054,
+          "name": "Keepin' It Simple (platinum)",
+          "quota": 4,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "medalLemmeGetHigh",
+      "id": 125449,
+      "description": "Status of the Lemme Get High (best altitude) medal, from 0 to 4 (none, bronze, silver, gold and black respectively)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 4049,
+          "name": "20k altitude reached",
+          "quota": 2,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "medalPayloadMaster",
+      "id": 125455,
+      "description": "Status of the Payload Master(Payload mode progress) medal, from 0 to 4 (none, bronze, silver, gold and black respectively)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 4051,
+          "name": "50k altitude with 15 weight (Payload mode)",
+          "quota": 2,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "medalPenguinInSpace",
+      "id": 125454,
+      "description": "Status of the Penguin In Space(altitude using the default body) medal, from 0 to 4 (none, bronze, silver, gold and black respectively)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 4055,
+          "name": "Penguin in Space (platinum)",
+          "quota": 4,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "medalTheOldWay",
+      "id": 125452,
+      "description": "Status of the The Old Way(best horizontal distance) medal, from 0 to 4 (none, bronze, silver, gold and black respectively)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "moondestroyed",
+      "id": 122461,
+      "description": ">=1 if player destroyed the moon",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 4052,
+          "name": "Moon destroyed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "oneofeachbonuspurchased",
+      "id": 122453,
+      "description": ">=1 if player bought upgrades for each bonus item",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "payloadmedalsearned",
+      "id": 122462,
+      "description": ">=1 (1-4), correspond to the regular payload medals, one for each payload",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "payloadmodechallenge",
+      "id": 122455,
+      "description": ">=1 if player has compelted Payload Mode under 30 days",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "payloadmodecomplete",
+      "id": 122463,
+      "description": ">= if payload mode beaten",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "reallifedaysplayed",
+      "id": 122470,
+      "description": "Number of times the player has played the game on different real-life days (i.e. 1 point for every daily play)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "sandboxmodecomplete",
+      "id": 122464,
+      "description": ">= if 10 days or more played in sandbox",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "stagesonlymedal",
+      "id": 122465,
+      "description": ">= 1 (1-4?) correspond to medals awared for reached altitudes with no launcher or boosts",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "storymodechallenge1",
+      "id": 122456,
+      "description": ">=1 if player completed basic story mode (200k) under 30 days",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "storymodechallenge2",
+      "id": 122457,
+      "description": ">=1 if player has completed the hardest story mode (1,000k) under 65 days",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "storymodecomplete",
+      "id": 122466,
+      "description": ">=1 if basic story mode (200k) beaten",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 4050,
+          "name": "Story mode completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "storymodecomplete2",
+      "id": 122467,
+      "description": ">=1 if 2nd story mode beaten (400k)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "storymodecomplete3",
+      "id": 122468,
+      "description": ">=1 if 3rd story mode beaten (600k)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "storymodecomplete4",
+      "id": 122469,
+      "description": ">=1 if final story mode beaten (1,000k)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "toalitemupgrades",
+      "id": 122452,
+      "description": "Total item upgrades performed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totalaltitude",
+      "id": 122448,
+      "description": "Total distance traveled upward",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "All-Time Total Altitude",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totalcash",
+      "id": 122449,
+      "description": "Total cash ever earned",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totaldays",
+      "id": 122450,
+      "description": "Total in-game days played",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totalflighttime",
+      "id": 122451,
+      "description": "Total time spend flying",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total flight time",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3441,
+      "name": "\"Like Flying, but Up\"",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2846,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4049,
+          "statistic_id": 125449,
+          "quota": 2,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3441",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3442,
+      "name": "Colonizing New Antarctica",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2847,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4050,
+          "statistic_id": 122466,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3442",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 41,
+        "name": "10th Anniversary",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3443,
+      "name": "Pulling Your Weight",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2848,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4051,
+          "statistic_id": 125455,
+          "quota": 2,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3443",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 42,
+        "name": "Best of 2016",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3444,
+      "name": "Platinum Breaker",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2849,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4052,
+          "statistic_id": 122461,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 4053,
+          "statistic_id": 125450,
+          "quota": 4,
+          "operator": "AND"
+        },
+        {
+          "id": 4054,
+          "statistic_id": 125453,
+          "quota": 4,
+          "operator": "AND"
+        },
+        {
+          "id": 4055,
+          "statistic_id": 125454,
+          "quota": 4,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3444",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/light_bringer777/learn-to-fly-3/chat.js",
+  "holodeck_url": "/games/light_bringer777/learn-to-fly-3/holodeck",
+  "accomplishments_bootstrap_url": "/games/light_bringer777/learn-to-fly-3/chat_achievements",
+  "sticker_drop_url": "/games/light_bringer777/learn-to-fly-3/sticker_drop",
+  "game_path": "/games/light_bringer777/learn-to-fly-3",
+  "html_dimensions": {
+    "game_width": 720,
+    "game_height": 540,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 540,
+    "flash_frame_width": 1023,
+    "flash_frame_height": 566,
+    "game_frame_width": 720,
+    "game_frame_height": 540,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=257414",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": true,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": false,
+    "disable_instart": false,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": true,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": true
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

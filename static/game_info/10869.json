@@ -1,0 +1,485 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 10869,
+  "statistics": [
+    {
+      "name": "Artifacts Collected",
+      "id": 7335,
+      "description": "Artifacts are the hardest items to get. They require a talent just to have them drop. This is a cumulative running total",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BeatGameMediumHard",
+      "id": 7797,
+      "description": "Have they beat the game on medium or hard",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 472,
+          "name": "Level 9 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "BeatPrisonMediumHard",
+      "id": 7798,
+      "description": "Have they beat the prison on medium or hard",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 471,
+          "name": "Level 4 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Centaurs Lair Level",
+      "id": 7320,
+      "description": "Max level a player has gotten a centaur lair to.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Chaos Ranger Level",
+      "id": 7330,
+      "description": "Max level a player has gotten the chaos ranger avatar to",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Death Knight Level",
+      "id": 7329,
+      "description": "Max level a player has gotten the death knight avatar to",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Demon Pit Lair Level",
+      "id": 7327,
+      "description": "Max level a player has gotten a demo lair to.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Easy Defeated",
+      "id": 7336,
+      "description": "the player has defeated easy",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Elementals Lair Level",
+      "id": 7325,
+      "description": "Max level a player has gotten an elemental lair to.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Evil Wizard Level",
+      "id": 7331,
+      "description": "Max level a player has gotten the evil wizard avatar to",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Goblins Lair Level",
+      "id": 7319,
+      "description": "Max level that the player has gotten a goblin lair to.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Gold Dug",
+      "id": 7334,
+      "description": "amount of gold dug up ever from minerals, Gold Digger would be a great name for this :0",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 470,
+          "name": "100 gold dug",
+          "quota": 100,
+          "granularity": 50
+        }
+      ]
+    },
+    {
+      "name": "Hard Defeated",
+      "id": 7338,
+      "description": "the player has defeated hard",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Heroes Killed",
+      "id": 7333,
+      "description": "Cumulative amount of heroes killed ever",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Hard:MARATHON",
+      "id": 7376,
+      "description": "HighScore-Hard:MARATHON",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Hard:NEW_TOOLS",
+      "id": 7379,
+      "description": "HighScore-Hard:NEW_TOOLS",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Hard:NO_FREEB",
+      "id": 7370,
+      "description": "HighScore-Hard:NO_FREEB",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Hard:POC",
+      "id": 7348,
+      "description": "HighScore-Hard:POC",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Hard:PRELUDE",
+      "id": 7380,
+      "description": "HighScore-Hard:PRELUDE",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Hard:PRISON",
+      "id": 7373,
+      "description": "HighScore-Hard:PRISON",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Hard:TAKE_TOWN",
+      "id": 7401,
+      "description": "HighScore-Hard:TAKE_TOWN",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Hard:TRAITORS",
+      "id": 7378,
+      "description": "HighScore-Hard:TRAITORS",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Hard:TREASURE",
+      "id": 7369,
+      "description": "HighScore-Hard:TREASURE",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Medium:MARATHON",
+      "id": 7366,
+      "description": "HighScore-Medium:MARATHON",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Medium:NEW_TOOLS",
+      "id": 7371,
+      "description": "HighScore-Medium:NEW_TOOLS",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Medium:NO_FREEB",
+      "id": 7339,
+      "description": "HighScore-Medium:NO_FREEB",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Medium:POC",
+      "id": 7318,
+      "description": "HighScore-Medium:POC",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Medium:PRELUDE",
+      "id": 7372,
+      "description": "HighScore-Medium:PRELUDE",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Medium:PRISON",
+      "id": 7365,
+      "description": "HighScore-Medium:PRISON",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Medium:TAKE_TOWN",
+      "id": 7375,
+      "description": "HighScore-Medium:TAKE_TOWN",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Medium:TRAITORS",
+      "id": 7368,
+      "description": "HighScore-Medium:TRAITORS",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Medium:TREASURE",
+      "id": 7361,
+      "description": "HighScore-Medium:TREASURE",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Hydras Lair Level",
+      "id": 7326,
+      "description": "Max level a player has gotten a hydra lair to.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Liches Lair Level",
+      "id": 7324,
+      "description": "Max level a player has gotten a lich lair to.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Manticores Lair Level",
+      "id": 7323,
+      "description": "Max level a player has gotten a manticore lair to.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Max Gold",
+      "id": 7332,
+      "description": "max gold in a single game",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medium Defeated",
+      "id": 7337,
+      "description": "the player has defeated medium",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Minotaurs Lair Level",
+      "id": 7321,
+      "description": "Max level a player has gotten a minotaur lair to.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Vampires Lair Level",
+      "id": 7322,
+      "description": "Max level a player has gotten a vampire lair to.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Wyrms Lair Level",
+      "id": 7328,
+      "description": "Max level a player has gotten a wyrm lair to.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 364,
+      "name": "Gold Digger",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 299,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 470,
+          "statistic_id": 7334,
+          "quota": 100,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-364",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 365,
+      "name": "Jailbreak",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 300,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 471,
+          "statistic_id": 7798,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-365",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 366,
+      "name": "City Sackers",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 301,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 472,
+          "statistic_id": 7797,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-366",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/kendric/dungeon-defender/chat.js",
+  "holodeck_url": "/games/kendric/dungeon-defender/holodeck",
+  "accomplishments_bootstrap_url": "/games/kendric/dungeon-defender/chat_achievements",
+  "sticker_drop_url": "/games/kendric/dungeon-defender/sticker_drop",
+  "game_path": "/games/kendric/dungeon-defender",
+  "html_dimensions": {
+    "game_width": 700,
+    "game_height": 500,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 13,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1003,
+    "flash_frame_height": 553,
+    "game_frame_width": 700,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=10869",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

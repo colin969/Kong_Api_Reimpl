@@ -1,0 +1,189 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 102713,
+  "statistics": [
+    {
+      "name": "Maximum Worker Level",
+      "id": 54168,
+      "description": "The highest level of your dearly departed past workers.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Max Worker Level (old)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Maximum Worker Level 01",
+      "id": 55371,
+      "description": "The highest level for a person to reach.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Highest Level",
+      "accomplishment_tasks": [
+        {
+          "id": 3149,
+          "name": "Worker Happiness Level 3",
+          "quota": 3,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Resources Gathered",
+      "id": 54169,
+      "description": "The total number of resources gathered, be it gold or dirt, used or unusable.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Resources (old)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Resources Gathered 01",
+      "id": 55372,
+      "description": "Total number of resources gathered.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Resources",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Total Souls",
+      "id": 54170,
+      "description": "How many souls you've earned from all your efforts, ignores spending.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Total Souls (old)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Total Souls 01",
+      "id": 55373,
+      "description": "Total number of souls gathered.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Souls",
+      "accomplishment_tasks": [
+        {
+          "id": 3150,
+          "name": "1,000 Souls Raised",
+          "quota": 1000,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2717,
+      "name": "So Happy Together",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2243,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3149,
+          "statistic_id": 55371,
+          "quota": 3,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2717",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2718,
+      "name": "Accomplished Agriculturalist",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2244,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3150,
+          "statistic_id": 55373,
+          "quota": 1000,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2718",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Siveran/farm-of-souls/chat.js",
+  "holodeck_url": "/games/Siveran/farm-of-souls/holodeck",
+  "accomplishments_bootstrap_url": "/games/Siveran/farm-of-souls/chat_achievements",
+  "sticker_drop_url": "/games/Siveran/farm-of-souls/sticker_drop",
+  "game_path": "/games/Siveran/farm-of-souls",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 500,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 13,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 553,
+    "game_frame_width": 800,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=102713",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

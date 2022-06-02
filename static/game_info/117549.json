@@ -1,0 +1,353 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 117549,
+  "statistics": [
+    {
+      "name": "Highscore",
+      "id": 65155,
+      "description": "Game overall score",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Game overall score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : DESTROER_EXPERT",
+      "id": 64616,
+      "description": "Destroy 50 units",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "DESTROER_EXPERT",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : DESTROER_HERO",
+      "id": 64618,
+      "description": "Destroy 5000 units",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "DESTROER_HERO",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : DESTROER_MASTER",
+      "id": 64617,
+      "description": "Destroy 500 units",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Destroyer Master",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : ECO_EXPERT",
+      "id": 64623,
+      "description": "Don't detonate buildings during a mission (unlocks new cannon sight)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "ECO_EXPERT",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : MISSILE_ACE",
+      "id": 64614,
+      "description": "Destroy 15 units by one missile hit",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "MISSILE_ACE",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : MISSILE_EXPERT",
+      "id": 64601,
+      "description": "Destroy 6 units by one missile hit",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "MISSILE_EXPERT",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : MISSILE_MASTER",
+      "id": 64608,
+      "description": "Destroy 11 units by one missile hit (unlocks new missile launcher sight)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "MISSILE_MASTER",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : MISSION_1_HERO",
+      "id": 64631,
+      "description": "Earn rating of five stars (mission 1 hard difficulty)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "MISSION_1_HERO",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : MISSION_1_MASTER",
+      "id": 64625,
+      "description": "Earn rating of five stars (mission 1 normal difficulty)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "MISSION_1_MASTER",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : MISSION_2_HERO",
+      "id": 64632,
+      "description": "Earn rating of five stars (mission 2 hard difficulty)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "MISSION_2_HERO",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : MISSION_2_MASTER",
+      "id": 64626,
+      "description": "Earn rating of five stars (mission 2 normal difficulty)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "MISSION_2_MASTER",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : MISSION_3_HERO",
+      "id": 64633,
+      "description": "Earn rating of five stars (mission 3 hard difficulty)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "MISSION_3_HERO",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : MISSION_3_MASTER",
+      "id": 64627,
+      "description": "Earn rating of five stars (mission 3 normal difficulty)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "MISSION_3_MASTER",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : MISSION_4_HERO",
+      "id": 64634,
+      "description": "Earn rating of five stars (mission 4 hard difficulty)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "MISSION_4_HERO",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : MISSION_4_MASTER",
+      "id": 64628,
+      "description": "Earn rating of five stars (mission 4 normal difficulty)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "MISSION_4_MASTER",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : MISSION_5_HERO",
+      "id": 64635,
+      "description": "Earn rating of five stars (mission 5 hard difficulty)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "MISSION_5_HERO",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : MISSION_5_MASTER",
+      "id": 64629,
+      "description": "Earn rating of five stars (mission 5 normal difficulty)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "MISSION_5_MASTER",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : MISSION_6_HERO",
+      "id": 64636,
+      "description": "Earn rating of five stars (mission 6 hard difficulty)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "MISSION_6_HERO",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : MISSION_6_MASTER",
+      "id": 64630,
+      "description": "Earn rating of five stars (mission 6 normal difficulty)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "MISSION_6_MASTER",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : SHIELD_EXPERT",
+      "id": 64622,
+      "description": "Don't lose a single shield during a mission",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "SHIELD_EXPERT",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : SHUTTLE_AIR",
+      "id": 64074,
+      "description": "Destroy shuttle in air (unlocks new homing missile sight)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Shuttle was destroyed in air",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : SURVIVE_EXPERT",
+      "id": 64619,
+      "description": "Survive 14 waves (mission 7)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Survive Expert",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : SURVIVE_HERO",
+      "id": 64621,
+      "description": "Survive 23 waves (mission 7) (extremely hard to earn)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "SURVIVE_HERO",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : SURVIVE_MASTER",
+      "id": 64620,
+      "description": "Survive 19 waves (mission 7)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "SURVIVE_MASTER",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : TOP_DEFENDER",
+      "id": 64624,
+      "description": "Finish game (win mission 6)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Top Defender",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : UPGRADE_HERO",
+      "id": 64075,
+      "description": "Upgrade damage of any weapon to the max",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "UPGRADE_HERO",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : VULCAN_ACE",
+      "id": 64597,
+      "description": "Destroy 24 units by one vulcan burst",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "VULCAN_ACE",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : VULCAN_EXPERT",
+      "id": 64594,
+      "description": "Destroy 9 units by one vulcan burst",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "VULCAN_EXPERT",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Medal Earned : VULCAN_MASTER",
+      "id": 64595,
+      "description": "Destroy 16 units by one vulcan burst",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "VULCAN_MASTER",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SecretNukeMission5",
+      "id": 65156,
+      "description": "Secret nuke exploded in Mission 5",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Secret nuke exploded in Mission 5",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/gamingcar/top-defense/chat.js",
+  "holodeck_url": "/games/gamingcar/top-defense/holodeck",
+  "accomplishments_bootstrap_url": "/games/gamingcar/top-defense/chat_achievements",
+  "sticker_drop_url": "/games/gamingcar/top-defense/sticker_drop",
+  "game_path": "/games/gamingcar/top-defense",
+  "html_dimensions": {
+    "game_width": 700,
+    "game_height": 500,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 13,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1003,
+    "flash_frame_height": 553,
+    "game_frame_width": 700,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=117549",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": false,
+    "save_shared_content": false,
+    "save_external_shared_content": false,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": false,
+    "disable_instart": false,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

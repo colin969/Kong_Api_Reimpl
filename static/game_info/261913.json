@@ -1,0 +1,200 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 261913,
+  "statistics": [
+    {
+      "name": "GameComplete",
+      "id": 124137,
+      "description": "Beat the boss",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Game Complete",
+      "accomplishment_tasks": [
+        {
+          "id": 4032,
+          "name": "Tesla defeated",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "MinPointsWin",
+      "id": 124138,
+      "description": "Beat the game using the fewest number of upgrade points possible.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Min Points to Win",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "PointsSpent",
+      "id": 124254,
+      "description": "Points Spent in the Shop",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 4030,
+          "name": "1,000 points spent",
+          "quota": 1000,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "WavesToGo",
+      "id": 124136,
+      "description": "Waves until the end",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Waves to go",
+      "accomplishment_tasks": [
+        {
+          "id": 4031,
+          "name": "50 waves remaining",
+          "quota": 50,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3425,
+      "name": "Credits Where Credits Are Due",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2833,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4030,
+          "statistic_id": 124254,
+          "quota": 1000,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3425",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3426,
+      "name": "Powering Through",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2834,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4031,
+          "statistic_id": 124136,
+          "quota": 50,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3426",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3427,
+      "name": "Freedom in Defeat",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2835,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4032,
+          "statistic_id": 124137,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3427",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/neurowocky/tesla8/chat.js",
+  "holodeck_url": "/games/neurowocky/tesla8/holodeck",
+  "accomplishments_bootstrap_url": "/games/neurowocky/tesla8/chat_achievements",
+  "sticker_drop_url": "/games/neurowocky/tesla8/sticker_drop",
+  "game_path": "/games/neurowocky/tesla8",
+  "html_dimensions": {
+    "game_width": 960,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 1263,
+    "flash_frame_height": 626,
+    "game_frame_width": 960,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=261913",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

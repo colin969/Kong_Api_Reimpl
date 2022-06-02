@@ -1,0 +1,231 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 9480,
+  "statistics": [
+    {
+      "name": "doeocaught_easy",
+      "id": 6749,
+      "description": "For each pink doeo caught.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 433,
+          "name": "500 pink Doeos caught",
+          "quota": 500,
+          "granularity": 300
+        }
+      ]
+    },
+    {
+      "name": "doeocaught_hard",
+      "id": 6750,
+      "description": "For each blue doeo caught (hard mode).",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Hard",
+      "id": 6761,
+      "description": "HighScore-Hard",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Normal",
+      "id": 6769,
+      "description": "HighScore-Normal",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 434,
+          "name": "30,000 points (easy mode)",
+          "quota": 30000,
+          "granularity": 15000
+        }
+      ]
+    },
+    {
+      "name": "kingtime_easy",
+      "id": 6747,
+      "description": "Time it took to beat the Doeo king (level 6) on Easy mode.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 435,
+          "name": "King killed in under 20 seconds",
+          "quota": 20,
+          "granularity": 10
+        }
+      ]
+    },
+    {
+      "name": "kingtime_hard",
+      "id": 6748,
+      "description": "Time it took to beat the Doeo king (level 6) on Hard mode.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 436,
+          "name": "King defeated (hard mode)",
+          "quota": 40,
+          "granularity": 20
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 335,
+      "name": "Rodoeo",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 273,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 433,
+          "statistic_id": 6749,
+          "quota": 500,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-335",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 336,
+      "name": "Profesioeo",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 274,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 434,
+          "statistic_id": 6769,
+          "quota": 30000,
+          "operator": "AND"
+        },
+        {
+          "id": 435,
+          "statistic_id": 6747,
+          "quota": 20,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-336",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 40,
+        "name": "5-Minute Games",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 337,
+      "name": "New Doeo King",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 275,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 436,
+          "statistic_id": 6748,
+          "quota": 40,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-337",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/raitendo/doeo/chat.js",
+  "holodeck_url": "/games/raitendo/doeo/holodeck",
+  "accomplishments_bootstrap_url": "/games/raitendo/doeo/chat_achievements",
+  "sticker_drop_url": "/games/raitendo/doeo/sticker_drop",
+  "game_path": "/games/raitendo/doeo",
+  "html_dimensions": {
+    "game_width": 550,
+    "game_height": 450,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 35,
+    "game_top": 38,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 923,
+    "flash_frame_height": 553,
+    "game_frame_width": 620,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=9480",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

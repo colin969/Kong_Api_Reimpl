@@ -1,0 +1,606 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 281213,
+  "statistics": [
+    {
+      "name": "1-starred levels",
+      "id": 130481,
+      "description": "Number of levels with at least one star - max 40",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 4194,
+          "name": "20 levels completed (1 star or better)",
+          "quota": 20,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "2-starred levels",
+      "id": 130482,
+      "description": "Number of levels with at least two stars - max 40",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "3-starred levels",
+      "id": 130483,
+      "description": "Number of levels with at least three star - max 40",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "D1 Busta Line",
+      "id": 130999,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "D10 Striped Baboon",
+      "id": 131008,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "D11 Icy Hot Balls",
+      "id": 131009,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "D12 Reflector",
+      "id": 131010,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "D13 Chromatic Scale",
+      "id": 131011,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "D14 Wall Ball",
+      "id": 131012,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "D15 Snake",
+      "id": 131013,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "D16 Stalker",
+      "id": 131014,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "D17 Spin Zone",
+      "id": 131015,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "D18 Chromatic Swap",
+      "id": 131016,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "D19 True Colors",
+      "id": 131017,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "D2 Jupiter",
+      "id": 131000,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "D20 Orbit",
+      "id": 131018,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "D3 Guardian",
+      "id": 131001,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "D4 Chroma Zones",
+      "id": 131002,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "D5 Beam Ball",
+      "id": 131003,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "D6 Unit Circle",
+      "id": 131004,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "D7 Stutter",
+      "id": 131005,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "D8 Fading Lines",
+      "id": 131006,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "D9 Flash Attack",
+      "id": 131007,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "L1 Busta Line",
+      "id": 130979,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "L10 Striped Baboon",
+      "id": 130988,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "L11 Icy Hot Balls",
+      "id": 130989,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "L12 Reflector",
+      "id": 130990,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "L13 Chromatic Scale",
+      "id": 130991,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "L14 Wall Ball",
+      "id": 130992,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "L15 Snake",
+      "id": 130993,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "L16 Stalker",
+      "id": 130994,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "L17 Spin Zone",
+      "id": 130995,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "L18 Chromatic Swap",
+      "id": 130996,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "L19 True Colors",
+      "id": 130997,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "L2 Jupiter",
+      "id": 130980,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "L20 Orbit",
+      "id": 130998,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "L3 Guardian",
+      "id": 130981,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "L4 Chroma Zones",
+      "id": 130982,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "L5 Beam Ball",
+      "id": 130983,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "L6 Unit Circle",
+      "id": 130984,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "L7 Stutter",
+      "id": 130985,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "L8 Fading Lines",
+      "id": 130986,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "L9 Flash Attack",
+      "id": 130987,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Number of dev scores beaten",
+      "id": 130477,
+      "description": "Number of developers' high scores beaten - max 40",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Dev Scores Beaten",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Total Deaths",
+      "id": 130479,
+      "description": "Total number of deaths across entire game.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Total High Score",
+      "id": 130475,
+      "description": "Sum of high scores across the game.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 4196,
+          "name": "3000 high score",
+          "quota": 3000,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Total Lines Cleared",
+      "id": 130478,
+      "description": "Total number of lines cleared throughout entire game session.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 4193,
+          "name": "500 total beams destroyed",
+          "quota": 500,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Total number of stars",
+      "id": 130476,
+      "description": "Total number of stars earned across game - max 120",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Stars Earned",
+      "accomplishment_tasks": [
+        {
+          "id": 4195,
+          "name": "100 stars earned",
+          "quota": 100,
+          "granularity": null
+        },
+        {
+          "id": 4197,
+          "name": "120 stars",
+          "quota": 120,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Total play time",
+      "id": 130480,
+      "description": "Total play time (in seconds) across entire game",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3561,
+      "name": "\"Red Balls Can't Melt Blue Beams\"",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2952,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4193,
+          "statistic_id": 130478,
+          "quota": 500,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3561",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 43,
+        "name": "Best of 2017",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3562,
+      "name": "\"Let There Be Dark\"",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2953,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4194,
+          "statistic_id": 130481,
+          "quota": 20,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3562",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3563,
+      "name": "Mercy and Severity",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2954,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4195,
+          "statistic_id": 130476,
+          "quota": 100,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3563",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3564,
+      "name": "Beamball 3000",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2955,
+      "level": "impossible",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4196,
+          "statistic_id": 130475,
+          "quota": 3000,
+          "operator": "AND"
+        },
+        {
+          "id": 4197,
+          "statistic_id": 130476,
+          "quota": 120,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3564",
+      "reward_points": 60,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/zyxstand/beam-ball/chat.js",
+  "holodeck_url": "/games/zyxstand/beam-ball/holodeck",
+  "accomplishments_bootstrap_url": "/games/zyxstand/beam-ball/chat_achievements",
+  "sticker_drop_url": "/games/zyxstand/beam-ball/sticker_drop",
+  "game_path": "/games/zyxstand/beam-ball",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 626,
+    "game_frame_width": 800,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=281213",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

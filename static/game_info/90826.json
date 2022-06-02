@@ -1,0 +1,236 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 90826,
+  "statistics": [
+    {
+      "name": "01_Level_Complete",
+      "id": 47521,
+      "description": "Completed a level",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Levels completed",
+      "accomplishment_tasks": [
+        {
+          "id": 1667,
+          "name": "Any level completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "02_Gold_Target",
+      "id": 47522,
+      "description": "Achieved a gold target in any level",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Gold targets reached",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "03_Masks_Unlocked",
+      "id": 47523,
+      "description": "Number of masks unlocked",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Masks Unlocked",
+      "accomplishment_tasks": [
+        {
+          "id": 1670,
+          "name": "20 masks unlocked",
+          "quota": 20,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "04_Artifacts_Unlocked",
+      "id": 47524,
+      "description": "Number of artifacts unlocked",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Artifacts Unlocked",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "05_Game_Won_Story",
+      "id": 47525,
+      "description": "Won the game in Story Mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Game completed",
+      "accomplishment_tasks": [
+        {
+          "id": 1668,
+          "name": "All princesses rescued (story mode completed)",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "06_Game_Won_2Player",
+      "id": 47526,
+      "description": "Won the game in 2 player mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "High_Score_Story",
+      "id": 47527,
+      "description": "High Score for Story Mode",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "High Score (Story)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "High_Score_Survival",
+      "id": 47528,
+      "description": "High score for Survival Mode",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "High Score (Survival)",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1400,
+      "name": "Back on Solid Ground",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1125,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1667,
+          "statistic_id": 47521,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1400",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1401,
+      "name": "Pocket Full of Princesses",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1126,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1668,
+          "statistic_id": 47525,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1401",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1403,
+      "name": "Tasks for Masks",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1128,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1670,
+          "statistic_id": 47523,
+          "quota": 20,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1403",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/nerdook/vertical-drop-heroes/chat.js",
+  "holodeck_url": "/games/nerdook/vertical-drop-heroes/holodeck",
+  "accomplishments_bootstrap_url": "/games/nerdook/vertical-drop-heroes/chat_achievements",
+  "sticker_drop_url": "/games/nerdook/vertical-drop-heroes/sticker_drop",
+  "game_path": "/games/nerdook/vertical-drop-heroes",
+  "html_dimensions": {
+    "game_width": 550,
+    "game_height": 500,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 35,
+    "game_top": 13,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 923,
+    "flash_frame_height": 553,
+    "game_frame_width": 620,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=90826",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

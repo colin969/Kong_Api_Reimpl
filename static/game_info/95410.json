@@ -1,0 +1,189 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 95410,
+  "statistics": [
+    {
+      "name": "darkA",
+      "id": 49604,
+      "description": "Number of \"dark\" levels with an A rank.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Dark Levels A Rank",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "diamondA",
+      "id": 49602,
+      "description": "Number of \"diamond\" levels with an A rank.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Diamond Levels A Rank",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "levelsA",
+      "id": 49588,
+      "description": "number of levels with an A rank (total levels 41)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "A Rank",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "levelsB",
+      "id": 49589,
+      "description": "number of levels with an B rank or better  (total levels 41)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "B Rank",
+      "accomplishment_tasks": [
+        {
+          "id": 1753,
+          "name": "10 levels with B rank",
+          "quota": 10,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "levelsC",
+      "id": 49590,
+      "description": "number of levels with an C rank or better (total levels 41)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "C Rank",
+      "accomplishment_tasks": [
+        {
+          "id": 1754,
+          "name": "41 levels completed",
+          "quota": 41,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "speedA",
+      "id": 49603,
+      "description": "Number of \"speed\" levels with an A rank.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Speed Levels A Rank",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1483,
+      "name": "B Student",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1199,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1753,
+          "statistic_id": 49589,
+          "quota": 10,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1483",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1484,
+      "name": "Elemental Efficiency",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1200,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1754,
+          "statistic_id": 49590,
+          "quota": 41,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1484",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Joliner/the-light-temple/chat.js",
+  "holodeck_url": "/games/Joliner/the-light-temple/holodeck",
+  "accomplishments_bootstrap_url": "/games/Joliner/the-light-temple/chat_achievements",
+  "sticker_drop_url": "/games/Joliner/the-light-temple/sticker_drop",
+  "game_path": "/games/Joliner/the-light-temple",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 943,
+    "flash_frame_height": 553,
+    "game_frame_width": 640,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=95410",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

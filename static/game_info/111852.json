@@ -1,0 +1,338 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 111852,
+  "statistics": [
+    {
+      "name": "achievements",
+      "id": 60299,
+      "description": "Number of achievements acquired (maximum is 16)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Achievements",
+      "accomplishment_tasks": [
+        {
+          "id": 2150,
+          "name": "8 Achievements Earned",
+          "quota": 8,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "ACHIEVEMENT_CLIMB_100",
+      "id": 60303,
+      "description": "Obtained achievement for climbing 100 meters? 1 = achieved, 0 = not achieved",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ACHIEVEMENT_CLIMB_1000",
+      "id": 60314,
+      "description": "Obtained achievement for climbing 1000 meters? 1 = achieved, 0 = not achieved",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ACHIEVEMENT_CLIMB_250",
+      "id": 60304,
+      "description": "Obtained achievement for climbing 250 meters? 1 = achieved, 0 = not achieved",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ACHIEVEMENT_CLIMB_50",
+      "id": 60302,
+      "description": "Obtained achievement for climbing 50 meters? 1 = achieved, 0 = not achieved",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ACHIEVEMENT_CLIMB_750",
+      "id": 60309,
+      "description": "Obtained achievement for climbing 750 meters? 1 = achieved, 0 = not achieved",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ACHIEVEMENT_COLLECT_1000",
+      "id": 60311,
+      "description": "Obtained achievement for collecting 1000 diamonds? 1 = achieved, 0 = not achieved",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ACHIEVEMENT_COLLECT_20",
+      "id": 60306,
+      "description": "Obtained achievement for collecting 20 diamonds? 1 = achieved, 0 = not achieved",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ACHIEVEMENT_DIE",
+      "id": 60301,
+      "description": "Obtained achievement for dying? 1 = achieved, 0 = not achieved",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ACHIEVEMENT_KILL_100",
+      "id": 60310,
+      "description": "Obtained achievement for killing 100 monsters? 1 = achieved, 0 = not achieved",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ACHIEVEMENT_KILL_20",
+      "id": 60305,
+      "description": "Obtained achievement for killing 20 enemies? 1 = achieved, 0 = not achieved",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ACHIEVEMENT_KILL_500",
+      "id": 60315,
+      "description": "Obtained achievement for killing 500 monsters? 1 = achieved, 0 = not achieved",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ACHIEVEMENT_LEARN_25",
+      "id": 60312,
+      "description": "Obtained achievement for learning 25 skills? 1 = achieved, 0 = not achieved",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ACHIEVEMENT_LEARN_ALL",
+      "id": 60316,
+      "description": "Obtained achievement for learning all the skills? 1 = achieved, 0 = not achieved",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ACHIEVEMENT_NINE_LIVES",
+      "id": 60308,
+      "description": "Obtained achievement for maxing out vitality? 1 = achieved, 0 = not achieved",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ACHIEVEMENT_PACIFIST",
+      "id": 60313,
+      "description": "Obtained achievement for pacifist? 1 = achieved, 0 = not achieved",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ACHIEVEMENT_QUICK_DEATH",
+      "id": 60307,
+      "description": "Obtained achievement for dying quickly? 1 = achieved, 0 = not achieved",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "diamonds",
+      "id": 60296,
+      "description": "Total number of diamonds collected",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Diamonds",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "enemies",
+      "id": 60300,
+      "description": "Total number of enemies defeated",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Enemies",
+      "accomplishment_tasks": [
+        {
+          "id": 2149,
+          "name": "50 Enemies Killed",
+          "quota": 50,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "maxheight",
+      "id": 60297,
+      "description": "The maximum height achieved on any attempt",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Maximum Height",
+      "accomplishment_tasks": [
+        {
+          "id": 2151,
+          "name": "1,000 Meters Climbed",
+          "quota": 1000,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "skills",
+      "id": 60298,
+      "description": "Total skill count learned (maximum is 51)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Skills Learned",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1821,
+      "name": "Slime Slayer",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1473,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2149,
+          "statistic_id": 60300,
+          "quota": 50,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1821",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1822,
+      "name": "A Trophy Life",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1474,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2150,
+          "statistic_id": 60299,
+          "quota": 8,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1822",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1823,
+      "name": "No Way to Go But Up",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1475,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2151,
+          "statistic_id": 60297,
+          "quota": 1000,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1823",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Arkeus/diamond-hollow/chat.js",
+  "holodeck_url": "/games/Arkeus/diamond-hollow/holodeck",
+  "accomplishments_bootstrap_url": "/games/Arkeus/diamond-hollow/chat_achievements",
+  "sticker_drop_url": "/games/Arkeus/diamond-hollow/sticker_drop",
+  "game_path": "/games/Arkeus/diamond-hollow",
+  "html_dimensions": {
+    "game_width": 720,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1023,
+    "flash_frame_height": 553,
+    "game_frame_width": 720,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=111852",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

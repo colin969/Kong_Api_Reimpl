@@ -1,0 +1,466 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 4130,
+  "statistics": [
+    {
+      "name": "HighScore-Level1",
+      "id": 4240,
+      "description": "HighScore-Level1",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level10",
+      "id": 4255,
+      "description": "HighScore-Level10",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level11",
+      "id": 4257,
+      "description": "HighScore-Level11",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level12",
+      "id": 4258,
+      "description": "HighScore-Level12",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level13",
+      "id": 4243,
+      "description": "HighScore-Level13",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level14",
+      "id": 4244,
+      "description": "HighScore-Level14",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level15",
+      "id": 4259,
+      "description": "HighScore-Level15",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level16",
+      "id": 4260,
+      "description": "HighScore-Level16",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level17",
+      "id": 4261,
+      "description": "HighScore-Level17",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level18",
+      "id": 4262,
+      "description": "HighScore-Level18",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level19",
+      "id": 4263,
+      "description": "HighScore-Level19",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level2",
+      "id": 4241,
+      "description": "HighScore-Level2",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level20",
+      "id": 4264,
+      "description": "HighScore-Level20",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level21",
+      "id": 4265,
+      "description": "HighScore-Level21",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level22",
+      "id": 4266,
+      "description": "HighScore-Level22",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level23",
+      "id": 4267,
+      "description": "HighScore-Level23",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level24",
+      "id": 4268,
+      "description": "HighScore-Level24",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level25",
+      "id": 4269,
+      "description": "HighScore-Level25",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level26",
+      "id": 4270,
+      "description": "HighScore-Level26",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level27",
+      "id": 4271,
+      "description": "HighScore-Level27",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level28",
+      "id": 4272,
+      "description": "HighScore-Level28",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level29",
+      "id": 4273,
+      "description": "HighScore-Level29",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level3",
+      "id": 4254,
+      "description": "HighScore-Level3",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level30",
+      "id": 4274,
+      "description": "HighScore-Level30",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level31",
+      "id": 4278,
+      "description": "HighScore-Level31",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level32",
+      "id": 4279,
+      "description": "HighScore-Level32",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level33",
+      "id": 4280,
+      "description": "HighScore-Level33",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level34",
+      "id": 4281,
+      "description": "HighScore-Level34",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level35",
+      "id": 4282,
+      "description": "HighScore-Level35",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level36",
+      "id": 4283,
+      "description": "HighScore-Level36",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level37",
+      "id": 4242,
+      "description": "HighScore-Level37",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level38",
+      "id": 4245,
+      "description": "HighScore-Level38",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level39",
+      "id": 4246,
+      "description": "HighScore-Level39",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level4",
+      "id": 4247,
+      "description": "HighScore-Level4",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level40",
+      "id": 4248,
+      "description": "HighScore-Level40",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level41",
+      "id": 4256,
+      "description": "HighScore-Level41",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level42",
+      "id": 4284,
+      "description": "HighScore-Level42",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level43",
+      "id": 4275,
+      "description": "HighScore-Level43",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level44",
+      "id": 4276,
+      "description": "HighScore-Level44",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level45",
+      "id": 4277,
+      "description": "HighScore-Level45",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level46",
+      "id": 4285,
+      "description": "HighScore-Level46",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level47",
+      "id": 4286,
+      "description": "HighScore-Level47",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level48",
+      "id": 4287,
+      "description": "HighScore-Level48",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level5",
+      "id": 4249,
+      "description": "HighScore-Level5",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level6",
+      "id": 4250,
+      "description": "HighScore-Level6",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level7",
+      "id": 4252,
+      "description": "HighScore-Level7",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level8",
+      "id": 4251,
+      "description": "HighScore-Level8",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Level9",
+      "id": 4253,
+      "description": "HighScore-Level9",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LevelReached",
+      "id": 4239,
+      "description": "The level that the player has reached!",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/offthewrist/sola-rola-the-gravity-maze/chat.js",
+  "holodeck_url": "/games/offthewrist/sola-rola-the-gravity-maze/holodeck",
+  "accomplishments_bootstrap_url": "/games/offthewrist/sola-rola-the-gravity-maze/chat_achievements",
+  "sticker_drop_url": "/games/offthewrist/sola-rola-the-gravity-maze/sticker_drop",
+  "game_path": "/games/offthewrist/sola-rola-the-gravity-maze",
+  "html_dimensions": {
+    "game_width": 590,
+    "game_height": 692,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 15,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 692,
+    "flash_frame_width": 923,
+    "flash_frame_height": 718,
+    "game_frame_width": 620,
+    "game_frame_height": 692,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=4130",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

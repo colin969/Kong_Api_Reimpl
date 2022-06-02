@@ -1,0 +1,593 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 154014,
+  "statistics": [
+    {
+      "name": "CompletedGame",
+      "id": 84027,
+      "description": "The game has been completed.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Completed Game",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel1",
+      "id": 84029,
+      "description": "Level 1 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Level 1 completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel10",
+      "id": 84038,
+      "description": "Level 10 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Level 10 completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel10Time",
+      "id": 84062,
+      "description": "Level 10 Best Time",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 10 Best Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel11",
+      "id": 84039,
+      "description": "Level 11 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Level 11 completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel11Time",
+      "id": 84063,
+      "description": "Level 11 Best Time",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 11 Best Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel12",
+      "id": 84040,
+      "description": "Level 12 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Level 12 completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel12Time",
+      "id": 84064,
+      "description": "Level 12 Best Time",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 12 Best Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel13",
+      "id": 84041,
+      "description": "Level 13 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Level 13 completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel13Time",
+      "id": 84065,
+      "description": "Level 13 Best Time",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 13 Best Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel14",
+      "id": 84042,
+      "description": "Level 14 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Level 14 completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel14Time",
+      "id": 84066,
+      "description": "Level 14 Best Time",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 14 Best Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel15",
+      "id": 84043,
+      "description": "Level 15 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Level 15 completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel15Time",
+      "id": 84067,
+      "description": "Level 15 Best Time",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 15 Best Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel16",
+      "id": 84044,
+      "description": "Level 16 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Level 16 completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel16Time",
+      "id": 84068,
+      "description": "Level 16 Best Time",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 16 Best Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel17",
+      "id": 84045,
+      "description": "Level 17 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Level 17 completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel17Time",
+      "id": 84069,
+      "description": "Level 17 Best Time",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 17 Best Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel18",
+      "id": 84046,
+      "description": "Level 18 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Level 18 completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel18Time",
+      "id": 84070,
+      "description": "Level 18 Best Time",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 18 Best Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel19",
+      "id": 84047,
+      "description": "Level 19 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Level 19 completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel19Time",
+      "id": 84071,
+      "description": "Level 19 Best Time",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 19 Best Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel1Time",
+      "id": 84053,
+      "description": "Level 1 Best Time",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 1 Best Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel2",
+      "id": 84030,
+      "description": "Level 2 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Level 2 completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel20",
+      "id": 84048,
+      "description": "Level 20 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Level 20 completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel20Time",
+      "id": 84072,
+      "description": "Level 20 Best Time",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 20 Best Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel21",
+      "id": 84049,
+      "description": "Level 21 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Level 21 completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel21Time",
+      "id": 84073,
+      "description": "Level 21 Best Time",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 21 Best Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel22",
+      "id": 84050,
+      "description": "Level 22 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Level 22 completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel22Time",
+      "id": 84074,
+      "description": "Level 22 Best Time",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 22 Best Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel23",
+      "id": 84051,
+      "description": "Level 23 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Level 23 completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel23Time",
+      "id": 84075,
+      "description": "Level 23 Best Time",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 23 Best Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel24",
+      "id": 84052,
+      "description": "Level 24 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Level 24 completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel24Time",
+      "id": 84076,
+      "description": "Level 24 Best Time",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 24 Best Time",
+      "accomplishment_tasks": [
+        {
+          "id": 3011,
+          "name": "Game Completed",
+          "quota": 1000000000000000000,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Completedlevel2Time",
+      "id": 84054,
+      "description": "Level 2 Best Time",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 2 Best Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel3",
+      "id": 84031,
+      "description": "Level 3 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Level 3 completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel3Time",
+      "id": 84055,
+      "description": "Level 3 Best Time",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 3 Best Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel4",
+      "id": 84032,
+      "description": "Level 4 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Level 4 completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel4Time",
+      "id": 84056,
+      "description": "Level 4 Best Time",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 4 Best Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel5",
+      "id": 84033,
+      "description": "Level 5 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Level 5 completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel5Time",
+      "id": 84057,
+      "description": "Level 5 Best Time",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 5 Best Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel6",
+      "id": 84034,
+      "description": "Level 6 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Level 6 completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel6Time",
+      "id": 84058,
+      "description": "Level 6 Best Time",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 6 Best Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel7",
+      "id": 84035,
+      "description": "Level 7 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Level 7 completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel7Time",
+      "id": 84059,
+      "description": "Level 7 Best Time",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 7 Best Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel8",
+      "id": 84036,
+      "description": "Level 8 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Level 8 completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel8Time",
+      "id": 84060,
+      "description": "Level 8 Best Time",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 8 Best Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel9",
+      "id": 84037,
+      "description": "Level 9 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Level 9 completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completedlevel9Time",
+      "id": 84061,
+      "description": "Level 9 Best Time",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Level 9 Best Time",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LevelsFinished",
+      "id": 84026,
+      "description": "The total amount of finished levels",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Levels Finished",
+      "accomplishment_tasks": [
+        {
+          "id": 3009,
+          "name": "7 Puzzles Completed",
+          "quota": 7,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "OutroWatched",
+      "id": 84028,
+      "description": "Cheers to the developers! The outro has not been skipped and has been watched completely instead.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2583,
+      "name": "Arkitect",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2131,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3009,
+          "statistic_id": 84026,
+          "quota": 7,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2583",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2584,
+      "name": "How Long Can You Tread Water?",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2132,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3011,
+          "statistic_id": 84076,
+          "quota": 1000000000000000000,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2584",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/BeardshakerGames/nonosparks-the-ark/chat.js",
+  "holodeck_url": "/games/BeardshakerGames/nonosparks-the-ark/holodeck",
+  "accomplishments_bootstrap_url": "/games/BeardshakerGames/nonosparks-the-ark/chat_achievements",
+  "sticker_drop_url": "/games/BeardshakerGames/nonosparks-the-ark/sticker_drop",
+  "game_path": "/games/BeardshakerGames/nonosparks-the-ark",
+  "html_dimensions": {
+    "game_width": 700,
+    "game_height": 525,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 1,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1003,
+    "flash_frame_height": 553,
+    "game_frame_width": 700,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=154014",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

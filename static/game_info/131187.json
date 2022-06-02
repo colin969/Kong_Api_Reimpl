@@ -1,0 +1,201 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 131187,
+  "statistics": [
+    {
+      "name": "ACHIEVEMENTSGOT",
+      "id": 71998,
+      "description": "Number of in-game achievements unlocked",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Achievements",
+      "accomplishment_tasks": [
+        {
+          "id": 2565,
+          "name": "15 achievements earned",
+          "quota": 15,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "AHIGHSCORE",
+      "id": 72000,
+      "description": "Your maximum score reached",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Highscore",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SAILORSSATE",
+      "id": 71999,
+      "description": "Total number of Humans and Aliens eaten",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Sailors Eaten",
+      "accomplishment_tasks": [
+        {
+          "id": 2564,
+          "name": "25 sailors eaten",
+          "quota": 25,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "WAVE",
+      "id": 71997,
+      "description": "Number of waves completed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Waves",
+      "accomplishment_tasks": [
+        {
+          "id": 2570,
+          "name": "Wave 50 reached",
+          "quota": 50,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2191,
+      "name": "Belly Full of Seamen",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1793,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2564,
+          "statistic_id": 71999,
+          "quota": 25,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2191",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2192,
+      "name": "Decorated Greenpeace Activist",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1794,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2565,
+          "statistic_id": 71998,
+          "quota": 15,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2192",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2196,
+      "name": "Fish and Ships",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1798,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2570,
+          "statistic_id": 71997,
+          "quota": 50,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2196",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/camaleonyco/moby-dick-2/chat.js",
+  "holodeck_url": "/games/camaleonyco/moby-dick-2/holodeck",
+  "accomplishments_bootstrap_url": "/games/camaleonyco/moby-dick-2/chat_achievements",
+  "sticker_drop_url": "/games/camaleonyco/moby-dick-2/sticker_drop",
+  "game_path": "/games/camaleonyco/moby-dick-2",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 520,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 3,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 943,
+    "flash_frame_height": 553,
+    "game_frame_width": 640,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=131187",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

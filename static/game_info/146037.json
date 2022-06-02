@@ -1,0 +1,363 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 146037,
+  "statistics": [
+    {
+      "name": "Ending 1 Found",
+      "id": 80030,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 1 if turned into a Badge should be titled, \"Dead Mutant Baby\" and occurs through the following actions.\n\nYou become a Mutant -> You don't wiggle at all",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ending 10 Found",
+      "id": 80043,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 10 if turned into a Badge should be titled, \"The Dr. Phil Tango\" and occurs through the following actions.\n\nYou become a Mutant-> You wiggle, but not too much -> Let time run out during surgery -> Fail at Typing",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ending 11 Found",
+      "id": 80045,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 11 if turned into a Badge should be titled, \"Daytime Tv Trio!\" and occurs through the following actions.\n\nYou become a Mutant -> You wiggle, but not too much -> Let the time run out on Surgery -> Correctly type out the ",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ending 12 Found",
+      "id": 80046,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 12 if turned into a Badge should be titled, \"Meet Joe Black\" and occurs through the following actions.\n\nYou become a Mutant -> You wiggle, but not too much -> You cut when eyes are half Closed -> You don't save the girl",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ending 13 Found",
+      "id": 80047,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 13 if turned into a Badge should be titled, \"Nice Save!\" and occurs through the following actions.\n\nYou become a Mutant -> You wiggle, but not too much -> You cut when eyes are half Closed -> You save the girl",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ending 14 Found",
+      "id": 80049,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 14 if turned into a Badge should be titled, \"30 Rock Date\" and occurs through the following actions.\n\nYou become a Mutant -> You wiggle, but not too much -> You cut when eyes are open -> You shoot when underhanded",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ending 15 Found",
+      "id": 80050,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 15 if turned into a Badge should be titled, \"HomeRun!\" and occurs through the following actions.\n\nYou become a Mutant -> You wiggle, but not too much -> You cut when eyes are Open -> You shoot properly",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ending 16 Found",
+      "id": 80051,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 16 if turned into a Badge should be titled, \"The Amazing Quadrupede!\" and occurs through the following actions.\n\nYou become a Mutant -> You wiggle too much -> You punch when blocking -> Scratch off Right",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ending 17 Found",
+      "id": 80052,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 16 if turned into a Badge should be titled, \"Big Mouth\" and occurs through the following actions.\n\nYou become a Mutant -> You wiggle too much -> You punch when blocking -> Scratch off Left",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ending 18 Found",
+      "id": 80053,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 18 if turned into a Badge should be titled, \"Self-Consumed Donut\" and occurs through the following actions.\n\nYou become a Mutant -> You wiggle too much -> You punch when not blocking-> Fail with Thunder Thighs",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ending 19 Found",
+      "id": 80054,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 19 if turned into a Badge should be titled, \"Shoop Da Whoop!\" and occurs through the following actions.\n\nYou become a Mutant -> You wiggle too much -> You punch when not blocking -> Defeat Thunderthighs",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ending 2 Found",
+      "id": 80031,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 2 if turned into a Badge should be titled, \"The Naked Mile\" and occurs through the following actions.\n\nYou become a Girl -> You choose the left Toy -> You Strike the Seam",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ending 20 Found",
+      "id": 80055,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 20 if turned into a Badge should be titled, \"Dreamin' with Morgan Freeman\" and occurs through the following actions.\n\nYou become a boy -> You don't catch the bus (but try) -> Pick any line and Fail ->Fail at Defusing th",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ending 21 Found",
+      "id": 80056,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 21 if turned into a Badge should be titled, \"My Hero.\" and occurs through the following actions.\n\nYou become a boy -> You don't catch the bus (but try) -> Pick any line and Fail -> Defuse the Bomb",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ending 22 Found",
+      "id": 80057,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 22 if turned into a Badge should be titled, \"100 MPH SPANK!\" and occurs through the following actions.\n\nYou become a boy -> You don't catch the bus (but try) -> \"I play the guitar\" and Type Correctly-> Miss Kramer's Han",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ending 23 Found",
+      "id": 80058,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 23 if turned into a Badge should be titled, \"Ultimate Velocity Five!\" and occurs through the following actions.\n\nYou become a boy -> You don't catch the bus (but try) -> \"I play the guitar\" and Type Correctly-> Connect ",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ending 24 Found",
+      "id": 80059,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 24 if turned into a Badge should be titled, \"Hellfire Injection\" and occurs through the following actions.\n\nYou become a boy -> Catch the Bus -> Don't type anything -> Fail at Breathing",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "display_name": "Ending 24",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ending 25 Found",
+      "id": 80060,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 25 if turned into a Badge should be titled, \"FYI YOU'RE A SPY\" and occurs through the following actions.\n\nYou become a boy -> Catch the Bus -> Don't type anything -> Breathe Correctly",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ending 26 Found",
+      "id": 80061,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 26 if turned into a Badge should be titled, \"Hide N' Seek\" and occurs through the following actions.\n\nYou become a boy -> Catch the Bus -> Screw up the Sentence -> Choose Heads",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ending 27 Found",
+      "id": 80062,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 27 if turned into a Badge should be titled, \"Hide N' Seek\" and occurs through the following actions.\n\nYou become a boy -> Catch the Bus -> Screw up the Sentence -> Choose Tails",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ending 28 Found",
+      "id": 80063,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 28 if turned into a Badge should be titled, \"Dressing in Drag\" and occurs through the following actions.\n\nYou become a boy -> Catch the Bus -> Type Correctly -> Lose to Rambo",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ending 29 Found",
+      "id": 80064,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 29 if turned into a Badge should be titled, \"GODLIKE!\" and occurs through the following actions.\n\nYou become a boy -> Catch the Bus -> Type Correctly -> Defeat Rambo",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ending 3 Found",
+      "id": 80032,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 3 if turned into a Badge should be titled, \"I ain't sayin you a golddigger\" and occurs through the following actions.\n\nYou become a Girl -> You choose the left toy -> You Strike the Heart",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ending 4 Found",
+      "id": 80033,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 4 if turned into a Badge should be titled, \"Puppy Love\" and occurs through the following actions.\n\nYou become a Girl -> You choose the right toy -> You Successfully Pet the Puppy",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ending 5 Found",
+      "id": 80034,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 5 if turned into a Badge should be titled, \"Human Appliance\" and occurs through the following actions.\n\nYou become a boy -> You don't chase the bus at all-> You save the man",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ending 6 Found",
+      "id": 80035,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 6 if turned into a Badge should be titled, \"The Man Who Owns Time\" and occurs through the following actions.\n\nYou become a Boy -> You don't chase the bus at all -> You don't save the man.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ending 7 Found",
+      "id": 80037,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 7 if turned into a Badge should be titled, \"Mee-Yow!\" and occurs through the following actions.\n\nYou become a Boy -> You chase the bus and fail -> \"You Girls are Pretty\" typed correctly",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ending 8 Found",
+      "id": 80038,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 8 if turned into a Badge should be titled, \"Mutually Assured Destruction\" and occurs through the following actions.\n\nYou become a Girl -> You choose the right toy -> You fail at Petting the Dog -> You fail at Blind Runn",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ending 9 Found",
+      "id": 80039,
+      "description": "If locked 0, \nIf unlocked 1\n\nEnding 9 if turned into a Badge should be titled, \"Blind Runner\" and occurs through the following actions.\n\nYou become a Girl -> You choose the right toy -> You fail at Petting the Dog -> You successfully run while Blind",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EndingCounter",
+      "id": 80948,
+      "description": "Total Number of Endings, submits at the ending screen.\n\nNow that badges are implemented I made the Kong version save your progress as well.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "EndingsCompleted",
+      "accomplishment_tasks": [
+        {
+          "id": 2916,
+          "name": "3 endings found",
+          "quota": 3,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Extra Extra!",
+      "id": 80065,
+      "description": "If locked 0, \nIf unlocked 1\n\nChanges to 1 if you click on any external links (facebook, youtube)",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Lived All Lives!",
+      "id": 80066,
+      "description": "If locked 0, \nIf unlocked 1\n\nChanges to 1 when all Endings have changed to 1. It's checked at the ending screen where all the ending icons are located.\n\nWon't work as a badge, due to lack of a saving feature on Kong.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2504,
+      "name": "You Only Live Thrice",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2061,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2916,
+          "statistic_id": 80948,
+          "quota": 3,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2504",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Fr0z3nf1r3/relive-your-life/chat.js",
+  "holodeck_url": "/games/Fr0z3nf1r3/relive-your-life/holodeck",
+  "accomplishments_bootstrap_url": "/games/Fr0z3nf1r3/relive-your-life/chat_achievements",
+  "sticker_drop_url": "/games/Fr0z3nf1r3/relive-your-life/sticker_drop",
+  "game_path": "/games/Fr0z3nf1r3/relive-your-life",
+  "html_dimensions": {
+    "game_width": 700,
+    "game_height": 500,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 13,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1003,
+    "flash_frame_height": 553,
+    "game_frame_width": 700,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=146037",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": true,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

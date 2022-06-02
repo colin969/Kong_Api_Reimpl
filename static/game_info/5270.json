@@ -1,0 +1,232 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 5270,
+  "statistics": [
+    {
+      "name": "BeatenArena",
+      "id": 3562,
+      "description": "Win all 20 rounds in the hidden Arena, which you can only get to with the four Trilobite Keys.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 391,
+          "name": "Hidden arena completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "GameComplete",
+      "id": 3560,
+      "description": "The player has reached the end of the game.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 389,
+          "name": "Game completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "TreasureFound",
+      "id": 3563,
+      "description": "The number of treasure chests found.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 388,
+          "name": "20 treasure chests opened",
+          "quota": 20,
+          "granularity": 10
+        }
+      ]
+    },
+    {
+      "name": "ZombieDragon",
+      "id": 3561,
+      "description": "Beat the secret boss,the Zombie Dragon.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 390,
+          "name": "Zombie dragon defeated",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 296,
+      "name": "Compulsive Box Opener",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 238,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 388,
+          "statistic_id": 3563,
+          "quota": 20,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-296",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 4,
+        "name": "Best of 2007",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 297,
+      "name": "New Hero",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 239,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 389,
+          "statistic_id": 3560,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-297",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 298,
+      "name": "Dragon Re-Slayer",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 240,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 390,
+          "statistic_id": 3561,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-298",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 299,
+      "name": "Cambrian Champion",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 241,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 391,
+          "statistic_id": 3562,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-299",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Pseudolonewolf/mardek-rpg-chapter-2/chat.js",
+  "holodeck_url": "/games/Pseudolonewolf/mardek-rpg-chapter-2/holodeck",
+  "accomplishments_bootstrap_url": "/games/Pseudolonewolf/mardek-rpg-chapter-2/chat_achievements",
+  "sticker_drop_url": "/games/Pseudolonewolf/mardek-rpg-chapter-2/sticker_drop",
+  "game_path": "/games/Pseudolonewolf/mardek-rpg-chapter-2",
+  "html_dimensions": {
+    "game_width": 720,
+    "game_height": 528,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 528,
+    "flash_frame_width": 1023,
+    "flash_frame_height": 554,
+    "game_frame_width": 720,
+    "game_frame_height": 528,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=5270",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

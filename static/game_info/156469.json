@@ -1,0 +1,230 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 156469,
+  "statistics": [
+    {
+      "name": "allLevelsGold",
+      "id": 85471,
+      "description": "All levels passed with gold medals",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "allLevelsSilverOrGold",
+      "id": 85470,
+      "description": "All levels passed with silver or gold medals",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "allSquadsHired",
+      "id": 85467,
+      "description": "All 8 squads are hired",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "ALL_SQUADS_HIRED",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "coinsCollected",
+      "id": 85465,
+      "description": "Total coins collected",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "coinsPercentCollected",
+      "id": 85472,
+      "description": "Maximal percent of coins were collected per level (100% means all the dropped coins were collected).",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "gameCompleted",
+      "id": 85466,
+      "description": "Campaign completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3092,
+          "name": "Game completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "lootEarned",
+      "id": 85468,
+      "description": "Total amount of gold collected",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3091,
+          "name": "300 gold collected",
+          "quota": 300,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "survivalHighscore",
+      "id": 85469,
+      "description": "Highest score in survival mode",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 3093,
+          "name": "500 survival score",
+          "quota": 500,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2658,
+      "name": "War Chest",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2195,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3091,
+          "statistic_id": 85468,
+          "quota": 300,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2658",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2659,
+      "name": "Game Completion or Whatever",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2196,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3092,
+          "statistic_id": 85466,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2659",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2660,
+      "name": "To the Last Man",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2197,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3093,
+          "statistic_id": 85469,
+          "quota": 500,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2660",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/yarg__/hordes-and-lords/chat.js",
+  "holodeck_url": "/games/yarg__/hordes-and-lords/holodeck",
+  "accomplishments_bootstrap_url": "/games/yarg__/hordes-and-lords/chat_achievements",
+  "sticker_drop_url": "/games/yarg__/hordes-and-lords/sticker_drop",
+  "game_path": "/games/yarg__/hordes-and-lords",
+  "html_dimensions": {
+    "game_width": 720,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 1023,
+    "flash_frame_height": 626,
+    "game_frame_width": 720,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=156469",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

@@ -1,0 +1,613 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 214180,
+  "statistics": [
+    {
+      "name": "allUnitsSurvived",
+      "id": 107889,
+      "description": "No soldier killed in the last mission",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ArchersKilled",
+      "id": 107847,
+      "description": "Kill 150 archers",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "battleLost",
+      "id": 107876,
+      "description": "Loose the battle",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "beginner",
+      "id": 107863,
+      "description": "Complete 6 missions with 3 stars in each",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "bombermanDetonated",
+      "id": 107853,
+      "description": "Kill 10 enemies detonating bomberman",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "breakEnemyArmor",
+      "id": 107888,
+      "description": "Break armor 150 times",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "cursedEnemies",
+      "id": 107887,
+      "description": "Curse 400 enemies",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "damageDealed",
+      "id": 107860,
+      "description": "Deal 50,000 damage",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "damageHealed",
+      "id": 107861,
+      "description": "Heal 5,000 damage",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "damageSuffered",
+      "id": 107862,
+      "description": "Suffer 10,000 damage from enemies",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DarthKnightsKilled",
+      "id": 107843,
+      "description": "Kill 100 Darth Knights",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "destroyedPortal",
+      "id": 107873,
+      "description": "Destroy the Undead machine",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "enemiesFrozen",
+      "id": 107852,
+      "description": "Cast Ice 400 times",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "enemiesPoisoned",
+      "id": 107851,
+      "description": "Use poison 100 times",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Experienced",
+      "id": 107864,
+      "description": "Complete 12 missions with 3 stars in each",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "firstMissonCompleted",
+      "id": 107871,
+      "description": "Complete 1st mission",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "fullStarsAchieved",
+      "id": 108492,
+      "description": "Number of missions completed with 3 stars",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Missions with 3 stars",
+      "accomplishment_tasks": [
+        {
+          "id": 3725,
+          "name": "7 levels 3-starred",
+          "quota": 7,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "gameCompleted",
+      "id": 108493,
+      "description": "Complete the game and kill the undead king",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Game completed",
+      "accomplishment_tasks": [
+        {
+          "id": 3726,
+          "name": "Game completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "gotAllStars",
+      "id": 107875,
+      "description": "Get 119 stars",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "gotEliteUnits",
+      "id": 107890,
+      "description": "Get 50 elite units",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "gotTierTwoUnits",
+      "id": 107885,
+      "description": "Upgrade 300 units to tier2",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "gotTonsOfGold",
+      "id": 107881,
+      "description": "Receive 100,000 in gold",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "halfGameCompleted",
+      "id": 107872,
+      "description": "Half game passed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "hiredLegions",
+      "id": 107886,
+      "description": "Hire 600 units",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "killed100",
+      "id": 107867,
+      "description": "Kill 100 enemies",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "killed10000",
+      "id": 107870,
+      "description": "Kill 10,000 enemies",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "killed3000",
+      "id": 107868,
+      "description": "Kill 3,000 enemies",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "killed6000",
+      "id": 107869,
+      "description": "Kill 6,000 enemies",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "killedByAssassins",
+      "id": 107850,
+      "description": "Kill 100 enemies using rogue class fighters",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "killedWithSingleShot",
+      "id": 107849,
+      "description": "Kill 15 enemies with single shot",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LightningStriked",
+      "id": 107858,
+      "description": "Kill 120 enemies using Flash strike",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "lost10soldiers",
+      "id": 107877,
+      "description": "10 soldiers killed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "lost50soldiers",
+      "id": 107878,
+      "description": "50 soldiers killed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Master",
+      "id": 107866,
+      "description": "Complete the game with 3 stars in each mission",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "metheorStriked",
+      "id": 107857,
+      "description": "Kill 400 enemies using Meteor",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "obsolete",
+      "id": 107874,
+      "description": "Complete the game and kill the Undead King",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Game completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "OgresKilled",
+      "id": 107846,
+      "description": "Kill 25 Ogres",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "protectedAllies",
+      "id": 107880,
+      "description": "Protection cast 400 times",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ressurectedAllies",
+      "id": 107879,
+      "description": "15 soldiers resurrected",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "setMindControl",
+      "id": 107855,
+      "description": "Use Mind Control on 200 enemies",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "shootTheOgre",
+      "id": 107856,
+      "description": "Kill Ogre and receive no damage from him",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SkeletonsKilled",
+      "id": 107848,
+      "description": "Kill 1500 skeletons",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "stealedTonsOfGold",
+      "id": 107882,
+      "description": "Steal 10,000 gold",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "stunnedEnemies",
+      "id": 107883,
+      "description": "Stun 200 enemies",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totalUndeadKilled",
+      "id": 108448,
+      "description": "Total number of undead killed by player.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Undead killed",
+      "accomplishment_tasks": [
+        {
+          "id": 3722,
+          "name": "500 undead killed",
+          "quota": 500,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "totalVictories",
+      "id": 108449,
+      "description": "Number of battles won.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Battles won",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totalVictoriesHard",
+      "id": 108451,
+      "description": "Number of battles won on Hard difficulty",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Hard battles won",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totalVictoriesImpossible",
+      "id": 108452,
+      "description": "Battles won on Impossible difficulty.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Impossible battles won",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totalVictoriesNormal",
+      "id": 108450,
+      "description": "Number of battles won on Normal difficulty",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Normal Battles won",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "upgradeToTheMax",
+      "id": 107859,
+      "description": "Upgrade soldier's class to maximum",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "VampiresKilled",
+      "id": 107844,
+      "description": "Kill 50 Vampires",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Veteran",
+      "id": 107865,
+      "description": "Complete 18 missions with 3 stars in each",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "watchedCredits",
+      "id": 107884,
+      "description": "Check Credits and write author a few words",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "WitchesKilled",
+      "id": 107845,
+      "description": "Kill 30 Witches",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ZombiesKilled",
+      "id": 107854,
+      "description": "Kill 500 Zombies",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3181,
+      "name": "Graveheart",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2616,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3722,
+          "statistic_id": 108448,
+          "quota": 500,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3181",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3182,
+      "name": "Starry Knight",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2617,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3725,
+          "statistic_id": 108492,
+          "quota": 7,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3182",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3183,
+      "name": "Darth Invader",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2618,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3726,
+          "statistic_id": 108493,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3183",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/platon_skedow/royal-warfare/chat.js",
+  "holodeck_url": "/games/platon_skedow/royal-warfare/holodeck",
+  "accomplishments_bootstrap_url": "/games/platon_skedow/royal-warfare/chat_achievements",
+  "sticker_drop_url": "/games/platon_skedow/royal-warfare/sticker_drop",
+  "game_path": "/games/platon_skedow/royal-warfare",
+  "html_dimensions": {
+    "game_width": 700,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 1003,
+    "flash_frame_height": 626,
+    "game_frame_width": 700,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=214180",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": true,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

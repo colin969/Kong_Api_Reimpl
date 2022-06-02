@@ -1,0 +1,368 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 259272,
+  "statistics": [
+    {
+      "name": "cheated",
+      "id": 123316,
+      "description": "the number of times the anti-cheat system has been triggered",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "gained_card",
+      "id": 123312,
+      "description": "the total number of cards collected by the player",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Collection Size",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "gained_gem",
+      "id": 123307,
+      "description": "the total number of gems gained by the player (including purchased gems)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "gained_gold",
+      "id": 123305,
+      "description": "represents total gold gained by the player",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Gold Gained",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "gained_level",
+      "id": 123311,
+      "description": "The total number of hero levels accumulated by the player across all heroes.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Hero Levels Gained",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "gained_star",
+      "id": 123308,
+      "description": "the total number of campaign stars collected by the player",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "gained_xp",
+      "id": 123306,
+      "description": "represents the total XP accumulated by the player",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Total XP Gained",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "gauntlet_lost",
+      "id": 123322,
+      "description": "the number of gauntlet battles lost by the player",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "gauntlet_won",
+      "id": 123321,
+      "description": "the number of gauntlet battles won by the player",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "hero_unlocked",
+      "id": 123325,
+      "description": "the total number of heroes unlocked by the player",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "loaded",
+      "id": 123295,
+      "description": "called when the game has been successfully loaded",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "mission_lost",
+      "id": 123318,
+      "description": "the number of campaign mission battles lost by the player",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "mission_won",
+      "id": 123317,
+      "description": "the number of campaign missions won by the player",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Mission Won",
+      "accomplishment_tasks": [
+        {
+          "id": 4331,
+          "name": "10 missions completed",
+          "quota": 10,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "most_crowns",
+      "id": 123323,
+      "description": "the highest number of crowns collected in the arena",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Most Crowns",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "most_trophies",
+      "id": 123324,
+      "description": "the highest number of trophies collected in the gauntlet",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Most Trophies",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "opened_chest",
+      "id": 123315,
+      "description": "the number of chests opened by the player",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "purchased_gem",
+      "id": 123326,
+      "description": "the number of gems purchased by the player (for kreds)",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "purchased_gempack",
+      "id": 123314,
+      "description": "the number of times the player purchased a pack with gems",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "purchased_goldpack",
+      "id": 123313,
+      "description": "the number of times the player purchased a card pack with gold",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "purchased_special",
+      "id": 123413,
+      "description": "Incremented when a player buys a special offer",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "pvp_lost",
+      "id": 123320,
+      "description": "the number of arena matches lost",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "pvp_won",
+      "id": 123319,
+      "description": "the number of arena battles won by the player",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Arena Matches Won",
+      "accomplishment_tasks": [
+        {
+          "id": 4332,
+          "name": "15 arena battles won",
+          "quota": 15,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "sacrifice_gold",
+      "id": 123443,
+      "description": "gold gained by sacrificing cards",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "sacrifice_xp",
+      "id": 123444,
+      "description": "xp gained by sacrificing cards",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "spent_gem",
+      "id": 123310,
+      "description": "the total number of gems spent by the player",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "spent_gold",
+      "id": 123309,
+      "description": "the total amount of gold spent by the player",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "spent_kreds",
+      "id": 123794,
+      "description": "the total number of kreds spent by the player to date",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "total_gems_earned",
+      "id": 123824,
+      "description": "The total number of gems earned by the player (not purchased)",
+      "stat_type": "Replace",
+      "display_in_table": true,
+      "display_name": "Total Gems Earned",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3668,
+      "name": "Broadening Horizons",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 3056,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4331,
+          "statistic_id": 123317,
+          "quota": 10,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3668",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3669,
+      "name": "Rise to Fame",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 3057,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4332,
+          "statistic_id": 123319,
+          "quota": 15,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3669",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/stormwars/storm-wars/chat.js",
+  "holodeck_url": "/games/stormwars/storm-wars/holodeck",
+  "accomplishments_bootstrap_url": "/games/stormwars/storm-wars/chat_achievements",
+  "sticker_drop_url": "/games/stormwars/storm-wars/sticker_drop",
+  "game_path": "/games/stormwars/storm-wars",
+  "html_dimensions": {
+    "game_width": 1050,
+    "game_height": 700,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 700,
+    "flash_frame_width": 1353,
+    "flash_frame_height": 726,
+    "game_frame_width": 1050,
+    "game_frame_height": 700,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=259272",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": true,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": true,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": true,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

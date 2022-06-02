@@ -1,0 +1,510 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 38794,
+  "statistics": [
+    {
+      "name": "Buck Master",
+      "id": 21600,
+      "description": "Completed Buck's chapter without getting knocked down",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BuckNovice",
+      "id": 21599,
+      "description": "Completed Buck's chapter",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Buck Novice",
+      "accomplishment_tasks": [
+        {
+          "id": 1015,
+          "name": "Buck's chapter complete",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Dante Master",
+      "id": 21612,
+      "description": "Completed Dante's chapter without getting knocked down.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DanteNovice",
+      "id": 21611,
+      "description": "Completed Dante's chapter",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Dante Novice",
+      "accomplishment_tasks": [
+        {
+          "id": 1021,
+          "name": "Dante's chapter complete",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Duff Master",
+      "id": 21602,
+      "description": "Completed Duff's chapter without getting knocked down",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DuffNovice",
+      "id": 21601,
+      "description": "Completed Duff's chapter",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Duff Novice",
+      "accomplishment_tasks": [
+        {
+          "id": 1016,
+          "name": "Duff's chapter complete",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Helmut Master",
+      "id": 21604,
+      "description": "Completed Helmut's chapter without getting knocked down",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HelmutNovice",
+      "id": 21603,
+      "description": "Completed Helmut's chapter",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Helmut Novice",
+      "accomplishment_tasks": [
+        {
+          "id": 1017,
+          "name": "Helmut's chapter complete",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "HighScore",
+      "id": 24581,
+      "description": "HighScore",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-HyperDefense",
+      "id": 21622,
+      "description": "HighScore-HyperDefense",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 1012,
+          "name": "25 blocks (hyper defense)",
+          "quota": 25,
+          "granularity": 15
+        }
+      ]
+    },
+    {
+      "name": "HighScore-StoryMode",
+      "id": 21624,
+      "description": "HighScore-StoryMode",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-TargetPractice",
+      "id": 21621,
+      "description": "HighScore-TargetPractice",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 1011,
+          "name": "21 hits (target practice)",
+          "quota": 21,
+          "granularity": 11
+        }
+      ]
+    },
+    {
+      "name": "HighScore-ThreeHits",
+      "id": 21619,
+      "description": "HighScore-ThreeHits",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 1013,
+          "name": "30 damage dealt (three-hit mode)",
+          "quota": 30,
+          "granularity": 15
+        }
+      ]
+    },
+    {
+      "name": "Hyper Defense Master",
+      "id": 21618,
+      "description": "Player has blocked at least 60 attacks in Training Mode Hyper Defense.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Hyper Defense Novice",
+      "id": 21617,
+      "description": "Player has blocked at least 30 attacks in Training Mode Hyper Defense.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Joshua Master",
+      "id": 21598,
+      "description": "Completed Joshua's chapter without getting knocked down",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "JoshuaNovice",
+      "id": 21597,
+      "description": "Complete Joshua's chapter",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Joshua Novice",
+      "accomplishment_tasks": [
+        {
+          "id": 1014,
+          "name": "Joshua's chapter complete",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Lourdes Master",
+      "id": 21610,
+      "description": "Completed Lourdes' chapter without getting knocked down.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LourdesNovice",
+      "id": 21609,
+      "description": "Completed Lourdes' chapter.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Lourdes Novice",
+      "accomplishment_tasks": [
+        {
+          "id": 1020,
+          "name": "Lourdes's chapter complete",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Target Practice Master",
+      "id": 21616,
+      "description": "Player has hit at least 50 targets in Training Mode Target Practice.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Target Practice Novice",
+      "id": 21615,
+      "description": "Player has hit at least 30 targets in Training Mode Target Practice.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Three Hits Master",
+      "id": 21614,
+      "description": "When player scores at least 35 points in Training Mode Three Hits.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Three Hits Novice",
+      "id": 21613,
+      "description": "When player scores at least 25 points in Training Mode Three Hits.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Westone Master",
+      "id": 21608,
+      "description": "Completed Westone's chapter without getting knocked down",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "WestoneYoungNovice",
+      "id": 21607,
+      "description": "Completed Westone's chapter",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Westone Novice",
+      "accomplishment_tasks": [
+        {
+          "id": 1019,
+          "name": "Westone's chapter complete",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Zhong Master",
+      "id": 21606,
+      "description": "Completed Zhong's chapter without getting knocked down.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ZhongNovice",
+      "id": 21605,
+      "description": "Completed Zhong's chapter.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Zhong Novice",
+      "accomplishment_tasks": [
+        {
+          "id": 1018,
+          "name": "Zhong's chapter complete",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 823,
+      "name": "Hit Me!",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 642,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1011,
+          "statistic_id": 21621,
+          "quota": 21,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-823",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 824,
+      "name": "C-C-C-Combo Breaker",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 643,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1012,
+          "statistic_id": 21622,
+          "quota": 25,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-824",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 825,
+      "name": "High Roller",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 644,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1013,
+          "statistic_id": 21619,
+          "quota": 30,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-825",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 826,
+      "name": "Full House",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 645,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1014,
+          "statistic_id": 21597,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 1015,
+          "statistic_id": 21599,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 1016,
+          "statistic_id": 21601,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 1017,
+          "statistic_id": 21603,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 1018,
+          "statistic_id": 21605,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 1019,
+          "statistic_id": 21607,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 1020,
+          "statistic_id": 21609,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 1021,
+          "statistic_id": 21611,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-826",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/AdultSwimGames/death-vegas/chat.js",
+  "holodeck_url": "/games/AdultSwimGames/death-vegas/holodeck",
+  "accomplishments_bootstrap_url": "/games/AdultSwimGames/death-vegas/chat_achievements",
+  "sticker_drop_url": "/games/AdultSwimGames/death-vegas/sticker_drop",
+  "game_path": "/games/AdultSwimGames/death-vegas",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 943,
+    "flash_frame_height": 553,
+    "game_frame_width": 640,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=38794",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": true,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": null,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

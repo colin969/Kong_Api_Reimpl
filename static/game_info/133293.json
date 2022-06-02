@@ -1,0 +1,703 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 133293,
+  "statistics": [
+    {
+      "name": "acdc",
+      "id": 73072,
+      "description": "Kill 300 enemies with electricity.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "armaggedon",
+      "id": 73043,
+      "description": "Use Rain of Fire 5 times in a single stage.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "axe_rainer",
+      "id": 73079,
+      "description": "Throw 500 or more axes.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "barbarian_rush",
+      "id": 73068,
+      "description": "Have a single barbarian kill 10 enemies.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "beam_me_up",
+      "id": 73082,
+      "description": "Teleport 250 or more enemies.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "bloodlust",
+      "id": 73040,
+      "description": "Kill 500 enemies.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "cannon_fodder",
+      "id": 73058,
+      "description": "Send 1.000 soldiers to their deaths.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "catch_a_fish",
+      "id": 73066,
+      "description": "Catch a fish.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "clustered",
+      "id": 73073,
+      "description": "Drop 1.000 or more bomblets with the cluster bomb.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "constructor",
+      "id": 73035,
+      "description": "Build 30 towers.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "coolrunning",
+      "id": 91237,
+      "description": "Defeat 10 Troll Pathfinders while they\u2019re treading on ice.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "daring",
+      "id": 73041,
+      "description": "Call 10 early waves.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "death_from_above",
+      "id": 73050,
+      "description": "Kill 100 enemies with meteor shower.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "defeat_end_boss",
+      "id": 73083,
+      "description": "Defeat Vez'nan.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 2642,
+          "name": "Vez'nan Defeated",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "defeat_greenmuck",
+      "id": 78858,
+      "description": "Defeat Greenmuck the evil treant overlord!",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "defeat_kingpin",
+      "id": 83481,
+      "description": "Do not let The Kingpin escape",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "defeat_troll_boss",
+      "id": 91240,
+      "description": "Defeat Ulguk-Hai the Troll Warlord.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "die_hard",
+      "id": 73056,
+      "description": "Have your soldiers regenerate a total of 50.000 life.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "dust_to_dust",
+      "id": 73081,
+      "description": "Desintegrate 50 or more enemies.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "elementalist",
+      "id": 73074,
+      "description": "Summon 5 rock elementals in any one stage.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "energy_network",
+      "id": 73075,
+      "description": "Build 4 Tesla towers in any stage.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "engineer",
+      "id": 73046,
+      "description": "Build 100 towers.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "entangled",
+      "id": 73069,
+      "description": "Hold 500 or more enemies with Wrath of the Forest.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "fearless",
+      "id": 73054,
+      "description": "Call all waves early in a single mission.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 2640,
+          "name": "All Waves Called Early in a Single Mission",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "find_mushrooms",
+      "id": 91238,
+      "description": "Find the legendary lost Ice-shrooms.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "first_blood",
+      "id": 73036,
+      "description": "Kill one enemy.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "gi_joe",
+      "id": 73057,
+      "description": "Train 1.000 soldiers.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GreatDefender",
+      "id": 73084,
+      "description": "Complete all campaign stages in Normal difficulty.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GreatDefenderHeroic",
+      "id": 73085,
+      "description": "Complete all Heroic stages in Normal difficulty.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Complete all heroic stages",
+      "accomplishment_tasks": [
+        {
+          "id": 2643,
+          "name": "All Heroic Challenges Completed in Normal Difficulty",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "GreatDefenderIron",
+      "id": 73086,
+      "description": "Complete all Iron stages in Normal difficulty.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Complete all Iron stages",
+      "accomplishment_tasks": [
+        {
+          "id": 2644,
+          "name": "All Iron Challenges Completed in Normal Difficulty",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "hard_defender",
+      "id": 91236,
+      "description": "Complete the campaign in Hard mode.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "hero_hard",
+      "id": 83480,
+      "description": "Train a hero up to max level",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "hero_medium",
+      "id": 83479,
+      "description": "Train a hero up to level 5",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "holy_chorus",
+      "id": 73071,
+      "description": "Have your Paladins perform 100 Holy Strikes.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "home_improvement",
+      "id": 73033,
+      "description": "Upgrade all basic tower types to level 3.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ice_age",
+      "id": 91239,
+      "description": "Find the elusive acorn!",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "impatient",
+      "id": 73061,
+      "description": "Call an early wave within 3 seconds of the icon showing up.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "imperial_saviour",
+      "id": 73063,
+      "description": "Complete The Citadel with at least 3 surviving imperial guards.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "indecisive",
+      "id": 73060,
+      "description": "Sell 5 towers in a single mission.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "kill_him_yeti",
+      "id": 73045,
+      "description": "Defeat J.T.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "like_a_henderson",
+      "id": 73064,
+      "description": "Free the sasquatch on the Icewind Pass.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "max_elves",
+      "id": 73062,
+      "description": "Recruit max elves at The Silveroak Outpost.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "medic",
+      "id": 73070,
+      "description": "Have your Paladins heal a total of 7.000 life.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "nuts_and_bolts",
+      "id": 73048,
+      "description": "Defeat The Juggernaut.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 2641,
+          "name": "Juggernaut Defeated",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "real_estate",
+      "id": 73059,
+      "description": "Sell 30 Towers.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "rocketeer",
+      "id": 73077,
+      "description": "Shoot 100 Missiles.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "sheep_killer",
+      "id": 73080,
+      "description": "Kill 10 or more sheep with your hands",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "shepard",
+      "id": 73067,
+      "description": "Polymorph 50 enemies into sheeps.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "slayer",
+      "id": 73049,
+      "description": "Kill 2500 enemies",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "sniper",
+      "id": 73078,
+      "description": "Snipe 50 enemies.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Starry",
+      "id": 73034,
+      "description": "Earn 15 stars.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "stars",
+      "id": 80631,
+      "description": "Stars Collected",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "sunburner",
+      "id": 73065,
+      "description": "Fire the sunray 20 times.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Supermario",
+      "id": 73044,
+      "description": "Earn 30 stars.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Superstar",
+      "id": 73052,
+      "description": "Earn 45 stars.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "tactician",
+      "id": 73051,
+      "description": "Change soldiers rally point 200 times.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "terminator",
+      "id": 73055,
+      "description": "Kill 10.000 enemies.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "the_architect",
+      "id": 73053,
+      "description": "Build 150 towers",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "the_specialist",
+      "id": 73047,
+      "description": "Build all 8 tower specializations.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "toxicity",
+      "id": 73076,
+      "description": "Kill 50 enemies by poison damage.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "whats_that",
+      "id": 73042,
+      "description": "Open 10 enemy information cards.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2262,
+      "name": "Rushing It",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1852,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2640,
+          "statistic_id": 73054,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2262",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2263,
+      "name": "Bucket of Bolts",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1853,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2641,
+          "statistic_id": 73048,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2263",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 25,
+        "name": "Best of 2011",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2264,
+      "name": "Linirea Defender",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1854,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2642,
+          "statistic_id": 73083,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2264",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2265,
+      "name": "Kingdom: Rushed",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1855,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2643,
+          "statistic_id": 73085,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 2644,
+          "statistic_id": 73086,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2265",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Ironhidegames/kingdom-rush/chat.js",
+  "holodeck_url": "/games/Ironhidegames/kingdom-rush/holodeck",
+  "accomplishments_bootstrap_url": "/games/Ironhidegames/kingdom-rush/chat_achievements",
+  "sticker_drop_url": "/games/Ironhidegames/kingdom-rush/sticker_drop",
+  "game_path": "/games/Ironhidegames/kingdom-rush",
+  "html_dimensions": {
+    "game_width": 700,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 1003,
+    "flash_frame_height": 626,
+    "game_frame_width": 700,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=133293",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": true,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": true,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": false,
+    "disable_instart": false,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": true,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

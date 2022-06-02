@@ -1,0 +1,217 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 95177,
+  "statistics": [
+    {
+      "name": "Atmosphere",
+      "id": 49461,
+      "description": "Atmosphere level in the house (100 max)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "CurrentFreakouts",
+      "id": 49462,
+      "description": "Number of people currently freaking out",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Current Freakouts",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GameComplete",
+      "id": 49471,
+      "description": "If the game is complete",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 1744,
+          "name": "Game completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "GameRank",
+      "id": 49472,
+      "description": "The rank gained in the game (1=S, 2=A, 3=B, 4=C, 5=D)",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ItemsPossessed",
+      "id": 49460,
+      "description": "Items possessed around the house (92 in total)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Items Possessed",
+      "accomplishment_tasks": [
+        {
+          "id": 1743,
+          "name": "31 items possessed",
+          "quota": 31,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "LightsSwinging",
+      "id": 49466,
+      "description": "Number of lights currently swinging in the house (11 in total)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MoonTouched",
+      "id": 49465,
+      "description": "If the moon was touched",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "PeopleOut",
+      "id": 49464,
+      "description": "People out of the house, either by scaring away or suicide (30 in total)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "PowersUsed",
+      "id": 49459,
+      "description": "Number of different powers used around the house (167 in total)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Suicides",
+      "id": 49463,
+      "description": "Number of suicides committed this game",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1474,
+      "name": "Possession Aggression",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1192,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1743,
+          "statistic_id": 49460,
+          "quota": 31,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1474",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1475,
+      "name": "House Cleaning",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1193,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1744,
+          "statistic_id": 49471,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1475",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/SuperFlashBros/haunt-the-house/chat.js",
+  "holodeck_url": "/games/SuperFlashBros/haunt-the-house/holodeck",
+  "accomplishments_bootstrap_url": "/games/SuperFlashBros/haunt-the-house/chat_achievements",
+  "sticker_drop_url": "/games/SuperFlashBros/haunt-the-house/sticker_drop",
+  "game_path": "/games/SuperFlashBros/haunt-the-house",
+  "html_dimensions": {
+    "game_width": 700,
+    "game_height": 525,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 1,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1003,
+    "flash_frame_height": 553,
+    "game_frame_width": 700,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=95177",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

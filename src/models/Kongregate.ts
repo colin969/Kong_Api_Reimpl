@@ -1,14 +1,19 @@
-import { ApiServices, IApiServices } from "./ApiServices";
+import { ApiServices, IApiServices } from './ApiServices';
+import { IStatsService, StatsService } from './StatisticsService';
 
 export interface IKongregate {
-    services: IApiServices;
+  services: IApiServices;
+  stats: IStatsService;
 }
 
 export class Kongregate implements IKongregate {
 
-    public services: IApiServices;
+  public services: IApiServices;
+  public stats: IStatsService;
 
-    constructor(_kongvars: URLSearchParams) {
-        this.services = new ApiServices(_kongvars);
-    }
+  constructor(_kongvars: URLSearchParams) {
+    this.services = new ApiServices(_kongvars);
+    this.stats = new StatsService(this.services);
+  }
+
 }

@@ -1,0 +1,469 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 155169,
+  "statistics": [
+    {
+      "name": "BannersSetInAMission",
+      "id": 85828,
+      "description": "How many banners a player has set on the battlefield in a single mission",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ChestsOpenedInAMission",
+      "id": 85830,
+      "description": "How many treasure chests a player has opened in a single mission",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EnemySquadsDestroyedInAMission",
+      "id": 85831,
+      "description": "How many enemy squads a player has destroyed in a single mission",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EnemySquadsDestroyedOverall",
+      "id": 85844,
+      "description": "Overall number of enemy squads a player has destroyed (in all the campaigns and even using different save slots)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FarmsOwnedInAMission",
+      "id": 85824,
+      "description": "How many farms a player has under his control at the same time",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GoldCollectedInAMission",
+      "id": 85832,
+      "description": "How many gold a player has collected in a single mission",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HordeAllBasicEdictsIssued",
+      "id": 85815,
+      "description": "Issue all the basic edicts of the Crimson Horde (1 = completed, 0 = not completed)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HordeAllMissionsPerfect",
+      "id": 85812,
+      "description": "Complete all the Crimson Horde missions with Perfect rating (1 = completed, 0 = not completed)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HordeCampaignComplete",
+      "id": 85809,
+      "description": "Complete the Crimson Horde campaign (1 = completed, 0 = not completed)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Horde Campaign Complete",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HordeMissionsCompleted",
+      "id": 85818,
+      "description": "How many missions of Crimson Horde campaign are completed (min = 0, max = 8)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3074,
+          "name": "8 Crimson Horde Missions Completed",
+          "quota": 8,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "HordeMissionsPerfect",
+      "id": 85821,
+      "description": "How many missions of the Crimson Horde campaign are completed with Perfect rating (min = 0, max = 8)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HordeRank",
+      "id": 85837,
+      "description": "Max rank a player achieved in the Crimson Horde campaign (max = 14)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Horde Rank",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "IcedalesAllBasicEdictsIssued",
+      "id": 85816,
+      "description": "Issue all the basic edicts of the Icedales Cult (1 = completed, 0 = not completed)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "IcedalesAllMissionsPerfect",
+      "id": 85813,
+      "description": "Complete all the Icedales Cult missions with Perfect rating (1 = completed, 0 = not completed)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "IcedalesCampaignComplete",
+      "id": 85810,
+      "description": "Complete the Icedales Cult campaign (1 = completed, 0 = not completed)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Icedales Campaign Complete",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "IcedalesMissionsCompleted",
+      "id": 85819,
+      "description": "How many missions of Icedales Cult campaign are completed (min = 0, max = 8)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "CultMissionsCompleted",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "IcedalesMissionsPerfect",
+      "id": 85822,
+      "description": "How many missions of the Icedales Cult campaign are completed with Perfect rating (min = 0, max = 8)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "IcedalesRank",
+      "id": 85839,
+      "description": "Max rank a player achieved in the Icedales Cult campaign (max = 14)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Icedales Rank",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MinesOwnedInAMission",
+      "id": 85825,
+      "description": "How many mines a player has under his control at the same time",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MissionsPerfect",
+      "id": 85823,
+      "description": "How many missions of all the campaigns are completed with Perfect rating (min = 0, max = 24)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Missions Perfect Ratings",
+      "accomplishment_tasks": [
+        {
+          "id": 3073,
+          "name": "24 Missions Perfected",
+          "quota": 24,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "ObelisksOwnedInAMission",
+      "id": 85826,
+      "description": "How many obelisks a player has under his control at the same time",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SquadsOwnedInAMission",
+      "id": 85827,
+      "description": "How many squads a player has under his control at the same time",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SquadsPurchasedInAMission",
+      "id": 85833,
+      "description": "How many squads a player has purchased in a single mission",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "StrongholdsSiezedInAMission",
+      "id": 85834,
+      "description": "How many strongholds a player has siezed in a single mission",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "StrongholdsSiezedOverall",
+      "id": 85843,
+      "description": "Overall number of strongholds a player has siezed (in all the campaigns and even using different save slots)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Strongholds Siezed",
+      "accomplishment_tasks": [
+        {
+          "id": 3070,
+          "name": "10 Strongholds Seized",
+          "quota": 10,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "UltimatePowerUsedInAMission",
+      "id": 85829,
+      "description": "How many times a player has used his ultimate power in a single mission",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "WestariaAllBasicEdictsIssued",
+      "id": 85814,
+      "description": "Issue all the basic edicts of the Duchy of Westaria (1 = completed, 0 = not completed)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "WestariaAllMissionsPerfect",
+      "id": 85811,
+      "description": "Complete all the Duchy of Westaria missions with Perfect rating (1 = completed, 0 = not completed)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "WestariaCampaignComplete",
+      "id": 85808,
+      "description": "Complete the Duchy of Westaria campaign (1 = completed, 0 = not completed)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Westaria Campaign Complete",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "WestariaMissionsCompleted",
+      "id": 85817,
+      "description": "How many missions of Duchy of Westaria campaign are completed (min = 0, max = 8)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "WestariaMissionsPerfect",
+      "id": 85820,
+      "description": "How many missions of the Duchy of Westaria campaign are completed with Perfect rating (min = 0, max = 8)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "WestariaRank",
+      "id": 85835,
+      "description": "Max rank a player achieved in the Duchy of Westaria campaign (max = 14)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Westaria Rank",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "XpGainedOverall",
+      "id": 85842,
+      "description": "Overall number of exp points a player has gained (in all the campaigns and even using different save slots)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Overall XP",
+      "accomplishment_tasks": [
+        {
+          "id": 3071,
+          "name": "25,000 Experienced Gained",
+          "quota": 25000,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2639,
+      "name": "Strongheld",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2178,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3070,
+          "statistic_id": 85843,
+          "quota": 10,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2639",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2640,
+      "name": "Experience Necessary",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2179,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3071,
+          "statistic_id": 85842,
+          "quota": 25000,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2640",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2642,
+      "name": "Expansionism at Work",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2181,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3073,
+          "statistic_id": 85823,
+          "quota": 24,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2642",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2641,
+      "name": "Crimson Dynamite",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2180,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3074,
+          "statistic_id": 85818,
+          "quota": 8,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2641",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/IriySoft/takeover/chat.js",
+  "holodeck_url": "/games/IriySoft/takeover/holodeck",
+  "accomplishments_bootstrap_url": "/games/IriySoft/takeover/chat_achievements",
+  "sticker_drop_url": "/games/IriySoft/takeover/sticker_drop",
+  "game_path": "/games/IriySoft/takeover",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 626,
+    "game_frame_width": 800,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=155169",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

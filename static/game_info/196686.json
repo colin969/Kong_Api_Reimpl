@@ -1,0 +1,232 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 196686,
+  "statistics": [
+    {
+      "name": "CampaignCompleted",
+      "id": 101282,
+      "description": "The user completed the Campaign by killing the final boss.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Campaign Completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EndlessTime",
+      "id": 101366,
+      "description": "These are the old scores before Endless Mode was updated with new features. Defunct!",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Old Endless Leaderboards (Defunct)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EndlessTimes",
+      "id": 101383,
+      "description": "How long the player has survived - in seconds - on Endless Mode.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Endless Leaderboards",
+      "accomplishment_tasks": [
+        {
+          "id": 3532,
+          "name": "15 minutes survived",
+          "quota": 900,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "GameCompletion",
+      "id": 101364,
+      "description": "The completion percentage for the game.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3531,
+          "name": "100% game completion",
+          "quota": 100,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "GameStarted",
+      "id": 101362,
+      "description": "The game was started by the player.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "display_name": "Game Started",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level",
+      "id": 101411,
+      "description": "The level of the player.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Level Leaderboards",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MedalCompletion",
+      "id": 101363,
+      "description": "The completion percentage for medals.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Medal Completion",
+      "accomplishment_tasks": [
+        {
+          "id": 3530,
+          "name": "25% medal completion",
+          "quota": 25,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3052,
+      "name": "Multitude of Medals",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2501,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3530,
+          "statistic_id": 101363,
+          "quota": 25,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3052",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 37,
+        "name": "Best of 2014",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3053,
+      "name": "Purge the Scourge",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2502,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3531,
+          "statistic_id": 101364,
+          "quota": 100,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3053",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3054,
+      "name": "Weary Sentry",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2503,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3532,
+          "statistic_id": 101383,
+          "quota": 900,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3054",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/swartag/sentry-knight/chat.js",
+  "holodeck_url": "/games/swartag/sentry-knight/holodeck",
+  "accomplishments_bootstrap_url": "/games/swartag/sentry-knight/chat_achievements",
+  "sticker_drop_url": "/games/swartag/sentry-knight/sticker_drop",
+  "game_path": "/games/swartag/sentry-knight",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 540,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 540,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 566,
+    "game_frame_width": 800,
+    "game_frame_height": 540,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=196686",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

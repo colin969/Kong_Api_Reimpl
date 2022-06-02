@@ -1,0 +1,155 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 133180,
+  "statistics": [
+    {
+      "name": "Level 1 Completed",
+      "id": 72988,
+      "description": "Successfully solved 10 Color Link-a-Pix puzzles 10x10",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 2607,
+          "name": "Level 1 Completed",
+          "quota": 9223372036854775807,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Level 2 Completed",
+      "id": 72989,
+      "description": "Successfully solved 10 Color Link-a-Pix puzzles 15x15",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 2608,
+          "name": "Level 2 Completed",
+          "quota": 9223372036854775807,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Level 3 Completed",
+      "id": 72990,
+      "description": "Successfully solved 10 Color Link-a-Pix puzzles 15x15",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 2609,
+          "name": "Level 3 Completed",
+          "quota": 9223372036854775807,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2232,
+      "name": "Color Theorist",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1825,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2607,
+          "statistic_id": 72988,
+          "quota": 9223372036854775807,
+          "operator": "AND"
+        },
+        {
+          "id": 2608,
+          "statistic_id": 72989,
+          "quota": 9223372036854775807,
+          "operator": "AND"
+        },
+        {
+          "id": 2609,
+          "statistic_id": 72990,
+          "quota": 9223372036854775807,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2232",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Conceptis/color-link-a-pix-light-vol-1/chat.js",
+  "holodeck_url": "/games/Conceptis/color-link-a-pix-light-vol-1/holodeck",
+  "accomplishments_bootstrap_url": "/games/Conceptis/color-link-a-pix-light-vol-1/chat_achievements",
+  "sticker_drop_url": "/games/Conceptis/color-link-a-pix-light-vol-1/sticker_drop",
+  "game_path": "/games/Conceptis/color-link-a-pix-light-vol-1",
+  "html_dimensions": {
+    "game_width": 550,
+    "game_height": 460,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 35,
+    "game_top": 33,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 923,
+    "flash_frame_height": 553,
+    "game_frame_width": 620,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=133180",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": true,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

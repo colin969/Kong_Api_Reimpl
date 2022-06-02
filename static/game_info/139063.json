@@ -1,0 +1,303 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 139063,
+  "statistics": [
+    {
+      "name": "bronzeCustomers",
+      "id": 76402,
+      "description": "Total number of customers with Bronze Awards",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "customersUnlocked",
+      "id": 76401,
+      "description": "Total number of customers unlocked (max 54)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "daysPlayed",
+      "id": 76400,
+      "description": "Number of days played",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "earn1PrizeEach",
+      "id": 76411,
+      "description": "Has the player earned at least 1 prize in each Mini Game?  (1)\nFairly easy to do, should be able to earn 1 after each day.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Earned One Prize Each",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "earn5PrizesEach",
+      "id": 76412,
+      "description": "Has the player earned 5 Prizes in each Mini Game? (1)\nTotal of 35 prizes, 5 in each game.\nWill take at least 14 days worth of playing (hour or so), maybe longer.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Earned 5 Prizes per Mini Game",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "goldCustomers",
+      "id": 76404,
+      "description": "Customers leveled up to Gold",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "highScore",
+      "id": 76398,
+      "description": "High Score in the game",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "High Score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "playAllMiniGames",
+      "id": 76410,
+      "description": "Have they played all 7 mini games?  (1)\nHappens after 7 days of playing\n(easy to do, takes about a half hour though)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Played All Mini Games",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "prizesWon",
+      "id": 76413,
+      "description": "How many Mini Game prizes has the player won?",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Mini-Game Prizes Won",
+      "accomplishment_tasks": [
+        {
+          "id": 2744,
+          "name": "5 Mini-Game Prizes Earned",
+          "quota": 5,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "rank",
+      "id": 76399,
+      "description": "Player's rank",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Rank",
+      "accomplishment_tasks": [
+        {
+          "id": 2746,
+          "name": "Rank 16 Reached",
+          "quota": 16,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "silverCustomers",
+      "id": 76403,
+      "description": "Customers leveled up to Silver",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totalBadgesEarned",
+      "id": 76409,
+      "description": "Total number of in-game badges earned (max 80)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Game Badges Earned",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "unlockDrinks",
+      "id": 76408,
+      "description": "Has the customer unlocked the Drink Station? (1)\nNew to the Series.  Happens at Rank 15 (takes a while)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Unlocked Drink Station",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "unlockFrenchToast",
+      "id": 76406,
+      "description": "Has the customer unlocked French Toast yet?  (1)\nEarned when the customer hits Rank 4 (early)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Unlocked French Toast",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "unlockWaffles",
+      "id": 76407,
+      "description": "Has the customer unlocked Waffles?  (1)\nHappens at Rank 7 (easy/medium)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Unlocked Waffles",
+      "accomplishment_tasks": [
+        {
+          "id": 2745,
+          "name": "Waffles Unlocked",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "upgradesUnlocked",
+      "id": 76405,
+      "description": "Number of upgrades unlocked",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2342,
+      "name": "Mini-Game Looter",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1920,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2744,
+          "statistic_id": 76413,
+          "quota": 5,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2342",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2343,
+      "name": "Perpetual Waffling",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1921,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2745,
+          "statistic_id": 76407,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2343",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2344,
+      "name": "Barista Basics",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1922,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2746,
+          "statistic_id": 76399,
+          "quota": 16,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2344",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/FliplineStudios/papas-pancakeria/chat.js",
+  "holodeck_url": "/games/FliplineStudios/papas-pancakeria/holodeck",
+  "accomplishments_bootstrap_url": "/games/FliplineStudios/papas-pancakeria/chat_achievements",
+  "sticker_drop_url": "/games/FliplineStudios/papas-pancakeria/sticker_drop",
+  "game_path": "/games/FliplineStudios/papas-pancakeria",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 943,
+    "flash_frame_height": 553,
+    "game_frame_width": 640,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=139063",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

@@ -1,0 +1,300 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 44161,
+  "statistics": [
+    {
+      "name": "ACH_0",
+      "id": 24648,
+      "description": "Player earned \"The Tape\" achievement. (Killed first boss: Easy)",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 1028,
+          "name": "Tape acquired",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "ACH_1",
+      "id": 24649,
+      "description": "Player earned \"Black Magic\" achievement. (Killed Clemons solo: Medium)",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ACH_2",
+      "id": 24650,
+      "description": "Player earned \"Pacifist\" achievement. (Killed Hydra without direct damage: Medium/Long)",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ACH_3",
+      "id": 24651,
+      "description": "Player earned \"Predator\" achievement. (Killed Hunt without training: Hard)",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ACH_4",
+      "id": 24652,
+      "description": "Player earned \"Legend\" achievement. (Killed Mayor without training: Hard)",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ACH_6",
+      "id": 24653,
+      "description": "Player earned \"JailBreak\" achievement. (Killed Metal Warden with only 1 team mate: Hard)",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "display_name": "ACH_5",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ACH_7",
+      "id": 24654,
+      "description": "Player earned \"Doomsday\" achievement. (Killed Bomb in half the time: Hard)",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "display_name": "ACH_6",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ACH_8",
+      "id": 24655,
+      "description": "Player earned \"Old Ghosts\" achievement. (Killed Nostalgia solo: Hard)",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ACH_9",
+      "id": 24656,
+      "description": "Player earned \"Over the Ashes\" achievement. (Killed Corruptor: Hard)",
+      "stat_type": "Replace",
+      "display_in_table": true,
+      "display_name": "Killed Corruptor",
+      "accomplishment_tasks": [
+        {
+          "id": 1031,
+          "name": "Corruptor defeated",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "BARON",
+      "id": 24726,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": true,
+      "display_name": "Killed captain",
+      "accomplishment_tasks": [
+        {
+          "id": 1029,
+          "name": "Captain defeated",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "LEVEL",
+      "id": 24647,
+      "description": "The highest level character that the player has.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MAYOR",
+      "id": 24725,
+      "description": "Killed Mayor on Heroic or Challenging.",
+      "stat_type": "Replace",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 1030,
+          "name": "Mayor defeated",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 833,
+      "name": "Be Kind, Please Rewind",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 650,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1028,
+          "statistic_id": 24648,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-833",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 834,
+      "name": "Meddling Kids",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 651,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1029,
+          "statistic_id": 24726,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-834",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 6,
+        "name": "Best of 2009",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 835,
+      "name": "Political Assassination",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 652,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1030,
+          "statistic_id": 24725,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-835",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 836,
+      "name": "Over the Ashes",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 653,
+      "level": "impossible",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1031,
+          "statistic_id": 24656,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-836",
+      "reward_points": 60,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/ArmorGames/sonny-2/chat.js",
+  "holodeck_url": "/games/ArmorGames/sonny-2/holodeck",
+  "accomplishments_bootstrap_url": "/games/ArmorGames/sonny-2/chat_achievements",
+  "sticker_drop_url": "/games/ArmorGames/sonny-2/sticker_drop",
+  "game_path": "/games/ArmorGames/sonny-2",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 575,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 575,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 601,
+    "game_frame_width": 800,
+    "game_frame_height": 575,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=44161",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": true,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": null,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

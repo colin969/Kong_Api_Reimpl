@@ -1,0 +1,811 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 68446,
+  "statistics": [
+    {
+      "name": "AchQty",
+      "id": 41124,
+      "description": "Completed achievements quantity",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Achievements earned",
+      "accomplishment_tasks": [
+        {
+          "id": 1463,
+          "name": "10 runes earned",
+          "quota": 10,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "All_Ach_Made",
+      "id": 38450,
+      "description": "Receive all achievements for any race in any mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Complete_Game",
+      "id": 38389,
+      "description": "Win the game for any race in any mode",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Complete Game",
+      "accomplishment_tasks": [
+        {
+          "id": 1465,
+          "name": "Game completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Complete_GameHard",
+      "id": 38453,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FireballsRace1",
+      "id": 38554,
+      "description": "Fireballs for maya in normal mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FireballsRace1Hard",
+      "id": 38555,
+      "description": "Fireballs for maya in hard mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FireballsRace2",
+      "id": 38556,
+      "description": "Fireballs for romans in normal mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FireballsRace2Hard",
+      "id": 38557,
+      "description": "Fireballs for romans in hard mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FireballsRace3",
+      "id": 38558,
+      "description": "Fireballs for chinese in normal mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FireballsRace3Hard",
+      "id": 38559,
+      "description": "Fireballs for chinese in hard mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GolemsRace1",
+      "id": 38548,
+      "description": "Quantity of Golems for maya in normal mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GolemsRace1Hard",
+      "id": 38549,
+      "description": "Golems for maya in hard mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GolemsRace2",
+      "id": 38550,
+      "description": "Golems for romans in normal mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GolemsRace2Hard",
+      "id": 38551,
+      "description": "Golems for romans for romans in hard mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GolemsRace3",
+      "id": 38552,
+      "description": "Golems for chineses in normal mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GolemsRace3Hard",
+      "id": 38553,
+      "description": "Golems for chinese in hard mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HypnosesRace1",
+      "id": 38542,
+      "description": "Hypnoses for maya in normal mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HypnosesRace1Hard",
+      "id": 38543,
+      "description": "Hypnoses for maya in hard mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HypnosesRace2",
+      "id": 38544,
+      "description": "Hypnoses for romans in normal mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HypnosesRace2Hard",
+      "id": 38545,
+      "description": "Hypnoses for romans in hard mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HypnosesRace3",
+      "id": 38546,
+      "description": "Hypnoses for chineses in normal mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HypnosesRace3Hard",
+      "id": 38547,
+      "description": "Hypnoses for chineses in hard mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Kills",
+      "id": 41122,
+      "description": "enemy kills",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 1462,
+          "name": "300 kills",
+          "quota": 300,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "KillsRace1",
+      "id": 38518,
+      "description": "Kills for maya in normal mode game",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "KillsRace1Hard",
+      "id": 38519,
+      "description": "Kills for maya in hard mode game",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "KillsRace2",
+      "id": 38520,
+      "description": "Kills for romans in normal mode game",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "KillsRace2Hard",
+      "id": 38521,
+      "description": "kills for romans in hard mode game",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "KillsRace3",
+      "id": 38522,
+      "description": "kills for chinese in normal mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "KillsRace3Hard",
+      "id": 38523,
+      "description": "kills for chinese in hard mode game",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LightningsRace1",
+      "id": 38524,
+      "description": "Quantity lightnings for maya in normal mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LightningsRace1Hard",
+      "id": 38525,
+      "description": "Lightnings for maya in hard mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LightningsRace2",
+      "id": 38526,
+      "description": "Quanity of lightnings for romans in normal mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LightningsRace2Hard",
+      "id": 38527,
+      "description": "Quantity of lightnings for romans in hard mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LightningsRace3",
+      "id": 38528,
+      "description": "Quantity of ligthnings for chinese in normal mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LightningsRace3Hard",
+      "id": 38529,
+      "description": "Quantity of lightnings for chinese in hard mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Max_User_Level",
+      "id": 38451,
+      "description": "Achieve maximum user level for any race in normal mode.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Max user level",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Max_User_LevelHard",
+      "id": 38456,
+      "description": "Achieve maximum user level for any race in hard mode.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MeteoritesRace1",
+      "id": 38536,
+      "description": "Meteorites for maya in normal mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MeteoritesRace1Hard",
+      "id": 38537,
+      "description": "Meteorites for maya in hard mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MeteoritesRace2",
+      "id": 38538,
+      "description": "meteorites for roman in normal mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MeteoritesRace2Hard",
+      "id": 38539,
+      "description": "meteorites for romans in hard mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MeteoritesRace3",
+      "id": 38540,
+      "description": "meteorites for chineses in hard mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MeteoritesRace3Hard",
+      "id": 38541,
+      "description": "meteorites for chineses in hard mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "QuakesRace1",
+      "id": 38530,
+      "description": "Quantity of quakes for maya in normal mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "QuakesRace1Hard",
+      "id": 38531,
+      "description": "Quantity of quakes for maya in hard mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "QuakesRace2",
+      "id": 38532,
+      "description": "Quakes for romans in normal mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "QuakesRace2Hard",
+      "id": 38533,
+      "description": "Quakes for romans in hard mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "QuakesRace3",
+      "id": 38534,
+      "description": "Quakes for chineses in normal mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "QuakesRace3Hard",
+      "id": 38535,
+      "description": "quakes for chineses in hard mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ShieldsRace1",
+      "id": 38560,
+      "description": "Use defence shield spell for maya in normal mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ShieldsRace1Hard",
+      "id": 38561,
+      "description": "Shields for maya in hard mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ShieldsRace2",
+      "id": 38562,
+      "description": "Shields for romans in normal mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ShieldsRace2Hard",
+      "id": 38563,
+      "description": "Shields for romans in hard mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ShieldsRace3",
+      "id": 38564,
+      "description": "Shields for chinese in normal mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ShieldsRace3Hard",
+      "id": 38565,
+      "description": "Shields for chinese in hard mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SwampsRace1",
+      "id": 38566,
+      "description": "Swamps for maya in normal mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SwampsRace1Hard",
+      "id": 38567,
+      "description": "Swamps for maya in hard mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SwampsRace2",
+      "id": 38568,
+      "description": "Swamps for romans in normal mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SwampsRace2Hard",
+      "id": 38569,
+      "description": "Swamps for romans in hard mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SwampsRace3",
+      "id": 38570,
+      "description": "Swamps for chinese in normal mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SwampsRace3Hard",
+      "id": 38571,
+      "description": "Swamps for chinese in hard mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Turtle",
+      "id": 41125,
+      "description": "kill the turtle",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Turtle killed",
+      "accomplishment_tasks": [
+        {
+          "id": 1464,
+          "name": "Turtle killed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "UserLevel",
+      "id": 41123,
+      "description": "Reached user level",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Player level",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Victories",
+      "id": 38572,
+      "description": "How many battles had been won for any race in any mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Win_Game",
+      "id": 38452,
+      "description": "Win the game for the least amount of battles in normal mode",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Battles won before game completion",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Win_GameHard",
+      "id": 38233,
+      "description": "Win the game for the least amount of battles in hard mode",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Hard game",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Win_Game_Races",
+      "id": 38448,
+      "description": "Win game for each race in normal mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Win Game Races",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Win_Game_RacesHard",
+      "id": 38454,
+      "description": "win game for each races in hard mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Win_Monsters_Races",
+      "id": 38449,
+      "description": "Kill all giant monsters for each race in normal mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Win_Monsters_RacesHard",
+      "id": 38455,
+      "description": "Kill all giant monsters for each race in hard mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "XPRace1",
+      "id": 38512,
+      "description": "XP for race1 (maya) Normal mode game",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "XPRace1Hard",
+      "id": 38513,
+      "description": "XP for race1 (maya) hard mode game",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "XPRace2",
+      "id": 38514,
+      "description": "xp for romans. Normal game mode",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "XPRace2Hard",
+      "id": 38515,
+      "description": "XP for romans in hard mode game",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "XPRace3",
+      "id": 38516,
+      "description": "XP for chinese in normal mode game",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "XPRace3Hard",
+      "id": 38517,
+      "description": "XP for chinese in hard mode game",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1223,
+      "name": "Home Invasion",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 978,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1462,
+          "statistic_id": 41122,
+          "quota": 300,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1223",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1224,
+      "name": "Runes of Ruin",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 980,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1463,
+          "statistic_id": 41124,
+          "quota": 10,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1224",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1225,
+      "name": "\"I Hate Turtles\"",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 979,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1464,
+          "statistic_id": 41125,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1225",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1226,
+      "name": "Civilized Resolution",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 981,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1465,
+          "statistic_id": 38389,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1226",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/tjcarlos/civilizations-wars/chat.js",
+  "holodeck_url": "/games/tjcarlos/civilizations-wars/holodeck",
+  "accomplishments_bootstrap_url": "/games/tjcarlos/civilizations-wars/chat_achievements",
+  "sticker_drop_url": "/games/tjcarlos/civilizations-wars/sticker_drop",
+  "game_path": "/games/tjcarlos/civilizations-wars",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 500,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 13,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 553,
+    "game_frame_width": 800,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=68446",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

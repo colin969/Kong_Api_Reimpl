@@ -1,0 +1,293 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 155151,
+  "statistics": [
+    {
+      "name": "ChestsOpened",
+      "id": 85349,
+      "description": "Number of chests opened",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DemonsKilled",
+      "id": 85354,
+      "description": "Number of demons killed by player",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DolorDefeated",
+      "id": 86492,
+      "description": "The player has defeated Dolor in battle.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3087,
+          "name": "Dolor Defeated",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "GameFinished",
+      "id": 85347,
+      "description": "Has completed game",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3089,
+          "name": "Game Completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "HexopiKilled",
+      "id": 85355,
+      "description": "Number of hexopi killed by player",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HumansKilled",
+      "id": 85353,
+      "description": "Number of humans killed by player",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "initialized",
+      "id": 85397,
+      "description": "The game has successfully loaded to main menu",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level",
+      "id": 85346,
+      "description": "Current player level",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 3088,
+          "name": "Level 20 Reached",
+          "quota": 20,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "SkeletonsKilled",
+      "id": 85351,
+      "description": "Number of skeletons killed by player",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalDamage",
+      "id": 85350,
+      "description": "Total damage done since start of game",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Damage",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalGold",
+      "id": 85348,
+      "description": "Total gold collected",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Gold",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "WolvesKilled",
+      "id": 85352,
+      "description": "Number of wolves killed by player",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3086,
+          "name": "5 Wolves Killed",
+          "quota": 5,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2653,
+      "name": "Wolf Blitzin'",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2191,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3086,
+          "statistic_id": 85352,
+          "quota": 5,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2653",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2654,
+      "name": "Dolor Sit Amet",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2192,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3087,
+          "statistic_id": 86492,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2654",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2655,
+      "name": "Level the Playing Field",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2193,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3088,
+          "statistic_id": 85346,
+          "quota": 20,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2655",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2656,
+      "name": "Void in My Heart",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2194,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3089,
+          "statistic_id": 85347,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2656",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/violatorgames/legend-of-the-void-2/chat.js",
+  "holodeck_url": "/games/violatorgames/legend-of-the-void-2/holodeck",
+  "accomplishments_bootstrap_url": "/games/violatorgames/legend-of-the-void-2/chat_achievements",
+  "sticker_drop_url": "/games/violatorgames/legend-of-the-void-2/sticker_drop",
+  "game_path": "/games/violatorgames/legend-of-the-void-2",
+  "html_dimensions": {
+    "game_width": 700,
+    "game_height": 500,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 13,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1003,
+    "flash_frame_height": 553,
+    "game_frame_width": 700,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=155151",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": true,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": true,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": false,
+    "disable_instart": false,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": true,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

@@ -1,0 +1,404 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 281644,
+  "statistics": [
+    {
+      "name": "achievement:axe",
+      "id": 129559,
+      "description": "win a game by destroying your opponent so they castle is -30 storeys or less",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "achievement:Master of destruction",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "achievement:babylon",
+      "id": 129562,
+      "description": "make a wall that is at least 150 storeys or higher",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "achievement:Hidden 3",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "achievement:brick",
+      "id": 129560,
+      "description": "Win a game by building a castle that is 130 storeys or higher",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "achievement:Master of construction",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "achievement:crown",
+      "id": 129564,
+      "description": "Unlock all other achievements",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "achievement:Hidden 5",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "achievement:diploma",
+      "id": 129556,
+      "description": "Win 3 times in a row",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 4184,
+          "name": "3-game win streak",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "achievement:jester",
+      "id": 129561,
+      "description": "100/0 or better win (must win by both destroying opponent and building above 100)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "achievement:Hidden 2",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "achievement:king",
+      "id": 129553,
+      "description": "Complete hard campaign",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "achievement:knight",
+      "id": 129552,
+      "description": "Complete medium campaign",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "achievement:luck",
+      "id": 129555,
+      "description": "win a game when the difference between you and your opponents castle is 5 or less",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "achievement:Hidden 1",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "achievement:medal",
+      "id": 129557,
+      "description": "Win 5 times in a row",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "achievement:pawn",
+      "id": 129550,
+      "description": "Conquer a island",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "achievement:queen",
+      "id": 129554,
+      "description": "Complete all campaigns",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 4188,
+          "name": "4 campaign modes completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "achievement:rook",
+      "id": 129551,
+      "description": "Complete easy campaign",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "achievement:thief",
+      "id": 129563,
+      "description": "Steal a total of 50 resources during a game",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "achievement:Hidden 4",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "achievement:trophy",
+      "id": 129558,
+      "description": "Win a game in 20 moves or less",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "campaign:casual",
+      "id": 130341,
+      "description": "Campaign completed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Casual campaign completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "campaign:easy",
+      "id": 130342,
+      "description": "Campaign completed(0-1)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Easy campaign completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "campaign:hard",
+      "id": 130344,
+      "description": "Campaign completed(0-1)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Hard campaign completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "campaign:normal",
+      "id": 130343,
+      "description": "Campaign completed(0-1)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Normal campaign completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "loaded",
+      "id": 129569,
+      "description": "Game & API loaded",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Multi-player wins",
+      "id": 129613,
+      "description": "number of multi player games won.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 4187,
+          "name": "3 multiplayer wins",
+          "quota": 3,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Multi-player:ranked",
+      "id": 130345,
+      "description": "Player has played 10 ranked games and has been given a rank. (0-1 false/true)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Multi-player Ranked",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Multi-player:Rating",
+      "id": 130192,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": true,
+      "display_name": "Multi-player Rating",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "stats:CampaignGamesLost",
+      "id": 129566,
+      "description": "",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "stats:CampaignGamesWon",
+      "id": 129565,
+      "description": "number of campaign games won",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Campaign Games Won",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "stats:LoadMultiPlayerClient",
+      "id": 129567,
+      "description": "player checking out multi player",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "stats:SelectCustomDeck",
+      "id": 129568,
+      "description": "User has created and selected a custom deck",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totalAchievementUnlocked",
+      "id": 129570,
+      "description": "Number of  Castle wars achievements unlocked",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Achievements unlocked",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3554,
+      "name": "Rolling Conquest",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2948,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4184,
+          "statistic_id": 129556,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3554",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3555,
+      "name": "\"The Most Dangerous Game\"",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2949,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4187,
+          "statistic_id": 129613,
+          "quota": 3,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3555",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3556,
+      "name": "Queen of the Four Kingdoms",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2950,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4188,
+          "statistic_id": 129554,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3556",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/m0rkeulv/castle-wars-2-5/chat.js",
+  "holodeck_url": "/games/m0rkeulv/castle-wars-2-5/holodeck",
+  "accomplishments_bootstrap_url": "/games/m0rkeulv/castle-wars-2-5/chat_achievements",
+  "sticker_drop_url": "/games/m0rkeulv/castle-wars-2-5/sticker_drop",
+  "game_path": "/games/m0rkeulv/castle-wars-2-5",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 626,
+    "game_frame_width": 800,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=281644",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": true,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": false,
+    "disable_instart": false,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": true,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

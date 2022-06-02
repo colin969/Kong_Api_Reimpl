@@ -1,0 +1,250 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 264589,
+  "statistics": [
+    {
+      "name": "Bronze",
+      "id": 124880,
+      "description": "Number of bronze medals",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Bronze medals",
+      "accomplishment_tasks": [
+        {
+          "id": 4034,
+          "name": "Level 20 completed (bronze or better)",
+          "quota": 20,
+          "granularity": null
+        },
+        {
+          "id": 4368,
+          "name": "Level 20 completed (bronze or better)",
+          "quota": 20,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Credits",
+      "id": 124884,
+      "description": "Credits spent on upgrades",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Gold",
+      "id": 124882,
+      "description": "Number of gold medals",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Gold medals",
+      "accomplishment_tasks": [
+        {
+          "id": 4035,
+          "name": "24 gold medals",
+          "quota": 24,
+          "granularity": null
+        },
+        {
+          "id": 4366,
+          "name": "24 gold medals",
+          "quota": 24,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Helics",
+      "id": 124879,
+      "description": "Maximum number of helicopters",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Plants",
+      "id": 124883,
+      "description": "Maximum number of fully upgraded plants",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Profit",
+      "id": 124885,
+      "description": "Total profit. This only includes profit from your best runs from each level. ",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 4033,
+          "name": "$5,000 profits",
+          "quota": 5000,
+          "granularity": null
+        },
+        {
+          "id": 4367,
+          "name": "$5,000 profits",
+          "quota": 5000,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Silver",
+      "id": 124881,
+      "description": "Number of silver medals",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Silver medals",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Trucks",
+      "id": 124878,
+      "description": "Maximum number of trucks",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3428,
+      "name": "Seed Funding",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2836,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4033,
+          "statistic_id": 124885,
+          "quota": 5000,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3428",
+      "reward_points": 5,
+      "reward_klient_xp": 0,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3429,
+      "name": "Remote Capitalism",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2837,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4034,
+          "statistic_id": 124880,
+          "quota": 20,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3429",
+      "reward_points": 15,
+      "reward_klient_xp": 0,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3430,
+      "name": "Driving Out Competition",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2838,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4035,
+          "statistic_id": 124882,
+          "quota": 24,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3430",
+      "reward_points": 30,
+      "reward_klient_xp": 0,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/BarbarianGames/building-rush-2/chat.js",
+  "holodeck_url": "/games/BarbarianGames/building-rush-2/holodeck",
+  "accomplishments_bootstrap_url": "/games/BarbarianGames/building-rush-2/chat_achievements",
+  "sticker_drop_url": "/games/BarbarianGames/building-rush-2/sticker_drop",
+  "game_path": "/games/BarbarianGames/building-rush-2",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 626,
+    "game_frame_width": 800,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=264589",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

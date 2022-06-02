@@ -1,0 +1,270 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 21802,
+  "statistics": [
+    {
+      "name": "Arty",
+      "id": 14496,
+      "description": "Number of artillery shells recieved",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Artillery rounds recieved",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Bomb",
+      "id": 14498,
+      "description": "Number of bombs recieved in one game",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Bombs recieved",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Casualties",
+      "id": 14495,
+      "description": "Casualties sustained in a 50+ waves game. ",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 751,
+          "name": "<11 casualties (50 waves)",
+          "quota": 10,
+          "granularity": 10
+        }
+      ]
+    },
+    {
+      "name": "Crates",
+      "id": 14389,
+      "description": "Number of supply crates you've secured so far.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Crates Secured",
+      "accomplishment_tasks": [
+        {
+          "id": 749,
+          "name": "Crate collected",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Games",
+      "id": 14382,
+      "description": "Number of Mud and Blood 2 missions you played. Careful this is incremented each time you start a new mission.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Games Played",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "General",
+      "id": 14500,
+      "description": "The very prestigious club of Mud and Blood Generals",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Promoted to General",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Ground",
+      "id": 14385,
+      "description": "Ground you've gained so far in meters.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Ground gained",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore",
+      "id": 14390,
+      "description": "HighScore",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Kills",
+      "id": 14383,
+      "description": "Your total of enemies killed in Mud and Blood 2",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 750,
+          "name": "100 kills",
+          "quota": 100,
+          "granularity": 50
+        }
+      ]
+    },
+    {
+      "name": "Staff",
+      "id": 14501,
+      "description": "Those who obtained the highest rank in mud and blood.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Chief of Staff member",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Victoria",
+      "id": 14499,
+      "description": "The few proud commanders who belong to club of most prestigious ribbon in the game.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Victoria Cross Club",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Waves",
+      "id": 14381,
+      "description": "Number of waves survived in one mission",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Waves survived",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 607,
+      "name": "Supplies Party",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 486,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 749,
+          "statistic_id": 14389,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-607",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 608,
+      "name": "Field of Screams",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 487,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 750,
+          "statistic_id": 14383,
+          "quota": 100,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-608",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 609,
+      "name": "\"Bunker? I 'ardly knew 'er!\"",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 488,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 751,
+          "statistic_id": 14495,
+          "quota": 10,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-609",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/urbz/mud-and-blood-2/chat.js",
+  "holodeck_url": "/games/urbz/mud-and-blood-2/holodeck",
+  "accomplishments_bootstrap_url": "/games/urbz/mud-and-blood-2/chat_achievements",
+  "sticker_drop_url": "/games/urbz/mud-and-blood-2/sticker_drop",
+  "game_path": "/games/urbz/mud-and-blood-2",
+  "html_dimensions": {
+    "game_width": 400,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 110,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 923,
+    "flash_frame_height": 626,
+    "game_frame_width": 620,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=21802",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

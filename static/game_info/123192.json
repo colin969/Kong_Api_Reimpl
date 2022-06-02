@@ -1,0 +1,307 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 123192,
+  "statistics": [
+    {
+      "name": "ArtifactsLooted",
+      "id": 67472,
+      "description": "Total number of artifacts looted",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Artifacts Looted",
+      "accomplishment_tasks": [
+        {
+          "id": 2360,
+          "name": "5 Artifacts Looted",
+          "quota": 5,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "CampaignComplete",
+      "id": 67694,
+      "description": "1 = true\n0 = false\n\nCompleted the main storyline.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Campaign Complete",
+      "accomplishment_tasks": [
+        {
+          "id": 2363,
+          "name": "Campaign Completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "DungeonsCleansed",
+      "id": 67475,
+      "description": "Total number of dungeons cleared.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Dungeons Cleansed",
+      "accomplishment_tasks": [
+        {
+          "id": 2361,
+          "name": "20 Dungeons Cleansed",
+          "quota": 20,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "EnemiesKilled",
+      "id": 67468,
+      "description": "Number of single combat enemies killed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Enemies Slaughtered",
+      "accomplishment_tasks": [
+        {
+          "id": 2359,
+          "name": "10 Enemies Killed",
+          "quota": 10,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "FootedMunched",
+      "id": 67474,
+      "description": "Total number of food items eaten in dungeons.\n(Yeah I know I called it Footedmunched, not FoodMunched... Thanks brain)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Food Munched",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxHealth",
+      "id": 67470,
+      "description": "Total Maximum Hit Points obtained.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Maximum HP",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxMana",
+      "id": 67471,
+      "description": "Max Mana obtained",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Maximum Mana",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SpellsCast",
+      "id": 67477,
+      "description": "Total number of spells cast",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Spells Cast",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TacticalKills",
+      "id": 67469,
+      "description": "Number of kills during tactical battles",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Enemies Tactically Slain",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TacticalWins",
+      "id": 67476,
+      "description": "Total number of tactical battles won",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Tactical Wins",
+      "accomplishment_tasks": [
+        {
+          "id": 2362,
+          "name": "20 Tactical Victories",
+          "quota": 20,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Wealth",
+      "id": 67473,
+      "description": "Total Wealth on hand at any one time.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Highest Wealth",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2013,
+      "name": "Dungeon Cleanser",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1637,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2359,
+          "statistic_id": 67468,
+          "quota": 10,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2013",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2014,
+      "name": "Tomb Raiding",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1638,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2360,
+          "statistic_id": 67472,
+          "quota": 5,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2014",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2015,
+      "name": "Two-Front War",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1639,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2361,
+          "statistic_id": 67475,
+          "quota": 20,
+          "operator": "AND"
+        },
+        {
+          "id": 2362,
+          "statistic_id": 67476,
+          "quota": 20,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2015",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2016,
+      "name": "Revenant Reviler",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1640,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2363,
+          "statistic_id": 67694,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2016",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/undefined/arkandian-revenant/chat.js",
+  "holodeck_url": "/games/undefined/arkandian-revenant/holodeck",
+  "accomplishments_bootstrap_url": "/games/undefined/arkandian-revenant/chat_achievements",
+  "sticker_drop_url": "/games/undefined/arkandian-revenant/sticker_drop",
+  "game_path": "/games/undefined/arkandian-revenant",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 943,
+    "flash_frame_height": 553,
+    "game_frame_width": 640,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=123192",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

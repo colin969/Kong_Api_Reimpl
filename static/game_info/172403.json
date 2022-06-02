@@ -1,0 +1,342 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 172403,
+  "statistics": [
+    {
+      "name": "100SecondsOfDebuff",
+      "id": 92346,
+      "description": "Apply 100 seconds of a debuff to an enemy. (Just to be safe achievement)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "10k_DamageWithOneTowerInOneLevel",
+      "id": 92336,
+      "description": "Deal 10,000 damage with a single tower in one level.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Deal_10000_DamageWithOneTowerInOneLevel",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "CollectEveryProgram",
+      "id": 92338,
+      "description": "Collect every program.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "CompleteAllLevelChallenge",
+      "id": 92329,
+      "description": "Complete all levels on Challenge difficulty, including the side levels.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "CompleteAllLevelEasy",
+      "id": 92326,
+      "description": "Complete all 35 levels on Easy difficulty, including the side levels.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "CompleteAllLevelHard",
+      "id": 92328,
+      "description": "Complete all levels on Hard difficulty, including the side levels.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "CompleteAllLevelMedium",
+      "id": 92327,
+      "description": "Complete all levels on Medium difficulty, including the side levels.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "CompleteAllMonsterModeLevels",
+      "id": 92330,
+      "description": "Complete all 10 monster mode levels on any difficulty. (Know thy Enemy achievement)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "CompleteSurvivalLevelDifficulty",
+      "id": 92331,
+      "description": "Complete the bonus survival level after unlocking it by collecting all the Data Cores on Challenge mode from all 35 levels. (1 = Easy, 2 = Medium, 3 = Hard)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DataCoresSaved",
+      "id": 92340,
+      "description": "Number of Data Cores saved across all difficulties and achievements.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 3293,
+          "name": "300 Data Cores Saved",
+          "quota": 300,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "EnemiesKilled",
+      "id": 92343,
+      "description": "Total number of enemies killed.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GameComplete",
+      "id": 92325,
+      "description": "Complete the last level in the game (level 35).",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LevelsCompleted",
+      "id": 92341,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 3294,
+          "name": "35 Levels Completed",
+          "quota": 35,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "MineSweeper",
+      "id": 92345,
+      "description": "Kill an enemy with a Mine.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MonsterModeTotalRemainingMemory",
+      "id": 92342,
+      "description": "Your cumulative memory remaining for all monster mode levels.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 3292,
+          "name": "Monster Mode Level Completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "NoTouching",
+      "id": 92344,
+      "description": "Win a level without an enemy touching a Data Core. (Can't Touch That achievement)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SaveAllCoresChallenge",
+      "id": 92335,
+      "description": "Save all the Data Cores from all 35 levels on Challenge difficulty.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SaveAllCoresEasy",
+      "id": 92332,
+      "description": "Save all the Data Cores from all 35 levels on Easy difficulty.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SaveAllCoresHard",
+      "id": 92334,
+      "description": "Save all the Data Cores from all 35 levels on Hard difficulty.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SaveAllCoresMedium",
+      "id": 92333,
+      "description": "Save all the Data Cores from all 35 levels on Medium difficulty.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ScriptDamage1000",
+      "id": 92337,
+      "description": "Deal 1000 damage using scripts. (Scripting the Pain achievement)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "UseEveryProgram",
+      "id": 92339,
+      "description": "Use every program at least once. (includes Towers, Upgrades, and Scripts).",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2837,
+      "name": "Who Hacks the Hackers?",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2340,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3292,
+          "statistic_id": 92342,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2837",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2838,
+      "name": "Core Collector",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2341,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3293,
+          "statistic_id": 92340,
+          "quota": 300,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2838",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2839,
+      "name": "Ghosts in the Shell",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2342,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3294,
+          "statistic_id": 92341,
+          "quota": 35,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2839",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/CoreSector/ghost-hacker-2/chat.js",
+  "holodeck_url": "/games/CoreSector/ghost-hacker-2/holodeck",
+  "accomplishments_bootstrap_url": "/games/CoreSector/ghost-hacker-2/chat_achievements",
+  "sticker_drop_url": "/games/CoreSector/ghost-hacker-2/sticker_drop",
+  "game_path": "/games/CoreSector/ghost-hacker-2",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 540,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 540,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 566,
+    "game_frame_width": 800,
+    "game_frame_height": 540,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=172403",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

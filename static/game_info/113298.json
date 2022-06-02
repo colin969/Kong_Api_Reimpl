@@ -1,0 +1,225 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 113298,
+  "statistics": [
+    {
+      "name": "game_complete",
+      "id": 61479,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "highest_level",
+      "id": 61478,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Highest Level",
+      "accomplishment_tasks": [
+        {
+          "id": 2178,
+          "name": "Level 14 Completed",
+          "quota": 14,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "highscore",
+      "id": 61031,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "High Score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "total_antidotes",
+      "id": 61474,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Antidotes",
+      "accomplishment_tasks": [
+        {
+          "id": 2177,
+          "name": "50 Antidotes Collected",
+          "quota": 50,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "total_headshots",
+      "id": 61476,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "total_kills",
+      "id": 61477,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "total_run_over",
+      "id": 61475,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Zombies Ran Over",
+      "accomplishment_tasks": [
+        {
+          "id": 2176,
+          "name": "50 Zombies Ran Over",
+          "quota": 50,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1847,
+      "name": "Road Rage",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1498,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2176,
+          "statistic_id": 61475,
+          "quota": 50,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1847",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1848,
+      "name": "Race for the Cure",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1499,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2177,
+          "statistic_id": 61474,
+          "quota": 50,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1848",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1849,
+      "name": "Undead Daydreaming",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1500,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2178,
+          "statistic_id": 61478,
+          "quota": 14,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1849",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/LongAnimals/zomgies-2/chat.js",
+  "holodeck_url": "/games/LongAnimals/zomgies-2/holodeck",
+  "accomplishments_bootstrap_url": "/games/LongAnimals/zomgies-2/chat_achievements",
+  "sticker_drop_url": "/games/LongAnimals/zomgies-2/sticker_drop",
+  "game_path": "/games/LongAnimals/zomgies-2",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 626,
+    "game_frame_width": 800,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=113298",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

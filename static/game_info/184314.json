@@ -1,0 +1,194 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 184314,
+  "statistics": [
+    {
+      "name": "CausePanic",
+      "id": 96714,
+      "description": "The player triggered a comedic scene where Socrates causes needless panic in the Intelligible Realm.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DisappointBatman",
+      "id": 96719,
+      "description": "The player made the argument that not all dying men should be helped.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FindShoutout",
+      "id": 96713,
+      "description": "The player triggered a scene with a shout out to the game's inspiration.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FinishChapter1",
+      "id": 96706,
+      "description": "The player finished playing through the first chapter of the game.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FinishChapter2",
+      "id": 96707,
+      "description": "The player finished playing through the second chapter of the game.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FinishChapter3",
+      "id": 96708,
+      "description": "The player finished playing through the third chapter of the game.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FinishChapter4",
+      "id": 96709,
+      "description": "The player finished playing through the fourth chapter of the game.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FinishChapter5",
+      "id": 96710,
+      "description": "The player finished playing through the fifth chapter of the game.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FinishChapter6",
+      "id": 96711,
+      "description": "The player finished playing through the sixth chapter of the game.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FinishGame",
+      "id": 96712,
+      "description": "The player finished the game, including the credits.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FinishPrologue",
+      "id": 96705,
+      "description": "The player finished the tutorial/prologue of the game.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LoseTutorial",
+      "id": 96717,
+      "description": "The player got a Game Over during the tutorial.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "RemoveOwnIdea",
+      "id": 96715,
+      "description": "The player managed to have an idea removed from the Idea Slate.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SurfaceReasoning",
+      "id": 96718,
+      "description": "The player tried to argue that deer can't steal our jobs because they live in the woods.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "UseUgly",
+      "id": 96716,
+      "description": "The player tried using the \"Your Face is Ugly\" argument.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/ChiefWakamakamu/socrates-jones-pro-philosopher/chat.js",
+  "holodeck_url": "/games/ChiefWakamakamu/socrates-jones-pro-philosopher/holodeck",
+  "accomplishments_bootstrap_url": "/games/ChiefWakamakamu/socrates-jones-pro-philosopher/chat_achievements",
+  "sticker_drop_url": "/games/ChiefWakamakamu/socrates-jones-pro-philosopher/sticker_drop",
+  "game_path": "/games/ChiefWakamakamu/socrates-jones-pro-philosopher",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 943,
+    "flash_frame_height": 626,
+    "game_frame_width": 640,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=184314",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": true,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": true,
+    "disable_instart": false,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

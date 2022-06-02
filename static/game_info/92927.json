@@ -1,0 +1,324 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 92927,
+  "statistics": [
+    {
+      "name": "AwesomeLevels",
+      "id": 48325,
+      "description": "After completing a level in campaign or conquest modes the % of hitpoints your mothership lost gives a rating. If you loose only 0%-10% the rating is 'awesome'. This stat gives the number of 'awesomely completed' levels in total.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Awesome Levels Completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "AwlonCampaignCompleted",
+      "id": 48330,
+      "description": "1 if the Awlon campaign is completed.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Awlon Campaign Completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "AwlonCampaignCompletedWithDifficulty",
+      "id": 49284,
+      "description": "If 0 the player has not yet completed the campaignthe Awlon race. \n1 - completed in easy mode\n2 - completed in normal mode\n3 - completed in hard mode",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Awlon Campaign Completed With Difficulty",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "AwlonConquestCompleted",
+      "id": 48333,
+      "description": "1 if the conquest mode was completed playing the Awlon race.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Awlon Conquest Completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "AwlonConquestCompletedWithDifficulty",
+      "id": 49282,
+      "description": "If 0 the player has not yet completed the conquest mode with the Awlon race. \n1 - completed in easy mode\n2 - completed in normal mode\n3 - completed in hard mode",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Awlon Conquest Completed With Difficulty",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BonusLevelsUnlocked",
+      "id": 48328,
+      "description": "In every of the 3 campaigns 2 bonus levels can be unlocked. To do so one must complete a certain level faster than a predefined amount of time. This stat gives the total number of unlocked bonus levels. ",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Bonus Levels Unlocked",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ChallengesCompleted",
+      "id": 48326,
+      "description": "Challenge missions are special missions which have some sort of irregularity forcing the player to find a new tactic to win the level. This stat gives the number of challenge missions the player has completed so far.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Challenges Completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ExpertChallengesCompleted",
+      "id": 48327,
+      "description": "Challenge missions are special missions which have some sort of irregularity forcing the player to find a new tactic to win the level. Challenge missions can also be played on the extra hard 'expert' mode. This stat gives the number of challenge missions ",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Expert Challenges Completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HumanCampaignCompleted",
+      "id": 48329,
+      "description": "1 if the Human campaign is completed.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Human Campaign Completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HumanCampaignCompletedWithDifficulty",
+      "id": 49283,
+      "description": "If 0 the player has not yet completed the campaignthe Human race. \n1 - completed in easy mode\n2 - completed in normal mode\n3 - completed in hard mode",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Human Campaign Completed With Difficulty",
+      "accomplishment_tasks": [
+        {
+          "id": 1742,
+          "name": "Human campaign completed",
+          "quota": 2,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "HumanConquestCompleted",
+      "id": 48332,
+      "description": "1 if the conquest mode was completed playing the Human race.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Human Conquest Completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HumanConquestCompletedWithDifficulty",
+      "id": 49281,
+      "description": "If 0 the player has not yet completed the conquest mode with the Human race. \n1 - completed in easy mode\n2 - completed in normal mode\n3 - completed in hard mode",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Human Conquest Completed With Difficulty",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxDarwinLevelAwlon",
+      "id": 48319,
+      "description": "In Darwin mode the user must survive as long as possible against successive waves of enemy ships. Sooner or later he will die since the enemies become stronger and stronger. This stat gives the maximum wave the user reached playing as Awlon.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Awlon Darwin Level",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxDarwinLevelHuman",
+      "id": 48321,
+      "description": "In Darwin mode the user must survive as long as possible against successive waves of enemy ships. Sooner or later he will die since the enemies become stronger and stronger. This stat gives the maximum wave the user reached playing as Human.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Human Darwin Level",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxDarwinLevelXeyed",
+      "id": 48320,
+      "description": "In Darwin mode the user must survive as long as possible against successive waves of enemy ships. Sooner or later he will die since the enemies become stronger and stronger. This stat gives the maximum wave the user reached playing as Xeyed.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Xeyed Darwin Level",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SpellsCast",
+      "id": 48323,
+      "description": "The number of specials used in total.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Specials Used",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "UnitsKilled",
+      "id": 48322,
+      "description": "The number of enemy ships the player destroyed in total.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Enemy Ships Destroyed",
+      "accomplishment_tasks": [
+        {
+          "id": 1741,
+          "name": "100 enemy ships destroyed",
+          "quota": 100,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "XeyedCampaignCompleted",
+      "id": 48331,
+      "description": "1 if the Xeyed campaign is completed.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Xeyed Campaign Completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "XeyedCampaignCompletedWithDifficulty",
+      "id": 49285,
+      "description": "If 0 the player has not yet completed the campaign the Xeyed race. \n1 - completed in easy mode\n2 - completed in normal mode\n3 - completed in hard mode",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Xeyed Campaign Completed With Difficulty",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "XeyedConquestCompleted",
+      "id": 48334,
+      "description": "1 if the conquest mode was completed playing the Xeyed race.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Xeyed Conquest Completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "XeyedConquestCompletedWithDifficulty",
+      "id": 49280,
+      "description": "If 0 the player has not yet completed the conquest mode with the Xeyed race. \n1 - completed in easy mode\n2 - completed in normal mode\n3 - completed in hard mode",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Xeyed Conquest Completed With Difficulty",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1472,
+      "name": "Little Dead Corvette",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1190,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1741,
+          "statistic_id": 48322,
+          "quota": 100,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1472",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1473,
+      "name": "Tradus Turning Point",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1191,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1742,
+          "statistic_id": 49283,
+          "quota": 2,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1473",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/OneExtraGames/spacecraft/chat.js",
+  "holodeck_url": "/games/OneExtraGames/spacecraft/holodeck",
+  "accomplishments_bootstrap_url": "/games/OneExtraGames/spacecraft/chat_achievements",
+  "sticker_drop_url": "/games/OneExtraGames/spacecraft/sticker_drop",
+  "game_path": "/games/OneExtraGames/spacecraft",
+  "html_dimensions": {
+    "game_width": 780,
+    "game_height": 650,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 650,
+    "flash_frame_width": 1083,
+    "flash_frame_height": 676,
+    "game_frame_width": 780,
+    "game_frame_height": 650,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=92927",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

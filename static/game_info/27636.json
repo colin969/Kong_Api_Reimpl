@@ -1,0 +1,340 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 27636,
+  "statistics": [
+    {
+      "name": "Achievement1",
+      "id": 13649,
+      "description": "HOVERCHAMP\nHone your hovering skill in level 01",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement2",
+      "id": 13650,
+      "description": "SERVICES TO SUMMER\nSquish all the bees in level 07",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement3",
+      "id": 13652,
+      "description": "MISSILE PROOF\nGet struck by a SAM rocket and survive, in level 11",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement4",
+      "id": 13653,
+      "description": "SHEEP FRIENDLY\nRound up the sheep in level 14 without using the winch",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement5",
+      "id": 13654,
+      "description": "TOWER BUDDIE\nLeave the tower standing in level 15",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement6",
+      "id": 13655,
+      "description": "TOWER SUPERBUDDIE\nLeave the tough tower standing in level 20\n",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement7",
+      "id": 13656,
+      "description": "BAKER OF CAKE\nBake your celebratory cake on level 21",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement8",
+      "id": 13657,
+      "description": "BEEN THERE DONE THAT\nFinish every level",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement9",
+      "id": 13658,
+      "description": "PRETTY PERFECT\nAchieve 10 perfect flights on any levels",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement10",
+      "id": 13659,
+      "description": "PERFECTIONIST\nAchieve a perfect flights on every level",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement11",
+      "id": 13660,
+      "description": "PRETTY BRISK\nAchieve 10 fast flights on any levels",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement12",
+      "id": 13661,
+      "description": "UBERFAST\nAchieve a fast flights on every level",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement13",
+      "id": 13662,
+      "description": "OVERACHIEVER\nAchieve every other achievement",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement14",
+      "id": 13663,
+      "description": "PRESSER OF BUTTONS\nGo nuts on the button in the feedback section",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement15",
+      "id": 13664,
+      "description": "DEV-FRIEND\nSend the developer a lovely message about this game",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "CompletedFastLevels",
+      "id": 13684,
+      "description": "Total number of levels completed within the par time",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "CompletedPerfectLevels",
+      "id": 13685,
+      "description": "Total number of levels completed perfectly - without touching the wall with the choppa",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "CompletedLevels",
+      "id": 13683,
+      "description": "Total number of completed levels",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 715,
+          "name": "10 levels completed",
+          "quota": 10,
+          "granularity": 5
+        },
+        {
+          "id": 716,
+          "name": "21 levels completed",
+          "quota": 21,
+          "granularity": 11
+        }
+      ]
+    },
+    {
+      "name": "CompletedAchievements",
+      "id": 13686,
+      "description": "Total achievements gained",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 717,
+          "name": "15 achievements completed",
+          "quota": 15,
+          "granularity": 10
+        }
+      ]
+    },
+    {
+      "name": "HighScore-Normal",
+      "id": 14289,
+      "description": "HighScore-Normal",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore-Hard",
+      "id": 14290,
+      "description": "HighScore-Hard",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore",
+      "id": 21016,
+      "description": "HighScore",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 580,
+      "name": "Hanna Is My Copilot",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 467,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 715,
+          "statistic_id": 13683,
+          "quota": 10,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-580",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 581,
+      "name": "Bake a Pretty Cake",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 468,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 716,
+          "statistic_id": 13683,
+          "quota": 21,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-581",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 582,
+      "name": "Overachiever",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 469,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 717,
+          "statistic_id": 13686,
+          "quota": 15,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-582",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Deeperbeige/hanna-in-a-choppa/chat.js",
+  "holodeck_url": "/games/Deeperbeige/hanna-in-a-choppa/holodeck",
+  "accomplishments_bootstrap_url": "/games/Deeperbeige/hanna-in-a-choppa/chat_achievements",
+  "sticker_drop_url": "/games/Deeperbeige/hanna-in-a-choppa/sticker_drop",
+  "game_path": "/games/Deeperbeige/hanna-in-a-choppa",
+  "html_dimensions": {
+    "game_width": 730,
+    "game_height": 540,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 540,
+    "flash_frame_width": 1033,
+    "flash_frame_height": 566,
+    "game_frame_width": 730,
+    "game_frame_height": 540,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=27636",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

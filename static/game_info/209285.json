@@ -1,0 +1,513 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 209285,
+  "statistics": [
+    {
+      "name": "Initialized",
+      "id": 105917,
+      "description": "Set after the game loads and initializes kongregate APIs.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Mission10Complete",
+      "id": 105928,
+      "description": "Mission10Complete",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3673,
+          "name": "Mission 10 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Mission10Score",
+      "id": 105910,
+      "description": "Score for mission 10: \"Override\"",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "\"Override\" Score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Mission11Complete",
+      "id": 105929,
+      "description": "Mission11Complete",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3674,
+          "name": "Mission 11 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Mission11Score",
+      "id": 105911,
+      "description": "Score for mission 11: \"Understand\"",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "\"Understand\" Score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Mission12Complete",
+      "id": 105930,
+      "description": "Mission12Complete",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3678,
+          "name": "Mission 12 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Mission12Score",
+      "id": 105912,
+      "description": "Score for mission 12: \"Farewell\"",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "\"Farewell\" Score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Mission1Complete",
+      "id": 105919,
+      "description": "Mission1Complete",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3664,
+          "name": "Mission 1 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Mission1Score",
+      "id": 105901,
+      "description": "Score for Mission 1 \"Land Here\"",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "\"Land Here\" Score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Mission2Complete",
+      "id": 105920,
+      "description": "Mission2Complete",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3665,
+          "name": "Mission 2 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Mission2Score",
+      "id": 105902,
+      "description": "Score for mission 2: \"Anxious\"",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "\"Anxious\" Score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Mission3Complete",
+      "id": 105921,
+      "description": "Mission3Complete",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3666,
+          "name": "Mission 3 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Mission3Score",
+      "id": 105903,
+      "description": "Score for mission 3: \"Interrupt\"",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "\"Interrupt\" Score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Mission4Complete",
+      "id": 105922,
+      "description": "Mission4Complete",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3667,
+          "name": "Mission 4 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Mission4Score",
+      "id": 105904,
+      "description": "Score for mission 4: \"Initiating\"",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "\"Initiating\" Score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Mission5Complete",
+      "id": 105923,
+      "description": "Mission5Complete",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3668,
+          "name": "Mission 5 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Mission5Score",
+      "id": 105905,
+      "description": "Score for mission 5: \"Listen\"",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "\"Listen\" Score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Mission6Complete",
+      "id": 105924,
+      "description": "Mission6Complete",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3669,
+          "name": "Mission 6 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Mission6Score",
+      "id": 105906,
+      "description": "Score for mission 6: \"No Briefing\"",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "\"No Briefing\" Score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Mission7Complete",
+      "id": 105925,
+      "description": "Mission7Complete",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3670,
+          "name": "Mission 7 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Mission7Score",
+      "id": 105907,
+      "description": "Score for mission 7: \"Query\"",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "\"Query\" Score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Mission8Complete",
+      "id": 105926,
+      "description": "Mission8Complete",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3671,
+          "name": "Mission 8 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Mission8Score",
+      "id": 105908,
+      "description": "Score for mission 8: \"Experiment\"",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "\"Experiment\" Score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Mission9Complete",
+      "id": 105927,
+      "description": "Mission9Complete",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3672,
+          "name": "Mission 9 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Mission9Score",
+      "id": 105909,
+      "description": "Score for mission 9: \"Suspend\"",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "\"Suspend\" Score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalScore",
+      "id": 106694,
+      "description": "Total Score across all missions",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Score",
+      "accomplishment_tasks": [
+        {
+          "id": 3676,
+          "name": "30,000 total score",
+          "quota": 30000,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "TutorialComplete",
+      "id": 105918,
+      "description": "Tutorial Mission Completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "TutorialCompleted",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3140,
+      "name": "Lia Off!",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2579,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3664,
+          "statistic_id": 105919,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3665,
+          "statistic_id": 105920,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3666,
+          "statistic_id": 105921,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3667,
+          "statistic_id": 105922,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3668,
+          "statistic_id": 105923,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3669,
+          "statistic_id": 105924,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3670,
+          "statistic_id": 105925,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3671,
+          "statistic_id": 105926,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3672,
+          "statistic_id": 105927,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3673,
+          "statistic_id": 105928,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3674,
+          "statistic_id": 105929,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3678,
+          "statistic_id": 105930,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3140",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3141,
+      "name": "Creep What You Sow",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2580,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3676,
+          "statistic_id": 106694,
+          "quota": 30000,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3141",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 37,
+        "name": "Best of 2014",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/whiteboardwar/creeper-world-3-abraxis/chat.js",
+  "holodeck_url": "/games/whiteboardwar/creeper-world-3-abraxis/holodeck",
+  "accomplishments_bootstrap_url": "/games/whiteboardwar/creeper-world-3-abraxis/chat_achievements",
+  "sticker_drop_url": "/games/whiteboardwar/creeper-world-3-abraxis/sticker_drop",
+  "game_path": "/games/whiteboardwar/creeper-world-3-abraxis",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 626,
+    "game_frame_width": 800,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=209285",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

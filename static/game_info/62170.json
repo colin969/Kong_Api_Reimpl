@@ -1,0 +1,418 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 62170,
+  "statistics": [
+    {
+      "name": "Bootcamp Progress",
+      "id": 34252,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Campaign 1",
+      "id": 34254,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 1387,
+          "name": "Campaign mission 1 completed (hard)",
+          "quota": 3,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Campaign 10",
+      "id": 34263,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 1396,
+          "name": "Campaign mission 10 completed (hard)",
+          "quota": 3,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Campaign 2",
+      "id": 34255,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 1388,
+          "name": "Campaign mission 2 completed (hard)",
+          "quota": 3,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Campaign 3",
+      "id": 34256,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 1389,
+          "name": "Campaign mission 3 completed (hard)",
+          "quota": 3,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Campaign 4",
+      "id": 34257,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 1390,
+          "name": "Campaign mission 4 completed (hard)",
+          "quota": 3,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Campaign 5",
+      "id": 34258,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 1391,
+          "name": "Campaign mission 5 completed (hard)",
+          "quota": 3,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Campaign 6",
+      "id": 34259,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 1392,
+          "name": "Campaign mission 6 completed (hard)",
+          "quota": 3,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Campaign 7",
+      "id": 34260,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 1393,
+          "name": "Campaign mission 7 completed (hard)",
+          "quota": 3,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Campaign 8",
+      "id": 34261,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 1394,
+          "name": "Campaign mission 8 completed (hard)",
+          "quota": 3,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Campaign 9",
+      "id": 34262,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 1395,
+          "name": "Campaign mission 9 completed (hard)",
+          "quota": 3,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Completed Bonus Map",
+      "id": 34264,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 1385,
+          "name": "Bonus map completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Completed Campaign",
+      "id": 34265,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 1386,
+          "name": "Campaign completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "completedTutorial",
+      "id": 34253,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Enemy Units Destroyed",
+      "id": 34266,
+      "description": "",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Games Lost",
+      "id": 34251,
+      "description": "",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Games Won",
+      "id": 34250,
+      "description": "",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1157,
+      "name": "Pearl's Vengeance",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 915,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1385,
+          "statistic_id": 34264,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1157",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1158,
+      "name": "To the Victor Go the Groupies",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 916,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1386,
+          "statistic_id": 34265,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1158",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1159,
+      "name": "Besting a Worthy Opponent",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 917,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1387,
+          "statistic_id": 34254,
+          "quota": 3,
+          "operator": "AND"
+        },
+        {
+          "id": 1388,
+          "statistic_id": 34255,
+          "quota": 3,
+          "operator": "AND"
+        },
+        {
+          "id": 1389,
+          "statistic_id": 34256,
+          "quota": 3,
+          "operator": "AND"
+        },
+        {
+          "id": 1390,
+          "statistic_id": 34257,
+          "quota": 3,
+          "operator": "AND"
+        },
+        {
+          "id": 1391,
+          "statistic_id": 34258,
+          "quota": 3,
+          "operator": "AND"
+        },
+        {
+          "id": 1392,
+          "statistic_id": 34259,
+          "quota": 3,
+          "operator": "AND"
+        },
+        {
+          "id": 1393,
+          "statistic_id": 34260,
+          "quota": 3,
+          "operator": "AND"
+        },
+        {
+          "id": 1394,
+          "statistic_id": 34261,
+          "quota": 3,
+          "operator": "AND"
+        },
+        {
+          "id": 1395,
+          "statistic_id": 34262,
+          "quota": 3,
+          "operator": "AND"
+        },
+        {
+          "id": 1396,
+          "statistic_id": 34263,
+          "quota": 3,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1159",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/urbansquall/battalion-vengeance/chat.js",
+  "holodeck_url": "/games/urbansquall/battalion-vengeance/holodeck",
+  "accomplishments_bootstrap_url": "/games/urbansquall/battalion-vengeance/chat_achievements",
+  "sticker_drop_url": "/games/urbansquall/battalion-vengeance/sticker_drop",
+  "game_path": "/games/urbansquall/battalion-vengeance",
+  "html_dimensions": {
+    "game_width": 700,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 1003,
+    "flash_frame_height": 626,
+    "game_frame_width": 700,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=62170",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

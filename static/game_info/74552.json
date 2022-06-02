@@ -1,0 +1,1130 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 74552,
+  "statistics": [
+    {
+      "name": "BestHardcoreTime",
+      "id": 40690,
+      "description": "The best time to complete hardcore mode.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BlockArrowsLevel1",
+      "id": 40596,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BlockArrowsLevel2",
+      "id": 40597,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BlockArrowsLevel3",
+      "id": 40598,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BlockArrowsLevel4",
+      "id": 40599,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BlockArrowsLevel5",
+      "id": 40600,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BlockDuelistLevel1",
+      "id": 40586,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3600,
+          "name": "Duelist blocked",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "BlockDuelistLevel2",
+      "id": 40587,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BlockDuelistLevel3",
+      "id": 40588,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BlockDuelistLevel4",
+      "id": 40589,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BlockDuelistLevel5",
+      "id": 40590,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DodgeBackArrowsLevel1",
+      "id": 40601,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DodgeBackArrowsLevel2",
+      "id": 40602,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DodgeBackArrowsLevel3",
+      "id": 40603,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DodgeBackArrowsLevel4",
+      "id": 40604,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DodgeBackArrowsLevel5",
+      "id": 40605,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DodgeLargeObstacleLevel1",
+      "id": 40631,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DodgeLargeObstacleLevel2",
+      "id": 40632,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DodgeLargeObstacleLevel3",
+      "id": 40633,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DodgeLargeObstacleLevel4",
+      "id": 40634,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DodgeLargeObstacleLevel5",
+      "id": 40635,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DodgeMediumObstacleLevel1",
+      "id": 40626,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DodgeMediumObstacleLevel2",
+      "id": 40627,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DodgeMediumObstacleLevel3",
+      "id": 40628,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DodgeMediumObstacleLevel4",
+      "id": 40629,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DodgeMediumObstacleLevel5",
+      "id": 40630,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DodgeRiderLevel1",
+      "id": 40636,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DodgeRiderLevel2",
+      "id": 40637,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DodgeRiderLevel3",
+      "id": 40638,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DodgeRiderLevel4",
+      "id": 40639,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DodgeRiderLevel5",
+      "id": 40640,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DodgeSmallObstacleLevel1",
+      "id": 40621,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DodgeSmallObstacleLevel2",
+      "id": 40622,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DodgeSmallObstacleLevel3",
+      "id": 40623,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DodgeSmallObstacleLevel4",
+      "id": 40624,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DodgeSmallObstacleLevel5",
+      "id": 40625,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FailLevel1",
+      "id": 40571,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FailLevel2",
+      "id": 40572,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FailLevel3",
+      "id": 40573,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FailLevel4",
+      "id": 40574,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FailLevel5",
+      "id": 40575,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HardcoreFinishLevel1",
+      "id": 40656,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HardcoreFinishLevel1Quick",
+      "id": 40666,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HardcoreFinishLevel1SuperQuick",
+      "id": 40671,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HardcoreFinishLevel2",
+      "id": 40657,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HardcoreFinishLevel2Quick",
+      "id": 40667,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HardcoreFinishLevel2SuperQuick",
+      "id": 40672,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HardcoreFinishLevel3",
+      "id": 40658,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HardcoreFinishLevel3Quick",
+      "id": 40668,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HardcoreFinishLevel3SuperQuick",
+      "id": 40673,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HardcoreFinishLevel4",
+      "id": 40659,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HardcoreFinishLevel4Quick",
+      "id": 40669,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HardcoreFinishLevel4SuperQuick",
+      "id": 40674,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HardcoreFinishLevel5",
+      "id": 40660,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HardcoreFinishLevel5Quick",
+      "id": 40670,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HardcoreFinishLevel5SuperQuick",
+      "id": 40675,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HardcoreTimeLevel1",
+      "id": 40661,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HardcoreTimeLevel2",
+      "id": 40662,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HardcoreTimeLevel3",
+      "id": 40663,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HardcoreTimeLevel4",
+      "id": 40664,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HardcoreTimeLevel5",
+      "id": 40665,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighestPursuitTime",
+      "id": 40688,
+      "description": "The longest time survived in pursuit mode.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighestSurvivalTime",
+      "id": 40689,
+      "description": "The longest time survived in survival mode.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "JumpHopliteLevel1",
+      "id": 40581,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "JumpHopliteLevel2",
+      "id": 40582,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "JumpHopliteLevel3",
+      "id": 40583,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "JumpHopliteLevel4",
+      "id": 40584,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "JumpHopliteLevel5",
+      "id": 40585,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "JumpLargeObstacleLevel1",
+      "id": 40616,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "JumpLargeObstacleLevel2",
+      "id": 40617,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "JumpLargeObstacleLevel3",
+      "id": 40618,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "JumpLargeObstacleLevel4",
+      "id": 40619,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "JumpLargeObstacleLevel5",
+      "id": 40620,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "JumpMediumObstacleLevel1",
+      "id": 40611,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "JumpMediumObstacleLevel2",
+      "id": 40612,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "JumpMediumObstacleLevel3",
+      "id": 40613,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "JumpMediumObstacleLevel4",
+      "id": 40614,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "JumpMediumObstacleLevel5",
+      "id": 40615,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "JumpSmallObstacleLevel1",
+      "id": 40606,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "JumpSmallObstacleLevel2",
+      "id": 40607,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "JumpSmallObstacleLevel3",
+      "id": 40608,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "JumpSmallObstacleLevel4",
+      "id": 40609,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "JumpSmallObstacleLevel5",
+      "id": 40610,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "KillFarmerLevel1",
+      "id": 40576,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "KillFarmerLevel2",
+      "id": 40577,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3598,
+          "name": "5 farmers killed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "KillFarmerLevel3",
+      "id": 40578,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "KillFarmerLevel4",
+      "id": 40579,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "KillFarmerLevel5",
+      "id": 40580,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "OutrunRiderLevel1",
+      "id": 40591,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "OutrunRiderLevel2",
+      "id": 40592,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "OutrunRiderLevel3",
+      "id": 40593,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "OutrunRiderLevel4",
+      "id": 40594,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "OutrunRiderLevel5",
+      "id": 40595,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "PursuitTimeLevel1",
+      "id": 40681,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "PursuitTimeLevel2",
+      "id": 40682,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "PursuitTimeLevel3",
+      "id": 40683,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "PursuitTimeLevel4",
+      "id": 40684,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "PursuitTimeLevel5",
+      "id": 40685,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "StoryFinishLevel1",
+      "id": 40641,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Finished level 1",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "StoryFinishLevel1Quick",
+      "id": 40646,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "StoryFinishLevel1SuperQuick",
+      "id": 40651,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "StoryFinishLevel2",
+      "id": 40642,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Finished level 2",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "StoryFinishLevel2Quick",
+      "id": 40647,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "StoryFinishLevel2SuperQuick",
+      "id": 40652,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "StoryFinishLevel3",
+      "id": 40643,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Finished level 3",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "StoryFinishLevel3Quick",
+      "id": 40648,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "StoryFinishLevel3SuperQuick",
+      "id": 40653,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "StoryFinishLevel4",
+      "id": 40644,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Finished level 4",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "StoryFinishLevel4Quick",
+      "id": 40649,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "StoryFinishLevel4SuperQuick",
+      "id": 40654,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "StoryFinishLevel5",
+      "id": 40645,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Finished level 5",
+      "accomplishment_tasks": [
+        {
+          "id": 3601,
+          "name": "Level 5 completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "StoryFinishLevel5Quick",
+      "id": 40650,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "StoryFinishLevel5SuperQuick",
+      "id": 40655,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SurvivalTimeLevel1",
+      "id": 40676,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SurvivalTimeLevel2",
+      "id": 40677,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SurvivalTimeLevel3",
+      "id": 40678,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SurvivalTimeLevel4",
+      "id": 40679,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SurvivalTimeLevel5",
+      "id": 40680,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "UnlockAllArmors",
+      "id": 40686,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "UnlockAllModes",
+      "id": 40687,
+      "description": "",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3112,
+      "name": "Farmer Farmer",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2553,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3598,
+          "statistic_id": 40577,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3112",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3113,
+      "name": "Just Passing By",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2554,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3600,
+          "statistic_id": 40586,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3113",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3114,
+      "name": "Get on Your High Horse",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2555,
+      "level": "impossible",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3601,
+          "statistic_id": 40645,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3114",
+      "reward_points": 60,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/EvilDog/hippolyta/chat.js",
+  "holodeck_url": "/games/EvilDog/hippolyta/holodeck",
+  "accomplishments_bootstrap_url": "/games/EvilDog/hippolyta/chat_achievements",
+  "sticker_drop_url": "/games/EvilDog/hippolyta/sticker_drop",
+  "game_path": "/games/EvilDog/hippolyta",
+  "html_dimensions": {
+    "game_width": 750,
+    "game_height": 300,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 113,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1053,
+    "flash_frame_height": 553,
+    "game_frame_width": 750,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=74552",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

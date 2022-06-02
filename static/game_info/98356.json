@@ -1,0 +1,293 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 98356,
+  "statistics": [
+    {
+      "name": "AllEndingsCompleted",
+      "id": 51319,
+      "description": "All three endings have been completed, reported as 1 when the last ending is completed, and on autosave.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "All Endings Completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BadEnding",
+      "id": 51322,
+      "description": "The player has completed the bad ending, collecting 10 gems and unleashing MALOR. Reported on completion and autosave.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Bad Ending",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "CreaturesKilled",
+      "id": 51327,
+      "description": "How many souls the player has collected (a player will almost never kill without collecting a soul).  Reported on soul collection and on autosave.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Creatures Killed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Endurance",
+      "id": 51326,
+      "description": "The player's maximum endurance, which can be increased by collecting a fruit (+2) or by collecting a soul (+1).  The maximum endurance is 63.  Reported on endurance increase and on autosave.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EnduranceFruitsCollected",
+      "id": 51323,
+      "description": "The number of endurance fruits collected. Reported on each autosave and on fruit collection.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Endurance Fruits Collected",
+      "accomplishment_tasks": [
+        {
+          "id": 1824,
+          "name": "15 endurance fruit obtained",
+          "quota": 15,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "EvilEnding",
+      "id": 51321,
+      "description": "The player has completed the evil ending, killing MALOR after killing mroe than 10 creatures. Reported on completion and autosave.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Evil Ending",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "FlowersTouched",
+      "id": 51325,
+      "description": "The number of flowers touched in the game [0 -~350] (300 makes a good upper bound without forcing too much backtracking, most people can get 100 on an average playthrough). Is reported on touching a flower and on autosave. ",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Flowers Touched",
+      "accomplishment_tasks": [
+        {
+          "id": 1823,
+          "name": "150 Flowers Touched",
+          "quota": 150,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "GameCompleted",
+      "id": 51318,
+      "description": "Any of the endings have been completed, reported at completion of the game as well as whenever it autosaves.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Game Completed",
+      "accomplishment_tasks": [
+        {
+          "id": 1825,
+          "name": "Game Completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "GemsCollected",
+      "id": 51324,
+      "description": "The number of gems collected (0-11) by the player.  Is reported whenever the player collects a gem and on autosave.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Gems Collected",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GoodEnding",
+      "id": 51320,
+      "description": "The player has completed the good ending by slaying MALOR. Reported on completion and autosave.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Good Ending",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TutorialCompleted",
+      "id": 51328,
+      "description": "The player has fallen from the tutorial area into the world below.  Reported when the player hits the ground, and on autosave.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Tutorial Completed",
+      "accomplishment_tasks": [
+        {
+          "id": 1822,
+          "name": "Temple Reached",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1549,
+      "name": "Free Fallin'",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1259,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1822,
+          "statistic_id": 51328,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1549",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1550,
+      "name": "Crushing This Daisy",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1260,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1823,
+          "statistic_id": 51325,
+          "quota": 150,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1550",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1551,
+      "name": "Fruitful Gains",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1261,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1824,
+          "statistic_id": 51323,
+          "quota": 15,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1551",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1552,
+      "name": "Treasure Unlocked",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1262,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1825,
+          "statistic_id": 51318,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1552",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Zillix/endeavor/chat.js",
+  "holodeck_url": "/games/Zillix/endeavor/holodeck",
+  "accomplishments_bootstrap_url": "/games/Zillix/endeavor/chat_achievements",
+  "sticker_drop_url": "/games/Zillix/endeavor/sticker_drop",
+  "game_path": "/games/Zillix/endeavor",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 943,
+    "flash_frame_height": 553,
+    "game_frame_width": 640,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=98356",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": true,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

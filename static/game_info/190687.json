@@ -1,0 +1,332 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 190687,
+  "statistics": [
+    {
+      "name": "Achievement10_Machinegunner",
+      "id": 99208,
+      "description": "Complete a level using the machine guns only",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement11_Hell_on_Earth",
+      "id": 99209,
+      "description": "Kill 100 units with blast wave",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3491,
+          "name": "Hell on Earth",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Achievement12_Wrath_of_Zeus",
+      "id": 99210,
+      "description": "Kill 100 units with chain lightning (2,3,4 discharge)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3492,
+          "name": "Wrath of Zeus",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Achievement13_Without_Eye",
+      "id": 99211,
+      "description": "Complete a level without using the \"Eye\"",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement14_Double_hit",
+      "id": 99212,
+      "description": "Kill 100 units with critical hit",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Achievement14_Double hit",
+      "accomplishment_tasks": [
+        {
+          "id": 3493,
+          "name": "Double Hit",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Achievement15_stay_alive",
+      "id": 99213,
+      "description": "Complete level with less than 5% life",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement16_Fire_and_death",
+      "id": 99214,
+      "description": "Kill the unit on fire with a critical hit from the saw",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement17_Shock_and_death",
+      "id": 99215,
+      "description": "Kill the unit on fire with a critical hit from the saw",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement18_Defence_master",
+      "id": 99216,
+      "description": "Complete all the basic and challenge levels",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement1_skilled",
+      "id": 99199,
+      "description": "Kill 100 units ",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement2_Veteran",
+      "id": 99200,
+      "description": "Kill 3000 units",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement3_Flawless_victory",
+      "id": 99201,
+      "description": "Complete a level without any damage to the tower",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement4_Economic",
+      "id": 99202,
+      "description": "Complete a level with 10000 in your account",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement5_Economy",
+      "id": 99203,
+      "description": "Complete a level with 30000 in your account",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement6_Hhour",
+      "id": 99204,
+      "description": "Hear the clock toll",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement7_Electrician",
+      "id": 99205,
+      "description": "Complete a level using lightnings only",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement8_Saw_maniac",
+      "id": 99206,
+      "description": "Complete a level using the saws only",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Achievement9_Artillerist",
+      "id": 99207,
+      "description": "Complete a level using heavy guns only",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GameCompleted",
+      "id": 99198,
+      "description": "Game has completed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Game Completed",
+      "accomplishment_tasks": [
+        {
+          "id": 3494,
+          "name": "Game completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "HighScore",
+      "id": 99197,
+      "description": "High Score in game ",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "LevelsCompleted",
+      "id": 99540,
+      "description": "LevelsCompleted",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Levels Completed",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3017,
+      "name": "Double Zeus on Earth",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2473,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3491,
+          "statistic_id": 99209,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3492,
+          "statistic_id": 99210,
+          "quota": 1,
+          "operator": "AND"
+        },
+        {
+          "id": 3493,
+          "statistic_id": 99212,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3017",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3018,
+      "name": "Tower of Terror",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2474,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3494,
+          "statistic_id": 99198,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3018",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/VMaxxx/steampunk-tower/chat.js",
+  "holodeck_url": "/games/VMaxxx/steampunk-tower/holodeck",
+  "accomplishments_bootstrap_url": "/games/VMaxxx/steampunk-tower/chat_achievements",
+  "sticker_drop_url": "/games/VMaxxx/steampunk-tower/sticker_drop",
+  "game_path": "/games/VMaxxx/steampunk-tower",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 500,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 13,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 553,
+    "game_frame_width": 800,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=190687",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

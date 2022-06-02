@@ -1,0 +1,214 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 286934,
+  "statistics": [
+    {
+      "name": "BlockedBullets",
+      "id": 131336,
+      "description": "Amount of bullets blocked.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Blocked Bullets",
+      "accomplishment_tasks": [
+        {
+          "id": 4218,
+          "name": "500 bullets blocked",
+          "quota": 500,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "EnemiesKilled",
+      "id": 131335,
+      "description": "Enemies killed!",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Enemies Killed",
+      "accomplishment_tasks": [
+        {
+          "id": 4217,
+          "name": "50 enemies killed (single game)",
+          "quota": 50,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Score",
+      "id": 131304,
+      "description": "Best scores!",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Highscores",
+      "accomplishment_tasks": [
+        {
+          "id": 4220,
+          "name": "3600 score",
+          "quota": 3600,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "UpgradeCount",
+      "id": 131337,
+      "description": "Amount of times the player got an upgrade.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Upgrade Count",
+      "accomplishment_tasks": [
+        {
+          "id": 4219,
+          "name": "Level 6 upgrade",
+          "quota": 6,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3581,
+      "name": "\"Taking Some Edges Off\"",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2972,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4217,
+          "statistic_id": 131335,
+          "quota": 50,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3581",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3582,
+      "name": "Pellet Proficiency",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2973,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4218,
+          "statistic_id": 131336,
+          "quota": 500,
+          "operator": "AND"
+        },
+        {
+          "id": 4219,
+          "statistic_id": 131337,
+          "quota": 6,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3582",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3583,
+      "name": "Skilled Circle-Strafing",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2974,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4220,
+          "statistic_id": 131304,
+          "quota": 3600,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3583",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/oultrox/cubito-mayhem/chat.js",
+  "holodeck_url": "/games/oultrox/cubito-mayhem/holodeck",
+  "accomplishments_bootstrap_url": "/games/oultrox/cubito-mayhem/chat_achievements",
+  "sticker_drop_url": "/games/oultrox/cubito-mayhem/sticker_drop",
+  "game_path": "/games/oultrox/cubito-mayhem",
+  "html_dimensions": {
+    "game_width": 920,
+    "game_height": 520,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 3,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1223,
+    "flash_frame_height": 553,
+    "game_frame_width": 920,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=286934",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

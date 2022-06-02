@@ -1,0 +1,209 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 248326,
+  "statistics": [
+    {
+      "name": "bounty_rank",
+      "id": 124602,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Bounty Rank",
+      "accomplishment_tasks": [
+        {
+          "id": 4025,
+          "name": "Bounty rank 5",
+          "quota": 5,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "campaign_stars",
+      "id": 119464,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Campaign Stars",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "initialized",
+      "id": 119467,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Initialized",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "max_campaign",
+      "id": 119465,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Campaigns Completed",
+      "accomplishment_tasks": [
+        {
+          "id": 4015,
+          "name": "Third campaign node completed",
+          "quota": 3,
+          "granularity": null
+        },
+        {
+          "id": 4024,
+          "name": "Campaign mission 4 completed",
+          "quota": 4,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "pvp_wins",
+      "id": 119466,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Bounties Completed",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3419,
+      "name": "Making New Friends",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2827,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4024,
+          "statistic_id": 119465,
+          "quota": 4,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3419",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3420,
+      "name": "Cards for Hire",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2828,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4025,
+          "statistic_id": 124602,
+          "quota": 5,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3420",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [
+    {
+      "id": 3410,
+      "name": "Swords and Spells",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": null,
+      "level": null,
+      "hidden": true,
+      "item_id": 149302,
+      "accomplishment_tasks": [
+        {
+          "id": 4015,
+          "statistic_id": 119465,
+          "quota": 3,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": 1630479540,
+      "dom_id": "challenges-3410",
+      "reward_points": 0,
+      "reward_klient_xp": null
+    }
+  ],
+  "chat_bootstrap_url": "/games/synapticon/spellstone/chat.js",
+  "holodeck_url": "/games/synapticon/spellstone/holodeck",
+  "accomplishments_bootstrap_url": "/games/synapticon/spellstone/chat_achievements",
+  "sticker_drop_url": "/games/synapticon/spellstone/sticker_drop",
+  "game_path": "/games/synapticon/spellstone",
+  "html_dimensions": {
+    "game_width": 1024,
+    "game_height": 576,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 576,
+    "flash_frame_width": 1327,
+    "flash_frame_height": 602,
+    "game_frame_width": 1024,
+    "game_frame_height": 576,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=248326",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": true,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": true,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": true,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

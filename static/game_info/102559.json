@@ -1,0 +1,222 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 102559,
+  "statistics": [
+    {
+      "name": "All By Myself",
+      "id": 53950,
+      "description": "Keep all essences.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Dark Inheritor",
+      "id": 53949,
+      "description": "You're naturally evil.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Essences",
+      "id": 53954,
+      "description": "Total essences get",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 1935,
+          "name": "3 essences found",
+          "quota": 3,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Gift for a Friend",
+      "id": 53948,
+      "description": "Be thoughtful",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 1936,
+          "name": "Friend gifted",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Quick Finish",
+      "id": 53951,
+      "description": "Finish the game in under 6mins.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Time Finished",
+      "id": 53953,
+      "description": "Time it took the player to finish the game.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Best Time",
+      "accomplishment_tasks": [
+        {
+          "id": 1937,
+          "name": "Game completed",
+          "quota": 99999999999,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Who Is It?",
+      "id": 53952,
+      "description": "An unexpected call.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1636,
+      "name": "Demonic Essence",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1316,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1935,
+          "statistic_id": 53954,
+          "quota": 3,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1636",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1637,
+      "name": "Toys for Tarts",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1317,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1936,
+          "statistic_id": 53948,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1637",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1638,
+      "name": "When Ends Meet",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1318,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1937,
+          "statistic_id": 53953,
+          "quota": 99999999999,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1638",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/keybol/belial-chap-2-5/chat.js",
+  "holodeck_url": "/games/keybol/belial-chap-2-5/holodeck",
+  "accomplishments_bootstrap_url": "/games/keybol/belial-chap-2-5/chat_achievements",
+  "sticker_drop_url": "/games/keybol/belial-chap-2-5/sticker_drop",
+  "game_path": "/games/keybol/belial-chap-2-5",
+  "html_dimensions": {
+    "game_width": 550,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 35,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 923,
+    "flash_frame_height": 553,
+    "game_frame_width": 620,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=102559",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

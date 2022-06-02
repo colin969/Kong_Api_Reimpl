@@ -1,0 +1,283 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 24425,
+  "statistics": [
+    {
+      "name": "Arrow Headshots",
+      "id": 12000,
+      "description": "Number of Arrow Headshots (Achievement at 20)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Banners Converted",
+      "id": 11998,
+      "description": "Banners Converted (Find all 7)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Battles Fought",
+      "id": 12003,
+      "description": "Battles Fought (Achievement at 30)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Completed without Dying",
+      "id": 12005,
+      "description": "Completed without Dying",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Game Completed",
+      "id": 12006,
+      "description": "Game Completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 684,
+          "name": "Game completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Headshots",
+      "id": 12001,
+      "description": "Number of Headshots (Achievement at 100)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 683,
+          "name": "100 headshots",
+          "quota": 100,
+          "granularity": 50
+        }
+      ]
+    },
+    {
+      "name": "HighScore",
+      "id": 12007,
+      "description": "HighScore",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Items Found",
+      "id": 11997,
+      "description": "Items found (Find all 7)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Kills",
+      "id": 12002,
+      "description": "Total Kills (Achievement at 300)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 681,
+          "name": "50 kills",
+          "quota": 50,
+          "granularity": 50
+        }
+      ]
+    },
+    {
+      "name": "Max Combo",
+      "id": 11999,
+      "description": "Maximum number of enemies killed in a single slash (Achievement at >5)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 682,
+          "name": "5-kill combo",
+          "quota": 5,
+          "granularity": 3
+        }
+      ]
+    },
+    {
+      "name": "Sector Domination",
+      "id": 12004,
+      "description": "Completed game with all sectors",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 548,
+      "name": "Feudal Feud",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 442,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 681,
+          "statistic_id": 12002,
+          "quota": 50,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-548",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 549,
+      "name": "Steel Samurai",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 443,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 682,
+          "statistic_id": 11999,
+          "quota": 5,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-549",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 550,
+      "name": "Ginsu Knife Mastery",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 444,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 683,
+          "statistic_id": 12001,
+          "quota": 100,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-550",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 551,
+      "name": "Samurai Jacked",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 445,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 684,
+          "statistic_id": 12006,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-551",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Lutgames/straw-hat-samurai/chat.js",
+  "holodeck_url": "/games/Lutgames/straw-hat-samurai/holodeck",
+  "accomplishments_bootstrap_url": "/games/Lutgames/straw-hat-samurai/chat_achievements",
+  "sticker_drop_url": "/games/Lutgames/straw-hat-samurai/sticker_drop",
+  "game_path": "/games/Lutgames/straw-hat-samurai",
+  "html_dimensions": {
+    "game_width": 720,
+    "game_height": 400,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 63,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1023,
+    "flash_frame_height": 553,
+    "game_frame_width": 720,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=24425",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

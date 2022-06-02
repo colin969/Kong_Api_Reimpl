@@ -1,0 +1,378 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 83306,
+  "statistics": [
+    {
+      "name": "Beserks",
+      "id": 44320,
+      "description": "Number of Beserker Rages triggered (Note: Regardless of Win/Lose)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BestWealth",
+      "id": 44315,
+      "description": "Highest amount of wealth to hand at any one time",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Best Wealth",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "BooksLooted",
+      "id": 44400,
+      "description": "Number of Books type items looted",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ConsumablesLooted",
+      "id": 44403,
+      "description": "Total number of consumable items looted",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ConsumablesUsed",
+      "id": 44398,
+      "description": "Total number of Consumable Items used",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "CriticalHits",
+      "id": 44316,
+      "description": "Number of Critical Hits (Note: Regardless of win/lose)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 1567,
+          "name": "10 critical hits",
+          "quota": 10,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "EnemiesTeleported",
+      "id": 44399,
+      "description": "Total number of Teleportation specials triggered",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EntourageHeroes",
+      "id": 44401,
+      "description": "Highest number of heroes in player's entourage at one time",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GoldStolen",
+      "id": 44402,
+      "description": "Total amount of gold stolen over the course of the game (Note: Regardless of win/lose)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "HighScore",
+      "id": 44314,
+      "description": "Highest Score Achieved from any quest",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "High Score",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ItemsLooted",
+      "id": 44321,
+      "description": "Total Number of Items looted throughout the game",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Items Looted",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ItemsSold",
+      "id": 44317,
+      "description": "Total number of items sold throughout the game",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MagesHired",
+      "id": 44405,
+      "description": "Total Number of Mage units hired (Note: regardless of win/lose)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MeleeHired",
+      "id": 44404,
+      "description": "Total number of Melee type units hired (Note: regardless of Win/lose)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ProtectomonsCollected",
+      "id": 44318,
+      "description": "Total number of Protectomons collected",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Protectomons Collected",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "QuestsComplete",
+      "id": 44313,
+      "description": "Number of Quests completed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Quests Completed",
+      "accomplishment_tasks": [
+        {
+          "id": 1568,
+          "name": "10 quests completed",
+          "quota": 10,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "RangedHired",
+      "id": 44406,
+      "description": "Total number of ranged units hired (Note: regardless of win/lose)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "StorylineComplete",
+      "id": 44322,
+      "description": "Flag for completion of the main Kingdom Storyline arc. (0 = False 1 = True)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 1569,
+          "name": "Storyline completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "TilesPaved",
+      "id": 44319,
+      "description": "Total number of tiles paved (Note: Regardless of Win/lose)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalKills",
+      "id": 44323,
+      "description": "Total number of enemies killed throughout the game. (Nore regardless of Win/Lose)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Creatures Destroyed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalRelationships",
+      "id": 44407,
+      "description": "Total Relationship value (or Fame) among all factions combined. (Each faction has between 0 and 100 for a total of 1100 maximum)",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalTalents",
+      "id": 44397,
+      "description": "Total number of talents earned",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total Talents",
+      "accomplishment_tasks": [
+        {
+          "id": 1570,
+          "name": "50 talents unlocked",
+          "quota": 50,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1312,
+      "name": "Crits or GTFO",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1052,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1567,
+          "statistic_id": 44316,
+          "quota": 10,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1312",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1313,
+      "name": "World Traveler",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1053,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1568,
+          "statistic_id": 44313,
+          "quota": 10,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1313",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1314,
+      "name": "No Stranger with Arkandia",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1054,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1569,
+          "statistic_id": 44322,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1314",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1315,
+      "name": "Talent Show-off",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1055,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1570,
+          "statistic_id": 44397,
+          "quota": 50,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1315",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/undefined/protector-iv/chat.js",
+  "holodeck_url": "/games/undefined/protector-iv/holodeck",
+  "accomplishments_bootstrap_url": "/games/undefined/protector-iv/chat_achievements",
+  "sticker_drop_url": "/games/undefined/protector-iv/sticker_drop",
+  "game_path": "/games/undefined/protector-iv",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 626,
+    "game_frame_width": 800,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=83306",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

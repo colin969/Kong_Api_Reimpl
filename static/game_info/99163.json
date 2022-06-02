@@ -1,0 +1,123 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 99163,
+  "statistics": [
+    {
+      "name": "HighScoreClassic",
+      "id": 51780,
+      "description": "Classic mode high score",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Classic mode High Score",
+      "accomplishment_tasks": [
+        {
+          "id": 3979,
+          "name": "200,000 score (classic mode)",
+          "quota": 200000,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "HighScorePuzzle",
+      "id": 51781,
+      "description": "Puzzle mode high score",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Puzzle mode High Score",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3376,
+      "name": "Wise Men Cartography",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2792,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3979,
+          "statistic_id": 51780,
+          "quota": 200000,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3376",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/zedarus/starlight-xmas/chat.js",
+  "holodeck_url": "/games/zedarus/starlight-xmas/holodeck",
+  "accomplishments_bootstrap_url": "/games/zedarus/starlight-xmas/chat_achievements",
+  "sticker_drop_url": "/games/zedarus/starlight-xmas/sticker_drop",
+  "game_path": "/games/zedarus/starlight-xmas",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 943,
+    "flash_frame_height": 553,
+    "game_frame_width": 640,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=99163",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": false,
+    "disable_instart": false,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

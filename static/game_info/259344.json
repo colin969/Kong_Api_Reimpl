@@ -1,0 +1,222 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 259344,
+  "statistics": [
+    {
+      "name": "Begin the journey",
+      "id": 123878,
+      "description": "Even the greatest journey begins with a first TAP.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Break the rules",
+      "id": 123875,
+      "description": "Can you break the game?",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Ach1",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Meet the Bite-people",
+      "id": 123880,
+      "description": "You've finally met someone on this strange planet.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Meet yourself",
+      "id": 123883,
+      "description": "This is so strange to meet yourself, isn't it?",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MeetYourself",
+      "id": 124043,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 4008,
+          "name": "Meet yourself",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Nowhere to hurry",
+      "id": 123879,
+      "description": "There is nowhere to hurry in this world. But you can try.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Save the Bite-people",
+      "id": 123882,
+      "description": "The Byte-people regained their consciousness.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "SaveBitePeople",
+      "id": 124044,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 4009,
+          "name": "Game completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Shortcut",
+      "id": 123876,
+      "description": "Shortcuts are a not always obvious.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Ach2",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Talking Cassette?",
+      "id": 123881,
+      "description": "What?! Talking cassette? Weird things are going on here.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3403,
+      "name": "Split Personality",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2812,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4008,
+          "statistic_id": 124043,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3403",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 42,
+        "name": "Best of 2016",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3404,
+      "name": "Upper Escher-lons",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2813,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4009,
+          "statistic_id": 124044,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3404",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/tobeglad/evo-explores/chat.js",
+  "holodeck_url": "/games/tobeglad/evo-explores/holodeck",
+  "accomplishments_bootstrap_url": "/games/tobeglad/evo-explores/chat_achievements",
+  "sticker_drop_url": "/games/tobeglad/evo-explores/sticker_drop",
+  "game_path": "/games/tobeglad/evo-explores",
+  "html_dimensions": {
+    "game_width": 900,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 1203,
+    "flash_frame_height": 626,
+    "game_frame_width": 900,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=259344",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

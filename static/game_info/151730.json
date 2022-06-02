@@ -1,0 +1,3154 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 151730,
+  "statistics": [
+    {
+      "name": "112",
+      "id": 82958,
+      "description": "Shows the players with the highest ranks",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Highest Rank",
+      "accomplishment_tasks": [
+        {
+          "id": 2983,
+          "name": "Rank 6 Reached",
+          "quota": 6,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "113",
+      "id": 82955,
+      "description": "Highest wave reached on Monkey Lane Easy",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Monkey Lane Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "114",
+      "id": 82956,
+      "description": "Highest wave reached on Monkey Lane Medium",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Monkey Lane Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "115",
+      "id": 82957,
+      "description": "Highest wave reached on Monkey Lane Hard",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Monkey Lane Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "116",
+      "id": 82959,
+      "description": "Highest wave reached on Monkey Lane Deflation",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Monkey Lane Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "117",
+      "id": 82960,
+      "description": "Highest wave reached on Monkey Lane Apopalypse",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Monkey Lane Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "118",
+      "id": 82961,
+      "description": "Highest wave reached on Park Path Easy",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Park Path Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "119",
+      "id": 82962,
+      "description": "Highest wave reached on Park Path Medium",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Park Path Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "120",
+      "id": 82963,
+      "description": "Highest wave reached on Park Path Hard",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Park Path Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "121",
+      "id": 82964,
+      "description": "Highest wave reached on Park Path Deflation",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Park Path Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "122",
+      "id": 82965,
+      "description": "Highest wave reached on Park Path Apopalypse",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Park Path Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "123",
+      "id": 82966,
+      "description": "Highest wave reached on Bloon Circles Easy",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Bloon Circles Easy",
+      "accomplishment_tasks": [
+        {
+          "id": 2984,
+          "name": "Bloons Circles Beat on Easy - Beat any one of these tracks to earn the badge",
+          "quota": 50,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "124",
+      "id": 82967,
+      "description": "Highest wave reached on Bloon Circles Medium",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Bloon Circles Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "125",
+      "id": 82968,
+      "description": "Highest wave reached on Bloon Circles Hard",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Bloon Circles Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "126",
+      "id": 82969,
+      "description": "Highest wave reached on Bloon Circles Deflation",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Bloon Circles Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "127",
+      "id": 82970,
+      "description": "Highest wave reached on Bloon Circles Apopalypse",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Bloon Circles Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "128",
+      "id": 82971,
+      "description": "Highest wave reached on Archipelago Easy",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Archipelago Easy",
+      "accomplishment_tasks": [
+        {
+          "id": 2985,
+          "name": "Archipelago Beat on Easy",
+          "quota": 50,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "129",
+      "id": 82972,
+      "description": "Highest wave reached on Archipelago Medium",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Archipelago Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "130",
+      "id": 82973,
+      "description": "Highest wave reached on Archipelago Hard",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Archipelago Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "131",
+      "id": 82974,
+      "description": "Highest wave reached on Archipelago Deflation",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Archipelago Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "132",
+      "id": 82975,
+      "description": "Highest wave reached on Archipelago Apopalypse",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Archipelago Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "133",
+      "id": 82976,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Mount Magma Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "134",
+      "id": 82977,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Mount Magma Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "135",
+      "id": 82978,
+      "description": "Mount Magma Hard",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Mount Magma Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "136",
+      "id": 82979,
+      "description": "Mount Magma Deflation",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Mount Magma Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "137",
+      "id": 82980,
+      "description": "Mount Magma Apopalypse",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Mount Magma Apopalypse",
+      "accomplishment_tasks": [
+        {
+          "id": 2988,
+          "name": "Wave 30 Beat on Mount Magma on 'Apopalypse' Difficulty",
+          "quota": 30,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "138",
+      "id": 82981,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Switch Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "139",
+      "id": 82982,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Switch Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "140",
+      "id": 82983,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Switch Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "141",
+      "id": 82984,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Switch Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "142",
+      "id": 82985,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Switch Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "143",
+      "id": 82986,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Clock Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "144",
+      "id": 82987,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Clock Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "145",
+      "id": 82988,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Clock Hard",
+      "accomplishment_tasks": [
+        {
+          "id": 2991,
+          "name": "Clock Beat on Hard",
+          "quota": 85,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "146",
+      "id": 82989,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Clock Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "147",
+      "id": 82990,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Clock Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "148",
+      "id": 82991,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Castle Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "149",
+      "id": 82992,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Castle Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "150",
+      "id": 82993,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Castle Hard",
+      "accomplishment_tasks": [
+        {
+          "id": 2989,
+          "name": "Castle Beat on Hard - beat any one of these tracks to earn the badge",
+          "quota": 85,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "151",
+      "id": 82994,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Castle Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "152",
+      "id": 82995,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Castle Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "154",
+      "id": 82996,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "The Rink Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "155",
+      "id": 82997,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "The Rink Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "156",
+      "id": 82998,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "The Rink Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "157",
+      "id": 82999,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "The Rink Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "158",
+      "id": 83000,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "The Rink Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "163",
+      "id": 83001,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Snake River Easy",
+      "accomplishment_tasks": [
+        {
+          "id": 2986,
+          "name": "Snake River Beat on Easy",
+          "quota": 50,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "164",
+      "id": 83002,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Snake River Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "165",
+      "id": 83003,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Snake River Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "166",
+      "id": 83004,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Snake River Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "167",
+      "id": 83005,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Snake River Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "168",
+      "id": 83006,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Bloontonium Lab Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "169",
+      "id": 83007,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Bloontonium Lab Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "170",
+      "id": 83008,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Bloontonium Lab Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "175",
+      "id": 83009,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Lightning Scar Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "176",
+      "id": 83010,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Lightning Scar Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "177",
+      "id": 83011,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Lightning Scar Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "178",
+      "id": 83012,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Lightning Scar Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "179",
+      "id": 83013,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Lightning Scar Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "180",
+      "id": 83014,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Main Street Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "181",
+      "id": 83015,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Main Street Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "182",
+      "id": 83016,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Main Street Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "207",
+      "id": 83017,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Dockside Easy",
+      "accomplishment_tasks": [
+        {
+          "id": 2987,
+          "name": "Dockside Beat on Easy",
+          "quota": 50,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "208",
+      "id": 83018,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Dockside Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "209",
+      "id": 83019,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Dockside Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "210",
+      "id": 83020,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Dockside Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "211",
+      "id": 83021,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Dockside Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "216",
+      "id": 83022,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Death Valley Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "217",
+      "id": 83023,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Death Valley Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "218",
+      "id": 83024,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Death Valley Hard",
+      "accomplishment_tasks": [
+        {
+          "id": 2990,
+          "name": "Death Valley Beat on Hard",
+          "quota": 85,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "219",
+      "id": 83025,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Death Valley Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "220",
+      "id": 83026,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Death Valley Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "221",
+      "id": 90914,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Drag Strip Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "222",
+      "id": 90915,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Drag Strip Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "223",
+      "id": 83897,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Drag Strip Hard",
+      "accomplishment_tasks": [
+        {
+          "id": 2992,
+          "name": "Drag Strip Beat on Hard",
+          "quota": 85,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "224",
+      "id": 90916,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Drag Strip Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "225",
+      "id": 90917,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Drag Strip Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "226",
+      "id": 90918,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Space Truckin Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "227",
+      "id": 90919,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Space Truckin Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "228",
+      "id": 90920,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Space Truckin Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "229",
+      "id": 90921,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Space Truckin Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "230",
+      "id": 90922,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Space Truckin Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "231",
+      "id": 90923,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Slalom Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "232",
+      "id": 90924,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Slalom Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "233",
+      "id": 90925,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Slalom Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "234",
+      "id": 90926,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Slalom Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "235",
+      "id": 90927,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Slalom Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "300",
+      "id": 90928,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Downstream Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "301",
+      "id": 90929,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Downstream Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "302",
+      "id": 90930,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Downstream Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "303",
+      "id": 90931,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Downstream Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "304",
+      "id": 90932,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Downstream Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "306",
+      "id": 90933,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Z Factor Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "307",
+      "id": 90935,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Z Factor Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "308",
+      "id": 90936,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Z Factor Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "309",
+      "id": 90937,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Z Factor Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "310",
+      "id": 90938,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Z Factor Apopalyspe",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "311",
+      "id": 90939,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "The Eye Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "312",
+      "id": 90940,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "The Eye Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "313",
+      "id": 90941,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "The Eye Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "314",
+      "id": 90942,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "The Eye Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "315",
+      "id": 90943,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "The Eye Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "316",
+      "id": 90944,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Brick Wall Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "317",
+      "id": 90945,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Brick Wall Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "318",
+      "id": 90946,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Brick Wall Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "319",
+      "id": 90947,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Brick Wall Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "320",
+      "id": 90948,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Brick Wall Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "351",
+      "id": 97509,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "The Great Divide Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "352",
+      "id": 97510,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "The Great Divide Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "353",
+      "id": 97511,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "The Great Divide Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "354",
+      "id": 97512,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "The Great Divide Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "355",
+      "id": 97513,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "The Great Divide Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "409",
+      "id": 97514,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Jungle Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "410",
+      "id": 97515,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Jungle Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "411",
+      "id": 97516,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Jungle Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "412",
+      "id": 97517,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Jungle Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "413",
+      "id": 97518,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Jungle Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "421",
+      "id": 97519,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Country Road Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "422",
+      "id": 97520,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Country Road Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "423",
+      "id": 97521,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Country Road Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "424",
+      "id": 97522,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Country Road Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "425",
+      "id": 97523,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Country Road Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "429",
+      "id": 97524,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Fireworks Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "430",
+      "id": 97525,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Fireworks Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "431",
+      "id": 97526,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Fireworks Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "432",
+      "id": 97527,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Fireworks Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "433",
+      "id": 97528,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Fireworks Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "434",
+      "id": 97529,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Tunnels Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "435",
+      "id": 97530,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Tunnels Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "436",
+      "id": 97531,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Tunnels Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "437",
+      "id": 97532,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Tunnels Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "438",
+      "id": 97533,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Tunnels Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "439",
+      "id": 107564,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Maze Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "440",
+      "id": 107565,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Maze Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "441",
+      "id": 107566,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Maze Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "442",
+      "id": 107567,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Maze Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "443",
+      "id": 107568,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Maze Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "444",
+      "id": 107569,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Scorched Earth Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "445",
+      "id": 107570,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Scorched Earth Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "446",
+      "id": 107572,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Scorched Earth Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "447",
+      "id": 107573,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Scorched Earth Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "448",
+      "id": 107574,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Scorched Earth Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "452",
+      "id": 107575,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Pumpkin Patch Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "453",
+      "id": 107576,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Pumpkin Patch Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "454",
+      "id": 107577,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Pumpkin Patch Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "455",
+      "id": 107578,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Pumpkin Patch Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "456",
+      "id": 107579,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Pumpkin Patch Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "460",
+      "id": 107580,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Tree Tops Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "461",
+      "id": 107581,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Tree Tops Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "462",
+      "id": 107582,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Tree Tops Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "463",
+      "id": 107583,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Tree Tops Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "464",
+      "id": 107585,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Tree Tops Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "473",
+      "id": 107586,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Ice Flow Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "474",
+      "id": 107587,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Ice Flow Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "475",
+      "id": 107588,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Ice Flow Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "476",
+      "id": 107589,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Ice Flow Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "477",
+      "id": 107590,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Ice Flow Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "478",
+      "id": 107591,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "North Pole Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "479",
+      "id": 107592,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "North Pole Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "480",
+      "id": 107593,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "North Pole Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "481",
+      "id": 107594,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "North Pole Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "482",
+      "id": 107595,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "North Pole Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "486",
+      "id": 107596,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "3 Times Around Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "487",
+      "id": 107597,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "3 times Around Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "488",
+      "id": 107598,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "3 Times Around Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "489",
+      "id": 107599,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "3 times Around Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "490",
+      "id": 107600,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "3 Times Around Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "492",
+      "id": 107601,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Lava Fields Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "493",
+      "id": 107602,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Lava Fields Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "494",
+      "id": 107603,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Lava Fields Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "495",
+      "id": 107604,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Lava Fields Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "497",
+      "id": 107605,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Lava Fields Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "501",
+      "id": 107606,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Rink Revenge Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "502",
+      "id": 107607,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Rink Revenge Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "503",
+      "id": 107608,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Rink Revenge Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "504",
+      "id": 107609,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Rink Revenge Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "505",
+      "id": 107610,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Rink Revenge Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "509",
+      "id": 107611,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Runway Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "510",
+      "id": 107612,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Runway Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "511",
+      "id": 107613,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Runway Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "512",
+      "id": 107614,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Runway Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "513",
+      "id": 107615,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Runway Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "517",
+      "id": 107617,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Water Hazard Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "518",
+      "id": 107618,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Water Hazard Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "519",
+      "id": 107619,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Water Hazard Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "523",
+      "id": 107620,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Water Hazard Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "524",
+      "id": 107621,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Water Hazard Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "525",
+      "id": 107622,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Dune Sea Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "527",
+      "id": 107623,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Dune Sea Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "528",
+      "id": 107624,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Dune Sea Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "529",
+      "id": 107625,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Dune Sea Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "530",
+      "id": 107626,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Dune Sea Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "537",
+      "id": 107627,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Lobby Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "538",
+      "id": 107628,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Lobby Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "539",
+      "id": 107629,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Lobby Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "540",
+      "id": 107630,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Lobby Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "541",
+      "id": 107631,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Lobby Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "542",
+      "id": 107632,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Down the Drain Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "543",
+      "id": 107633,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Down the Drain Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "544",
+      "id": 107634,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Down the Drain Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "545",
+      "id": 107635,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Down the Drain Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "546",
+      "id": 107636,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Down the Drain Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "550",
+      "id": 107637,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Skull Peak Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "551",
+      "id": 107638,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Skull Peak Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "552",
+      "id": 107639,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Skull Peak Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "553",
+      "id": 107640,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Skull Peak Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "554",
+      "id": 107641,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Skull Peak Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "556",
+      "id": 112158,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Crypt Keeper Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "557",
+      "id": 112159,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Crypt Keeper Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "558",
+      "id": 112160,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Crypt Keeper Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "559",
+      "id": 112161,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Crypt Keeper Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "560",
+      "id": 112162,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Crypt Keeper Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "561",
+      "id": 112163,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Co-op Crypt Keeper Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "562",
+      "id": 112164,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Co-op Crypt Keeper Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "563",
+      "id": 112165,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Co-op Crypt Keeper Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "564",
+      "id": 112166,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Express Shipping Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "565",
+      "id": 112167,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Express Shipping Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "566",
+      "id": 112168,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Express Shipping Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "567",
+      "id": 112169,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Express Shipping Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "568",
+      "id": 112170,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Express Shipping Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "569",
+      "id": 112171,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Co-op Express Shipping Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "570",
+      "id": 112172,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Co-op Express Shipping Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "571",
+      "id": 112173,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Co-op Express Shipping Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "572",
+      "id": 112174,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Pyramids Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "573",
+      "id": 112175,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Pyramids Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "574",
+      "id": 112176,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Pyramids Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "575",
+      "id": 112177,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Pyramids Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "576",
+      "id": 112178,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Pyramids Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "577",
+      "id": 112179,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Candyland Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "578",
+      "id": 112180,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Candyland Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "579",
+      "id": 112181,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Candyland Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "580",
+      "id": 112182,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Candyland Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "581",
+      "id": 112183,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Candyland Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "582",
+      "id": 112184,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Co-op Candyland Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "583",
+      "id": 112185,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Co-op Candyland Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "584",
+      "id": 112186,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Co-op Candyland Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "585",
+      "id": 112187,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Tar Pits Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "586",
+      "id": 112188,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Tar Pits Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "587",
+      "id": 112189,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Tar Pits Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "588",
+      "id": 112190,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Tar Pits Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "589",
+      "id": 112191,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Tar Pits Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "591",
+      "id": 114350,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "MOAB Desert Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "592",
+      "id": 114351,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "MOAB Desert Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "593",
+      "id": 114352,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "MOAB Desert Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "594",
+      "id": 114353,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "MOAB Desert Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "595",
+      "id": 114354,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "MOAB Desert Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "596",
+      "id": 115841,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Sprint Track Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "597",
+      "id": 115842,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Sprint Track Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "598",
+      "id": 115843,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Sprint Track Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "599",
+      "id": 115844,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Sprint Track Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "600",
+      "id": 115845,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Sprint Track Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "601",
+      "id": 116159,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Battle Knot Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "602",
+      "id": 116160,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Battle Knot Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "603",
+      "id": 116161,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Battle Knot Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "604",
+      "id": 116162,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Battle Knot Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "605",
+      "id": 116163,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Battle Knot Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "606",
+      "id": 119769,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Spooky Castle Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "607",
+      "id": 119770,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Spooky Castle Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "608",
+      "id": 119771,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Spooky Castle Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "609",
+      "id": 119772,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Spooky Castle Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "610",
+      "id": 119773,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Spooky Castle Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "611",
+      "id": 121026,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Snowflake Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "612",
+      "id": 121027,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Snowflake Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "613",
+      "id": 121028,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Snowflake Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "614",
+      "id": 121029,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Snowflake Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "615",
+      "id": 121030,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Snowflake Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "616",
+      "id": 123219,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Hill Giant Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "617",
+      "id": 123220,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Hill Giant Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "618",
+      "id": 123221,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Hill Giant Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "619",
+      "id": 123222,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Hill Giant Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "620",
+      "id": 123223,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Hill Giant Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "621",
+      "id": 125180,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "River Rapids Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "622",
+      "id": 125181,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "River Rapids Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "623",
+      "id": 125182,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "River Rapids Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "624",
+      "id": 125183,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "River Rapids Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "625",
+      "id": 125184,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "River Rapids Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "626",
+      "id": 126614,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Six Feet Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "627",
+      "id": 126615,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Six Feet Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "628",
+      "id": 126616,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Six Feet Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "629",
+      "id": 126617,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Six Feet Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "630",
+      "id": 126618,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Six Feet Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "631",
+      "id": 126619,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Co-op Six Feet Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "632",
+      "id": 126620,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Co-op Six Feet Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "633",
+      "id": 126621,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Co-op Six Feet Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "634",
+      "id": 127388,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Snowy Backyard Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "635",
+      "id": 127389,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Snowy Backyard Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "636",
+      "id": 127390,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Snowy Backyard Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "637",
+      "id": 127391,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Snowy Backyard Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "638",
+      "id": 127392,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Snowy Backyard Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "642",
+      "id": 128872,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Rabbit Holes Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "643",
+      "id": 128873,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Rabbit Holes Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "644",
+      "id": 128874,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Rabbit Holes Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "645",
+      "id": 128875,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Rabbit Holes Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "646",
+      "id": 128876,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Rabbit Holes Apopalypse ",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "650",
+      "id": 131398,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Dark Forest Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "651",
+      "id": 131399,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Dark Forest Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "652",
+      "id": 131400,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Dark Forest Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "653",
+      "id": 131401,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Dark Forest Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "654",
+      "id": 131402,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Dark Forest Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "658",
+      "id": 131980,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Present Delivery Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "659",
+      "id": 131981,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Present Delivery Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "660",
+      "id": 131982,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Present Delivery Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "661",
+      "id": 131983,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Present Delivery Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "662",
+      "id": 131984,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Present Delivery Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "663",
+      "id": 134110,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Blooms Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "664",
+      "id": 134111,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Blooms Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "665",
+      "id": 134112,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Blooms Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "666",
+      "id": 134113,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Blooms Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "667",
+      "id": 134114,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Blooms Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "668",
+      "id": 135494,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Trick Or Treat Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "669",
+      "id": 135495,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Trick Or Treat Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "670",
+      "id": 135496,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Trick Or Treat Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "671",
+      "id": 135497,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Trick Or Treat Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "672",
+      "id": 135498,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Trick Or Treat Apopalypse",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "676",
+      "id": 136324,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Hearthside Easy",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "677",
+      "id": 136325,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Hearthside Medium",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "678",
+      "id": 136326,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Hearthside Hard",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "679",
+      "id": 136327,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Hearthside Deflation",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "680",
+      "id": 136328,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Hearthside Apopalypse",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2566,
+      "name": "Gibbon Kempo",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2116,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2983,
+          "statistic_id": 82958,
+          "quota": 6,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2566",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 38,
+        "name": "Kr\u00e8me de la Kong",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2567,
+      "name": "Dusting off the Bloons",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2117,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2984,
+          "statistic_id": 82966,
+          "quota": 50,
+          "operator": "OR"
+        },
+        {
+          "id": 2985,
+          "statistic_id": 82971,
+          "quota": 50,
+          "operator": "OR"
+        },
+        {
+          "id": 2986,
+          "statistic_id": 83001,
+          "quota": 50,
+          "operator": "OR"
+        },
+        {
+          "id": 2987,
+          "statistic_id": 83017,
+          "quota": 50,
+          "operator": "OR"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2567",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 33,
+        "name": "Best of 2012",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2568,
+      "name": "Apocalypse Ciao",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2118,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2988,
+          "statistic_id": 82980,
+          "quota": 30,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2568",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2569,
+      "name": "Pop Star",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2119,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2989,
+          "statistic_id": 82993,
+          "quota": 85,
+          "operator": "OR"
+        },
+        {
+          "id": 2990,
+          "statistic_id": 83024,
+          "quota": 85,
+          "operator": "OR"
+        },
+        {
+          "id": 2991,
+          "statistic_id": 82988,
+          "quota": 85,
+          "operator": "OR"
+        },
+        {
+          "id": 2992,
+          "statistic_id": 83897,
+          "quota": 85,
+          "operator": "OR"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2569",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Ninjakiwi/bloons-td-5/chat.js",
+  "holodeck_url": "/games/Ninjakiwi/bloons-td-5/holodeck",
+  "accomplishments_bootstrap_url": "/games/Ninjakiwi/bloons-td-5/chat_achievements",
+  "sticker_drop_url": "/games/Ninjakiwi/bloons-td-5/sticker_drop",
+  "game_path": "/games/Ninjakiwi/bloons-td-5",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 620,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 620,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 646,
+    "game_frame_width": 800,
+    "game_frame_height": 620,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=151730",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": false,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": true,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": true,
+    "incentivized_web_ads": false,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": true,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

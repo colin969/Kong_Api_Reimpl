@@ -1,0 +1,329 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 139769,
+  "statistics": [
+    {
+      "name": "All achievements",
+      "id": 77008,
+      "description": "All in-game achievements unlocked",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Chapter 1",
+      "id": 76994,
+      "description": "Chapter 1 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Chapter 2",
+      "id": 76995,
+      "description": "Chapter 2 completed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Chapter 3",
+      "id": 76996,
+      "description": "Chapter 3 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Chapter 4",
+      "id": 76997,
+      "description": "Chapter 4 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Chapter 5",
+      "id": 76998,
+      "description": "Chapter 5 completed",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 2762,
+          "name": "Chapter 5 Completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Chapter 6",
+      "id": 76999,
+      "description": "Chapter 6 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Chapter 7",
+      "id": 77000,
+      "description": "Chapter 7 completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Chapter 8",
+      "id": 77001,
+      "description": "Complete the game once",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Game Completed",
+      "accomplishment_tasks": [
+        {
+          "id": 2763,
+          "name": "Game Completed",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Chapter 8 all",
+      "id": 77007,
+      "description": "Game completed on all 3 slots",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Enemies",
+      "id": 77005,
+      "description": "Enemies killed, (350 for last in-game achievement)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total enemies killed",
+      "accomplishment_tasks": [
+        {
+          "id": 2761,
+          "name": "5 Enemies Killed",
+          "quota": 5,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Gold Slot",
+      "id": 77006,
+      "description": "Gold slot unlocked",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Gold Trophy all",
+      "id": 77003,
+      "description": "Collect all gold trophies on all 3 save files",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Gold Trophy one slot",
+      "id": 77002,
+      "description": "Earn all gold trophies on one save slot",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "All Gold Trophies",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Level",
+      "id": 76992,
+      "description": "Highest level achieved",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Highest level",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Manipulator Complete",
+      "id": 77070,
+      "description": "Game completed with Manipulator class",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Money",
+      "id": 76993,
+      "description": "The highest gold amount earned",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Perfect Kills",
+      "id": 77004,
+      "description": "Amount of perfect kills performed (60 for last in game achievement)",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Scoundrel Complete",
+      "id": 77069,
+      "description": "Game completed with Scoundrel class",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Warrior Complete",
+      "id": 77068,
+      "description": "Game completed with Warrior class",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2358,
+      "name": "Demon Demolisher",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1935,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2761,
+          "statistic_id": 77005,
+          "quota": 5,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2358",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2359,
+      "name": "Dollhousing Market Collapse",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1936,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2762,
+          "statistic_id": 76998,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2359",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2360,
+      "name": "Slam These Vampires",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1937,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2763,
+          "statistic_id": 77001,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2360",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/comicbookrpgs/immortal-souls-dark-crusade/chat.js",
+  "holodeck_url": "/games/comicbookrpgs/immortal-souls-dark-crusade/holodeck",
+  "accomplishments_bootstrap_url": "/games/comicbookrpgs/immortal-souls-dark-crusade/chat_achievements",
+  "sticker_drop_url": "/games/comicbookrpgs/immortal-souls-dark-crusade/sticker_drop",
+  "game_path": "/games/comicbookrpgs/immortal-souls-dark-crusade",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 500,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 13,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 553,
+    "game_frame_width": 800,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=139769",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

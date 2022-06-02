@@ -1,0 +1,207 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 156907,
+  "statistics": [
+    {
+      "name": "Creatures Unlocked",
+      "id": 85693,
+      "description": "The max number of Creatures Unlocked.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Days To Finish Game",
+      "id": 85694,
+      "description": "The min Days To Finish the Game and get Juliet.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Days To Finish the Game",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Endless Levels",
+      "id": 85692,
+      "description": "The highest Endless Levels reached in the game.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Highest Endless Level",
+      "accomplishment_tasks": [
+        {
+          "id": 3085,
+          "name": "Reach wave 25 in 'Endless Swirl'",
+          "quota": 25,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Gems Level",
+      "id": 85691,
+      "description": "The max Gem Level reached in the game.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 3083,
+          "name": "Gem Level 5 Reached",
+          "quota": 5,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Levels Completed",
+      "id": 86579,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 3084,
+          "name": "24 Levels Completed",
+          "quota": 24,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2650,
+      "name": "Gem Crafting",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2188,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3083,
+          "statistic_id": 85691,
+          "quota": 5,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2650",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2651,
+      "name": "You and Me Babe, How About It?",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2189,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3084,
+          "statistic_id": 86579,
+          "quota": 24,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2651",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2652,
+      "name": "Ultimate Swirly",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2190,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3085,
+          "statistic_id": 85692,
+          "quota": 25,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2652",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/NTFusion/pocket-creature-pvp/chat.js",
+  "holodeck_url": "/games/NTFusion/pocket-creature-pvp/holodeck",
+  "accomplishments_bootstrap_url": "/games/NTFusion/pocket-creature-pvp/chat_achievements",
+  "sticker_drop_url": "/games/NTFusion/pocket-creature-pvp/sticker_drop",
+  "game_path": "/games/NTFusion/pocket-creature-pvp",
+  "html_dimensions": {
+    "game_width": 640,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 943,
+    "flash_frame_height": 553,
+    "game_frame_width": 640,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=156907",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

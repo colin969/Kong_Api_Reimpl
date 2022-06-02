@@ -1,0 +1,348 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 115448,
+  "statistics": [
+    {
+      "name": "BirdsStomped",
+      "id": 63006,
+      "description": "Number of birds stomped.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Birds Stomped",
+      "accomplishment_tasks": [
+        {
+          "id": 3162,
+          "name": "5 Birds Stomped",
+          "quota": 5,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "BouncedOnThreeConsecutiveMushroomsWithoutLanding",
+      "id": 63011,
+      "description": "Bounced on three consecutive mushrooms without touching the ground.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "CompletedZoneTwoWithoutPickingUpCrystals",
+      "id": 62994,
+      "description": "Completed Zone 2 without picking up any crystals (except for on the final ramp).",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "CrystalsCollected",
+      "id": 63005,
+      "description": "Number of crystals collected.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Crystals Collected",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DoubleBirdStomp",
+      "id": 63009,
+      "description": "Number of times two consecutive birds have been stomped in a single jump.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "GameFinished",
+      "id": 63012,
+      "description": "Completed zone 10 and flew off into the sunrise.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Game Finished",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MillisecondsFlownAtMaxAltitude",
+      "id": 63007,
+      "description": "Number of milliseconds flown at max altitude.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "PerfectJumps",
+      "id": 63008,
+      "description": "Number of perfect jumps made.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Perfect Jumps",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ReachedLevel10",
+      "id": 63004,
+      "description": "Reached zone 10.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ReachedLevel2",
+      "id": 62995,
+      "description": "Reached zone 2.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "ReachedLevel1",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ReachedLevel3",
+      "id": 62996,
+      "description": "Reached zone 3.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ReachedLevel4",
+      "id": 62997,
+      "description": "Reached zone 4.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ReachedLevel5",
+      "id": 62998,
+      "description": "Reached zone 5.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Reached Level 5",
+      "accomplishment_tasks": [
+        {
+          "id": 3166,
+          "name": "Zone 5 Reached",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "ReachedLevel6",
+      "id": 62999,
+      "description": "Reached zone 6.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ReachedLevel7",
+      "id": 63000,
+      "description": "Reached zone 7.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ReachedLevel8",
+      "id": 63002,
+      "description": "Reached zone 8.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ReachedLevel9",
+      "id": 63003,
+      "description": "Reached zone 9.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Score",
+      "id": 63126,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "High Score",
+      "accomplishment_tasks": [
+        {
+          "id": 3167,
+          "name": "400,000 Points Scored",
+          "quota": 400000,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "StompedOn16BirdsInOneGame",
+      "id": 62991,
+      "description": "Stomped on 16 birds in a single game.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TripleBirdStomp",
+      "id": 63010,
+      "description": "Number of times three consecutive birds have been stomped in a single jump.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "UnlockedAndPurchasedAHat",
+      "id": 62992,
+      "description": "Unlocked and purchased a hat!",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "UnlockedAndPurchasedEveryHat",
+      "id": 62993,
+      "description": "Unlocked and purchased every hat.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 2728,
+      "name": "Feather Duster",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2251,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3162,
+          "statistic_id": 63006,
+          "quota": 5,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2728",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2729,
+      "name": "Save It For a Rainy Day",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2252,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3166,
+          "statistic_id": 62998,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2729",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 2730,
+      "name": "Learned to Fly",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 2253,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 3167,
+          "statistic_id": 63126,
+          "quota": 400000,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-2730",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/fexLabs/dillo-hills/chat.js",
+  "holodeck_url": "/games/fexLabs/dillo-hills/holodeck",
+  "accomplishments_bootstrap_url": "/games/fexLabs/dillo-hills/chat_achievements",
+  "sticker_drop_url": "/games/fexLabs/dillo-hills/sticker_drop",
+  "game_path": "/games/fexLabs/dillo-hills",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 553,
+    "game_frame_width": 800,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=115448",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

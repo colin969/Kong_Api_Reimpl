@@ -1,0 +1,176 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 290570,
+  "statistics": [
+    {
+      "name": "CampaignsCompleted",
+      "id": 134572,
+      "description": "Number of campaigns completed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 4385,
+          "name": "All campaigns completed",
+          "quota": 5,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "HighestRankReached",
+      "id": 134580,
+      "description": "The highest rank reached. The lower the rank, the higher on the ladder.",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Loaded",
+      "id": 133482,
+      "description": "Called when the game is done loading.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "RankedGamesWon",
+      "id": 134573,
+      "description": "Number of ranked games won",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Ranked Games Won",
+      "accomplishment_tasks": [
+        {
+          "id": 4386,
+          "name": "10 ranked games won",
+          "quota": 20,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Ready",
+      "id": 133483,
+      "description": "Called when the game is done loading and initializing and is ready to be played.",
+      "stat_type": "Replace",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3711,
+      "name": "Four Corners of the World",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 3082,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4385,
+          "statistic_id": 134572,
+          "quota": 5,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3711",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3712,
+      "name": "Kicking Up a Storm",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 3083,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4386,
+          "statistic_id": 134573,
+          "quota": 20,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3712",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/paladinstudios/stormbound/chat.js",
+  "holodeck_url": "/games/paladinstudios/stormbound/holodeck",
+  "accomplishments_bootstrap_url": "/games/paladinstudios/stormbound/chat_achievements",
+  "sticker_drop_url": "/games/paladinstudios/stormbound/sticker_drop",
+  "game_path": "/games/paladinstudios/stormbound",
+  "html_dimensions": {
+    "game_width": 1000,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 1303,
+    "flash_frame_height": 626,
+    "game_frame_width": 1000,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=290570",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": false,
+    "no_file_size_limit": true,
+    "chat_api": false,
+    "premium_game": false,
+    "served_from_internal": false,
+    "microtransaction_api": true,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": false,
+    "shared_links": false,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": false,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": true,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": true
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

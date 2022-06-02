@@ -1,0 +1,246 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 108239,
+  "statistics": [
+    {
+      "name": "challengesCompleted",
+      "id": 58346,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Challenges completed",
+      "accomplishment_tasks": [
+        {
+          "id": 2057,
+          "name": "70 challenges completed",
+          "quota": 70,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "gameCompleted",
+      "id": 58356,
+      "description": "completed the last bonus level",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Game completed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "maxLevelCompleted",
+      "id": 58344,
+      "description": "maximum level completed by the player",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "max level completed",
+      "accomplishment_tasks": [
+        {
+          "id": 2056,
+          "name": "Level 41 completed",
+          "quota": 41,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "missileTrucksBlownUp",
+      "id": 58354,
+      "description": "total number of missile trucks blown up",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total missile trucks cars blown up",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "mostDamageCausedSingleLevel",
+      "id": 58350,
+      "description": "Most damage caused in a single level",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Most damage caused in a single level",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "policeCarsBlownUp",
+      "id": 58355,
+      "description": "total number of police cars blown up",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total police cars blown up",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totalDamage",
+      "id": 58348,
+      "description": "",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total damage caused",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "totalVehiclesDestroyed",
+      "id": 58347,
+      "description": "total number of vehicles destroyed in all levels",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Total vehicles destroyed",
+      "accomplishment_tasks": [
+        {
+          "id": 2055,
+          "name": "100 vehicles destroyed",
+          "quota": 100,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "vehiclesDestroyedSingleLevel",
+      "id": 58352,
+      "description": "max number of vehicles blown up on a single level",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Most cars destroyed in a single level",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1745,
+      "name": "Start Up the Pile-Up",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1405,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2055,
+          "statistic_id": 58347,
+          "quota": 100,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1745",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1746,
+      "name": "A Dish Best Served Explosive",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1406,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2056,
+          "statistic_id": 58344,
+          "quota": 41,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1746",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1747,
+      "name": "Robocoon Burnout",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1407,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 2057,
+          "statistic_id": 58346,
+          "quota": 70,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1747",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/kizigames/roadkill-revenge/chat.js",
+  "holodeck_url": "/games/kizigames/roadkill-revenge/holodeck",
+  "accomplishments_bootstrap_url": "/games/kizigames/roadkill-revenge/chat_achievements",
+  "sticker_drop_url": "/games/kizigames/roadkill-revenge/sticker_drop",
+  "game_path": "/games/kizigames/roadkill-revenge",
+  "html_dimensions": {
+    "game_width": 800,
+    "game_height": 600,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 600,
+    "flash_frame_width": 1103,
+    "flash_frame_height": 626,
+    "game_frame_width": 800,
+    "game_frame_height": 600,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=108239",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

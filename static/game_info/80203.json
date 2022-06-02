@@ -1,0 +1,286 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 80203,
+  "statistics": [
+    {
+      "name": "adsfd",
+      "id": 43032,
+      "description": "The best run time you've achieved in all your games.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Longest Run",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "asdfasdf",
+      "id": 43033,
+      "description": "Top number of 7 or above high jumps achieved in a game.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Great High Jumps",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "asdfasdffasdf",
+      "id": 43034,
+      "description": "Top number of stars earned in a single game.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Top Stars Earned",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Cumulative Buzz the Tower",
+      "id": 46813,
+      "description": "Best run by cumulative buzz the tower bonuses.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Cumulative High Jump Score",
+      "id": 46814,
+      "description": "Best run by cumulative high jump bonuses.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "fdfd",
+      "id": 43031,
+      "description": "The best multiplier you've achieved in all your games.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Top Multiplier",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Great High Jumps",
+      "id": 46784,
+      "description": "Top number of 7 or above high jumps achieved in a game.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Longest Run",
+      "id": 46783,
+      "description": "The best run time you've achieved in all your games.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 1632,
+          "name": "Survived 60 seconds",
+          "quota": 60,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Score",
+      "id": 43060,
+      "description": "Top Score",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Stars Earned",
+      "id": 46785,
+      "description": "Top number of stars earned in a single game.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Top Killgates Dodged",
+      "id": 46816,
+      "description": "Best number of killgates dodged in a single run.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Top Multiplier",
+      "id": 46782,
+      "description": "The best multiplier you've achieved in all your games.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 1634,
+          "name": "80x multiplier",
+          "quota": 80,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Top Perfect Tunnels",
+      "id": 46815,
+      "description": "Best number of perfect tunnels in a single run.",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "Top Speed",
+      "id": 46808,
+      "description": "Your best top speed in a single run.",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "accomplishment_tasks": [
+        {
+          "id": 1633,
+          "name": "Top speed of 70 km/h",
+          "quota": 70,
+          "granularity": null
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1367,
+      "name": "Mind the Gap",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1098,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1632,
+          "statistic_id": 46783,
+          "quota": 60,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1367",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1368,
+      "name": "Colors of the Wind",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1099,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1633,
+          "statistic_id": 46808,
+          "quota": 70,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1368",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 40,
+        "name": "5-Minute Games",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1369,
+      "name": "Ski Along the Razor's Edge",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1100,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1634,
+          "statistic_id": 46782,
+          "quota": 80,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1369",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Mikengreg/solipskier/chat.js",
+  "holodeck_url": "/games/Mikengreg/solipskier/holodeck",
+  "accomplishments_bootstrap_url": "/games/Mikengreg/solipskier/chat_achievements",
+  "sticker_drop_url": "/games/Mikengreg/solipskier/sticker_drop",
+  "game_path": "/games/Mikengreg/solipskier",
+  "html_dimensions": {
+    "game_width": 768,
+    "game_height": 432,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 47,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1071,
+    "flash_frame_height": 553,
+    "game_frame_width": 768,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=80203",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

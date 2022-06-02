@@ -1,0 +1,468 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 307747,
+  "statistics": [
+    {
+      "name": "CompleteEnding1",
+      "id": 137897,
+      "description": "Completed the false ending",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Completed the false ending",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "CompleteEnding2",
+      "id": 137898,
+      "description": "Completed the bad ending",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Completed the bad ending",
+      "accomplishment_tasks": [
+        {
+          "id": 4714,
+          "name": "\"Bad\" ending reached",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "CompleteEnding3",
+      "id": 137899,
+      "description": "Completed the good ending",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Completed the good ending",
+      "accomplishment_tasks": [
+        {
+          "id": 4715,
+          "name": "\"Good\" ending reached",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "CompleteEnding4",
+      "id": 137960,
+      "description": "Completed the hardcore ending",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Completed the hardcore ending",
+      "accomplishment_tasks": [
+        {
+          "id": 4716,
+          "name": "\"Hardcore\" ending reached",
+          "quota": 1,
+          "granularity": null
+        },
+        {
+          "id": 4717,
+          "name": "\"Hardcore\" ending reached",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "CompleteEnding4SpeedRun",
+      "id": 138424,
+      "description": "Finish hardcore mode with the least amount of steps.",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Hardcore step challenge",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "DeathCount",
+      "id": 137893,
+      "description": "Number of time the player died",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EnemyUniqueKillArcher",
+      "id": 137916,
+      "description": "Number of unique archer killed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EnemyUniqueKillBat",
+      "id": 137911,
+      "description": "Number of unique bat killed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EnemyUniqueKillFlame",
+      "id": 137923,
+      "description": "Final flame boss killed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EnemyUniqueKillGoblin",
+      "id": 137914,
+      "description": "Number of unique goblin killed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EnemyUniqueKillMouse",
+      "id": 137910,
+      "description": "Number of unique mouse killed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EnemyUniqueKillOldMan",
+      "id": 137922,
+      "description": "Number of unique old man killed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EnemyUniqueKillOrc",
+      "id": 137915,
+      "description": "Number of unique orc killed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EnemyUniqueKillPriest",
+      "id": 137919,
+      "description": "Number of unique priest killed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EnemyUniqueKillSkeleton",
+      "id": 137918,
+      "description": "Number of unique skeleton killed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EnemyUniqueKillSkull",
+      "id": 137921,
+      "description": "Number of unique skull killed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EnemyUniqueKillSlime",
+      "id": 137913,
+      "description": "Number of unique slime killed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EnemyUniqueKillSpider",
+      "id": 137912,
+      "description": "Number of unique spider killed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EnemyUniqueKillTroll",
+      "id": 137917,
+      "description": "Number of unique troll killed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "EnemyUniqueKillVampire",
+      "id": 137920,
+      "description": "Number of unique vampire killed",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ItemCountBoot",
+      "id": 137908,
+      "description": "Found the boot",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ItemCountGoldKey",
+      "id": 137900,
+      "description": "Number of total gold keys",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ItemCountHearth",
+      "id": 137907,
+      "description": "Number of total hearths",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": [
+        {
+          "id": 4713,
+          "name": "Heart found",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "ItemCountPickAxe",
+      "id": 137905,
+      "description": "Found the pick axe",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ItemCountPotion",
+      "id": 137909,
+      "description": "Total number of potions",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ItemCountScroll",
+      "id": 137904,
+      "description": "Number of total scrolls",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ItemCountSilverKey",
+      "id": 137901,
+      "description": "Number of total silver keys",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ItemCountSkullPurple",
+      "id": 137902,
+      "description": "Number of total purple skulls",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ItemCountSkullRed",
+      "id": 137903,
+      "description": "Number of total red skulls",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "ItemCountSword",
+      "id": 137906,
+      "description": "Found the sword",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxFloorBottom",
+      "id": 137895,
+      "description": "Maximum floor visited below ground",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxFloorTop",
+      "id": 137894,
+      "description": "Maximum floor visited above ground",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxPlayerLevel",
+      "id": 137896,
+      "description": "Maximum player level",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "StepCount",
+      "id": 137892,
+      "description": "Number of steps",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "test",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 3955,
+      "name": "\"You Gotta Have Heart\"",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 3146,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4713,
+          "statistic_id": 137907,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3955",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3956,
+      "name": "Long Way Down",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 3147,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4714,
+          "statistic_id": 137898,
+          "quota": 1,
+          "operator": "OR"
+        },
+        {
+          "id": 4715,
+          "statistic_id": 137899,
+          "quota": 1,
+          "operator": "OR"
+        },
+        {
+          "id": 4716,
+          "statistic_id": 137960,
+          "quota": 1,
+          "operator": "OR"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3956",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 3957,
+      "name": "Dare to the Throne",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 3148,
+      "level": "hard",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 4717,
+          "statistic_id": 137960,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-3957",
+      "reward_points": 30,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/Fluffy_Lotus/magirune/chat.js",
+  "holodeck_url": "/games/Fluffy_Lotus/magirune/holodeck",
+  "accomplishments_bootstrap_url": "/games/Fluffy_Lotus/magirune/chat_achievements",
+  "sticker_drop_url": "/games/Fluffy_Lotus/magirune/sticker_drop",
+  "game_path": "/games/Fluffy_Lotus/magirune",
+  "html_dimensions": {
+    "game_width": 960,
+    "game_height": 540,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 0,
+    "chat_width": 300,
+    "chat_height": 540,
+    "flash_frame_width": 1263,
+    "flash_frame_height": 566,
+    "game_frame_width": 960,
+    "game_frame_height": 540,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=307747",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}

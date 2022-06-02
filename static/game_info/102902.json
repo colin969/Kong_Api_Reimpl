@@ -1,0 +1,523 @@
+{
+  "chat_host": "of1.kongregate.com",
+  "chat_proxy_websocket": "wss://chat-proxy.kongregate.com",
+  "chat_proxy_bosh": "https://chat-proxy.kongregate.com/http-bind/",
+  "game_id": 102902,
+  "statistics": [
+    {
+      "name": "BestEscapeTimeCL",
+      "id": 56932,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": true,
+      "display_name": "Best Escape Time (Tenth)",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxCashEarned",
+      "id": 54203,
+      "description": "The highest amount of money you stole from gummies during an attempt to escape Candy Land!",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Cash earned in one attempt!",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxGummyBalloonSquashed",
+      "id": 54207,
+      "description": "The highest number of gummies carrying balloon you squashed during an attempt to escape Candy Land!",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Gummies carrying balloons squashed in one attempt!",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxGummyBombCarrierSquashed",
+      "id": 54204,
+      "description": "The highest number of gummies carrying a bomb you squashed during an attempt to escape Candy Land!",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Gummies carrying bombs squashed in one attempt!",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxGummyBubbleGumSquashed",
+      "id": 54210,
+      "description": "The highest number of gummies hanging on to bubble gum you squashed during an attempt to escape Candy Land!",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Gummies hanging on to bubble gums squashed in one attempt!",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxGummyCashCarrierSquashed",
+      "id": 54208,
+      "description": "The highest number of gummies carrying money you squashed during an attempt to escape Candy Land!",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Gummies carrying a bag of money squashed in one attempt!",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxGummyCashFilledSquashed",
+      "id": 54209,
+      "description": "The highest number of gummies filled with money you squashed during an attempt to escape Candy Land!",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Gummies filled with money squashed in one attempt!",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxGummyChiliPeppersSquashed",
+      "id": 54213,
+      "description": "The highest number of gummies carrying a chili pepper you squashed during an attempt to escape Candy Land!",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Gummies carrying chili peppers squashed in one attempt!",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxGummyGliderSquashed",
+      "id": 54212,
+      "description": "The highest number of gummies hanging on to glider you squashed during an attempt to escape Candy Land!",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Gummies hanging on to gliders squashed in one attempt!",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxGummyJetpackSquashed",
+      "id": 54205,
+      "description": "The highest number of gummies hanging on to jet pack you squashed during an attempt to escape Candy Land!",
+      "stat_type": "Max",
+      "display_in_table": false,
+      "display_name": "Gummies Jet Pack squashed in one attempt!",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxGummyPogoStickSquashed",
+      "id": 54211,
+      "description": "The highest number of gummies on pogo stick you squashed during an attempt to escape Candy Land!",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Gummies on pogo sticks squashed in one attempt!",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxGummyRocketSquashed",
+      "id": 54214,
+      "description": "The highest number of gummies riding a rocket you squashed during an attempt to escape Candy Land!",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Gummies riding rockets squashed in one attempt!",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxGummySquashed",
+      "id": 54201,
+      "description": "The highest number of gummies you squashed during an attempt to escape Candy Land!",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Gummies squashed in one attempt!",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxPoliceGummySquashed",
+      "id": 54202,
+      "description": "The highest number of police gummies you squashed during an attempt to escape Candy Land!",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Police gummies squashed in one attempt!",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "MaxSweetImpact",
+      "id": 54230,
+      "description": "The highest number of \"Sweet Impact\" you did during an attempt to escape Candy Land!",
+      "stat_type": "Max",
+      "display_in_table": true,
+      "display_name": "Sweet Impact performed in one attempt!",
+      "accomplishment_tasks": [
+        {
+          "id": 1993,
+          "name": "3 sweet impacts (single launch)",
+          "quota": 3,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "Total Gummy Rocket Squashed",
+      "id": 54199,
+      "description": "How many gummies riding a rocket you squashed during your attempts to escape Candy Land!",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalCashEarned",
+      "id": 54182,
+      "description": "How much money you stole from gummies during your attempts to escape Candy Land!",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Total Cash Earned",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalFirstDoorDestroyed",
+      "id": 54184,
+      "description": "How many times you break through the first giant door during your attempts to escape Candy Land!",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Total First Door Destroyed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalGummyBalloonSquashed",
+      "id": 54192,
+      "description": "How many gummies carrying balloon you squashed during your attempts to escape Candy Land!",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Total Gummy Balloon Squashed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalGummyBombCarrierSquashed",
+      "id": 54190,
+      "description": "How many gummies carrying a bomb you squashed during your attempts to escape Candy Land!",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Total Gummy Bomb Carrier Squashed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalGummyBubbleGumSquashed",
+      "id": 54195,
+      "description": "How many gummies hanging on to bubble gum you squashed during your attempts to escape Candy Land!",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Total Gummy Bubble Gum Squashed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalGummyCashCarrierSquashed",
+      "id": 54193,
+      "description": "How many gummies carrying money you squashed during your attempts to escape Candy Land!",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Total Gummy Cash Carrier Squashed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalGummyCashFilledSquashed",
+      "id": 54194,
+      "description": "How many gummies filled with money you squashed during your attempts to escape Candy Land!",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Total Gummy Cash Filled Squashed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalGummyChiliPeppersSquashed",
+      "id": 54198,
+      "description": "How many gummies carrying a chili pepper you squashed during your attempts to escape Candy Land!",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Total Gummy Chilli Peppers Squashed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalGummyGliderSquashed",
+      "id": 54197,
+      "description": "How many gummies hanging on to glider you squashed during your attempts to escape Candy Land!",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Total Gummy Glider Squashed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalGummyJetpackSquashed",
+      "id": 54191,
+      "description": "How many gummies hanging on to jet pack you squashed during your attempts to escape Candy Land!",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Total Gummy Jet Pack Squashed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalGummyPogoStickSquashed",
+      "id": 54196,
+      "description": "How many gummies on pogo stick you squashed during your attempts to escape Candy Land!",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Total Gummy Pogo Stick Squashed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalGummySquashed",
+      "id": 54179,
+      "description": "How many gummies you squashed during your attempts to escape Candy Land!",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Total Gummy Squashed",
+      "accomplishment_tasks": [
+        {
+          "id": 1991,
+          "name": "100 gummy bears crushed",
+          "quota": 100,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "TotalJawbreakersJawBroken",
+      "id": 54189,
+      "description": "How many times you hit Jawbreaker's jaw at launch.",
+      "stat_type": "Add",
+      "display_in_table": true,
+      "display_name": "Total Jawbreaker's Jaw Broken",
+      "accomplishment_tasks": [
+        {
+          "id": 1992,
+          "name": "10 perfect launches",
+          "quota": 10,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "TotalLastDoor Destroyed",
+      "id": 54186,
+      "description": "How many times you've break through the last giant door during your attempts to escape Candy Land!",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Total Last Door Destroyed",
+      "accomplishment_tasks": [
+        {
+          "id": 1994,
+          "name": "Candyland escaped",
+          "quota": 1,
+          "granularity": null
+        }
+      ]
+    },
+    {
+      "name": "TotalLauch",
+      "id": 54187,
+      "description": "How many attempts you did to escape from Candy Land.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Total Lauch",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalNewGame",
+      "id": 54183,
+      "description": "How many \"New Game\" you created.",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Total New Game",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalPoliceGummySquashed",
+      "id": 54181,
+      "description": "How many police gummies you squashed during your attempts to escape Candy Land!",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Total Police Gummy Squashed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalSecondDoorDestroyed",
+      "id": 54185,
+      "description": "How many times you break through the second giant door during your attempts to escape Candy Land!",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Total Second Door Destroyed",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "TotalSweetImpact",
+      "id": 54188,
+      "description": "How many Sweet Impact you did during your attempts to escape Candy Land!",
+      "stat_type": "Add",
+      "display_in_table": false,
+      "display_name": "Total Sweet Impact",
+      "accomplishment_tasks": []
+    },
+    {
+      "name": "UnusedStat",
+      "id": 56911,
+      "description": "",
+      "stat_type": "Min",
+      "display_in_table": false,
+      "display_name": "Unused Stat",
+      "accomplishment_tasks": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1687,
+      "name": "Gummies in My Tummy",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1354,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1991,
+          "statistic_id": 54179,
+          "quota": 100,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1687",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1688,
+      "name": "Breaking Jawbreaker's Jaw",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1355,
+      "level": "easy",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1992,
+          "statistic_id": 54189,
+          "quota": 10,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1688",
+      "reward_points": 5,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1689,
+      "name": "Impacted Sweet Tooth",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1356,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1993,
+          "statistic_id": 54230,
+          "quota": 3,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1689",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "badge_of_the_day": false
+    },
+    {
+      "id": 1690,
+      "name": "Candyland Breakthrough",
+      "card_id": null,
+      "raffle_id": null,
+      "badge_id": 1357,
+      "level": "medium",
+      "hidden": false,
+      "item_id": null,
+      "accomplishment_tasks": [
+        {
+          "id": 1994,
+          "statistic_id": 54186,
+          "quota": 1,
+          "operator": "AND"
+        }
+      ],
+      "scheduled_end": null,
+      "dom_id": "achievements-1690",
+      "reward_points": 15,
+      "reward_klient_xp": null,
+      "accomplishment_group": {
+        "id": 25,
+        "name": "Best of 2011",
+        "dueling_group": false
+      },
+      "badge_of_the_day": false
+    }
+  ],
+  "challenges": [],
+  "chat_bootstrap_url": "/games/JuicyBeast/burrito-bison/chat.js",
+  "holodeck_url": "/games/JuicyBeast/burrito-bison/holodeck",
+  "accomplishments_bootstrap_url": "/games/JuicyBeast/burrito-bison/chat_achievements",
+  "sticker_drop_url": "/games/JuicyBeast/burrito-bison/sticker_drop",
+  "game_path": "/games/JuicyBeast/burrito-bison",
+  "html_dimensions": {
+    "game_width": 720,
+    "game_height": 480,
+    "max_game_width": null,
+    "max_game_height": null,
+    "game_left": 0,
+    "game_top": 23,
+    "chat_width": 300,
+    "chat_height": 527,
+    "flash_frame_width": 1023,
+    "flash_frame_height": 553,
+    "game_frame_width": 720,
+    "game_frame_height": 527,
+    "min_chat_width": 300,
+    "min_chat_height": 527,
+    "divider_width": 3,
+    "quicklinks_height": 26,
+    "chat_window_non_content_height": 254,
+    "avatar_image_gutter_height": 120,
+    "chat_pane_tab_height": 41
+  },
+  "login_url": "/accounts/new/behind_login.js?game_id=102902",
+  "shared_content_type_permalinks": [],
+  "shared_content_type_names": [],
+  "permissions": {
+    "session_lookup_key": null,
+    "no_file_size_limit": null,
+    "chat_api": null,
+    "premium_game": null,
+    "served_from_internal": null,
+    "microtransaction_api": false,
+    "save_shared_content": true,
+    "save_external_shared_content": true,
+    "authenticated_users_only": false,
+    "hide_comments": false,
+    "dont_hide_iframe": true,
+    "shout_api": false,
+    "mass_messages_api": null,
+    "shared_links": null,
+    "disallow_cinematic": false,
+    "disable_instart": null,
+    "guilds_api": null,
+    "generate_guest_characters": false,
+    "allow_script_access": false,
+    "periscope_dashboard": false,
+    "incentivized_web_ads": null,
+    "host_in_top_frame": false,
+    "force_localconnection": false,
+    "truex_web_ads": false
+  },
+  "has_game_specific_forum": false,
+  "multiplayer_game": false,
+  "authenticated_only_shared_content_sorts": [
+    "by_own",
+    "by_friends"
+  ],
+  "in_beta": false,
+  "in_preview": false,
+  "extra_interpolation": null
+}
