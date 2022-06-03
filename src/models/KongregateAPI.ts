@@ -57,7 +57,8 @@ export class KongregateAPI implements IKongregateAPI {
       target_window: '', /** TODO */
       channel_id: this._flashVars.get('kongregate_channel_id') || '',
       retry_connection: true,
-      websocket_url: this._flashVars.get('kongregate_websocket_url') || ''
+      websocket_url: this._flashVars.get('kongregate_websocket_url') || '',
+      game_id: parseInt(this._flashVars.get('kongregate_game_id') || '0') || 0,
     }); }
     /** Global reference to give to ExternalInterface */
     if (this._gameSwf) { this._gameSwf.setConnectionObject('kongregateAPI.messageConnection'); }

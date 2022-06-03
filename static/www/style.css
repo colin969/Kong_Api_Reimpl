@@ -1,0 +1,42 @@
+.game-achievement-badge-icon {
+  box-sizing: content-box;
+  width: 36px;
+  height: 36px;
+  border: 2px solid;
+  border-radius: 2px;
+}
+.game {
+  padding: 1rem;
+  border: 1px solid;
+}
+.game-achievement {
+  padding: 1rem;
+  border: 1px solid;
+  margin: 0.5rem;
+}
+.game-achievement-banner {
+  display: flex;
+}
+.game-achievement-name {
+  font-size: 1.25rem;
+  margin-left: 0.5rem;
+}
+.game-achievement-info {
+  margin-bottom: 0.5rem;
+}
+.game-achievement-accomplishment-name {
+  font-size: 0.75rem;
+  font-style: italic;
+  color: cadetblue;
+}
+.game-achievement-accomplishment-flex {
+  display: flex;
+  align-items: center;
+}
+.game-achievement-accomplishment-boolean-text {
+  margin-left: 0.5rem;
+}
+.game-achievement-accomplishment-checkbox {
+  width: 1.5rem;
+  height: 1.5rem;
+}

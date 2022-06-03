@@ -44,6 +44,7 @@ export type MessageConnectionConf = {
   channel_id: string;
   retry_connection?: boolean;
   websocket_url?: string;
+  game_id?: number;
 }
 
 export class MessageConnection implements IMessageConnection {
@@ -52,11 +53,13 @@ export class MessageConnection implements IMessageConnection {
   private _wsUrl: string;
   private _isClient: boolean;
   private _listeners: MessageListener[];
+  private _gameId: number;
 
   constructor(conf: MessageConnectionConf) {
     this._isClient = typeof conf.target_origin === 'string';
     this._listeners = [];
     this._wsUrl = conf.websocket_url || '';
+    this._gameId = conf.game_id || 0;
   }
 
   addMessageListener(cb: MessageListener) {
@@ -108,7 +111,7 @@ export class MessageConnection implements IMessageConnection {
       await this.listen();
       this.sendMessage(OpcodeEvent.CONNECT, [], () => this.retryConnection());
       this.sendMessage(OpcodeEvent.CUSTOM_SETUP, {
-        gameId: '17',
+        gameId: this._gameId,
         userId: 'Guest'
       });
     }

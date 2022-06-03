@@ -1,6 +1,6 @@
 const path = require('path');
 
-module.exports = {
+const clientConfig = {
   entry: './src/kongregate_api.ts',
   module: {
     rules: [
@@ -24,3 +24,33 @@ module.exports = {
     minimize: false
   }
 };
+
+const viewerConfig = {
+  target: 'electron-renderer',
+  entry: './src/server/viewer/index.tsx',
+  module: {
+    rules: [
+      {
+        test: /\.tsx?$/,
+        use: 'ts-loader',
+        exclude: /node_modules/,
+      },
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
+  },
+  resolve: {
+    extensions: [ '.tsx', '.ts', '.js' ]
+  },
+  output: {
+    filename: 'viewer.bundle.js',
+    path: path.resolve(__dirname, 'dist'),
+  },
+  optimization: {
+    minimize: false
+  }
+};
+
+module.exports = [clientConfig, viewerConfig];

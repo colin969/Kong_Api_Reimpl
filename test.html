@@ -3,6 +3,29 @@
     <script type="text/javascript">
         kongregateAPI.loadAPI(() => {
             window.kongregate = kongregateAPI.getAPI();
-        })
+        });
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const e = document.getElementById('flashvars');
+            const params = new URLSearchParams(window.location.href.split('?')[1]);
+            for (const pair of params.entries()) {
+                const elem = document.createElement('div');
+                elem.innerText = `\nName: ${pair[0]}\nValue: ${pair[1]}\n`;
+                e.appendChild(elem);
+            }
+        });
+        statSubmit = () => {
+            const name = document.getElementById('stat.name').value;
+            const value = document.getElementById('stat.value').value;
+            window.kongregate.stats.submit(name, value);
+        }
     </script>
+    <body>
+        Kongregate API Test Page
+        <div>
+            <input id='stat.name' type="text">
+            <input id='stat.value' type="text">
+            <input type="button" onClick="statSubmit()" value="Stat Submit">
+        </div>
+        <div id="flashvars"></div>
+    </body>
 </html>

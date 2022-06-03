@@ -49,7 +49,8 @@ export class ApiServices implements IApiServices {
       target_origin: '',
       channel_id: '0',
       retry_connection: true,
-      websocket_url: _kongVars.get('websocket_url') || ''
+      websocket_url: _kongVars.get('websocket_url') || '',
+      game_id: this._gameId
     });
     this._messageConnection.connect();
   }
